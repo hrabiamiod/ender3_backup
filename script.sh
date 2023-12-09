@@ -30,5 +30,5 @@ git filter-branch --force --index-filter \
   --prune-empty --tag-name-filter cat -- --all
 #git rm -rf --cached "$parent_path"/.env
 git add "$parent_path"
-git commit -m "New backup from $(date +"%d-%m-%y")"
+git commit -m "$1 - Kopia zapasowa z dnia: $(date +"%d-%m-%y")"
 git push https://"$github_token"@github.com/"$github_username"/"$github_repository".git
