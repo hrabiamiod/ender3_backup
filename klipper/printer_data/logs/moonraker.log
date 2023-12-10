@@ -800,3 +800,5 @@ CPU Temperature: None
 2023-12-10 21:56:16,637 [klippy_connection.py:_check_ready()] - Klippy ready
 2023-12-10 21:56:17,132 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2023-12-10 21:59:26,134 [job_state.py:_status_update()] - Job Started: majlo_38m_0,20mm_205C_PLA_ENDER3.gcode
+2023-12-10 22:57:41,616 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2023-12-10 22:57:41,616 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
