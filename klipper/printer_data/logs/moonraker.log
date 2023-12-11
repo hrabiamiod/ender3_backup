@@ -962,3 +962,11 @@ Properties:
 2023-12-11 12:57:16,996 [websockets.py:_handle_identify()] - Websocket 140574892889216 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2023-12-11 12:57:51,468 [websockets.py:on_close()] - Websocket Closed: ID: 140574815899456 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.05
 2023-12-11 12:57:51,469 [websockets.py:on_close()] - Websocket Closed: ID: 140574815901472 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.62
+2023-12-11 13:10:50,656 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryH7ZAItRTN5bDbuK2
+2023-12-11 13:10:50,826 [app.py:post()] - Processing Uploaded File: 1.gcode
+2023-12-11 13:10:50,946 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2023-12-11 13:10:50,978 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "1.gcode") successfully finished
+2023-12-11 13:10:50,987 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 331.97ms
+2023-12-11 13:10:51,136 [job_state.py:_status_update()] - Job Started: 1.gcode
