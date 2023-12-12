@@ -968,3 +968,77 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryX0nvivItfpLi0W
 2023-12-12 13:04:09,699 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "xyzCalibration_cube_42m_0,12mm_205C_PLA_ENDER3.gcode") successfully finished
 2023-12-12 13:04:09,708 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 243.49ms
 2023-12-12 13:04:09,851 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_42m_0,12mm_205C_PLA_ENDER3.gcode
+2023-12-12 13:58:30,713 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeIfrDKtOElAYtfWA
+2023-12-12 13:58:30,968 [app.py:post()] - Processing Uploaded File: tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3.gcode
+2023-12-12 13:58:31,061 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2023-12-12 13:58:31,093 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3.gcode") successfully finished
+2023-12-12 13:58:31,100 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 387.48ms
+2023-12-12 13:58:31,165 [job_state.py:_status_update()] - Job Started: tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3.gcode
+2023-12-12 13:58:40,189 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2023-12-12 13:58:40,194 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1702385890.583080, Usage: 0.46%, Memory: 46680 kB
+System Time: 1702385891.583857, Usage: 0.49%, Memory: 46684 kB
+System Time: 1702385892.584544, Usage: 0.51%, Memory: 46684 kB
+System Time: 1702385893.585145, Usage: 0.66%, Memory: 46684 kB
+System Time: 1702385894.587299, Usage: 1.58%, Memory: 46684 kB
+System Time: 1702385895.588179, Usage: 1.02%, Memory: 46684 kB
+System Time: 1702385896.589189, Usage: 0.45%, Memory: 46684 kB
+System Time: 1702385897.590878, Usage: 0.46%, Memory: 46684 kB
+System Time: 1702385898.592453, Usage: 0.45%, Memory: 46684 kB
+System Time: 1702385899.594013, Usage: 0.46%, Memory: 46684 kB
+System Time: 1702385900.595635, Usage: 0.45%, Memory: 46684 kB
+System Time: 1702385901.596324, Usage: 0.47%, Memory: 46684 kB
+System Time: 1702385902.596922, Usage: 0.51%, Memory: 46684 kB
+System Time: 1702385903.597686, Usage: 0.66%, Memory: 46684 kB
+System Time: 1702385904.598309, Usage: 0.5%, Memory: 46684 kB
+System Time: 1702385905.598658, Usage: 0.82%, Memory: 46684 kB
+System Time: 1702385906.599384, Usage: 1.23%, Memory: 46684 kB
+System Time: 1702385907.600519, Usage: 0.95%, Memory: 46684 kB
+System Time: 1702385908.601002, Usage: 0.46%, Memory: 46684 kB
+System Time: 1702385909.601629, Usage: 0.46%, Memory: 46684 kB
+System Time: 1702385910.602065, Usage: 0.54%, Memory: 46684 kB
+System Time: 1702385911.602484, Usage: 9.88%, Memory: 46768 kB
+System Time: 1702385912.603718, Usage: 0.75%, Memory: 46768 kB
+System Time: 1702385913.604880, Usage: 0.86%, Memory: 46768 kB
+System Time: 1702385914.606192, Usage: 0.57%, Memory: 46768 kB
+System Time: 1702385915.607393, Usage: 0.75%, Memory: 46768 kB
+System Time: 1702385916.608695, Usage: 1.17%, Memory: 46768 kB
+System Time: 1702385917.610421, Usage: 1.58%, Memory: 46768 kB
+System Time: 1702385918.611261, Usage: 1.16%, Memory: 46768 kB
+System Time: 1702385919.612438, Usage: 0.54%, Memory: 46768 kB
+CPU Temperature: None
+2023-12-12 13:58:40,195 [websockets.py:on_close()] - Websocket Closed: ID: 139703866291200 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.34
+2023-12-12 13:58:42,201 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2023-12-12 13:58:42,201 [websockets.py:open()] - Websocket Opened: ID: 139703867091760, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2023-12-12 13:58:42,203 [websockets.py:_handle_identify()] - Websocket 139703867091760 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2023-12-12 13:59:09,727 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2023-12-12 13:59:09,729 [websockets.py:on_close()] - Websocket Closed: ID: 139703867091760 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.53
+2023-12-12 13:59:10,653 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2023-12-12 13:59:10,983 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2023-12-12 13:59:11,737 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 3.48ms
+2023-12-12 13:59:11,737 [websockets.py:open()] - Websocket Opened: ID: 139703867089936, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2023-12-12 13:59:11,738 [websockets.py:_handle_identify()] - Websocket 139703867089936 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2023-12-12 13:59:12,269 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2023-12-12 13:59:12,271 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2023-12-12 13:59:12,272 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2023-12-12 13:59:42,655 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2023-12-12 13:59:42,658 [websockets.py:on_close()] - Websocket Closed: ID: 139703867089936 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.92
+2023-12-12 13:59:43,911 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2023-12-12 13:59:44,663 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.75ms
+2023-12-12 13:59:44,663 [websockets.py:open()] - Websocket Opened: ID: 139703867081536, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2023-12-12 13:59:44,665 [websockets.py:_handle_identify()] - Websocket 139703867081536 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2023-12-12 13:59:46,224 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2023-12-12 13:59:46,225 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2023-12-12 13:59:46,475 [job_state.py:_handle_started()] - Job state initialized: standby
+2023-12-12 13:59:46,731 [klippy_connection.py:_check_ready()] - Klippy ready
+2023-12-12 13:59:47,481 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2023-12-12 13:59:51,487 [job_state.py:_status_update()] - Job Started: tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3.gcode
