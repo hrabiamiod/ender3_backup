@@ -1042,3 +1042,13 @@ Error configuring printer
 2023-12-12 13:59:46,731 [klippy_connection.py:_check_ready()] - Klippy ready
 2023-12-12 13:59:47,481 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2023-12-12 13:59:51,487 [job_state.py:_status_update()] - Job Started: tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3.gcode
+2023-12-12 14:09:05,230 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryc6tYMWjj4hftYBln
+2023-12-12 14:09:05,496 [app.py:post()] - Processing Uploaded File: tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3_2.gcode
+2023-12-12 14:09:05,589 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2023-12-12 14:09:05,623 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3_2.gcode") successfully finished
+2023-12-12 14:09:05,625 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 395.29ms
+2023-12-12 14:14:59,646 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2023-12-12 14:14:59,681 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "tensioner_puller_R15_1h13m_0,12mm_205C_PLA_ENDER3_2.gcode") successfully finished
