@@ -34036,3 +34036,3699 @@ telegram.error.InvalidToken: Invalid token
 Stack (most recent call last):
   File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
     logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:12:42,911 - __main__ - ERROR - 
+
+2024-01-03 17:12:42,942 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:12:55,249 - __main__ - ERROR - 
+
+2024-01-03 17:12:55,255 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:13:32,023 - __main__ - ERROR - 
+
+2024-01-03 17:13:32,029 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:13:43,578 - __main__ - ERROR - 
+
+2024-01-03 17:13:43,583 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:13:55,138 - __main__ - ERROR - 
+
+2024-01-03 17:13:55,144 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:14:06,797 - __main__ - ERROR - 
+
+2024-01-03 17:14:06,803 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:14:18,269 - __main__ - ERROR - 
+
+2024-01-03 17:14:18,274 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:14:29,771 - __main__ - ERROR - 
+
+2024-01-03 17:14:29,777 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:14:41,277 - __main__ - ERROR - 
+
+2024-01-03 17:14:41,284 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:14:52,768 - __main__ - ERROR - 
+
+2024-01-03 17:14:52,774 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:15:04,262 - __main__ - ERROR - 
+
+2024-01-03 17:15:04,267 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:15:15,766 - __main__ - ERROR - 
+
+2024-01-03 17:15:15,772 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:15:27,267 - __main__ - ERROR - 
+
+2024-01-03 17:15:27,272 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:15:38,779 - __main__ - ERROR - 
+
+2024-01-03 17:15:38,785 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:15:50,265 - __main__ - ERROR - 
+
+2024-01-03 17:15:50,271 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:01,771 - __main__ - ERROR - 
+
+2024-01-03 17:16:01,776 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:13,268 - __main__ - ERROR - 
+
+2024-01-03 17:16:13,273 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:24,773 - __main__ - ERROR - 
+
+2024-01-03 17:16:24,779 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:36,269 - __main__ - ERROR - 
+
+2024-01-03 17:16:36,275 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:47,771 - __main__ - ERROR - 
+
+2024-01-03 17:16:47,778 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:16:59,270 - __main__ - ERROR - 
+
+2024-01-03 17:16:59,276 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:17:10,785 - __main__ - ERROR - 
+
+2024-01-03 17:17:10,790 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:17:22,267 - __main__ - ERROR - 
+
+2024-01-03 17:17:22,273 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:17:33,773 - __main__ - ERROR - 
+
+2024-01-03 17:17:33,778 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:17:45,267 - __main__ - ERROR - 
+
+2024-01-03 17:17:45,273 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:17:56,773 - __main__ - ERROR - 
+
+2024-01-03 17:17:56,779 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:18:08,259 - __main__ - ERROR - 
+
+2024-01-03 17:18:08,265 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:18:19,775 - __main__ - ERROR - 
+
+2024-01-03 17:18:19,781 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:18:31,268 - __main__ - ERROR - 
+
+2024-01-03 17:18:31,274 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:18:42,767 - __main__ - ERROR - 
+
+2024-01-03 17:18:42,773 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:18:54,269 - __main__ - ERROR - 
+
+2024-01-03 17:18:54,274 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:19:05,767 - __main__ - ERROR - 
+
+2024-01-03 17:19:05,773 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:19:17,264 - __main__ - ERROR - 
+
+2024-01-03 17:19:17,270 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:19:28,772 - __main__ - ERROR - 
+
+2024-01-03 17:19:28,777 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:19:40,270 - __main__ - ERROR - 
+
+2024-01-03 17:19:40,275 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:19:51,769 - __main__ - ERROR - 
+
+2024-01-03 17:19:51,774 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:20:03,270 - __main__ - ERROR - 
+
+2024-01-03 17:20:03,275 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:20:14,771 - __main__ - ERROR - 
+
+2024-01-03 17:20:14,777 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:20:26,269 - __main__ - ERROR - 
+
+2024-01-03 17:20:26,275 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:20:37,769 - __main__ - ERROR - 
+
+2024-01-03 17:20:37,775 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:20:49,266 - __main__ - ERROR - 
+
+2024-01-03 17:20:49,271 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:00,771 - __main__ - ERROR - 
+
+2024-01-03 17:21:00,777 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:12,260 - __main__ - ERROR - 
+
+2024-01-03 17:21:12,267 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:23,764 - __main__ - ERROR - 
+
+2024-01-03 17:21:23,770 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:35,274 - __main__ - ERROR - 
+
+2024-01-03 17:21:35,279 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:46,926 - __main__ - ERROR - 
+
+2024-01-03 17:21:46,931 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:21:58,520 - __main__ - ERROR - 
+
+2024-01-03 17:21:58,526 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:22:10,129 - __main__ - ERROR - 
+
+2024-01-03 17:22:10,135 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:22:21,773 - __main__ - ERROR - 
+
+2024-01-03 17:22:21,778 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:22:33,270 - __main__ - ERROR - 
+
+2024-01-03 17:22:33,275 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:22:44,834 - __main__ - ERROR - 
+
+2024-01-03 17:22:44,840 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:22:56,648 - __main__ - ERROR - 
+
+2024-01-03 17:22:56,660 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:23:09,591 - __main__ - ERROR - 
+
+2024-01-03 17:23:09,597 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:23:21,384 - __main__ - ERROR - 
+
+2024-01-03 17:23:21,390 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:23:33,107 - __main__ - ERROR - 
+
+2024-01-03 17:23:33,113 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:23:44,652 - __main__ - ERROR - 
+
+2024-01-03 17:23:44,658 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:23:56,555 - __main__ - ERROR - 
+
+2024-01-03 17:23:56,561 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:24:08,136 - __main__ - ERROR - 
+
+2024-01-03 17:24:08,143 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:24:19,864 - __main__ - ERROR - 
+
+2024-01-03 17:24:19,870 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:24:31,729 - __main__ - ERROR - 
+
+2024-01-03 17:24:31,734 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:24:43,271 - __main__ - ERROR - 
+
+2024-01-03 17:24:43,280 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:24:54,772 - __main__ - ERROR - 
+
+2024-01-03 17:24:54,778 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:25:06,278 - __main__ - ERROR - 
+
+2024-01-03 17:25:06,284 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:25:17,772 - __main__ - ERROR - 
+
+2024-01-03 17:25:17,778 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:25:29,269 - __main__ - ERROR - 
+
+2024-01-03 17:25:29,276 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:25:40,774 - __main__ - ERROR - 
+
+2024-01-03 17:25:40,780 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:25:52,283 - __main__ - ERROR - 
+
+2024-01-03 17:25:52,289 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:26:03,776 - __main__ - ERROR - 
+
+2024-01-03 17:26:03,782 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:26:15,324 - __main__ - ERROR - 
+
+2024-01-03 17:26:15,331 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:26:27,052 - __main__ - ERROR - 
+
+2024-01-03 17:26:27,058 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:26:38,536 - __main__ - ERROR - 
+
+2024-01-03 17:26:38,543 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:26:50,041 - __main__ - ERROR - 
+
+2024-01-03 17:26:50,047 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:01,532 - __main__ - ERROR - 
+
+2024-01-03 17:27:01,538 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:13,027 - __main__ - ERROR - 
+
+2024-01-03 17:27:13,032 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:24,521 - __main__ - ERROR - 
+
+2024-01-03 17:27:24,526 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:36,149 - __main__ - ERROR - 
+
+2024-01-03 17:27:36,154 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:47,777 - __main__ - ERROR - 
+
+2024-01-03 17:27:47,783 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:27:59,273 - __main__ - ERROR - 
+
+2024-01-03 17:27:59,279 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:28:10,778 - __main__ - ERROR - 
+
+2024-01-03 17:28:10,783 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:28:22,264 - __main__ - ERROR - 
+
+2024-01-03 17:28:22,269 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:28:33,774 - __main__ - ERROR - 
+
+2024-01-03 17:28:33,781 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:28:45,271 - __main__ - ERROR - 
+
+2024-01-03 17:28:45,277 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:28:56,778 - __main__ - ERROR - 
+
+2024-01-03 17:28:56,784 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:29:08,278 - __main__ - ERROR - 
+
+2024-01-03 17:29:08,284 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:29:19,774 - __main__ - ERROR - 
+
+2024-01-03 17:29:19,780 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:29:31,273 - __main__ - ERROR - 
+
+2024-01-03 17:29:31,279 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:29:42,770 - __main__ - ERROR - 
+
+2024-01-03 17:29:42,776 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
+
+*******************************************************************
+Current Moonraker telegram bot config
+[bot]
+server = localhost
+
+[camera]
+host = http://localhost:8080/?action=stream
+
+[progress_notification]
+percent = 5
+height = 5
+time = 5
+
+[timelapse]
+cleanup = true
+height = 0.2
+time = 5
+target_fps = 30
+
+
+*******************************************************************
+2024-01-03 17:29:54,264 - __main__ - ERROR - 
+
+2024-01-03 17:29:54,269 - __main__ - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1106, in <module>
+    bot_updater = start_bot(configWrap.secrets.token, configWrap.bot_config.socks_proxy)
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 1006, in start_bot
+    updater = Updater(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/updater.py", line 279, in __init__
+    self.bot = ExtBot(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/ext/extbot.py", line 99, in __init__
+    super().__init__(
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 195, in __init__
+    self.token = self._validate_token(token)
+  File "/home/turbo/moonraker-telegram-bot-env/lib/python3.10/site-packages/telegram/bot.py", line 363, in _validate_token
+    raise InvalidToken()
+telegram.error.InvalidToken: Invalid token
+Stack (most recent call last):
+  File "/home/turbo/moonraker-telegram-bot/bot/main.py", line 64, in handle_exception
+    logger.error(
