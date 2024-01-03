@@ -840,3 +840,9 @@ Error configuring printer
 2024-01-03 17:14:48,414 [websockets.py:on_close()] - Websocket Closed: ID: 140350748226800 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.34
 2024-01-03 17:14:48,423 [websockets.py:on_close()] - Websocket Closed: ID: 140350748215328 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.41
 2024-01-03 17:23:56,010 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 5.35ms
+2024-01-03 17:30:03,989 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 0.81ms
+2024-01-03 17:45:32,811 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 0.84ms
+2024-01-03 17:52:13,538 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 17:53:23,606 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 17:55:43,751 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 17:56:43,815 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
