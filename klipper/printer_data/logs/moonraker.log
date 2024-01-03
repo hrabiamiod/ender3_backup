@@ -846,3 +846,19 @@ Error configuring printer
 2024-01-03 17:53:23,606 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-01-03 17:55:43,751 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-01-03 17:56:43,815 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:01:34,166 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:01:44,177 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:02:14,215 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:06:04,499 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:06:44,551 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:08:34,696 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:11:04,889 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:11:14,901 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:11:34,925 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:13:00,795 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-01-03 18:13:00,795 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-03 18:15:45,227 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:18:05,387 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:20:55,564 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-01-03 18:23:36,014 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 6.86ms
+2024-01-03 18:29:33,505 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 0.87ms
