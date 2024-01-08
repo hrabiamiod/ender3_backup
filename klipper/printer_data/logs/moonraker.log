@@ -862,3 +862,98 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytYlsw65kfL2q8u
 2024-01-08 14:58:56,637 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-08 14:58:57,387 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-08 14:59:20,724 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 5.000 [0.000]
+2024-01-08 15:04:31,592 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 15:12:24,771 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 15:15:48,498 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_42m_0,12mm_205C_PLA_ENDER3.gcode
+2024-01-08 15:24:54,077 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 15:24:54,083 [websockets.py:on_close()] - Websocket Closed: ID: 139891359467168 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.48
+2024-01-08 15:24:55,332 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 15:24:56,087 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.74ms
+2024-01-08 15:24:56,087 [websockets.py:open()] - Websocket Opened: ID: 139891349480848, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 15:24:56,089 [websockets.py:_handle_identify()] - Websocket 139891349480848 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 15:24:57,621 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 15:24:57,622 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 15:24:57,872 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-08 15:24:58,127 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-08 15:24:58,625 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-08 15:25:02,632 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_42m_0,12mm_205C_PLA_ENDER3.gcode
+2024-01-08 15:26:56,663 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-01-08 15:26:56,667 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1704723987.528130, Usage: 0.53%, Memory: 47816 kB
+System Time: 1704723988.529436, Usage: 0.57%, Memory: 47816 kB
+System Time: 1704723989.530672, Usage: 0.67%, Memory: 47816 kB
+System Time: 1704723990.531147, Usage: 0.65%, Memory: 47816 kB
+System Time: 1704723991.532444, Usage: 0.65%, Memory: 47816 kB
+System Time: 1704723992.533390, Usage: 0.59%, Memory: 47816 kB
+System Time: 1704723993.534661, Usage: 0.84%, Memory: 47816 kB
+System Time: 1704723994.535461, Usage: 0.67%, Memory: 47816 kB
+System Time: 1704723995.537065, Usage: 0.63%, Memory: 47816 kB
+System Time: 1704723996.538323, Usage: 1.67%, Memory: 47816 kB
+System Time: 1704723997.539180, Usage: 0.55%, Memory: 47816 kB
+System Time: 1704723998.539599, Usage: 1.19%, Memory: 47816 kB
+System Time: 1704723999.540734, Usage: 0.57%, Memory: 47816 kB
+System Time: 1704724000.541984, Usage: 0.82%, Memory: 47816 kB
+System Time: 1704724001.542475, Usage: 0.53%, Memory: 47816 kB
+System Time: 1704724002.543500, Usage: 0.7%, Memory: 47816 kB
+System Time: 1704724003.544477, Usage: 0.52%, Memory: 47816 kB
+System Time: 1704724004.544778, Usage: 0.61%, Memory: 47816 kB
+System Time: 1704724005.546032, Usage: 0.55%, Memory: 47816 kB
+System Time: 1704724006.546483, Usage: 0.59%, Memory: 47816 kB
+System Time: 1704724007.547119, Usage: 0.65%, Memory: 47816 kB
+System Time: 1704724008.547929, Usage: 1.66%, Memory: 47816 kB
+System Time: 1704724009.548799, Usage: 1.22%, Memory: 47816 kB
+System Time: 1704724010.550069, Usage: 0.69%, Memory: 47816 kB
+System Time: 1704724011.551011, Usage: 0.7%, Memory: 47816 kB
+System Time: 1704724012.551463, Usage: 1.14%, Memory: 47816 kB
+System Time: 1704724013.552315, Usage: 0.63%, Memory: 47816 kB
+System Time: 1704724014.554101, Usage: 0.54%, Memory: 47816 kB
+System Time: 1704724015.555510, Usage: 0.5%, Memory: 47816 kB
+System Time: 1704724016.556439, Usage: 0.71%, Memory: 47816 kB
+CPU Temperature: None
+2024-01-08 15:26:56,668 [websockets.py:on_close()] - Websocket Closed: ID: 139891349480848 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.58
+2024-01-08 15:26:58,673 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-01-08 15:26:58,673 [websockets.py:open()] - Websocket Opened: ID: 139891332250112, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 15:26:58,675 [websockets.py:_handle_identify()] - Websocket 139891332250112 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 15:27:13,798 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 15:27:13,799 [websockets.py:on_close()] - Websocket Closed: ID: 139891332250112 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.12
+2024-01-08 15:27:15,053 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 15:27:15,805 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
+2024-01-08 15:27:15,805 [websockets.py:open()] - Websocket Opened: ID: 139891349513136, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 15:27:15,807 [websockets.py:_handle_identify()] - Websocket 139891349513136 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 15:27:16,335 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 15:27:16,336 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 15:27:16,336 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-01-08 15:27:19,245 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 15:27:19,247 [websockets.py:on_close()] - Websocket Closed: ID: 139891349513136 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.44
+2024-01-08 15:27:20,501 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 15:27:21,252 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-01-08 15:27:21,252 [websockets.py:open()] - Websocket Opened: ID: 139891360533760, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 15:27:21,254 [websockets.py:_handle_identify()] - Websocket 139891360533760 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 15:27:21,784 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 15:27:21,784 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 15:27:21,785 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-01-08 15:27:55,554 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 15:27:55,557 [websockets.py:on_close()] - Websocket Closed: ID: 139891360533760 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.30
+2024-01-08 15:27:56,810 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 15:27:57,562 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.75ms
+2024-01-08 15:27:57,562 [websockets.py:open()] - Websocket Opened: ID: 139891331916960, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 15:27:57,565 [websockets.py:_handle_identify()] - Websocket 139891331916960 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 15:27:59,157 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 15:27:59,157 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 15:27:59,408 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-08 15:27:59,663 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-08 15:28:00,162 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-08 15:28:49,783 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_42m_0,12mm_205C_PLA_ENDER3.gcode
