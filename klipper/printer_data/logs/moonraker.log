@@ -783,3 +783,27 @@ CPU Temperature: None
 2024-01-08 12:17:55,699 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
 2024-01-08 12:17:55,699 [websockets.py:open()] - Websocket Opened: ID: 139891349515344, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-01-08 12:17:55,701 [websockets.py:_handle_identify()] - Websocket 139891349515344 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 13:04:58,451 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.56
+2024-01-08 13:04:58,451 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 1.32ms
+2024-01-08 13:04:58,451 [websockets.py:open()] - Websocket Opened: ID: 139891359467840, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-08 13:04:58,459 [websockets.py:_handle_identify()] - Websocket 139891359467840 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-08 13:04:58,873 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.69ms
+2024-01-08 13:04:58,873 [websockets.py:open()] - Websocket Opened: ID: 139891358727088, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-08 13:04:58,878 [websockets.py:_handle_identify()] - Websocket 139891358727088 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-08 13:05:04,315 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 13:05:04,318 [websockets.py:on_close()] - Websocket Closed: ID: 139891349515344 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.62
+2024-01-08 13:05:05,525 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-01-08 13:05:05,572 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 13:05:06,326 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 2.36ms
+2024-01-08 13:05:06,326 [websockets.py:open()] - Websocket Opened: ID: 139891350049008, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 13:05:06,328 [websockets.py:_handle_identify()] - Websocket 139891350049008 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 13:05:08,107 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 13:05:08,108 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 13:05:08,358 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-08 13:05:08,619 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-08 13:05:09,113 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-08 13:09:26,596 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 13:11:30,949 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 13:14:01,700 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 13:23:07,249 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 13:25:43,630 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
