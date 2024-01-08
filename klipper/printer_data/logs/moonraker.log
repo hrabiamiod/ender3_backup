@@ -828,3 +828,37 @@ CPU Temperature: None
 2024-01-08 14:13:38,288 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-01-08 14:16:08,311 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-01-08 14:21:13,708 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-08 14:43:59,209 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-01-08 14:43:59,209 [app.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.84ms
+2024-01-08 14:43:59,209 [websockets.py:open()] - Websocket Opened: ID: 139891349523520, Proxied: True, User Agent: Dart/3.1 (dart:io), Host Name: 192.168.1.211
+2024-01-08 14:43:59,226 [websockets.py:_handle_identify()] - Websocket 139891349523520 Client Identified - Name: Mobileraker-ios, Version: 2.6.8-357, Type: mobile
+2024-01-08 14:44:10,007 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 245.000 228.000 5.000 [0.000]
+2024-01-08 14:44:13,024 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 245.000 228.000 5.000 [0.000]
+2024-01-08 14:44:46,404 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 41.000 28.000 8.996 [0.000]
+2024-01-08 14:44:46,568 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 41.000 28.000 8.996 [0.000]
+2024-01-08 14:44:47,844 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 41.000 28.000 8.996 [0.000]
+2024-01-08 14:44:48,785 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 41.000 28.000 8.996 [0.000]
+2024-01-08 14:48:39,383 [websockets.py:write_to_socket()] - Websocket closed while writing: 139891349523520
+2024-01-08 14:48:44,212 [websockets.py:on_close()] - Websocket Closed: ID: 139891349523520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-01-08 14:48:44,762 [app.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.67ms
+2024-01-08 14:48:44,762 [websockets.py:open()] - Websocket Opened: ID: 139891359578864, Proxied: True, User Agent: Dart/3.1 (dart:io), Host Name: 192.168.1.211
+2024-01-08 14:51:14,883 [websockets.py:write_to_socket()] - Websocket closed while writing: 139891359578864
+2024-01-08 14:51:19,764 [websockets.py:on_close()] - Websocket Closed: ID: 139891359578864 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
+2024-01-08 14:57:14,780 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.56
+2024-01-08 14:58:51,548 [app.py:prepare()] - Upload Request Received from 192.168.1.56
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytYlsw65kfL2q8uCD
+2024-01-08 14:58:51,552 [app.py:post()] - Processing Uploaded File: printer.cfg
+2024-01-08 14:58:51,555 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.56) [_TRUSTED_USER_] 7.44ms
+2024-01-08 14:58:52,588 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-08 14:58:52,590 [websockets.py:on_close()] - Websocket Closed: ID: 139891350049008 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.26
+2024-01-08 14:58:53,843 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-08 14:58:54,596 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-01-08 14:58:54,597 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.69ms
+2024-01-08 14:58:54,597 [websockets.py:open()] - Websocket Opened: ID: 139891359467168, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-08 14:58:54,598 [websockets.py:_handle_identify()] - Websocket 139891359467168 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-08 14:58:56,131 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-08 14:58:56,131 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-08 14:58:56,382 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-08 14:58:56,637 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-08 14:58:57,387 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-08 14:59:20,724 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 5.000 [0.000]
