@@ -1591,3 +1591,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLyntxQ3xzFTz8q
 2024-01-09 15:36:17,141 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
 2024-01-09 17:12:51,061 [websockets.py:on_close()] - Websocket Closed: ID: 139803514811488 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.14
 2024-01-09 17:12:51,062 [websockets.py:on_close()] - Websocket Closed: ID: 139803514804624 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.58
+2024-01-09 22:07:20,216 [websockets.py:on_close()] - Websocket Closed: ID: 139803471656992 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.28
+2024-01-09 22:07:20,217 [websockets.py:on_close()] - Websocket Closed: ID: 139803471650896 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.81
