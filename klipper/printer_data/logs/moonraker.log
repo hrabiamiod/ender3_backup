@@ -1581,3 +1581,10 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLyntxQ3xzFTz8q
 2024-01-09 13:42:43,497 [job_state.py:_status_update()] - Job Started: PEPSI_37m_0,20mm_205C_PLA_ENDER3.gcode
 2024-01-09 13:43:09,766 [websockets.py:on_close()] - Websocket Closed: ID: 139803471642048 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.48
 2024-01-09 13:43:09,767 [websockets.py:on_close()] - Websocket Closed: ID: 139803471641712 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.91
+2024-01-09 14:33:35,930 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.70ms
+2024-01-09 14:33:35,930 [websockets.py:open()] - Websocket Opened: ID: 139803471656992, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-09 14:33:35,952 [websockets.py:_handle_identify()] - Websocket 139803471656992 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-09 14:33:36,406 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.71ms
+2024-01-09 14:33:36,406 [websockets.py:open()] - Websocket Opened: ID: 139803471650896, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-09 14:33:36,411 [websockets.py:_handle_identify()] - Websocket 139803471650896 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-09 14:37:57,376 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
