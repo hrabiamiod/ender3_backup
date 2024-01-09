@@ -1588,3 +1588,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLyntxQ3xzFTz8q
 2024-01-09 14:33:36,406 [websockets.py:open()] - Websocket Opened: ID: 139803471650896, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-01-09 14:33:36,411 [websockets.py:_handle_identify()] - Websocket 139803471650896 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-01-09 14:37:57,376 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-09 15:36:17,141 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
