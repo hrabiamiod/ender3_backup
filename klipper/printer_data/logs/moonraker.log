@@ -848,3 +848,39 @@ Diverged: False
 2024-01-11 19:58:21,538 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-01-11 19:59:22,752 [websockets.py:on_close()] - Websocket Closed: ID: 139890488933584 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.73
 2024-01-11 19:59:22,753 [websockets.py:on_close()] - Websocket Closed: ID: 139890490675920 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.13
+2024-01-11 20:02:28,163 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-11 20:02:28,164 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 1.12ms
+2024-01-11 20:02:28,164 [websockets.py:open()] - Websocket Opened: ID: 139890490678608, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-11 20:02:28,179 [websockets.py:_handle_identify()] - Websocket 139890490678608 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-11 20:02:29,155 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.71ms
+2024-01-11 20:02:29,155 [websockets.py:open()] - Websocket Opened: ID: 139890490675248, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-11 20:02:29,208 [websockets.py:_handle_identify()] - Websocket 139890490675248 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-11 20:20:09,283 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.91ms
+2024-01-11 20:20:09,284 [websockets.py:open()] - Websocket Opened: ID: 139890490685808, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-11 20:20:09,293 [websockets.py:_handle_identify()] - Websocket 139890490685808 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-11 20:20:10,971 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.69ms
+2024-01-11 20:20:10,971 [websockets.py:open()] - Websocket Opened: ID: 139890489812176, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-11 20:20:11,076 [websockets.py:_handle_identify()] - Websocket 139890489812176 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-11 20:20:48,391 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9A6vrAcnPfrBsNmg
+2024-01-11 20:20:48,693 [app.py:post()] - Processing Uploaded File: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:20:48,816 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-11 20:20:48,848 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-11 20:20:48,856 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 466.05ms
+2024-01-11 20:20:48,986 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:29:41,488 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykAtB5I1EybvfLqHj
+2024-01-11 20:29:41,794 [app.py:post()] - Processing Uploaded File: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:29:41,887 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-11 20:29:41,919 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-11 20:29:41,921 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 433.76ms
+2024-01-11 20:29:59,767 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryapOUf50BhvXT1cZB
+2024-01-11 20:30:00,026 [app.py:post()] - Processing Uploaded File: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:30:00,119 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-11 20:30:00,150 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-11 20:30:00,161 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 394.76ms
+2024-01-11 20:30:00,364 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
