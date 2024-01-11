@@ -884,3 +884,31 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryapOUf50BhvXT1c
 2024-01-11 20:30:00,150 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-01-11 20:30:00,161 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 394.76ms
 2024-01-11 20:30:00,364 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:34:22,240 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-11 20:34:22,248 [websockets.py:on_close()] - Websocket Closed: ID: 139890488923696 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.76
+2024-01-11 20:34:23,500 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-11 20:34:23,543 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['sysinit.target', 'basic.target', 'system.slice', 'network-online.target', '-.mount', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-01-11 20:34:24,255 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.03ms
+2024-01-11 20:34:24,255 [websockets.py:open()] - Websocket Opened: ID: 139890490600432, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-11 20:34:24,257 [websockets.py:_handle_identify()] - Websocket 139890490600432 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-11 20:34:26,126 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-11 20:34:26,126 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-11 20:34:26,376 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-11 20:34:26,635 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-11 20:34:27,381 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-11 20:34:31,139 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-11 20:44:49,870 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
