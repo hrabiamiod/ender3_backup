@@ -912,3 +912,42 @@ Properties:
 2024-01-11 20:34:27,381 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-11 20:34:31,139 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-01-11 20:44:49,870 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-01-11 21:33:19,285 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-01-11 21:33:19,289 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1705005169.612607, Usage: 0.7%, Memory: 48316 kB
+System Time: 1705005170.613428, Usage: 0.56%, Memory: 48316 kB
+System Time: 1705005171.614185, Usage: 0.63%, Memory: 48316 kB
+System Time: 1705005172.615127, Usage: 0.57%, Memory: 48316 kB
+System Time: 1705005173.615924, Usage: 0.58%, Memory: 48316 kB
+System Time: 1705005174.616348, Usage: 0.67%, Memory: 48316 kB
+System Time: 1705005175.617474, Usage: 0.56%, Memory: 48316 kB
+System Time: 1705005176.618262, Usage: 0.55%, Memory: 48316 kB
+System Time: 1705005177.619166, Usage: 0.73%, Memory: 48316 kB
+System Time: 1705005178.621482, Usage: 1.79%, Memory: 48316 kB
+System Time: 1705005179.623013, Usage: 1.22%, Memory: 48316 kB
+System Time: 1705005180.624810, Usage: 0.56%, Memory: 48316 kB
+System Time: 1705005181.625528, Usage: 0.62%, Memory: 48316 kB
+System Time: 1705005182.626429, Usage: 0.56%, Memory: 48316 kB
+System Time: 1705005183.627105, Usage: 0.57%, Memory: 48316 kB
+System Time: 1705005184.627498, Usage: 0.65%, Memory: 48316 kB
+System Time: 1705005185.627789, Usage: 0.55%, Memory: 48316 kB
+System Time: 1705005186.628631, Usage: 0.54%, Memory: 48316 kB
+System Time: 1705005187.629406, Usage: 0.72%, Memory: 48316 kB
+System Time: 1705005188.630259, Usage: 0.61%, Memory: 48316 kB
+System Time: 1705005189.631390, Usage: 1.79%, Memory: 48316 kB
+System Time: 1705005190.633108, Usage: 0.95%, Memory: 48316 kB
+System Time: 1705005191.634391, Usage: 1.29%, Memory: 48316 kB
+System Time: 1705005192.636137, Usage: 0.57%, Memory: 48316 kB
+System Time: 1705005193.636861, Usage: 0.58%, Memory: 48316 kB
+System Time: 1705005194.637084, Usage: 1.03%, Memory: 48316 kB
+System Time: 1705005195.637471, Usage: 0.57%, Memory: 48316 kB
+System Time: 1705005196.638517, Usage: 0.56%, Memory: 48316 kB
+System Time: 1705005197.639663, Usage: 0.77%, Memory: 48316 kB
+System Time: 1705005198.640676, Usage: 0.63%, Memory: 48316 kB
+CPU Temperature: None
+2024-01-11 21:33:19,291 [websockets.py:on_close()] - Websocket Closed: ID: 139890490600432 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.03
+2024-01-11 21:33:21,296 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.90ms
+2024-01-11 21:33:21,297 [websockets.py:open()] - Websocket Opened: ID: 139890454865728, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-11 21:33:21,299 [websockets.py:_handle_identify()] - Websocket 139890454865728 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-11 21:34:49,879 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
