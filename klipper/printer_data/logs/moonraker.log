@@ -957,3 +957,21 @@ Printer is shutdown
 2024-01-14 18:19:27,398 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-14 18:19:54,715 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-01-14 18:40:17,464 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-14 19:09:13,388 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-14 19:09:13,388 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryp0HMJxtOIhEzsnQU
+2024-01-14 19:09:13,626 [app.py:post()] - Processing Uploaded File: aperol_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-14 19:09:13,719 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-14 19:09:13,750 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "aperol_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-14 19:09:13,761 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 372.99ms
+2024-01-14 19:09:13,937 [job_state.py:_status_update()] - Job Started: aperol_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-14 19:09:55,149 [websockets.py:on_close()] - Websocket Closed: ID: 140445301222336 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.07
+2024-01-14 19:09:55,150 [websockets.py:on_close()] - Websocket Closed: ID: 140445301211440 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.84
+2024-01-14 19:09:55,306 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.75ms
+2024-01-14 19:09:55,307 [websockets.py:open()] - Websocket Opened: ID: 140445299072624, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-14 19:09:55,317 [websockets.py:_handle_identify()] - Websocket 140445299072624 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-14 19:09:56,029 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.76ms
+2024-01-14 19:09:56,029 [websockets.py:open()] - Websocket Opened: ID: 140445299065280, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-14 19:09:56,101 [websockets.py:_handle_identify()] - Websocket 140445299065280 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-14 19:20:17,470 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
