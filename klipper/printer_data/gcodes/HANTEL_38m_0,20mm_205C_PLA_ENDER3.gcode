@@ -273,10 +273,10 @@
 ; Ender 3 Custom Start G-code
 G92 E0 ; Reset Extruder
 
-M140 S55 ; set bed temp
 M104 S160 ; set extruder temp
+M140 S50 ; set bed temp
 M109 S160 ; wait for extruder temp
-M190 S55 ; wait for bed temp
+M190 S50 ; wait for bed temp
 
 G28 ; Home all axes
 M104 S210 ; set extruder temp 
