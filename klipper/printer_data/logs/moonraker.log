@@ -996,3 +996,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygjleTBaawS1448
 2024-01-14 21:16:45,656 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "FIONA2_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-01-14 21:16:45,667 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 279.88ms
 2024-01-14 21:16:45,695 [job_state.py:_status_update()] - Job Started: FIONA2_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-14 21:55:09,516 [job_state.py:_status_update()] - Job Started: aperol_38m_0,20mm_205C_PLA_ENDER3.gcode
