@@ -956,3 +956,4 @@ Printer is shutdown
 2024-01-14 18:19:26,899 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-14 18:19:27,398 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-14 18:19:54,715 [job_state.py:_status_update()] - Job Started: HANTEL_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-14 18:40:17,464 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
