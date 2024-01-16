@@ -755,3 +755,8 @@ Properties:
 2024-01-16 12:38:43,121 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
 2024-01-16 13:38:31,216 [websockets.py:on_close()] - Websocket Closed: ID: 140144926444848 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.75
 2024-01-16 13:38:31,216 [websockets.py:on_close()] - Websocket Closed: ID: 140144926445856 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.78
+2024-01-16 14:20:21,202 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-16 14:20:21,202 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.91ms
+2024-01-16 14:20:21,202 [websockets.py:open()] - Websocket Opened: ID: 140144849935168, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-16 14:20:21,208 [websockets.py:_handle_identify()] - Websocket 140144849935168 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-16 14:20:21,667 [websockets.py:on_close()] - Websocket Closed: ID: 140144849935168 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.47
