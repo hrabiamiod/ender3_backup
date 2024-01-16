@@ -912,3 +912,19 @@
 2024-01-16 10:38:44,268 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
 2024-01-16 10:38:44,269 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
 2024-01-16 10:38:44,269 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-01-16 10:38:54,533 - INFO - Websocket connected
+2024-01-16 10:38:54,534 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-01-16 10:38:54,959 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-01-16 10:38:54,959 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-16 10:38:54,960 - INFO - Starting Moonraker connection client.
+2024-01-16 10:38:54,960 - INFO - Moonraker client starting websocket connection thread.
+2024-01-16 10:38:54,961 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-16 10:38:54,963 - INFO - Websocket connected
+2024-01-16 10:38:54,964 - INFO - Moonraker client websocket opened.
+2024-01-16 10:38:54,964 - INFO - Moonraker client waiting for klippy ready...
+2024-01-16 10:38:54,964 - INFO - Authenticating with moonraker...
+2024-01-16 10:38:54,975 - INFO - Moonraker client waiting for klippy ready...
+2024-01-16 10:38:54,977 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-16 10:38:54,977 - INFO - Moonraker client setting up default notification hooks
+2024-01-16 10:38:55,262 - INFO - Printer state at socket connect is: standby
+2024-01-16 10:38:55,263 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.

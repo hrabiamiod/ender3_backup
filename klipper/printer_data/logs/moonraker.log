@@ -733,3 +733,14 @@ Properties:
 2024-01-16 10:38:46,231 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
 2024-01-16 10:38:46,239 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
 2024-01-16 10:38:46,240 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-16 10:38:46,492 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-16 10:38:46,753 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-16 10:38:47,270 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 54.90ms
+2024-01-16 10:38:47,271 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-16 10:38:54,728 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-01-16 10:38:54,733 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.25ms
+2024-01-16 10:38:54,733 [websockets.py:open()] - Websocket Opened: ID: 140144849195872, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-01-16 10:38:54,834 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-01-16 10:38:54,963 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-01-16 10:38:54,963 [websockets.py:open()] - Websocket Opened: ID: 140144849198896, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-16 10:38:54,965 [websockets.py:_handle_identify()] - Websocket 140144849198896 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
