@@ -753,3 +753,5 @@ Properties:
 2024-01-16 11:36:54,383 [websockets.py:_handle_identify()] - Websocket 140144926445856 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-01-16 11:43:43,112 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-01-16 12:38:43,121 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-16 13:38:31,216 [websockets.py:on_close()] - Websocket Closed: ID: 140144926444848 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.75
+2024-01-16 13:38:31,216 [websockets.py:on_close()] - Websocket Closed: ID: 140144926445856 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.78
