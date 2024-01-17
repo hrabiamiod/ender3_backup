@@ -740,3 +740,6 @@ Properties:
 2024-01-17 05:52:18,579 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
 2024-01-17 05:52:18,594 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-17 05:52:19,039 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-17 05:52:19,709 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.74ms
+2024-01-17 05:52:19,709 [websockets.py:open()] - Websocket Opened: ID: 140651950664016, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-17 05:52:19,729 [websockets.py:_handle_identify()] - Websocket 140651950664016 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
