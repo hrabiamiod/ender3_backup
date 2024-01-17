@@ -1539,3 +1539,16 @@ Error configuring printer
 2024-01-17 12:15:15,519 [websockets.py:on_close()] - Websocket Closed: ID: 140203089400192 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.01
 2024-01-17 12:15:16,014 [websockets.py:on_close()] - Websocket Closed: ID: 140203079667328 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.76
 2024-01-17 12:15:16,014 [websockets.py:on_close()] - Websocket Closed: ID: 140203079676592 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.34
+2024-01-17 21:00:05,223 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-17 21:00:05,224 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.94ms
+2024-01-17 21:00:05,224 [websockets.py:open()] - Websocket Opened: ID: 140203054024784, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 21:00:05,684 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.75ms
+2024-01-17 21:00:05,684 [websockets.py:open()] - Websocket Opened: ID: 140203054029680, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 21:00:05,794 [websockets.py:_handle_identify()] - Websocket 140203054024784 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-17 21:00:05,864 [websockets.py:_handle_identify()] - Websocket 140203054029680 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-17 21:05:46,589 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.71ms
+2024-01-17 21:05:46,589 [websockets.py:open()] - Websocket Opened: ID: 140203053922768, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 21:05:46,595 [websockets.py:_handle_identify()] - Websocket 140203053922768 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-17 21:05:46,688 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.60ms
+2024-01-17 21:05:46,688 [websockets.py:open()] - Websocket Opened: ID: 140203054023056, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 21:05:46,695 [websockets.py:_handle_identify()] - Websocket 140203054023056 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
