@@ -973,3 +973,43 @@
 2024-01-17 05:52:20,292 - INFO - Printer state at socket connect is: standby
 2024-01-17 05:52:20,292 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
 2024-01-17 05:52:28,136 - INFO - Ping Pong Stats: Default:[fra,29.71041202545166], Lowest:[fra,29.71041202545166] Use Low Latency Enabled: True
+2024-01-17 06:13:30,887 - INFO - Gadget is now watching!
+2024-01-17 06:13:30,890 - INFO - FileMetadataCache updated for file [negri_33m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 1977.0, size: 1124, filament usage: 1457
+2024-01-17 06:13:30,890 - INFO - Gadget has stopped watching!
+2024-01-17 06:13:30,891 - INFO - RepeatTimer thread exit
+2024-01-17 06:13:30,891 - INFO - RepeatTimer thread exit
+2024-01-17 06:13:30,891 - INFO - RepeatTimer thread exit
+2024-01-17 06:13:30,892 - INFO - Gadget is now watching!
+2024-01-17 06:13:30,892 - INFO - New print started; PrintId: 0ZoqzbvUukNfLoDd430vTrWtiTENHFCPaLXYshnMScaJfxizSXKvvEYIOA5j file:negri_33m_0,20mm_205C_PLA_ENDER3.gcode size:1124 filament:1457
+2024-01-17 06:13:31,644 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-17 06:13:31,645 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-17 06:13:31,911 - INFO - NotificationsHandler successfully sent 'resume'
+2024-01-17 06:13:32,095 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-17 06:14:01,212 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-17 06:14:31,539 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-17 06:15:01,866 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-17 06:15:32,198 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-17 06:15:41,725 - INFO - First layer timer is done. Stopping.
+2024-01-17 06:15:41,726 - INFO - RepeatTimer thread exit
+2024-01-17 06:15:50,023 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-01-17 06:15:50,024 - INFO - Moonraker client websocket shutdown called.
+2024-01-17 06:15:50,030 - INFO - Moonraker client websocket shutdown complete.
+2024-01-17 06:15:50,030 - INFO - Moonraker websocket connection closed.
+2024-01-17 06:15:50,031 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-01-17 06:17:52,662 - INFO - ##################################
+2024-01-17 06:17:52,667 - INFO - #### OctoEverywhere Starting #####
+2024-01-17 06:17:52,668 - INFO - ##################################
+2024-01-17 06:17:52,671 - INFO - Plugin Version: 2.10.0
+2024-01-17 06:17:52,671 - INFO - Our existing update config file include was found in the moonraker config.
+2024-01-17 06:17:52,671 - INFO - Existing update config file found with the correct file contents.
+2024-01-17 06:17:52,854 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-01-17 06:17:52,855 - INFO - Setting up relay with frontend port 80
+2024-01-17 06:17:52,859 - INFO - OctoPingPong stats loaded from file.
+2024-01-17 06:17:52,865 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-01-17 06:17:52,866 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-17 06:17:52,866 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:139705908404160
+2024-01-17 06:17:57,865 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-17 06:17:57,865 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-01-17 06:17:57,865 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-01-17 06:17:59,686 - INFO - Websocket connected
+2024-01-17 06:17:59,695 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
