@@ -940,3 +940,35 @@
 2024-01-16 15:39:05,569 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
 2024-01-16 15:39:05,632 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
 2024-01-16 15:39:05,633 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-17 05:52:11,402 - INFO - ##################################
+2024-01-17 05:52:11,405 - INFO - #### OctoEverywhere Starting #####
+2024-01-17 05:52:11,406 - INFO - ##################################
+2024-01-17 05:52:11,410 - INFO - Plugin Version: 2.10.0
+2024-01-17 05:52:11,410 - INFO - Our existing update config file include was found in the moonraker config.
+2024-01-17 05:52:11,410 - INFO - Existing update config file found with the correct file contents.
+2024-01-17 05:52:11,582 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-01-17 05:52:11,583 - INFO - Setting up relay with frontend port 80
+2024-01-17 05:52:11,585 - INFO - OctoPingPong stats loaded from file.
+2024-01-17 05:52:11,587 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-01-17 05:52:11,588 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-17 05:52:11,588 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140192669999040
+2024-01-17 05:52:11,601 - INFO - Updating server latencies...
+2024-01-17 05:52:16,587 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-17 05:52:16,588 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-01-17 05:52:16,588 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-01-17 05:52:18,991 - INFO - Websocket connected
+2024-01-17 05:52:18,992 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-01-17 05:52:19,704 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-01-17 05:52:19,705 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-17 05:52:19,705 - INFO - Starting Moonraker connection client.
+2024-01-17 05:52:19,705 - INFO - Moonraker client starting websocket connection thread.
+2024-01-17 05:52:19,706 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-17 05:52:19,720 - INFO - Websocket connected
+2024-01-17 05:52:19,720 - INFO - Moonraker client websocket opened.
+2024-01-17 05:52:19,725 - INFO - Moonraker client waiting for klippy ready...
+2024-01-17 05:52:19,726 - INFO - Authenticating with moonraker...
+2024-01-17 05:52:19,788 - INFO - Moonraker client waiting for klippy ready...
+2024-01-17 05:52:19,794 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-17 05:52:19,799 - INFO - Moonraker client setting up default notification hooks
+2024-01-17 05:52:20,292 - INFO - Printer state at socket connect is: standby
+2024-01-17 05:52:20,292 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
