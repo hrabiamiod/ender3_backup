@@ -1526,3 +1526,10 @@ Error configuring printer
 2024-01-17 06:18:27,588 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-17 06:18:28,087 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-17 06:18:34,128 [job_state.py:_status_update()] - Job Started: negri_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-01-17 06:57:41,493 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.74ms
+2024-01-17 06:57:41,493 [websockets.py:open()] - Websocket Opened: ID: 140203089400192, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 06:57:41,541 [websockets.py:_handle_identify()] - Websocket 140203089400192 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-17 06:57:42,530 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.73ms
+2024-01-17 06:57:42,530 [websockets.py:open()] - Websocket Opened: ID: 140203089398272, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-17 06:57:42,597 [websockets.py:_handle_identify()] - Websocket 140203089398272 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-17 06:57:47,094 [job_state.py:_status_update()] - Job Started: negri_33m_0,20mm_205C_PLA_ENDER3.gcode
