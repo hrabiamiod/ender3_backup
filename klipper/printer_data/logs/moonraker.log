@@ -833,3 +833,50 @@ CPU Temperature: None
 2024-01-18 15:29:12,833 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.32ms
 2024-01-18 15:29:12,834 [websockets.py:open()] - Websocket Opened: ID: 139817132598144, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-01-18 15:29:12,835 [websockets.py:_handle_identify()] - Websocket 139817132598144 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-18 16:00:51,586 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-18 16:14:15,107 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-18 16:14:15,109 [websockets.py:on_close()] - Websocket Closed: ID: 139817132598144 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.28
+2024-01-18 16:14:16,364 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-18 16:14:17,114 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-01-18 16:14:17,115 [websockets.py:open()] - Websocket Opened: ID: 139817106607504, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-18 16:14:17,117 [websockets.py:_handle_identify()] - Websocket 139817106607504 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-18 16:14:17,674 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-18 16:14:17,675 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-18 16:14:17,675 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-01-18 16:14:20,416 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-18 16:14:20,419 [websockets.py:on_close()] - Websocket Closed: ID: 139817106607504 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.31
+2024-01-18 16:14:21,671 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-18 16:14:22,424 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.72ms
+2024-01-18 16:14:22,424 [websockets.py:open()] - Websocket Opened: ID: 139817106605488, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-18 16:14:22,426 [websockets.py:_handle_identify()] - Websocket 139817106605488 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-18 16:14:22,952 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-18 16:14:22,952 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-18 16:14:22,953 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-01-18 16:14:27,397 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-18 16:14:27,399 [websockets.py:on_close()] - Websocket Closed: ID: 139817106605488 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.98
+2024-01-18 16:14:28,651 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-18 16:14:29,405 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-01-18 16:14:29,405 [websockets.py:open()] - Websocket Opened: ID: 139817159768720, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-18 16:14:29,407 [websockets.py:_handle_identify()] - Websocket 139817159768720 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-18 16:14:30,938 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-18 16:14:30,939 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-18 16:14:31,189 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-18 16:14:31,444 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-18 16:14:32,194 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-18 16:19:40,894 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to deploy
+2024-01-18 16:21:19,932 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-18 16:24:00,035 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-18 16:26:00,135 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-18 16:28:48,686 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
