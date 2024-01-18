@@ -784,3 +784,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9s86FHy4NBv3UT
 2024-01-18 13:50:13,516 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-18 13:50:16,775 [job_state.py:_status_update()] - Job Started: LOLA.gcode
 2024-01-18 14:20:51,571 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-18 14:50:51,575 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-01-18 14:58:07,413 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-18 14:58:07,413 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2iTHPM4PYjdlUEJ2
+2024-01-18 14:58:08,970 [app.py:post()] - Processing Uploaded File: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
+2024-01-18 14:58:09,064 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-18 14:58:09,103 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-18 14:58:09,114 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 1701.30ms
+2024-01-18 14:58:09,169 [job_state.py:_status_update()] - Job Started: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
