@@ -762,3 +762,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9s86FHy4NBv3UT
 2024-01-18 12:29:34,903 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "LOLA.gcode") successfully finished
 2024-01-18 12:29:34,914 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 575.84ms
 2024-01-18 12:29:34,926 [job_state.py:_status_update()] - Job Started: LOLA.gcode
+2024-01-18 13:19:33,613 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.69ms
+2024-01-18 13:19:33,613 [websockets.py:open()] - Websocket Opened: ID: 139817106616432, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-18 13:19:33,626 [websockets.py:_handle_identify()] - Websocket 139817106616432 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-18 13:19:34,800 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.69ms
+2024-01-18 13:19:34,800 [websockets.py:open()] - Websocket Opened: ID: 139817106610432, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-18 13:19:34,869 [websockets.py:_handle_identify()] - Websocket 139817106610432 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-18 13:23:29,242 [job_state.py:_status_update()] - Job Started: LOLA.gcode
+2024-01-18 13:25:51,563 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
