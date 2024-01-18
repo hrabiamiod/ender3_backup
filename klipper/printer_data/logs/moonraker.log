@@ -783,3 +783,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9s86FHy4NBv3UT
 2024-01-18 13:50:12,768 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-18 13:50:13,516 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-18 13:50:16,775 [job_state.py:_status_update()] - Job Started: LOLA.gcode
+2024-01-18 14:20:51,571 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
