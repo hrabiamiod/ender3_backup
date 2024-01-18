@@ -735,3 +735,30 @@ Properties:
 2024-01-18 12:20:55,266 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
 2024-01-18 12:20:55,511 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-01-18 12:20:55,810 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-18 12:20:56,265 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-18 12:20:56,664 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 30.70ms
+2024-01-18 12:21:00,445 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-18 12:21:00,446 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 1.25ms
+2024-01-18 12:21:00,447 [websockets.py:open()] - Websocket Opened: ID: 139817132589120, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-18 12:21:00,451 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.67ms
+2024-01-18 12:21:00,451 [websockets.py:open()] - Websocket Opened: ID: 139817132597424, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-18 12:21:00,457 [websockets.py:_handle_identify()] - Websocket 139817132589120 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-18 12:21:00,459 [websockets.py:_handle_identify()] - Websocket 139817132597424 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-18 12:21:04,879 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-01-18 12:21:04,882 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.63ms
+2024-01-18 12:21:04,882 [websockets.py:open()] - Websocket Opened: ID: 139817132593392, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-01-18 12:21:04,934 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.90ms
+2024-01-18 12:21:04,934 [websockets.py:open()] - Websocket Opened: ID: 139817132599152, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-18 12:21:04,937 [websockets.py:_handle_identify()] - Websocket 139817132599152 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-18 12:21:05,043 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-01-18 12:24:31,729 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.81ms
+2024-01-18 12:24:31,729 [websockets.py:open()] - Websocket Opened: ID: 139817132604144, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-18 12:24:31,738 [websockets.py:_handle_identify()] - Websocket 139817132604144 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-18 12:29:34,339 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9s86FHy4NBv3UTDp
+2024-01-18 12:29:34,751 [app.py:post()] - Processing Uploaded File: LOLA.gcode
+2024-01-18 12:29:34,870 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-18 12:29:34,903 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "LOLA.gcode") successfully finished
+2024-01-18 12:29:34,914 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 575.84ms
+2024-01-18 12:29:34,926 [job_state.py:_status_update()] - Job Started: LOLA.gcode
