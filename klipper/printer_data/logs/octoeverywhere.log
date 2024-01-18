@@ -2708,3 +2708,23 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-18 16:42:38,885 - INFO - Moonraker client waiting for klippy ready...
 2024-01-18 16:42:38,887 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
 2024-01-18 16:42:38,887 - INFO - Moonraker client setting up default notification hooks
+2024-01-18 16:42:39,837 - INFO - Printer state at socket connect is: standby
+2024-01-18 16:42:39,838 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-01-18 16:43:04,336 - INFO - FileMetadataCache updated for file [NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode]; est time: 28174.0, size: 5578, filament usage: 39476
+2024-01-18 16:43:04,337 - INFO - Gadget is now watching!
+2024-01-18 16:43:04,337 - INFO - New print started; PrintId: QA9CiYOTai6PgDYn6scmiz54PjDNwOINsPVCjd7kILeTLhWswPLWJ1Sj3SG0 file:NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode size:5578 filament:39476
+2024-01-18 16:43:05,672 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-18 16:43:34,711 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-18 16:44:05,042 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-18 16:44:35,375 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-18 16:45:05,707 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-18 16:45:36,045 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-18 16:45:56,960 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-18 16:46:07,793 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-01-18 16:54:42,230 - INFO - First layer timer is done. Stopping.
+2024-01-18 16:54:42,230 - INFO - RepeatTimer thread exit
+2024-01-18 16:54:42,480 - INFO - Gadget has stopped watching!
+2024-01-18 16:54:42,480 - INFO - RepeatTimer thread exit
+2024-01-18 16:54:42,481 - INFO - RepeatTimer thread exit
+2024-01-18 16:54:43,102 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-18 16:54:44,203 - INFO - NotificationsHandler successfully sent 'paused'
