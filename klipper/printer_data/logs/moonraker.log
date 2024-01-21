@@ -970,3 +970,4 @@ CPU Temperature: None
 2024-01-21 08:34:19,915 [websockets.py:open()] - Websocket Opened: ID: 139893393762928, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-01-21 08:34:19,977 [websockets.py:_handle_identify()] - Websocket 139893393762928 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-01-21 09:36:53,555 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-21 10:04:32,908 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
