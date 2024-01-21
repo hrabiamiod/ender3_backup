@@ -972,3 +972,7 @@ CPU Temperature: None
 2024-01-21 09:36:53,555 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
 2024-01-21 10:04:32,908 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
 2024-01-21 11:06:53,571 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-21 14:44:58,359 [websockets.py:on_close()] - Websocket Closed: ID: 139893393762928 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.43
+2024-01-21 14:44:58,360 [websockets.py:on_close()] - Websocket Closed: ID: 139893393759280 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.98
+2024-01-21 14:44:59,068 [websockets.py:on_close()] - Websocket Closed: ID: 139893419892768 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.29
+2024-01-21 14:44:59,072 [websockets.py:on_close()] - Websocket Closed: ID: 139893429945440 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.08
