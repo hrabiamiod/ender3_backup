@@ -3058,3 +3058,32 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-21 10:55:55,382 - INFO - NotificationsHandler successfully sent 'progress'
 2024-01-21 10:57:29,181 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-01-21 10:59:30,020 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:01:30,844 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:03:31,662 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:05:32,494 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:07:33,312 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:09:34,108 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:11:34,900 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:11:58,158 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-01-21 11:11:58,158 - ERROR - ping/pong timed out - goodbye
+2024-01-21 11:11:58,159 - INFO - Service websocket closed.
+2024-01-21 11:11:58,159 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-01-21 11:11:58,159 - INFO - Closing all open web stream sockets (0)
+2024-01-21 11:11:58,159 - INFO - Sleeping for 5 seconds before trying again.
+2024-01-21 11:12:03,164 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-21 11:12:03,165 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140506367573968
+2024-01-21 11:12:03,388 - INFO - Websocket connected
+2024-01-21 11:12:03,389 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-01-21 11:12:03,451 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-01-21 11:12:03,451 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-21 11:13:35,697 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:15:36,495 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:17:37,300 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:19:38,114 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:21:38,947 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:23:39,786 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:25:40,614 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:27:41,425 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:28:52,618 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 11:28:52,826 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-21 11:29:42,236 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
