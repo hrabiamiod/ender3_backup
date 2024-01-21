@@ -2728,3 +2728,55 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-18 16:54:42,481 - INFO - RepeatTimer thread exit
 2024-01-18 16:54:43,102 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
 2024-01-18 16:54:44,203 - INFO - NotificationsHandler successfully sent 'paused'
+2024-01-18 17:00:30,176 - INFO - Gadget HostLock cleared
+2024-01-18 17:00:30,177 - INFO - Gadget is now watching!
+2024-01-18 17:00:31,121 - INFO - NotificationsHandler successfully sent 'resume'
+2024-01-18 17:00:32,177 - INFO - First layer timer is done. Stopping.
+2024-01-18 17:00:32,177 - INFO - RepeatTimer thread exit
+2024-01-18 17:01:02,198 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-01-18 17:01:36,867 - INFO - Gadget has stopped watching!
+2024-01-18 17:01:36,867 - INFO - RepeatTimer thread exit
+2024-01-18 17:01:36,867 - INFO - RepeatTimer thread exit
+2024-01-18 17:01:37,928 - INFO - NotificationsHandler successfully sent 'paused'
+2024-01-18 17:02:51,311 - INFO - Gadget HostLock cleared
+2024-01-18 17:02:51,312 - INFO - Gadget is now watching!
+2024-01-18 17:02:52,182 - INFO - NotificationsHandler successfully sent 'resume'
+2024-01-18 17:02:53,312 - INFO - First layer timer is done. Stopping.
+2024-01-18 17:02:53,312 - INFO - RepeatTimer thread exit
+2024-01-18 17:03:23,838 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-01-18 17:04:16,801 - INFO - Gadget has stopped watching!
+2024-01-18 17:04:16,802 - INFO - RepeatTimer thread exit
+2024-01-18 17:04:16,802 - INFO - RepeatTimer thread exit
+2024-01-18 17:04:18,925 - INFO - NotificationsHandler successfully sent 'failed'
+2024-01-21 06:11:48,652 - INFO - ##################################
+2024-01-21 06:11:48,661 - INFO - #### OctoEverywhere Starting #####
+2024-01-21 06:11:48,662 - INFO - ##################################
+2024-01-21 06:11:48,665 - INFO - Plugin Version: 2.10.0
+2024-01-21 06:11:48,665 - INFO - Our existing update config file include was found in the moonraker config.
+2024-01-21 06:11:48,665 - INFO - Existing update config file found with the correct file contents.
+2024-01-21 06:11:48,818 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-01-21 06:11:48,820 - INFO - Setting up relay with frontend port 80
+2024-01-21 06:11:48,829 - INFO - OctoPingPong stats loaded from file.
+2024-01-21 06:11:48,832 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-01-21 06:11:48,832 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-21 06:11:48,833 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140506422763456
+2024-01-21 06:11:48,835 - INFO - Updating server latencies...
+2024-01-21 06:11:53,842 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 06:11:53,842 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-01-21 06:11:53,845 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-01-21 06:11:55,025 - INFO - Websocket connected
+2024-01-21 06:11:55,076 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-01-21 06:11:56,069 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-01-21 06:11:56,070 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-21 06:11:56,073 - INFO - Starting Moonraker connection client.
+2024-01-21 06:11:56,087 - INFO - Moonraker client starting websocket connection thread.
+2024-01-21 06:11:56,100 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-21 06:11:56,117 - INFO - Websocket connected
+2024-01-21 06:11:56,118 - INFO - Moonraker client websocket opened.
+2024-01-21 06:11:56,119 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 06:11:56,119 - INFO - Authenticating with moonraker...
+2024-01-21 06:11:56,437 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 06:11:56,438 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-21 06:11:56,438 - INFO - Moonraker client setting up default notification hooks
+2024-01-21 06:11:56,785 - INFO - Printer state at socket connect is: standby
+2024-01-21 06:11:56,785 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
