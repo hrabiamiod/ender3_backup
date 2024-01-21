@@ -2781,3 +2781,20 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-21 06:11:56,785 - INFO - Printer state at socket connect is: standby
 2024-01-21 06:11:56,785 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
 2024-01-21 06:12:05,404 - INFO - Ping Pong Stats: Default:[fra,30.041933059692383], Lowest:[fra,30.041933059692383] Use Low Latency Enabled: True
+2024-01-21 06:50:11,881 - INFO - FileMetadataCache updated for file [NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode]; est time: 28174.0, size: 5578, filament usage: 39476
+2024-01-21 06:50:11,881 - INFO - Gadget is now watching!
+2024-01-21 06:50:11,882 - INFO - New print started; PrintId: 4nIQoKR2x7LVORcQMJMUJurlVhoBI5uIF6rnbc3DPoPUz8P38BADdzVNDavS file:NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode size:5578 filament:39476
+2024-01-21 06:50:12,635 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 06:50:13,065 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-21 06:50:42,192 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:51:12,519 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:51:42,850 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:52:13,183 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:52:43,505 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:53:13,830 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:53:44,152 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 06:54:09,716 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 06:54:09,912 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-21 06:54:14,981 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 06:56:15,783 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 06:58:16,579 - INFO - Snapshot fallback failed due to the http call having a bad status: 502

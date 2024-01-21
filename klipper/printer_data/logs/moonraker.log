@@ -859,3 +859,17 @@ Diverged: False
 2024-01-21 06:24:42,968 [websockets.py:open()] - Websocket Opened: ID: 139893429945440, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-01-21 06:24:42,983 [websockets.py:_handle_identify()] - Websocket 139893429945440 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-01-21 06:24:50,659 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 10.000 [150.000]
+2024-01-21 06:31:23,823 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:33:13,357 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:35:47,837 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:39:31,941 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:41:25,476 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:48:02,106 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-01-21 06:50:07,921 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4Asjz3K36UUyCngP
+2024-01-21 06:50:08,579 [app.py:post()] - Processing Uploaded File: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
+2024-01-21 06:50:08,719 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-01-21 06:50:08,760 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-01-21 06:50:08,762 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 842.34ms
+2024-01-21 06:50:11,878 [job_state.py:_status_update()] - Job Started: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
