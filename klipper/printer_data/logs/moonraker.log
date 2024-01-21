@@ -1006,3 +1006,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCNMqEygH86ZLA3
 2024-01-21 16:54:01,305 [websockets.py:open()] - Websocket Opened: ID: 139893394055248, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-01-21 16:54:01,371 [websockets.py:_handle_identify()] - Websocket 139893394055248 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-01-21 17:56:53,639 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-21 22:07:41,098 [websockets.py:on_close()] - Websocket Closed: ID: 139893429959216 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.72
+2024-01-21 22:07:41,100 [websockets.py:on_close()] - Websocket Closed: ID: 139893394055248 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.79
+2024-01-21 22:07:41,331 [websockets.py:on_close()] - Websocket Closed: ID: 139893431154240 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.16
+2024-01-21 22:07:41,331 [websockets.py:on_close()] - Websocket Closed: ID: 139893419687840 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.20
