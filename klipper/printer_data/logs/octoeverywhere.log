@@ -2798,3 +2798,120 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-21 06:54:14,981 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-01-21 06:56:15,783 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-01-21 06:58:16,579 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:00:17,372 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:02:18,190 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:04:18,954 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:06:19,806 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:06:33,338 - INFO - Gadget has stopped watching!
+2024-01-21 07:06:33,339 - INFO - RepeatTimer thread exit
+2024-01-21 07:06:33,340 - INFO - RepeatTimer thread exit
+2024-01-21 07:06:33,340 - INFO - RepeatTimer thread exit
+2024-01-21 07:06:33,842 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:06:34,236 - INFO - NotificationsHandler successfully sent 'failed'
+2024-01-21 07:18:27,680 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-01-21 07:18:27,680 - INFO - Moonraker client websocket shutdown called.
+2024-01-21 07:18:27,681 - INFO - Moonraker client websocket shutdown complete.
+2024-01-21 07:18:27,681 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-01-21 07:18:27,682 - INFO - Moonraker websocket connection closed.
+2024-01-21 07:18:27,682 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-01-21 07:18:29,684 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-21 07:18:29,688 - INFO - Websocket connected
+2024-01-21 07:18:29,688 - INFO - Moonraker client websocket opened.
+2024-01-21 07:18:29,688 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:18:29,688 - INFO - Authenticating with moonraker...
+2024-01-21 07:18:29,695 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:18:29,696 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-01-21 07:18:31,698 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-21 07:18:31,698 - INFO - Moonraker client setting up default notification hooks
+2024-01-21 07:18:31,977 - INFO - Printer state at socket connect is: standby
+2024-01-21 07:18:31,977 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-01-21 07:18:57,539 - INFO - FileMetadataCache updated for file [NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode]; est time: 28174.0, size: 5578, filament usage: 39476
+2024-01-21 07:18:57,540 - INFO - Gadget is now watching!
+2024-01-21 07:18:57,540 - INFO - New print started; PrintId: 7R2IYxSIQvH4oNUs57Qi3d60xHFxfK7cDn9ZqVoKRakEsQvqEJgzarEkZlAX file:NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode size:5578 filament:39476
+2024-01-21 07:18:58,294 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:18:58,716 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-21 07:19:04,307 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-01-21 07:19:04,308 - INFO - Moonraker client websocket shutdown called.
+2024-01-21 07:19:04,309 - INFO - Moonraker client websocket shutdown complete.
+2024-01-21 07:19:04,311 - INFO - Moonraker websocket connection closed.
+2024-01-21 07:19:04,311 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-01-21 07:19:04,311 - INFO - Moonraker client timeout while waiting for request. <built-in function id> printer.objects.query
+2024-01-21 07:19:04,311 - ERROR - Moonraker client failed _GetCurrentPrintStats. 99990002 - Timeout waiting for RPC response.
+2024-01-21 07:19:04,311 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:04,313 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:04,313 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:04,313 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:04,313 - ERROR - GetCurrentLayerInfo failed to query toolhead objects: 99990001 - No active websocket connected.
+2024-01-21 07:19:04,313 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:04,313 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:04,315 - INFO - Gadget has stopped watching!
+2024-01-21 07:19:04,315 - INFO - RepeatTimer thread exit
+2024-01-21 07:19:04,316 - INFO - Moonraker client timeout while waiting for request. <built-in function id> printer.objects.query
+2024-01-21 07:19:04,319 - ERROR - Moonraker client failed _GetCurrentPrintStats. 99990002 - Timeout waiting for RPC response.
+2024-01-21 07:19:04,319 - WARNING - ShouldPrintingTimersBeRunning failed to get current state.
+2024-01-21 07:19:04,319 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:04,319 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:04,320 - ERROR - GetCurrentLayerInfo failed to query toolhead objects: 99990001 - No active websocket connected.
+2024-01-21 07:19:04,320 - INFO - RepeatTimer thread exit
+2024-01-21 07:19:04,316 - INFO - RepeatTimer thread exit
+2024-01-21 07:19:04,319 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:19:04,705 - INFO - NotificationsHandler successfully sent 'paused'
+2024-01-21 07:19:06,314 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-21 07:19:06,316 - INFO - Websocket connected
+2024-01-21 07:19:06,316 - INFO - Moonraker client websocket opened.
+2024-01-21 07:19:06,317 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:19:06,317 - INFO - Authenticating with moonraker...
+2024-01-21 07:19:06,324 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:19:06,324 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-01-21 07:19:08,844 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-01-21 07:19:08,844 - INFO - Moonraker client websocket shutdown called.
+2024-01-21 07:19:08,845 - INFO - Moonraker client websocket shutdown complete.
+2024-01-21 07:19:08,846 - INFO - Moonraker websocket connection closed.
+2024-01-21 07:19:08,846 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-01-21 07:19:09,313 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:09,314 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:09,314 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:09,314 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:09,314 - ERROR - GetCurrentLayerInfo failed to query toolhead objects: 99990001 - No active websocket connected.
+2024-01-21 07:19:09,314 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:09,315 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-01-21 07:19:09,318 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:19:09,547 - INFO - NotificationsHandler successfully sent 'error'
+2024-01-21 07:19:10,328 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-01-21 07:19:10,328 - INFO - Moonraker client failed to send JsonRPC request server.info
+2024-01-21 07:19:10,328 - ERROR - Moonraker client failed to send klippy ready query message. 99990001 - No active websocket connected.
+2024-01-21 07:19:10,333 - ERROR - Moonraker client exception in klippy waiting logic.; Exception Exception: Error returned from klippy state query. 99990001 - No active websocket connected.; Traceback (most recent call last):
+  File "/home/turbo/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 557, in _AfterOpenReadyWaiter
+    raise Exception("Error returned from klippy state query. "+ str(result.GetLoggingErrorStr()))
+Exception: Error returned from klippy state query. 99990001 - No active websocket connected.
+
+2024-01-21 07:19:10,333 - INFO - Moonraker client websocket shutdown called.
+2024-01-21 07:19:10,333 - INFO - Moonraker client websocket shutdown complete.
+2024-01-21 07:19:10,849 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-21 07:19:10,854 - INFO - Websocket connected
+2024-01-21 07:19:10,854 - INFO - Moonraker client websocket opened.
+2024-01-21 07:19:10,854 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:19:10,854 - INFO - Authenticating with moonraker...
+2024-01-21 07:19:10,863 - INFO - Moonraker client waiting for klippy ready...
+2024-01-21 07:19:10,865 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-01-21 07:19:14,871 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-21 07:19:14,871 - INFO - Moonraker client setting up default notification hooks
+2024-01-21 07:19:15,228 - INFO - Printer state at socket connect is: standby
+2024-01-21 07:19:15,228 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-01-21 07:20:01,332 - INFO - FileMetadataCache updated for file [NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode]; est time: 28174.0, size: 5578, filament usage: 39476
+2024-01-21 07:20:01,333 - INFO - Gadget is now watching!
+2024-01-21 07:20:01,334 - INFO - New print started; PrintId: 9eMoZRGAfd3w6eZYOuHm23jGuIS1gxSCVf6DoRxGQ0EvFGPr7QJXZLvbQMdL file:NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode size:5578 filament:39476
+2024-01-21 07:20:02,086 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:20:02,468 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-21 07:20:31,664 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:21:01,989 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:21:32,315 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:22:02,634 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:22:32,955 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:23:03,272 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-21 07:23:18,808 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:23:19,001 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-21 07:23:34,099 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:25:34,907 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:27:35,719 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-01-21 07:29:36,553 - INFO - Snapshot fallback failed due to the http call having a bad status: 502

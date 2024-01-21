@@ -873,3 +873,89 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4Asjz3K36UUyCn
 2024-01-21 06:50:08,760 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-01-21 06:50:08,762 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 842.34ms
 2024-01-21 06:50:11,878 [job_state.py:_status_update()] - Job Started: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
+2024-01-21 07:16:53,534 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-01-21 07:18:27,678 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-21 07:18:27,681 [websockets.py:on_close()] - Websocket Closed: ID: 139893420171200 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.57
+2024-01-21 07:18:28,934 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-21 07:18:28,958 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'sysinit.target', 'system.slice']
+**After=['network-online.target', 'basic.target', 'system.slice', 'systemd-journald.socket', '-.mount', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-01-21 07:18:29,686 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-01-21 07:18:29,687 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.25ms
+2024-01-21 07:18:29,687 [websockets.py:open()] - Websocket Opened: ID: 139893393929024, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-21 07:18:29,689 [websockets.py:_handle_identify()] - Websocket 139893393929024 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-21 07:18:31,224 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-21 07:18:31,225 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-21 07:18:31,475 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-21 07:18:31,730 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-21 07:18:32,230 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-21 07:18:57,536 [job_state.py:_status_update()] - Job Started: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
+2024-01-21 07:19:04,297 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-01-21 07:19:04,305 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-01-21 07:19:04,309 [websockets.py:on_close()] - Websocket Closed: ID: 139893393929024 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.62
+2024-01-21 07:19:04,310 [websockets.py:write_to_socket()] - Websocket closed while writing: 139893393929024
+2024-01-21 07:19:04,311 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1705817915.232065, Usage: 1.63%, Memory: 48056 kB
+System Time: 1705817916.233662, Usage: 0.67%, Memory: 48056 kB
+System Time: 1705817917.234080, Usage: 1.03%, Memory: 48056 kB
+System Time: 1705817918.234476, Usage: 0.64%, Memory: 48056 kB
+System Time: 1705817919.236680, Usage: 0.48%, Memory: 48056 kB
+System Time: 1705817920.237806, Usage: 0.55%, Memory: 48056 kB
+System Time: 1705817921.239671, Usage: 0.49%, Memory: 48056 kB
+System Time: 1705817922.241338, Usage: 0.55%, Memory: 48056 kB
+System Time: 1705817923.242796, Usage: 0.54%, Memory: 48056 kB
+System Time: 1705817924.244773, Usage: 0.51%, Memory: 48056 kB
+System Time: 1705817925.246939, Usage: 0.5%, Memory: 48056 kB
+System Time: 1705817926.248343, Usage: 0.56%, Memory: 48056 kB
+System Time: 1705817927.253352, Usage: 1.62%, Memory: 48056 kB
+System Time: 1705817928.250910, Usage: 1.17%, Memory: 48056 kB
+System Time: 1705817929.252064, Usage: 0.49%, Memory: 48056 kB
+System Time: 1705817930.253270, Usage: 0.6%, Memory: 48056 kB
+System Time: 1705817931.253941, Usage: 0.49%, Memory: 48056 kB
+System Time: 1705817932.254826, Usage: 0.57%, Memory: 48056 kB
+System Time: 1705817933.255467, Usage: 0.54%, Memory: 48056 kB
+System Time: 1705817934.256779, Usage: 0.5%, Memory: 48056 kB
+System Time: 1705817935.257906, Usage: 0.49%, Memory: 48056 kB
+System Time: 1705817936.258955, Usage: 0.56%, Memory: 48056 kB
+System Time: 1705817937.259461, Usage: 0.49%, Memory: 48056 kB
+System Time: 1705817938.261450, Usage: 3.22%, Memory: 48056 kB
+System Time: 1705817939.262503, Usage: 0.82%, Memory: 48056 kB
+System Time: 1705817940.262349, Usage: 1.32%, Memory: 48056 kB
+System Time: 1705817941.262640, Usage: 0.56%, Memory: 48056 kB
+System Time: 1705817942.263236, Usage: 0.71%, Memory: 48056 kB
+System Time: 1705817943.263632, Usage: 0.62%, Memory: 48056 kB
+System Time: 1705817944.264292, Usage: 0.7%, Memory: 48056 kB
+CPU Temperature: None
+2024-01-21 07:19:06,315 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2024-01-21 07:19:06,316 [websockets.py:open()] - Websocket Opened: ID: 139893393756640, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-21 07:19:06,318 [websockets.py:_handle_identify()] - Websocket 139893393756640 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-21 07:19:08,843 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-01-21 07:19:08,845 [websockets.py:on_close()] - Websocket Closed: ID: 139893393756640 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.53
+2024-01-21 07:19:10,100 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-01-21 07:19:10,852 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.95ms
+2024-01-21 07:19:10,852 [websockets.py:open()] - Websocket Opened: ID: 139893393648048, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-01-21 07:19:10,855 [websockets.py:_handle_identify()] - Websocket 139893393648048 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-01-21 07:19:12,720 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-01-21 07:19:12,721 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-01-21 07:19:12,971 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-01-21 07:19:13,229 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-01-21 07:19:13,975 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-01-21 07:20:01,328 [job_state.py:_status_update()] - Job Started: NewVersion_ChipTray_7h50m_0,28mm_205C_PLA_ENDER3.gcode
