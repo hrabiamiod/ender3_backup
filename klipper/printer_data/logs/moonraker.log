@@ -743,3 +743,4 @@ Properties:
 2024-01-26 16:58:42,592 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.56ms
 2024-01-26 16:58:42,592 [websockets.py:open()] - Websocket Opened: ID: 140488531001792, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-01-26 16:58:42,774 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-01-26 18:03:34,053 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
