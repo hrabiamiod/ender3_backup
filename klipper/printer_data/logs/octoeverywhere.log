@@ -3571,3 +3571,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-26 16:58:33,992 - INFO - Printer state at socket connect is: standby
 2024-01-26 16:58:33,992 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
 2024-01-26 16:58:37,549 - INFO - Ping Pong Stats: Default:[fra,30.43076992034912], Lowest:[fra,30.43076992034912] Use Low Latency Enabled: True
+2024-01-26 21:58:32,318 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-01-26 21:58:32,319 - ERROR - ping/pong timed out - goodbye
+2024-01-26 21:58:32,319 - INFO - Service websocket closed.
+2024-01-26 21:58:32,319 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-01-26 21:58:32,319 - INFO - Closing all open web stream sockets (0)
+2024-01-26 21:58:32,319 - INFO - Sleeping for 11 seconds before trying again.
+2024-01-26 21:58:43,329 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-26 21:58:43,330 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140163109303920
+2024-01-26 21:58:43,597 - INFO - Websocket connected
+2024-01-26 21:58:43,599 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-01-26 21:58:43,663 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-01-26 21:58:43,663 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
