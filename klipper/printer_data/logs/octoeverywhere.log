@@ -3723,3 +3723,20 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-28 14:32:53,543 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[15]. Starting handshake...
 2024-01-28 14:32:53,602 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[15], successfully connected to OctoEverywhere!
 2024-01-28 14:32:53,602 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-28 15:58:32,009 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[15] IS past it's RunFor time 1 day, 23:00:05.786209 and IS past it's time since last user activity 1:25:38.407569
+2024-01-28 15:58:32,010 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[15] RunFor is complete and will be disconnected.
+2024-01-28 15:58:32,010 - INFO - Closing all open web stream sockets (0)
+2024-01-28 15:58:32,010 - INFO - OctoServerCon websocket close start. IsPrimary?:True; wsId:140163109736928
+2024-01-28 15:58:32,557 - INFO - OctoServerCon disconnect complete.
+2024-01-28 15:58:32,557 - INFO - Service websocket closed.
+2024-01-28 15:58:32,558 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[15]
+2024-01-28 15:58:32,558 - INFO - Closing all open web stream sockets (0)
+2024-01-28 15:58:32,559 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[15] IS past it's RunFor time 1 day, 23:00:06.335633 and IS past it's time since last user activity 1:25:38.956983
+2024-01-28 15:58:32,559 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[15] RunFor is complete, disconnected, and exiting the main thread.
+2024-01-28 15:58:32,559 - INFO - RepeatTimer thread exit
+2024-01-28 15:58:32,560 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-28 15:58:32,560 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140163109231136
+2024-01-28 15:58:32,805 - INFO - Websocket connected
+2024-01-28 15:58:32,805 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-01-28 15:58:32,869 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-01-28 15:58:32,869 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
