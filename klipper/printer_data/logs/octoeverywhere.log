@@ -4222,3 +4222,61 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 15:58:51,406 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-01-29 15:59:21,722 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-01-29 15:59:52,067 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:00:22,403 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:00:52,733 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:01:12,743 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 16:01:27,081 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 16:02:57,730 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:04:00,229 - INFO - Gadget has stopped watching!
+2024-01-29 16:04:00,229 - INFO - RepeatTimer thread exit
+2024-01-29 16:04:00,230 - INFO - RepeatTimer thread exit
+2024-01-29 16:04:00,230 - INFO - RepeatTimer thread exit
+2024-01-29 16:04:01,833 - INFO - NotificationsHandler successfully sent 'paused'
+2024-01-29 16:04:11,258 - INFO - Gadget HostLock cleared
+2024-01-29 16:04:11,259 - INFO - Gadget is now watching!
+2024-01-29 16:04:12,110 - INFO - NotificationsHandler successfully sent 'resume'
+2024-01-29 16:04:42,947 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 16:05:36,384 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:06:59,968 - INFO - First layer timer is done. Stopping.
+2024-01-29 16:06:59,968 - INFO - RepeatTimer thread exit
+2024-01-29 16:07:00,840 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 16:07:30,338 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:09:18,510 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:11:33,384 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:13:35,832 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:14:58,341 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:16:40,540 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:18:19,139 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 16:19:10,106 - INFO - Starting FinalSnap
+2024-01-29 16:20:37,331 - INFO - Gadget has stopped watching!
+2024-01-29 16:20:37,332 - INFO - RepeatTimer thread exit
+2024-01-29 16:20:37,332 - INFO - RepeatTimer thread exit
+2024-01-29 16:20:37,833 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-01-29 16:20:37,833 - INFO - RepeatTimer thread exit
+2024-01-29 16:20:38,448 - INFO - NotificationsHandler successfully sent 'done'
+2024-01-29 16:22:27,117 - INFO - Gadget HostLock cleared
+2024-01-29 16:22:27,118 - INFO - Gadget is now watching!
+2024-01-29 16:22:27,121 - INFO - FileMetadataCache updated for file [ZELKA_38m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 2280.0, size: 1481, filament usage: 1530
+2024-01-29 16:22:27,121 - INFO - Gadget has stopped watching!
+2024-01-29 16:22:27,122 - INFO - RepeatTimer thread exit
+2024-01-29 16:22:27,122 - INFO - RepeatTimer thread exit
+2024-01-29 16:22:27,122 - INFO - Gadget is now watching!
+2024-01-29 16:22:27,123 - INFO - New print started; PrintId: Jp1VV9CJBlwWP3sGYYjn6IC1jSyIxWxEfxdExJh1jwhOG7OVgnPdFYQWIqFd file:ZELKA_38m_0,20mm_205C_PLA_ENDER3.gcode size:1481 filament:1530
+2024-01-29 16:22:27,123 - INFO - RepeatTimer thread exit
+2024-01-29 16:22:28,349 - INFO - NotificationsHandler successfully sent 'resume'
+2024-01-29 16:22:28,493 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-29 16:22:57,437 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:23:27,764 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:23:58,088 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:24:28,409 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:24:58,728 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:25:29,047 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 16:25:42,429 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 16:25:48,341 - INFO - First layer timer is done. Stopping.
+2024-01-29 16:25:48,342 - INFO - RepeatTimer thread exit
+2024-01-29 16:25:49,205 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 16:26:00,898 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 16:28:45,301 - INFO - Gadget has stopped watching!
+2024-01-29 16:28:45,301 - INFO - RepeatTimer thread exit
+2024-01-29 16:28:45,301 - INFO - RepeatTimer thread exit
+2024-01-29 16:28:47,868 - INFO - NotificationsHandler successfully sent 'failed'
