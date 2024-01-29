@@ -3929,3 +3929,57 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 11:57:26,906 - INFO - Moonraker client setting up default notification hooks
 2024-01-29 11:57:27,301 - INFO - Printer state at socket connect is: standby
 2024-01-29 11:57:27,302 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-01-29 13:36:39,707 - INFO - FileMetadataCache updated for file [ORIS.gcode]; est time: 1159.0, size: 818, filament usage: 721
+2024-01-29 13:36:39,707 - INFO - Gadget is now watching!
+2024-01-29 13:36:39,708 - INFO - New print started; PrintId: Gx3QV2tKazzYI2xB60L6xYWFlGfNVNd0SI2d0aPjshv8hPulFkQpDf7yfzaz file:ORIS.gcode size:818 filament:721
+2024-01-29 13:36:41,067 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-29 13:37:10,024 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:37:40,345 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:38:10,670 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:38:40,993 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:39:11,323 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:39:41,651 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:40:11,974 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:40:42,300 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:41:13,956 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 13:41:14,336 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 13:41:20,147 - INFO - First layer timer is done. Stopping.
+2024-01-29 13:41:20,147 - INFO - RepeatTimer thread exit
+2024-01-29 13:41:21,823 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 13:44:12,498 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 13:46:04,934 - INFO - Gadget has stopped watching!
+2024-01-29 13:46:04,934 - INFO - RepeatTimer thread exit
+2024-01-29 13:46:04,935 - INFO - RepeatTimer thread exit
+2024-01-29 13:46:07,855 - INFO - NotificationsHandler successfully sent 'failed'
+2024-01-29 13:55:58,582 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-01-29 13:55:58,582 - INFO - Moonraker client websocket shutdown called.
+2024-01-29 13:55:58,585 - INFO - Moonraker client websocket shutdown complete.
+2024-01-29 13:55:58,585 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-01-29 13:55:58,585 - INFO - Moonraker websocket connection closed.
+2024-01-29 13:55:58,585 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-01-29 13:56:00,588 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-01-29 13:56:00,592 - INFO - Websocket connected
+2024-01-29 13:56:00,592 - INFO - Moonraker client websocket opened.
+2024-01-29 13:56:00,592 - INFO - Moonraker client waiting for klippy ready...
+2024-01-29 13:56:00,593 - INFO - Authenticating with moonraker...
+2024-01-29 13:56:00,603 - INFO - Moonraker client waiting for klippy ready...
+2024-01-29 13:56:00,604 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-01-29 13:56:04,609 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-01-29 13:56:04,609 - INFO - Moonraker client setting up default notification hooks
+2024-01-29 13:56:04,907 - INFO - Printer state at socket connect is: standby
+2024-01-29 13:56:04,907 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-01-29 13:56:12,936 - INFO - FileMetadataCache updated for file [ORIS.gcode]; est time: 1159.0, size: 818, filament usage: 721
+2024-01-29 13:56:12,936 - INFO - Gadget HostLock cleared
+2024-01-29 13:56:12,936 - INFO - Gadget is now watching!
+2024-01-29 13:56:12,938 - INFO - New print started; PrintId: LBjHnsVbdbgnfVyASoXzA5FE71Vouxaig78UfcK5heyB9hrjwxoOAm6UQ2LY file:ORIS.gcode size:818 filament:721
+2024-01-29 13:56:14,310 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-29 13:56:43,260 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:57:13,596 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:57:43,925 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:58:14,253 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:58:44,587 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 13:59:10,558 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 13:59:16,372 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-01-29 13:59:18,682 - INFO - First layer timer is done. Stopping.
+2024-01-29 13:59:18,683 - INFO - RepeatTimer thread exit
+2024-01-29 13:59:19,586 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
