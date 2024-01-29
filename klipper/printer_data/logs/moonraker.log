@@ -1789,3 +1789,7 @@ Properties:
 2024-01-29 11:57:27,006 [websockets.py:open()] - Websocket Opened: ID: 140402892144944, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-01-29 11:57:27,300 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-29 11:57:27,551 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-01-29 12:07:56,860 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.73ms
+2024-01-29 12:07:56,861 [websockets.py:open()] - Websocket Opened: ID: 140402891649808, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-29 12:07:56,871 [websockets.py:_handle_identify()] - Websocket 140402891649808 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-29 12:21:29,343 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
