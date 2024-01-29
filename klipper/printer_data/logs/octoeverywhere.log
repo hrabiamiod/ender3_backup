@@ -3786,3 +3786,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 04:32:22,683 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]. Starting handshake...
 2024-01-29 04:32:22,746 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[5], successfully connected to OctoEverywhere!
 2024-01-29 04:32:22,746 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-29 09:32:22,680 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-01-29 09:32:22,680 - ERROR - ping/pong timed out - goodbye
+2024-01-29 09:32:22,681 - INFO - Service websocket closed.
+2024-01-29 09:32:22,681 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]
+2024-01-29 09:32:22,681 - INFO - Closing all open web stream sockets (0)
+2024-01-29 09:32:22,682 - INFO - Sleeping for 6 seconds before trying again.
+2024-01-29 09:32:28,688 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-29 09:32:28,688 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6] wsId:140163109741680
+2024-01-29 09:32:28,907 - INFO - Websocket connected
+2024-01-29 09:32:28,907 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6]. Starting handshake...
+2024-01-29 09:32:28,969 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[6], successfully connected to OctoEverywhere!
+2024-01-29 09:32:28,970 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
