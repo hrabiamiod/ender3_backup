@@ -5730,3 +5730,12 @@ Index |  Tool Adjusted  |   Probe
   24  | (245.0, 229.0)  | (202.5, 220.0)
 Starting heater checks for heater_bed
 Starting heater checks for extruder
+webhooks client 139676066338880: New connection
+webhooks client 139676066338880: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks: registering remote method 'shutdown_machine' for connection id: 139676066338880
+webhooks: registering remote method 'reboot_machine' for connection id: 139676066338880
+webhooks: registering remote method 'pause_job_queue' for connection id: 139676066338880
+webhooks: registering remote method 'start_job_queue' for connection id: 139676066338880
+webhooks: registering remote method 'timelapse_newframe' for connection id: 139676066338880
+webhooks: registering remote method 'timelapse_saveFrames' for connection id: 139676066338880
+webhooks: registering remote method 'timelapse_render' for connection id: 139676066338880
