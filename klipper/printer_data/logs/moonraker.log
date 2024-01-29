@@ -1847,3 +1847,16 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBO58dnOANzwc7k
 2024-01-29 13:56:02,909 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-01-29 13:56:04,156 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-01-29 13:56:12,930 [job_state.py:_status_update()] - Job Started: ORIS.gcode
+2024-01-29 14:06:56,431 [websockets.py:on_close()] - Websocket Closed: ID: 140402893688304 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.53
+2024-01-29 14:06:56,434 [websockets.py:on_close()] - Websocket Closed: ID: 140402893699344 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.24
+2024-01-29 14:06:56,946 [app.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.75ms
+2024-01-29 14:06:56,946 [websockets.py:open()] - Websocket Opened: ID: 140402893699200, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-29 14:06:56,963 [websockets.py:_handle_identify()] - Websocket 140402893699200 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-29 14:06:57,463 [app.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.73ms
+2024-01-29 14:06:57,463 [websockets.py:open()] - Websocket Opened: ID: 140402893690224, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-29 14:06:57,468 [websockets.py:_handle_identify()] - Websocket 140402893690224 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-01-29 14:07:47,492 [websockets.py:write_to_socket()] - Websocket closed while writing: 140402893690224
+2024-01-29 14:07:47,570 [websockets.py:write_to_socket()] - Websocket closed while writing: 140402893699200
+2024-01-29 14:07:51,949 [websockets.py:on_close()] - Websocket Closed: ID: 140402893699200 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
+2024-01-29 14:07:52,466 [websockets.py:on_close()] - Websocket Closed: ID: 140402893690224 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
+2024-01-29 14:29:48,978 [job_state.py:_status_update()] - Job Started: ORIS.gcode

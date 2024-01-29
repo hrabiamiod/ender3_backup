@@ -3983,3 +3983,24 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 13:59:18,682 - INFO - First layer timer is done. Stopping.
 2024-01-29 13:59:18,683 - INFO - RepeatTimer thread exit
 2024-01-29 13:59:19,586 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 14:02:09,040 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:04:29,843 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:06:38,736 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:08:52,569 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:11:19,758 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:13:43,495 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:15:26,924 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:17:20,981 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:19:04,259 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:20:10,658 - INFO - Starting FinalSnap
+2024-01-29 14:21:36,912 - INFO - Gadget has stopped watching!
+2024-01-29 14:21:36,912 - INFO - RepeatTimer thread exit
+2024-01-29 14:21:36,912 - INFO - RepeatTimer thread exit
+2024-01-29 14:21:37,414 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-01-29 14:21:37,414 - INFO - RepeatTimer thread exit
+2024-01-29 14:21:38,529 - INFO - NotificationsHandler successfully sent 'done'
+2024-01-29 14:29:48,981 - INFO - FileMetadataCache updated for file [ORIS.gcode]; est time: 1159.0, size: 818, filament usage: 721
+2024-01-29 14:29:48,982 - INFO - Gadget HostLock cleared
+2024-01-29 14:29:48,982 - INFO - Gadget is now watching!
+2024-01-29 14:29:48,983 - INFO - New print started; PrintId: STqA10EtFmS0qN29yekRAzhhc4mGiqEJLrckQpC8l79BBqFdOyVcqEysS04W file:ORIS.gcode size:818 filament:721
+2024-01-29 14:29:50,319 - INFO - NotificationsHandler successfully sent 'started'
