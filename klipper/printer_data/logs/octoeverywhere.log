@@ -3766,3 +3766,23 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 01:58:51,282 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]. Starting handshake...
 2024-01-29 01:58:51,343 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
 2024-01-29 01:58:51,343 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-01-29 04:31:26,226 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-01-29 04:31:26,226 - ERROR - Connection to remote host was lost. - goodbye
+2024-01-29 04:31:26,226 - INFO - Service websocket closed.
+2024-01-29 04:31:26,227 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]
+2024-01-29 04:31:26,228 - INFO - Closing all open web stream sockets (0)
+2024-01-29 04:31:26,228 - INFO - Sleeping for 9 seconds before trying again.
+2024-01-29 04:31:35,237 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-01-29 04:31:35,237 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4] wsId:140163109743792
+2024-01-29 04:31:53,310 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-01-29 04:31:53,310 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-01-29 04:31:53,310 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-01-29 04:31:53,310 - INFO - Service websocket closed.
+2024-01-29 04:31:53,310 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4]
+2024-01-29 04:31:53,311 - INFO - Closing all open web stream sockets (0)
+2024-01-29 04:31:53,311 - INFO - Sleeping for 26 seconds before trying again.
+2024-01-29 04:32:19,337 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5] wsId:140163109748400
+2024-01-29 04:32:22,682 - INFO - Websocket connected
+2024-01-29 04:32:22,683 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]. Starting handshake...
+2024-01-29 04:32:22,746 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[5], successfully connected to OctoEverywhere!
+2024-01-29 04:32:22,746 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
