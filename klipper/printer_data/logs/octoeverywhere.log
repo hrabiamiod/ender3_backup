@@ -4004,3 +4004,29 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 14:29:48,982 - INFO - Gadget is now watching!
 2024-01-29 14:29:48,983 - INFO - New print started; PrintId: STqA10EtFmS0qN29yekRAzhhc4mGiqEJLrckQpC8l79BBqFdOyVcqEysS04W file:ORIS.gcode size:818 filament:721
 2024-01-29 14:29:50,319 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-29 14:30:19,324 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 14:30:49,661 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 14:31:19,988 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 14:31:50,322 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 14:32:20,648 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 14:32:30,599 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 14:32:40,951 - INFO - First layer timer is done. Stopping.
+2024-01-29 14:32:40,951 - INFO - RepeatTimer thread exit
+2024-01-29 14:32:41,839 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 14:32:52,343 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 14:35:42,085 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:38:04,895 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:40:16,235 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:42:25,590 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:44:51,262 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:47:15,119 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:48:58,388 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:50:57,335 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:52:38,715 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 14:53:40,951 - INFO - Starting FinalSnap
+2024-01-29 14:55:10,694 - INFO - Gadget has stopped watching!
+2024-01-29 14:55:10,695 - INFO - RepeatTimer thread exit
+2024-01-29 14:55:10,696 - INFO - RepeatTimer thread exit
+2024-01-29 14:55:11,196 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-01-29 14:55:11,197 - INFO - RepeatTimer thread exit
+2024-01-29 14:55:13,380 - INFO - NotificationsHandler successfully sent 'done'
