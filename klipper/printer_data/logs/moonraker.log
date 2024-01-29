@@ -1795,3 +1795,12 @@ Properties:
 2024-01-29 12:21:29,343 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-01-29 12:40:00,695 [websockets.py:on_close()] - Websocket Closed: ID: 140402891649808 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.81
 2024-01-29 12:40:00,696 [websockets.py:on_close()] - Websocket Closed: ID: 140402893286336 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.55
+2024-01-29 13:02:21,326 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-01-29 13:12:21,329 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-01-29 13:28:04,272 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-01-29 13:28:04,273 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 1.92ms
+2024-01-29 13:28:04,273 [websockets.py:open()] - Websocket Opened: ID: 140402890790112, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-29 13:28:04,401 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.76ms
+2024-01-29 13:28:04,401 [websockets.py:open()] - Websocket Opened: ID: 140402890789824, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-01-29 13:28:05,566 [websockets.py:_handle_identify()] - Websocket 140402890790112 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-01-29 13:28:05,948 [websockets.py:_handle_identify()] - Websocket 140402890789824 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
