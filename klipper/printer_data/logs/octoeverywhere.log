@@ -4465,3 +4465,26 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-01-29 21:19:32,109 - INFO - NotificationsHandler successfully sent 'progress'
 2024-01-29 21:22:52,662 - INFO - NotificationsHandler successfully sent 'progress'
 2024-01-29 21:29:11,295 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 21:35:13,507 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 21:39:55,648 - INFO - Starting FinalSnap
+2024-01-29 21:42:10,049 - INFO - Gadget has stopped watching!
+2024-01-29 21:42:10,050 - INFO - RepeatTimer thread exit
+2024-01-29 21:42:10,050 - INFO - RepeatTimer thread exit
+2024-01-29 21:42:10,551 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-01-29 21:42:10,551 - INFO - RepeatTimer thread exit
+2024-01-29 21:42:11,664 - INFO - NotificationsHandler successfully sent 'done'
+2024-01-29 21:49:46,870 - INFO - FileMetadataCache updated for file [ZUZIA_33m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 1976.0, size: 1081, filament usage: 1454
+2024-01-29 21:49:46,871 - INFO - Gadget HostLock cleared
+2024-01-29 21:49:46,871 - INFO - Gadget is now watching!
+2024-01-29 21:49:46,872 - INFO - New print started; PrintId: 5GyLGBGjVWJdBDU2bh4rsD9FZtGjDhrAXWFKwhnw04OwHKjj52wiHMtv1PKq file:ZUZIA_33m_0,20mm_205C_PLA_ENDER3.gcode size:1081 filament:1454
+2024-01-29 21:49:48,222 - INFO - NotificationsHandler successfully sent 'started'
+2024-01-29 21:50:17,199 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 21:50:47,533 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 21:51:17,865 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-01-29 21:51:42,069 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-01-29 21:51:47,942 - INFO - First layer timer is done. Stopping.
+2024-01-29 21:51:47,942 - INFO - RepeatTimer thread exit
+2024-01-29 21:51:48,806 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-01-29 21:51:49,630 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-01-29 21:55:57,023 - INFO - NotificationsHandler successfully sent 'progress'
+2024-01-29 21:58:37,996 - INFO - NotificationsHandler successfully sent 'progress'
