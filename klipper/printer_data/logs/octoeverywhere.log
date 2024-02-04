@@ -5016,3 +5016,208 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-04 22:37:09,903 - INFO - Service websocket closed.
 2024-02-04 22:37:09,903 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
 2024-02-04 22:37:09,903 - INFO - Sleeping for 12 seconds before trying again.
+2024-02-04 22:37:11,792 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-04 22:37:11,792 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-02-04 22:37:11,792 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-02-04 22:37:21,915 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997643008
+2024-02-04 22:37:21,917 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:37:21,917 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:37:21,917 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:37:21,917 - INFO - Service websocket closed.
+2024-02-04 22:37:21,917 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:37:21,918 - INFO - Sleeping for 30 seconds before trying again.
+2024-02-04 22:37:51,947 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997642048
+2024-02-04 22:37:51,948 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:37:51,948 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:37:51,948 - INFO - Service websocket closed.
+2024-02-04 22:37:51,948 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:37:51,949 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:37:51,949 - INFO - Sleeping for 62 seconds before trying again.
+2024-02-04 22:38:54,000 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5] wsId:140611997639216
+2024-02-04 22:38:54,002 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:38:54,002 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:38:54,002 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:38:54,002 - INFO - Service websocket closed.
+2024-02-04 22:38:54,002 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]
+2024-02-04 22:38:54,003 - INFO - Sleeping for 126 seconds before trying again.
+2024-02-04 22:41:00,095 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:41:00,096 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997636816
+2024-02-04 22:41:00,097 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:41:00,097 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:41:00,097 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:41:00,097 - INFO - Service websocket closed.
+2024-02-04 22:41:00,098 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:41:00,098 - INFO - Sleeping for 9 seconds before trying again.
+2024-02-04 22:41:09,107 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997646512
+2024-02-04 22:41:09,109 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:41:09,109 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:41:09,109 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:41:09,109 - INFO - Service websocket closed.
+2024-02-04 22:41:09,109 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:41:09,109 - INFO - Sleeping for 24 seconds before trying again.
+2024-02-04 22:41:33,129 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997827904
+2024-02-04 22:41:33,131 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:41:33,131 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:41:33,131 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:41:33,131 - INFO - Service websocket closed.
+2024-02-04 22:41:33,131 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:41:33,132 - INFO - Sleeping for 57 seconds before trying again.
+2024-02-04 22:42:30,187 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997830352
+2024-02-04 22:42:30,188 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:42:30,188 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:42:30,188 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:42:30,189 - INFO - Service websocket closed.
+2024-02-04 22:42:30,189 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:42:30,189 - INFO - Sleeping for 122 seconds before trying again.
+2024-02-04 22:44:32,281 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:44:32,281 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997832224
+2024-02-04 22:44:32,282 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:44:32,282 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:44:32,282 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:44:32,283 - INFO - Service websocket closed.
+2024-02-04 22:44:32,283 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:44:32,283 - INFO - Sleeping for 6 seconds before trying again.
+2024-02-04 22:44:38,288 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997834048
+2024-02-04 22:44:38,289 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:44:38,289 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:44:38,290 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:44:38,290 - INFO - Service websocket closed.
+2024-02-04 22:44:38,290 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:44:38,290 - INFO - Sleeping for 16 seconds before trying again.
+2024-02-04 22:44:54,305 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997835824
+2024-02-04 22:44:54,308 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:44:54,308 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:44:54,308 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:44:54,308 - INFO - Service websocket closed.
+2024-02-04 22:44:54,308 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:44:54,308 - INFO - Sleeping for 34 seconds before trying again.
+2024-02-04 22:45:28,341 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997838512
+2024-02-04 22:45:28,343 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:45:28,343 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:45:28,343 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:45:28,343 - INFO - Service websocket closed.
+2024-02-04 22:45:28,344 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:45:28,344 - INFO - Sleeping for 73 seconds before trying again.
+2024-02-04 22:46:41,367 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5] wsId:140611997645696
+2024-02-04 22:46:41,369 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:46:41,369 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:46:41,369 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:46:41,369 - INFO - Service websocket closed.
+2024-02-04 22:46:41,370 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]
+2024-02-04 22:46:41,370 - INFO - Sleeping for 151 seconds before trying again.
+2024-02-04 22:49:12,470 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:49:12,470 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997639168
+2024-02-04 22:49:12,471 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:49:12,471 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:49:12,471 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:49:12,472 - INFO - Service websocket closed.
+2024-02-04 22:49:12,472 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:49:12,472 - INFO - Sleeping for 7 seconds before trying again.
+2024-02-04 22:49:19,477 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997640752
+2024-02-04 22:49:19,479 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:49:19,479 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:49:19,479 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:49:19,479 - INFO - Service websocket closed.
+2024-02-04 22:49:19,479 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:49:19,480 - INFO - Sleeping for 22 seconds before trying again.
+2024-02-04 22:49:41,502 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997836016
+2024-02-04 22:49:41,504 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:49:41,504 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:49:41,504 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:49:41,504 - INFO - Service websocket closed.
+2024-02-04 22:49:41,504 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:49:41,504 - INFO - Sleeping for 54 seconds before trying again.
+2024-02-04 22:50:35,558 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997835248
+2024-02-04 22:50:35,560 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:50:35,560 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:50:35,560 - INFO - Service websocket closed.
+2024-02-04 22:50:35,560 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:50:35,560 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:50:35,560 - INFO - Sleeping for 112 seconds before trying again.
+2024-02-04 22:52:27,658 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:52:27,658 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997832320
+2024-02-04 22:52:27,659 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:52:27,660 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:52:27,660 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:52:27,660 - INFO - Service websocket closed.
+2024-02-04 22:52:27,660 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:52:27,660 - INFO - Sleeping for 9 seconds before trying again.
+2024-02-04 22:52:36,670 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997829584
+2024-02-04 22:52:36,671 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:52:36,671 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:52:36,671 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:52:36,671 - INFO - Service websocket closed.
+2024-02-04 22:52:36,672 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:52:36,672 - INFO - Sleeping for 22 seconds before trying again.
+2024-02-04 22:52:58,674 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997827712
+2024-02-04 22:52:58,675 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:52:58,675 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:52:58,675 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:52:58,675 - INFO - Service websocket closed.
+2024-02-04 22:52:58,676 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:52:58,676 - INFO - Sleeping for 47 seconds before trying again.
+2024-02-04 22:53:45,717 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997840864
+2024-02-04 22:53:45,719 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:53:45,719 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:53:45,719 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:53:45,719 - INFO - Service websocket closed.
+2024-02-04 22:53:45,720 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:53:45,720 - INFO - Sleeping for 103 seconds before trying again.
+2024-02-04 22:55:28,815 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:55:28,815 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997843024
+2024-02-04 22:55:28,817 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:55:28,817 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:55:28,817 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:55:28,817 - INFO - Service websocket closed.
+2024-02-04 22:55:28,817 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:55:28,817 - INFO - Sleeping for 8 seconds before trying again.
+2024-02-04 22:55:36,820 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997841920
+2024-02-04 22:55:36,821 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:55:36,821 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:55:36,822 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:55:36,822 - INFO - Service websocket closed.
+2024-02-04 22:55:36,822 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:55:36,822 - INFO - Sleeping for 18 seconds before trying again.
+2024-02-04 22:55:54,837 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997827280
+2024-02-04 22:55:54,839 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:55:54,839 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:55:54,839 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:55:54,839 - INFO - Service websocket closed.
+2024-02-04 22:55:54,839 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:55:54,840 - INFO - Sleeping for 43 seconds before trying again.
+2024-02-04 22:56:37,883 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997829152
+2024-02-04 22:56:37,884 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:56:37,884 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:56:37,884 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:56:37,885 - INFO - Service websocket closed.
+2024-02-04 22:56:37,885 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:56:37,885 - INFO - Sleeping for 96 seconds before trying again.
+2024-02-04 22:58:13,947 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-04 22:58:13,947 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:140611997830592
+2024-02-04 22:58:13,948 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:58:13,948 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:58:13,949 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:58:13,949 - INFO - Service websocket closed.
+2024-02-04 22:58:13,949 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-04 22:58:13,949 - INFO - Sleeping for 11 seconds before trying again.
+2024-02-04 22:58:24,960 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:140611997832656
+2024-02-04 22:58:24,962 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:58:24,962 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:58:24,962 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:58:24,963 - INFO - Service websocket closed.
+2024-02-04 22:58:24,963 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-04 22:58:24,963 - INFO - Sleeping for 25 seconds before trying again.
+2024-02-04 22:58:49,981 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140611997836784
+2024-02-04 22:58:49,982 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:58:49,982 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:58:49,983 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:58:49,983 - INFO - Service websocket closed.
+2024-02-04 22:58:49,983 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-04 22:58:49,983 - INFO - Sleeping for 54 seconds before trying again.
+2024-02-04 22:59:44,036 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140611997640368
+2024-02-04 22:59:44,037 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-04 22:59:44,037 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-04 22:59:44,038 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-04 22:59:44,038 - INFO - Service websocket closed.
+2024-02-04 22:59:44,038 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]
+2024-02-04 22:59:44,038 - INFO - Sleeping for 110 seconds before trying again.
