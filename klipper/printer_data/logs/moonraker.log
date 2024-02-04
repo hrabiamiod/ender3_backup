@@ -874,3 +874,23 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2024-02-04 23:07:11,932 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2024-02-04 23:07:13,941 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2024-02-04 23:07:15,950 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2024-02-04 23:11:32,629 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.169
+2024-02-04 23:11:32,629 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.169
+2024-02-04 23:11:46,594 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-04 23:11:46,594 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.09ms
+2024-02-04 23:11:46,594 [websockets.py:open()] - Websocket Opened: ID: 140218753311712, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-04 23:11:46,597 [websockets.py:_handle_identify()] - Websocket 140218753311712 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-04 23:12:02,648 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.58ms
+2024-02-04 23:12:02,648 [websockets.py:open()] - Websocket Opened: ID: 140218781038240, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-02-04 23:12:22,686 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2024-02-04 23:12:22,687 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2024-02-04 23:12:32,690 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-02-04 23:12:32,690 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-02-04 23:22:56,844 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-02-04 23:22:56,845 [app.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.89ms
+2024-02-04 23:22:56,845 [websockets.py:open()] - Websocket Opened: ID: 140218753308544, Proxied: True, User Agent: Dart/3.2 (dart:io), Host Name: 192.168.1.211
+2024-02-04 23:22:56,857 [websockets.py:_handle_identify()] - Websocket 140218753308544 Client Identified - Name: Mobileraker-ios, Version: 2.6.10-383, Type: mobile
+2024-02-04 23:23:01,660 [websockets.py:on_close()] - Websocket Closed: ID: 140218753308544 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.82
