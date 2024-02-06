@@ -5811,3 +5811,45 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-06 04:19:04,611 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-02-06 04:24:05,008 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-02-06 04:29:05,396 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:31:20,490 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-02-06 04:31:20,490 - ERROR - Connection to remote host was lost. - goodbye
+2024-02-06 04:31:20,490 - INFO - Service websocket closed.
+2024-02-06 04:31:20,492 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[17]
+2024-02-06 04:31:20,492 - INFO - Closing all open web stream sockets (0)
+2024-02-06 04:31:20,492 - INFO - Sleeping for 5 seconds before trying again.
+2024-02-06 04:31:25,497 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-06 04:31:25,498 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[18] wsId:140611997644064
+2024-02-06 04:31:25,499 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-06 04:31:25,499 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-06 04:31:25,499 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-06 04:31:25,500 - INFO - Service websocket closed.
+2024-02-06 04:31:25,500 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[18]
+2024-02-06 04:31:25,500 - INFO - Closing all open web stream sockets (0)
+2024-02-06 04:31:25,500 - INFO - Sleeping for 16 seconds before trying again.
+2024-02-06 04:31:41,513 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[19] wsId:140611933600448
+2024-02-06 04:31:41,515 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-06 04:31:41,515 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-06 04:31:41,515 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-06 04:31:41,515 - INFO - Service websocket closed.
+2024-02-06 04:31:41,516 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[19]
+2024-02-06 04:31:41,516 - INFO - Closing all open web stream sockets (0)
+2024-02-06 04:31:41,516 - INFO - Sleeping for 40 seconds before trying again.
+2024-02-06 04:32:21,553 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[20] wsId:140611997865376
+2024-02-06 04:32:21,555 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-06 04:32:21,555 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-06 04:32:21,555 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-06 04:32:21,555 - INFO - Service websocket closed.
+2024-02-06 04:32:21,555 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[20]
+2024-02-06 04:32:21,556 - INFO - Closing all open web stream sockets (0)
+2024-02-06 04:32:21,556 - INFO - Sleeping for 84 seconds before trying again.
+2024-02-06 04:33:45,623 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[21] wsId:140611934161504
+2024-02-06 04:33:45,933 - INFO - Websocket connected
+2024-02-06 04:33:45,933 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[21]. Starting handshake...
+2024-02-06 04:33:46,003 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[21], successfully connected to OctoEverywhere!
+2024-02-06 04:33:46,003 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-06 04:34:05,825 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:39:06,228 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:44:06,657 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:49:07,069 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:54:07,462 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-02-06 04:59:07,802 - INFO - Moonraker client got klippy state 'error', waiting for ready...
