@@ -6162,3 +6162,43 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-06 20:59:37,926 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-06 20:59:38,501 - INFO - NotificationsHandler successfully sent 'resume'
 2024-02-06 20:59:38,736 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-06 21:00:07,485 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-06 21:00:37,831 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-06 21:01:08,158 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-06 21:01:38,491 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-06 21:01:54,539 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:01:54,764 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-06 21:02:09,336 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:04:10,153 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:06:10,974 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:06:20,000 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:06:20,223 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:08:11,797 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:09:16,972 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:09:17,166 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:10:12,625 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:10:59,760 - INFO - First layer timer is done. Stopping.
+2024-02-06 21:10:59,760 - INFO - RepeatTimer thread exit
+2024-02-06 21:11:00,265 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:11:00,481 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-06 21:12:13,493 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:12:27,260 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:12:27,478 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:14:14,308 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:14:52,411 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:14:52,597 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:16:15,142 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:18:15,474 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:18:15,789 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:18:15,975 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:20:16,819 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:21:55,575 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:21:55,775 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:22:17,638 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:24:18,479 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:26:00,754 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:26:00,973 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-06 21:26:19,308 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:28:20,146 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:29:02,761 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 21:29:02,985 - INFO - NotificationsHandler successfully sent 'progress'
