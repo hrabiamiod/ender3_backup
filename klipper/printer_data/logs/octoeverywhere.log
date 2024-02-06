@@ -6150,3 +6150,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-06 20:06:54,827 - INFO - Moonraker client setting up default notification hooks
 2024-02-06 20:06:55,188 - INFO - Printer state at socket connect is: standby
 2024-02-06 20:06:55,188 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-06 20:59:37,164 - INFO - Gadget is now watching!
+2024-02-06 20:59:37,199 - INFO - FileMetadataCache updated for file [BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 1998.0, size: 1111, filament usage: 1451
+2024-02-06 20:59:37,200 - INFO - Gadget has stopped watching!
+2024-02-06 20:59:37,200 - INFO - RepeatTimer thread exit
+2024-02-06 20:59:37,200 - INFO - RepeatTimer thread exit
+2024-02-06 20:59:37,200 - INFO - RepeatTimer thread exit
+2024-02-06 20:59:37,201 - INFO - Gadget is now watching!
+2024-02-06 20:59:37,202 - INFO - New print started; PrintId: Cm97xzbm9dQCASOsPAnSvM6UwPgjYxFuJHKGEuISFrpFsUJuygu3E5UPfsKQ file:BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode size:1111 filament:1451
+2024-02-06 20:59:37,911 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 20:59:37,926 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-06 20:59:38,501 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-06 20:59:38,736 - INFO - NotificationsHandler successfully sent 'started'
