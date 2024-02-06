@@ -1098,3 +1098,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJXxNfYfbPmvQvl
 2024-02-06 20:59:36,852 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-06 20:59:36,888 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 561.15ms
 2024-02-06 20:59:36,905 [job_state.py:_status_update()] - Job Started: BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-06 21:38:31,932 [timelapse.py:render()] - no frames to render, skip
+2024-02-06 21:59:11,533 [websockets.py:on_close()] - Websocket Closed: ID: 139997980619296 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.57
+2024-02-06 21:59:11,535 [websockets.py:on_close()] - Websocket Closed: ID: 139997980610512 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.54
+2024-02-06 21:59:20,616 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.82ms
+2024-02-06 21:59:20,616 [websockets.py:open()] - Websocket Opened: ID: 139997952848656, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-06 21:59:20,629 [websockets.py:_handle_identify()] - Websocket 139997952848656 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-06 21:59:21,094 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
+2024-02-06 21:59:21,094 [websockets.py:open()] - Websocket Opened: ID: 139997952843424, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-06 21:59:21,164 [websockets.py:_handle_identify()] - Websocket 139997952843424 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
