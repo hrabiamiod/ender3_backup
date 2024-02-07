@@ -931,3 +931,143 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJx2BTvk8kqFwdT
 2024-02-07 17:25:47,595 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it_3.gcode") successfully finished
 2024-02-07 17:25:47,604 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1016.14ms
 2024-02-07 17:25:47,680 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it_3.gcode
+2024-02-07 18:11:19,021 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaeZD7d5ykgAQJAyb
+2024-02-07 18:11:19,626 [app.py:post()] - Processing Uploaded File: CFFFP_2x2x6_Post-it4.gcode
+2024-02-07 18:11:19,726 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-07 18:11:19,764 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it4.gcode") successfully finished
+2024-02-07 18:11:19,773 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 752.94ms
+2024-02-07 18:11:19,781 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it4.gcode
+2024-02-07 18:11:31,309 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-07 18:11:31,317 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1707325862.025667, Usage: 0.65%, Memory: 47708 kB
+System Time: 1707325863.026743, Usage: 0.58%, Memory: 47708 kB
+System Time: 1707325864.026935, Usage: 0.59%, Memory: 47708 kB
+System Time: 1707325865.028164, Usage: 0.74%, Memory: 47708 kB
+System Time: 1707325866.028273, Usage: 0.63%, Memory: 47708 kB
+System Time: 1707325867.030384, Usage: 0.56%, Memory: 47708 kB
+System Time: 1707325868.031155, Usage: 1.8%, Memory: 47708 kB
+System Time: 1707325869.032164, Usage: 1.15%, Memory: 47708 kB
+System Time: 1707325870.032518, Usage: 0.6%, Memory: 47708 kB
+System Time: 1707325871.033344, Usage: 0.62%, Memory: 47708 kB
+System Time: 1707325872.034375, Usage: 0.63%, Memory: 47708 kB
+System Time: 1707325873.036489, Usage: 0.56%, Memory: 47708 kB
+System Time: 1707325874.036879, Usage: 0.58%, Memory: 47708 kB
+System Time: 1707325875.037938, Usage: 0.77%, Memory: 47708 kB
+System Time: 1707325876.038930, Usage: 0.63%, Memory: 47708 kB
+System Time: 1707325877.039954, Usage: 0.55%, Memory: 47708 kB
+System Time: 1707325878.041048, Usage: 0.66%, Memory: 47708 kB
+System Time: 1707325879.042260, Usage: 2.46%, Memory: 47708 kB
+System Time: 1707325880.044783, Usage: 20.63%, Memory: 47712 kB
+System Time: 1707325881.045480, Usage: 1.66%, Memory: 47712 kB
+System Time: 1707325882.046256, Usage: 0.84%, Memory: 47712 kB
+System Time: 1707325883.047147, Usage: 0.74%, Memory: 47712 kB
+System Time: 1707325884.047935, Usage: 0.69%, Memory: 47712 kB
+System Time: 1707325885.048360, Usage: 1.0%, Memory: 47712 kB
+System Time: 1707325886.048945, Usage: 0.66%, Memory: 47712 kB
+System Time: 1707325887.049146, Usage: 0.78%, Memory: 47712 kB
+System Time: 1707325888.049549, Usage: 0.72%, Memory: 47712 kB
+System Time: 1707325889.051129, Usage: 0.8%, Memory: 47712 kB
+System Time: 1707325890.052282, Usage: 0.76%, Memory: 47712 kB
+System Time: 1707325891.053869, Usage: 1.87%, Memory: 47712 kB
+CPU Temperature: None
+2024-02-07 18:11:31,321 [websockets.py:on_close()] - Websocket Closed: ID: 140409869287232 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.14
+2024-02-07 18:11:31,783 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-02-07 18:11:31,784 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.pause, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-02-07 18:11:32,841 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 18:11:33,325 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-02-07 18:11:33,325 [websockets.py:open()] - Websocket Opened: ID: 140409869633904, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 18:11:33,327 [websockets.py:_handle_identify()] - Websocket 140409869633904 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 18:11:33,334 [websockets.py:on_close()] - Websocket Closed: ID: 140409869633904 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.01
+2024-02-07 18:11:34,098 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 18:11:35,340 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-02-07 18:11:35,340 [websockets.py:open()] - Websocket Opened: ID: 140409870673440, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 18:11:35,342 [websockets.py:_handle_identify()] - Websocket 140409870673440 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 18:11:36,578 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 18:11:36,580 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 18:11:36,828 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-07 18:11:37,084 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-07 18:11:37,834 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-07 18:13:42,203 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWmJAJWcDJGGUAK5z
+2024-02-07 18:13:42,826 [app.py:post()] - Processing Uploaded File: CFFFP_2x2x6_Post-it5.gcode
+2024-02-07 18:13:42,918 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-07 18:13:42,952 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it5.gcode") successfully finished
+2024-02-07 18:13:42,960 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 756.86ms
+2024-02-07 18:13:43,169 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it5.gcode
+2024-02-07 18:13:51,694 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-07 18:13:51,698 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1707326002.160355, Usage: 0.63%, Memory: 47892 kB
+System Time: 1707326003.161267, Usage: 0.55%, Memory: 47892 kB
+System Time: 1707326004.162067, Usage: 0.62%, Memory: 47892 kB
+System Time: 1707326005.162258, Usage: 0.71%, Memory: 47892 kB
+System Time: 1707326006.166705, Usage: 1.77%, Memory: 47892 kB
+System Time: 1707326007.164050, Usage: 1.11%, Memory: 47892 kB
+System Time: 1707326008.164934, Usage: 0.64%, Memory: 47892 kB
+System Time: 1707326009.165821, Usage: 0.61%, Memory: 47892 kB
+System Time: 1707326010.166721, Usage: 0.57%, Memory: 47892 kB
+System Time: 1707326011.167509, Usage: 0.6%, Memory: 47892 kB
+System Time: 1707326012.168355, Usage: 0.71%, Memory: 47892 kB
+System Time: 1707326013.170342, Usage: 0.55%, Memory: 47892 kB
+System Time: 1707326014.171229, Usage: 0.63%, Memory: 47892 kB
+System Time: 1707326015.171386, Usage: 0.75%, Memory: 47892 kB
+System Time: 1707326016.172252, Usage: 0.63%, Memory: 47892 kB
+System Time: 1707326017.173692, Usage: 1.65%, Memory: 47892 kB
+System Time: 1707326018.174037, Usage: 0.72%, Memory: 47892 kB
+System Time: 1707326019.175091, Usage: 1.19%, Memory: 47892 kB
+System Time: 1707326020.176031, Usage: 0.58%, Memory: 47892 kB
+System Time: 1707326021.177017, Usage: 0.61%, Memory: 47892 kB
+System Time: 1707326022.178965, Usage: 0.63%, Memory: 47892 kB
+System Time: 1707326023.179879, Usage: 26.36%, Memory: 47892 kB
+System Time: 1707326024.180588, Usage: 1.56%, Memory: 47892 kB
+System Time: 1707326025.181312, Usage: 0.9%, Memory: 47892 kB
+System Time: 1707326026.182262, Usage: 0.89%, Memory: 47892 kB
+System Time: 1707326027.182871, Usage: 0.65%, Memory: 47892 kB
+System Time: 1707326028.184223, Usage: 0.83%, Memory: 47892 kB
+System Time: 1707326029.184356, Usage: 1.87%, Memory: 47892 kB
+System Time: 1707326030.184750, Usage: 1.35%, Memory: 47892 kB
+System Time: 1707326031.185571, Usage: 0.76%, Memory: 47892 kB
+CPU Temperature: None
+2024-02-07 18:13:51,699 [websockets.py:on_close()] - Websocket Closed: ID: 140409870673440 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.36
+2024-02-07 18:13:51,967 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-02-07 18:13:53,140 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 18:13:53,704 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-02-07 18:13:53,705 [websockets.py:open()] - Websocket Opened: ID: 140409868868800, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 18:13:53,707 [websockets.py:_handle_identify()] - Websocket 140409868868800 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 18:13:53,714 [websockets.py:on_close()] - Websocket Closed: ID: 140409868868800 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.01
+2024-02-07 18:13:54,395 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 18:13:55,720 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-02-07 18:13:55,720 [websockets.py:open()] - Websocket Opened: ID: 140409868869184, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 18:13:55,722 [websockets.py:_handle_identify()] - Websocket 140409868869184 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 18:13:56,687 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 18:13:56,688 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 18:13:56,938 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-07 18:13:57,195 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-07 18:13:57,943 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-07 18:14:37,786 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryslxDHJxt0FmiAFPW
+2024-02-07 18:14:38,463 [app.py:post()] - Processing Uploaded File: CFFFP_2x2x6_Post-it5.gcode
+2024-02-07 18:14:38,561 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-07 18:14:38,595 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it5.gcode") successfully finished
+2024-02-07 18:14:38,603 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 817.83ms
+2024-02-07 18:14:38,786 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it5.gcode
