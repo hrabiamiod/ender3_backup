@@ -1073,3 +1073,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryslxDHJxt0FmiAF
 2024-02-07 18:14:38,786 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it5.gcode
 2024-02-07 18:56:52,876 [websockets.py:on_close()] - Websocket Closed: ID: 140409869637264 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.39
 2024-02-07 18:56:52,877 [websockets.py:on_close()] - Websocket Closed: ID: 140409869637312 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.00
+2024-02-07 19:16:28,956 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-02-07 19:16:28,956 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
