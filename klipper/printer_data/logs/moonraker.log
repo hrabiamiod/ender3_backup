@@ -1,4 +1,4 @@
--------------------- Log Start | Tue Feb  6 03:31:01 2024 --------------------
+-------------------- Log Start | Wed Feb  7 12:56:24 2024 --------------------
 data_path: /home/turbo/printer_data
 is_default_data_path: False
 config_file: /home/turbo/printer_data/config/moonraker.conf
@@ -115,254 +115,8 @@ All Configuration Files:
 /home/turbo/printer_data/config/moonraker-obico-update.cfg
 /home/turbo/printer_data/config/octoeverywhere-system.cfg
 #################################################################
-Unsafe Shutdown Count: 20
-
-System Info:
-
-***python***
-  version: (3, 10, 12, 'final', 0)
-  version_string: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-
-***cpu_info***
-  cpu_count: 2
-  bits: 64bit
-  processor: x86_64
-  cpu_desc: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
-  serial_number: 
-  hardware_desc: 
-  model: 
-  total_memory: 5891868
-  memory_units: kB
-
-***sd_info***
-
-***distribution***
-  name: Ubuntu 22.04.3 LTS
-  id: ubuntu
-  version: 22.04
-  version_parts: {'major': '22', 'minor': '04', 'build_number': ''}
-  like: debian
-  codename: jammy
-  release_info: {}
-
-***virtualization***
-  virt_type: none
-  virt_identifier: none
-
-***network***
-
-***canbus***
-
-***Allowed Services***
-  klipper_mcu
-  webcamd
-  MoonCord
-  KlipperScreen
-  moonraker-telegram-bot
-  moonraker-obico
-  sonar
-  crowsnest
-  octoeverywhere
-
-Systemd unit moonraker.service:
-unit_name: moonraker.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['system.slice', 'sysinit.target', '-.mount', 'network-online.target']
-**After=['basic.target', 'system.slice', 'sysinit.target', '-.mount', 'systemd-journald.socket', 'network-online.target']
-**SupplementaryGroups=['moonraker-admin']
-**EnvironmentFiles=/home/turbo/printer_data/systemd/moonraker.env
-**ExecStart=/home/turbo/moonraker-env/bin/python $MOONRAKER_ARGS
-**WorkingDirectory=/home/turbo/moonraker
-**FragmentPath=/etc/systemd/system/moonraker.service
-**Description=API Server for Klipper SV1
-**User=turbo
-
-Systemd unit klipper.service:
-unit_name: klipper.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['sysinit.target', 'system.slice', '-.mount']
-**After=['network-online.target', 'sysinit.target', 'system.slice', 'basic.target', '-.mount', 'systemd-journald.socket']
-**SupplementaryGroups=[]
-**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
-**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
-**WorkingDirectory=/home/turbo/klipper
-**FragmentPath=/etc/systemd/system/klipper.service
-**Description=Klipper 3D Printer Firmware SV1
-**User=turbo
-Git Repo moonraker: Warnings detected:
-  Repo has untracked source files: ['moonraker/components/timelapse.py']
-Git Repo klipper: No warnings detected
-Git Repo moonraker-telegram-bot: No warnings detected
-Git Repo crowsnest: No warnings detected
-Git Repo moonraker-obico: No warnings detected
-Git Repo octoeverywhere: No warnings detected
-Git Repo timelapse: No warnings detected
-Klipper Version: v0.12.0-25-g99d7af87
-2024-02-06 04:31:01,234 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 04:33:31,421 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:00:22,867 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:00:32,877 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:00:52,899 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:01:02,911 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:08:33,382 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 05:08:43,393 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 20:01:13,324 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
-2024-02-06 20:01:13,325 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.26ms
-2024-02-06 20:01:13,325 [websockets.py:open()] - Websocket Opened: ID: 140218754121440, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0, Host Name: localhost
-2024-02-06 20:01:13,443 [websockets.py:_handle_identify()] - Websocket 140218754121440 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
-2024-02-06 20:01:16,141 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.88ms
-2024-02-06 20:01:16,141 [websockets.py:open()] - Websocket Opened: ID: 140218755356592, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0, Host Name: localhost
-2024-02-06 20:01:16,155 [websockets.py:_handle_identify()] - Websocket 140218755356592 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
-2024-02-06 20:01:20,041 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2024-02-06 20:01:20,056 [websockets.py:on_close()] - Websocket Closed: ID: 140218753311712 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.38
-2024-02-06 20:01:21,307 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2024-02-06 20:01:21,383 [server.py:add_log_rollover_item()] - 
-Systemd unit klipper.service:
-unit_name: klipper.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['sysinit.target', '-.mount', 'system.slice']
-**After=['sysinit.target', 'basic.target', 'system.slice', '-.mount', 'network-online.target', 'systemd-journald.socket']
-**SupplementaryGroups=[]
-**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
-**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
-**WorkingDirectory=/home/turbo/klipper
-**FragmentPath=/etc/systemd/system/klipper.service
-**Description=Klipper 3D Printer Firmware SV1
-**User=turbo
-2024-02-06 20:01:22,061 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.94ms
-2024-02-06 20:01:22,062 [websockets.py:open()] - Websocket Opened: ID: 140218744045920, Proxied: False, User Agent: , Host Name: 0.0.0.0
-2024-02-06 20:01:22,065 [websockets.py:_handle_identify()] - Websocket 140218744045920 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
-2024-02-06 20:01:24,113 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2024-02-06 20:01:24,115 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2024-02-06 20:01:24,115 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
-2024-02-06 20:01:24,116 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
-2024-02-06 20:01:24,365 [job_state.py:_handle_started()] - Job state initialized: standby
-2024-02-06 20:01:24,634 [klippy_connection.py:_check_ready()] - Klippy ready
-2024-02-06 20:01:25,120 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
-2024-02-06 20:03:20,411 [websockets.py:on_close()] - Websocket Closed: ID: 140218755356592 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.27
-2024-02-06 20:03:20,414 [websockets.py:on_close()] - Websocket Closed: ID: 140218754121440 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.08
-2024-02-06 20:03:27,150 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 0.93ms
-2024-02-06 20:06:02,334 [websockets.py:on_close()] - Websocket Closed: ID: 140218781038240 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.68
-2024-02-06 20:06:02,334 [websockets.py:on_close()] - Websocket Closed: ID: 140218744045920 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.27
-2024-02-06 20:06:02,335 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2024-02-06 20:06:02,722 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
-2024-02-06 20:06:02,890 [database.py:close()] - Database statistics:
-
-announcements:
-psize: 4096
-depth: 0
-branch_pages: 0
-leaf_pages: 0
-overflow_pages: 0
-entries: 0
-authorized_users:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 1
-gcode_metadata:
-psize: 4096
-depth: 2
-branch_pages: 1
-leaf_pages: 56
-overflow_pages: 0
-entries: 243
-history:
-psize: 4096
-depth: 2
-branch_pages: 1
-leaf_pages: 142
-overflow_pages: 0
-entries: 531
-mainsail:
-psize: 4096
-depth: 2
-branch_pages: 1
-leaf_pages: 2
-overflow_pages: 0
-entries: 11
-mobileraker:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 1
-entries: 2
-moonraker:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 7
-obico:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 1
-octoeverywhere:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 1
-timelapse:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 1
-update_manager:
-psize: 4096
-depth: 2
-branch_pages: 1
-leaf_pages: 4
-overflow_pages: 12
-entries: 9
-webcams:
-psize: 4096
-depth: 1
-branch_pages: 0
-leaf_pages: 1
-overflow_pages: 0
-entries: 1
-2024-02-06 20:06:03,126 [server.py:main()] - Server Shutdown
--------------------- Log Start | Tue Feb  6 19:06:44 2024 --------------------
-data_path: /home/turbo/printer_data
-is_default_data_path: False
-config_file: /home/turbo/printer_data/config/moonraker.conf
-startup_warnings: []
-verbose: False
-debug: False
-asyncio_debug: False
-is_backup_config: False
-is_python_package: False
-instance_uuid: 6f44945189dc46f7a55f40779c59d449
-unix_socket_path: /home/turbo/printer_data/comms/moonraker.sock
-software_version: v0.8.0-206-g9ad8fed
-git_branch: master
-git_remote: origin
-git_repo_url: https://github.com/Arksine/moonraker.git
-modified_files: []
-unofficial_components: []
-log_file: /home/turbo/printer_data/logs/moonraker.log
-python_version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
-msgspec_enabled: False
-uvloop_enabled: False
-2024-02-06 20:06:44,970 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2606 B
-2024-02-06 20:06:44,970 [server.py:add_log_rollover_item()] - 
+2024-02-07 13:56:24,673 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2606 B
+2024-02-07 13:56:24,673 [server.py:add_log_rollover_item()] - 
 #################### Moonraker Configuration ####################
 
 [server]
@@ -457,58 +211,58 @@ All Configuration Files:
 /home/turbo/printer_data/config/moonraker-obico-update.cfg
 /home/turbo/printer_data/config/octoeverywhere-system.cfg
 #################################################################
-2024-02-06 20:06:45,036 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/logs/rollover
-2024-02-06 20:06:45,036 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.logs.rollover
-2024-02-06 20:06:45,036 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/info
-2024-02-06 20:06:45,037 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.info
-2024-02-06 20:06:45,037 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/config
-2024-02-06 20:06:45,037 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.config
-2024-02-06 20:06:45,037 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/restart
-2024-02-06 20:06:45,037 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.restart
-2024-02-06 20:06:45,397 [server.py:load_component()] - Component (dbus_manager) loaded
-2024-02-06 20:06:45,458 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 20
-2024-02-06 20:06:45,497 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/database/list
-2024-02-06 20:06:45,498 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.database.list
-2024-02-06 20:06:45,498 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/database/item
-2024-02-06 20:06:45,498 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.database.get_item, server.database.post_item, server.database.delete_item
-2024-02-06 20:06:45,498 [server.py:load_component()] - Component (database) loaded
-2024-02-06 20:06:45,627 [file_manager.py:__init__()] - Using File System Observer: inotify
-2024-02-06 20:06:45,699 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/list
-2024-02-06 20:06:45,699 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.list
-2024-02-06 20:06:45,699 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/metadata
-2024-02-06 20:06:45,700 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.metadata
-2024-02-06 20:06:45,700 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/metascan
-2024-02-06 20:06:45,700 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.metascan
-2024-02-06 20:06:45,700 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/thumbnails
-2024-02-06 20:06:45,700 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.thumbnails
-2024-02-06 20:06:45,700 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/roots
-2024-02-06 20:06:45,715 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.roots
-2024-02-06 20:06:45,715 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/files/directory
-2024-02-06 20:06:45,715 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.get_directory, server.files.post_directory, server.files.delete_directory
-2024-02-06 20:06:45,716 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/move
-2024-02-06 20:06:45,716 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.move
-2024-02-06 20:06:45,716 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/copy
-2024-02-06 20:06:45,716 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.copy
-2024-02-06 20:06:45,716 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/zip
-2024-02-06 20:06:45,730 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.zip
-2024-02-06 20:06:45,730 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.delete_file
-2024-02-06 20:06:45,792 [server.py:load_component()] - Component (file_manager) loaded
-2024-02-06 20:06:45,812 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/pause
-2024-02-06 20:06:45,812 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.pause
-2024-02-06 20:06:45,812 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/resume
-2024-02-06 20:06:45,813 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.resume
-2024-02-06 20:06:45,813 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/cancel
-2024-02-06 20:06:45,813 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.cancel
-2024-02-06 20:06:45,813 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/start
-2024-02-06 20:06:45,813 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.start
-2024-02-06 20:06:45,813 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/restart
-2024-02-06 20:06:45,813 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.restart
-2024-02-06 20:06:45,813 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/firmware_restart
-2024-02-06 20:06:45,813 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.firmware_restart
-2024-02-06 20:06:45,814 [server.py:load_component()] - Component (klippy_apis) loaded
-2024-02-06 20:06:46,612 [server.py:load_component()] - Component (secrets) loaded
-2024-02-06 20:06:46,618 [server.py:load_component()] - Component (template) loaded
-2024-02-06 20:06:46,690 [server.py:add_log_rollover_item()] - 
+2024-02-07 13:56:24,705 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/logs/rollover
+2024-02-07 13:56:24,705 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.logs.rollover
+2024-02-07 13:56:24,705 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/info
+2024-02-07 13:56:24,705 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.info
+2024-02-07 13:56:24,705 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/config
+2024-02-07 13:56:24,705 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.config
+2024-02-07 13:56:24,705 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/restart
+2024-02-07 13:56:24,706 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.restart
+2024-02-07 13:56:24,908 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-02-07 13:56:24,935 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 20
+2024-02-07 13:56:24,991 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/database/list
+2024-02-07 13:56:24,992 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.database.list
+2024-02-07 13:56:24,992 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/database/item
+2024-02-07 13:56:24,992 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.database.get_item, server.database.post_item, server.database.delete_item
+2024-02-07 13:56:24,992 [server.py:load_component()] - Component (database) loaded
+2024-02-07 13:56:25,065 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-02-07 13:56:25,137 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/list
+2024-02-07 13:56:25,137 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.list
+2024-02-07 13:56:25,137 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/metadata
+2024-02-07 13:56:25,137 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.metadata
+2024-02-07 13:56:25,137 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/metascan
+2024-02-07 13:56:25,138 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.metascan
+2024-02-07 13:56:25,138 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/thumbnails
+2024-02-07 13:56:25,138 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.thumbnails
+2024-02-07 13:56:25,138 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/files/roots
+2024-02-07 13:56:25,138 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.roots
+2024-02-07 13:56:25,138 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/files/directory
+2024-02-07 13:56:25,138 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.get_directory, server.files.post_directory, server.files.delete_directory
+2024-02-07 13:56:25,138 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/move
+2024-02-07 13:56:25,139 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.move
+2024-02-07 13:56:25,139 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/copy
+2024-02-07 13:56:25,139 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.copy
+2024-02-07 13:56:25,139 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/files/zip
+2024-02-07 13:56:25,139 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.zip
+2024-02-07 13:56:25,139 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.files.delete_file
+2024-02-07 13:56:25,170 [server.py:load_component()] - Component (file_manager) loaded
+2024-02-07 13:56:25,180 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/pause
+2024-02-07 13:56:25,181 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.pause
+2024-02-07 13:56:25,181 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/resume
+2024-02-07 13:56:25,204 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.resume
+2024-02-07 13:56:25,204 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/cancel
+2024-02-07 13:56:25,204 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.cancel
+2024-02-07 13:56:25,204 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/print/start
+2024-02-07 13:56:25,208 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.print.start
+2024-02-07 13:56:25,209 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/restart
+2024-02-07 13:56:25,213 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.restart
+2024-02-07 13:56:25,213 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /printer/firmware_restart
+2024-02-07 13:56:25,214 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.firmware_restart
+2024-02-07 13:56:25,214 [server.py:load_component()] - Component (klippy_apis) loaded
+2024-02-07 13:56:26,435 [server.py:load_component()] - Component (secrets) loaded
+2024-02-07 13:56:26,469 [server.py:load_component()] - Component (template) loaded
+2024-02-07 13:56:26,517 [server.py:add_log_rollover_item()] - 
 System Info:
 
 ***python***
@@ -523,7 +277,7 @@ System Info:
   serial_number: 
   hardware_desc: 
   model: 
-  total_memory: 5891852
+  total_memory: 5891860
   memory_units: kB
 
 ***sd_info***
@@ -555,102 +309,109 @@ System Info:
   sonar
   crowsnest
   octoeverywhere
-2024-02-06 20:06:46,699 [server.py:load_component()] - Component (shell_command) loaded
-2024-02-06 20:06:46,700 [machine.py:__init__()] - Using System Provider: systemd_dbus
-2024-02-06 20:06:46,701 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/reboot
-2024-02-06 20:06:46,701 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.reboot
-2024-02-06 20:06:46,702 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/shutdown
-2024-02-06 20:06:46,702 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.shutdown
-2024-02-06 20:06:46,702 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/restart
-2024-02-06 20:06:46,702 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.restart
-2024-02-06 20:06:46,703 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/stop
-2024-02-06 20:06:46,703 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.stop
-2024-02-06 20:06:46,703 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/start
-2024-02-06 20:06:46,704 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.start
-2024-02-06 20:06:46,704 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/system_info
-2024-02-06 20:06:46,708 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.system_info
-2024-02-06 20:06:46,708 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/sudo/info
-2024-02-06 20:06:46,708 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.sudo.info
-2024-02-06 20:06:46,709 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/sudo/password
-2024-02-06 20:06:46,709 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.sudo.password
-2024-02-06 20:06:46,712 [server.py:load_component()] - Component (machine) loaded
-2024-02-06 20:06:46,717 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/temperature_store
-2024-02-06 20:06:46,717 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.temperature_store
-2024-02-06 20:06:46,717 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/gcode_store
-2024-02-06 20:06:46,727 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.gcode_store
-2024-02-06 20:06:46,727 [server.py:load_component()] - Component (data_store) loaded
-2024-02-06 20:06:46,750 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
-2024-02-06 20:06:46,750 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/proc_stats
-2024-02-06 20:06:46,750 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.proc_stats
-2024-02-06 20:06:46,754 [server.py:load_component()] - Component (proc_stats) loaded
-2024-02-06 20:06:46,763 [server.py:load_component()] - Component (job_state) loaded
-2024-02-06 20:06:46,769 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST DELETE) /server/job_queue/job
-2024-02-06 20:06:46,769 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.post_job, server.job_queue.delete_job
-2024-02-06 20:06:46,769 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/pause
-2024-02-06 20:06:46,769 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.pause
-2024-02-06 20:06:46,779 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/start
-2024-02-06 20:06:46,780 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.start
-2024-02-06 20:06:46,780 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/job_queue/status
-2024-02-06 20:06:46,781 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.status
-2024-02-06 20:06:46,781 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/jump
-2024-02-06 20:06:46,781 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.jump
-2024-02-06 20:06:46,781 [server.py:load_component()] - Component (job_queue) loaded
-2024-02-06 20:06:46,796 [server.py:load_component()] - Component (http_client) loaded
-2024-02-06 20:06:46,820 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/announcements/list
-2024-02-06 20:06:46,822 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.list
-2024-02-06 20:06:46,822 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/announcements/dismiss
-2024-02-06 20:06:46,822 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.dismiss
-2024-02-06 20:06:46,822 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/announcements/update
-2024-02-06 20:06:46,822 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.update
-2024-02-06 20:06:46,822 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST DELETE) /server/announcements/feed
-2024-02-06 20:06:46,822 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.post_feed, server.announcements.delete_feed
-2024-02-06 20:06:46,822 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/announcements/feeds
-2024-02-06 20:06:46,822 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.feeds
-2024-02-06 20:06:46,822 [server.py:load_component()] - Component (announcements) loaded
-2024-02-06 20:06:46,831 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/webcams/list
-2024-02-06 20:06:46,832 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.list
-2024-02-06 20:06:46,832 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/webcams/item
-2024-02-06 20:06:46,832 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.get_item, server.webcams.post_item, server.webcams.delete_item
-2024-02-06 20:06:46,832 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/webcams/test
-2024-02-06 20:06:46,832 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.test
-2024-02-06 20:06:46,832 [server.py:load_component()] - Component (webcam) loaded
-2024-02-06 20:06:46,844 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: connection.register_remote_method
-2024-02-06 20:06:46,844 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: connection.send_event
-2024-02-06 20:06:46,844 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/extensions/list
-2024-02-06 20:06:46,857 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.extensions.list
-2024-02-06 20:06:46,857 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/extensions/request
-2024-02-06 20:06:46,857 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.extensions.request
-2024-02-06 20:06:46,857 [server.py:load_component()] - Component (extensions) loaded
-2024-02-06 20:06:46,880 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/timelapse/render
-2024-02-06 20:06:46,880 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.render
-2024-02-06 20:06:46,880 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/timelapse/saveframes
-2024-02-06 20:06:46,881 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.saveframes
-2024-02-06 20:06:46,881 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST) /machine/timelapse/settings
-2024-02-06 20:06:46,881 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.get_settings, machine.timelapse.post_settings
-2024-02-06 20:06:46,881 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/timelapse/lastframeinfo
-2024-02-06 20:06:46,881 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.lastframeinfo
-2024-02-06 20:06:46,881 [server.py:load_component()] - Component (timelapse) loaded
-2024-02-06 20:06:46,889 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/version
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/server
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/login
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/currentuser
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/settings
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/job
-2024-02-06 20:06:46,890 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/printer
-2024-02-06 20:06:46,897 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/printer/command
-2024-02-06 20:06:46,897 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/printerprofiles
-2024-02-06 20:06:46,898 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/files/moonraker/(?P<relative_path>.+)
-2024-02-06 20:06:46,898 [server.py:load_component()] - Component (octoprint_compat) loaded
-2024-02-06 20:06:46,916 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET DELETE) /server/history/job
-2024-02-06 20:06:46,916 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.get_job, server.history.delete_job
-2024-02-06 20:06:46,916 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/history/list
-2024-02-06 20:06:46,917 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.list
-2024-02-06 20:06:46,917 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/history/totals
-2024-02-06 20:06:46,917 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.totals
-2024-02-06 20:06:46,917 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/history/reset_totals
-2024-02-06 20:06:46,917 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.reset_totals
-2024-02-06 20:06:46,917 [server.py:load_component()] - Component (history) loaded
-2024-02-06 20:06:46,998 [authorization.py:__init__()] - Authorization Configuration Loaded
+2024-02-07 13:56:26,524 [server.py:load_component()] - Component (shell_command) loaded
+2024-02-07 13:56:26,524 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2024-02-07 13:56:26,524 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/reboot
+2024-02-07 13:56:26,525 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.reboot
+2024-02-07 13:56:26,525 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/shutdown
+2024-02-07 13:56:26,525 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.shutdown
+2024-02-07 13:56:26,525 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/restart
+2024-02-07 13:56:26,525 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.restart
+2024-02-07 13:56:26,525 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/stop
+2024-02-07 13:56:26,525 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.stop
+2024-02-07 13:56:26,525 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/services/start
+2024-02-07 13:56:26,525 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.services.start
+2024-02-07 13:56:26,525 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/system_info
+2024-02-07 13:56:26,526 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.system_info
+2024-02-07 13:56:26,526 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/sudo/info
+2024-02-07 13:56:26,526 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.sudo.info
+2024-02-07 13:56:26,526 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/sudo/password
+2024-02-07 13:56:26,526 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.sudo.password
+2024-02-07 13:56:26,529 [server.py:load_component()] - Component (machine) loaded
+2024-02-07 13:56:26,531 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/temperature_store
+2024-02-07 13:56:26,532 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.temperature_store
+2024-02-07 13:56:26,532 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/gcode_store
+2024-02-07 13:56:26,532 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.gcode_store
+2024-02-07 13:56:26,532 [server.py:load_component()] - Component (data_store) loaded
+2024-02-07 13:56:26,543 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2024-02-07 13:56:26,543 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/proc_stats
+2024-02-07 13:56:26,543 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.proc_stats
+2024-02-07 13:56:26,543 [server.py:load_component()] - Component (proc_stats) loaded
+2024-02-07 13:56:26,549 [server.py:load_component()] - Component (job_state) loaded
+2024-02-07 13:56:26,573 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST DELETE) /server/job_queue/job
+2024-02-07 13:56:26,573 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.post_job, server.job_queue.delete_job
+2024-02-07 13:56:26,573 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/pause
+2024-02-07 13:56:26,573 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.pause
+2024-02-07 13:56:26,573 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/start
+2024-02-07 13:56:26,574 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.start
+2024-02-07 13:56:26,574 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/job_queue/status
+2024-02-07 13:56:26,574 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.status
+2024-02-07 13:56:26,574 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/job_queue/jump
+2024-02-07 13:56:26,574 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.job_queue.jump
+2024-02-07 13:56:26,574 [server.py:load_component()] - Component (job_queue) loaded
+2024-02-07 13:56:26,618 [server.py:load_component()] - Component (http_client) loaded
+2024-02-07 13:56:26,631 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/announcements/list
+2024-02-07 13:56:26,631 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.list
+2024-02-07 13:56:26,631 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/announcements/dismiss
+2024-02-07 13:56:26,632 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.dismiss
+2024-02-07 13:56:26,632 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/announcements/update
+2024-02-07 13:56:26,632 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.update
+2024-02-07 13:56:26,632 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST DELETE) /server/announcements/feed
+2024-02-07 13:56:26,632 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.post_feed, server.announcements.delete_feed
+2024-02-07 13:56:26,632 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/announcements/feeds
+2024-02-07 13:56:26,632 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.announcements.feeds
+2024-02-07 13:56:26,632 [server.py:load_component()] - Component (announcements) loaded
+2024-02-07 13:56:26,642 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/webcams/list
+2024-02-07 13:56:26,642 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.list
+2024-02-07 13:56:26,642 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /server/webcams/item
+2024-02-07 13:56:26,643 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.get_item, server.webcams.post_item, server.webcams.delete_item
+2024-02-07 13:56:26,643 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/webcams/test
+2024-02-07 13:56:26,643 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.webcams.test
+2024-02-07 13:56:26,643 [server.py:load_component()] - Component (webcam) loaded
+2024-02-07 13:56:26,650 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: connection.register_remote_method
+2024-02-07 13:56:26,650 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: connection.send_event
+2024-02-07 13:56:26,650 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/extensions/list
+2024-02-07 13:56:26,650 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.extensions.list
+2024-02-07 13:56:26,651 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/extensions/request
+2024-02-07 13:56:26,651 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.extensions.request
+2024-02-07 13:56:26,651 [server.py:load_component()] - Component (extensions) loaded
+2024-02-07 13:56:26,785 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
+2024-02-07 13:56:26,798 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
+2024-02-07 13:56:26,801 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-02-07 13:56:26,803 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
+2024-02-07 13:56:26,812 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-02-07 13:56:26,812 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
+2024-02-07 13:56:26,815 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-02-07 13:56:26,815 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
+2024-02-07 13:56:26,834 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/moonraker
+2024-02-07 13:56:26,834 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.moonraker
+2024-02-07 13:56:26,834 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/klipper
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.klipper
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/system
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.system
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/client
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.client
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/full
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.full
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/update/status
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.status
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/refresh
+2024-02-07 13:56:26,835 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.refresh
+2024-02-07 13:56:26,835 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/recover
+2024-02-07 13:56:26,836 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.recover
+2024-02-07 13:56:26,836 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/rollback
+2024-02-07 13:56:26,836 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.rollback
+2024-02-07 13:56:26,836 [server.py:load_component()] - Component (update_manager) loaded
+2024-02-07 13:56:26,869 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/timelapse/render
+2024-02-07 13:56:26,870 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.render
+2024-02-07 13:56:26,870 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/timelapse/saveframes
+2024-02-07 13:56:26,870 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.saveframes
+2024-02-07 13:56:26,870 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST) /machine/timelapse/settings
+2024-02-07 13:56:26,870 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.get_settings, machine.timelapse.post_settings
+2024-02-07 13:56:26,870 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/timelapse/lastframeinfo
+2024-02-07 13:56:26,870 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.timelapse.lastframeinfo
+2024-02-07 13:56:26,870 [server.py:load_component()] - Component (timelapse) loaded
+2024-02-07 13:56:27,007 [authorization.py:__init__()] - Authorization Configuration Loaded
 Trusted Clients:
 10.0.0.0/8
 127.0.0.0/8
@@ -666,444 +427,46 @@ CORS Domains:
 .*://localhost:.*
 .*://my\.mainsail\.xyz
 .*://app\.fluidd\.xyz
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/login
-2024-02-06 20:06:46,999 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.login
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/logout
-2024-02-06 20:06:46,999 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.logout
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/refresh_jwt
-2024-02-06 20:06:46,999 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.refresh_jwt
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /access/user
-2024-02-06 20:06:46,999 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.get_user, access.post_user, access.delete_user
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/users/list
-2024-02-06 20:06:46,999 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.users.list
-2024-02-06 20:06:46,999 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/user/password
-2024-02-06 20:06:47,000 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.user.password
-2024-02-06 20:06:47,000 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST) /access/api_key
-2024-02-06 20:06:47,000 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.get_api_key, access.post_api_key
-2024-02-06 20:06:47,000 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/oneshot_token
-2024-02-06 20:06:47,000 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.oneshot_token
-2024-02-06 20:06:47,000 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/info
-2024-02-06 20:06:47,000 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.info
-2024-02-06 20:06:47,000 [server.py:load_component()] - Component (authorization) loaded
-2024-02-06 20:06:47,182 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
-2024-02-06 20:06:47,217 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
-2024-02-06 20:06:47,218 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-02-06 20:06:47,219 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
-2024-02-06 20:06:47,269 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-02-06 20:06:47,270 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
-2024-02-06 20:06:47,271 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-02-06 20:06:47,272 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
-2024-02-06 20:06:47,280 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/moonraker
-2024-02-06 20:06:47,281 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.moonraker
-2024-02-06 20:06:47,281 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/klipper
-2024-02-06 20:06:47,281 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.klipper
-2024-02-06 20:06:47,281 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/system
-2024-02-06 20:06:47,281 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.system
-2024-02-06 20:06:47,281 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/client
-2024-02-06 20:06:47,282 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.client
-2024-02-06 20:06:47,282 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/full
-2024-02-06 20:06:47,282 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.full
-2024-02-06 20:06:47,282 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /machine/update/status
-2024-02-06 20:06:47,282 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.status
-2024-02-06 20:06:47,283 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/refresh
-2024-02-06 20:06:47,283 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.refresh
-2024-02-06 20:06:47,283 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/recover
-2024-02-06 20:06:47,283 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.recover
-2024-02-06 20:06:47,295 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /machine/update/rollback
-2024-02-06 20:06:47,295 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: machine.update.rollback
-2024-02-06 20:06:47,295 [server.py:load_component()] - Component (update_manager) loaded
-2024-02-06 20:06:47,331 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
-2024-02-06 20:06:47,385 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
-2024-02-06 20:06:48,282 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
-2024-02-06 20:06:48,282 [machine.py:validation_init()] - Installation version in database up to date
-2024-02-06 20:06:48,904 [machine.py:check_virt_status()] - No Virtualization Detected
-2024-02-06 20:06:48,914 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-02-06 20:06:48,918 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
-2024-02-06 20:06:49,053 [server.py:add_log_rollover_item()] - 
-Systemd unit moonraker.service:
-unit_name: moonraker.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['-.mount', 'network-online.target', 'sysinit.target', 'system.slice']
-**After=['system.slice', '-.mount', 'systemd-journald.socket', 'network-online.target', 'sysinit.target', 'basic.target']
-**SupplementaryGroups=['moonraker-admin']
-**EnvironmentFiles=/home/turbo/printer_data/systemd/moonraker.env
-**ExecStart=/home/turbo/moonraker-env/bin/python $MOONRAKER_ARGS
-**WorkingDirectory=/home/turbo/moonraker
-**FragmentPath=/etc/systemd/system/moonraker.service
-**Description=API Server for Klipper SV1
-**User=turbo
-2024-02-06 20:06:49,053 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
-2024-02-06 20:06:49,053 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
-2024-02-06 20:06:49,055 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
-2024-02-06 20:06:49,055 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
-2024-02-06 20:06:49,055 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
-2024-02-06 20:06:49,059 [server.py:add_log_rollover_item()] - 
-Systemd unit klipper.service:
-unit_name: klipper.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['sysinit.target', '-.mount', 'system.slice']
-**After=['sysinit.target', 'basic.target', 'system.slice', '-.mount', 'network-online.target', 'systemd-journald.socket']
-**SupplementaryGroups=[]
-**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
-**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
-**WorkingDirectory=/home/turbo/klipper
-**FragmentPath=/etc/systemd/system/klipper.service
-**Description=Klipper 3D Printer Firmware SV1
-**User=turbo
-2024-02-06 20:06:49,061 [server.py:_initialize_component()] - Performing Component Post Init: [timelapse]
-2024-02-06 20:06:49,061 [timelapse.py:parseWebcamConfig()] - snapshoturl: http://localhost/webcam/?action=snapshot, Flip V/H: False/False, rotation: 0
-2024-02-06 20:06:49,061 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
-2024-02-06 20:06:49,061 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
-2024-02-06 20:06:49,121 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
-2024-02-06 20:06:49,122 [base_deploy.py:log_info()] - Git Repo moonraker: Stored pip version: 23.0
-2024-02-06 20:06:51,290 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Stored pip version: 22.0.2
-2024-02-06 20:06:51,828 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Stored pip version: 23.0
-2024-02-06 20:06:52,880 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
-2024-02-06 20:06:52,883 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
-2024-02-06 20:06:52,884 [app.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
-2024-02-06 20:06:53,138 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2024-02-06 20:06:53,166 [server.py:add_log_rollover_item()] - 
-Systemd unit klipper.service:
-unit_name: klipper.service
-is_default: True
-manager: systemd
-Properties:
-**Requires=['system.slice', 'sysinit.target', '-.mount']
-**After=['network-online.target', '-.mount', 'systemd-journald.socket', 'basic.target', 'system.slice', 'sysinit.target']
-**SupplementaryGroups=[]
-**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
-**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
-**WorkingDirectory=/home/turbo/klipper
-**FragmentPath=/etc/systemd/system/klipper.service
-**Description=Klipper 3D Printer Firmware SV1
-**User=turbo
-2024-02-06 20:06:53,418 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-25-g99d7af87
-2024-02-06 20:06:53,421 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/info
-2024-02-06 20:06:53,421 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.info
-2024-02-06 20:06:53,421 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/emergency_stop
-2024-02-06 20:06:53,421 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.emergency_stop
-2024-02-06 20:06:53,421 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/help
-2024-02-06 20:06:53,421 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.help
-2024-02-06 20:06:53,421 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/script
-2024-02-06 20:06:53,421 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.script
-2024-02-06 20:06:53,421 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/restart
-2024-02-06 20:06:53,421 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.restart
-2024-02-06 20:06:53,422 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/firmware_restart
-2024-02-06 20:06:53,422 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.firmware_restart
-2024-02-06 20:06:53,422 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/list
-2024-02-06 20:06:53,422 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.list
-2024-02-06 20:06:53,422 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/query
-2024-02-06 20:06:53,422 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.query
-2024-02-06 20:06:53,422 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/subscribe
-2024-02-06 20:06:53,422 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.subscribe
-2024-02-06 20:06:53,422 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/cancel
-2024-02-06 20:06:53,423 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.cancel
-2024-02-06 20:06:53,423 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/pause
-2024-02-06 20:06:53,423 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.pause
-2024-02-06 20:06:53,423 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/resume
-2024-02-06 20:06:53,423 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.resume
-2024-02-06 20:06:53,431 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_stepper
-2024-02-06 20:06:53,431 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_stepper
-2024-02-06 20:06:53,431 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/query_endstops/status
-2024-02-06 20:06:53,432 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.query_endstops.status
-2024-02-06 20:06:53,432 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
-2024-02-06 20:06:53,432 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
-2024-02-06 20:06:53,434 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2024-02-06 20:06:53,434 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2024-02-06 20:06:53,685 [job_state.py:_handle_started()] - Job state initialized: standby
-2024-02-06 20:06:53,946 [klippy_connection.py:_check_ready()] - Klippy ready
-2024-02-06 20:06:54,436 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
-2024-02-06 20:06:54,794 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
-2024-02-06 20:06:54,796 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 2.17ms
-2024-02-06 20:06:54,796 [websockets.py:open()] - Websocket Opened: ID: 139997979235936, Proxied: False, User Agent: , Host Name: 0.0.0.0
-2024-02-06 20:06:54,798 [websockets.py:_handle_identify()] - Websocket 139997979235936 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
-2024-02-06 20:06:56,193 [base_deploy.py:log_info()] - PackageKit: Detected 0 package updates:
-
-2024-02-06 20:06:56,210 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker status --porcelain -b) successfully finished
-2024-02-06 20:06:56,215 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker branch --list --no-color) successfully finished
-2024-02-06 20:06:56,220 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker remote get-url origin) successfully finished
-2024-02-06 20:06:57,085 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker fetch origin --prune --progress) successfully finished
-2024-02-06 20:06:57,092 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:06:57,095 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-parse HEAD) successfully finished
-2024-02-06 20:06:57,104 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:06:57,107 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-parse origin/master) successfully finished
-2024-02-06 20:06:57,117 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:06:57,122 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-list HEAD..f946e6a28d7506d8da16851cbf730fa89b267926 --count) successfully finished
-2024-02-06 20:06:57,129 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker log 9ad8fed81ea4f81d308e68a301a5ccb84f77f192..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:06:57,160 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:06:57,160 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
-Owner: Arksine
-Repository Name: moonraker
-Path: /home/turbo/moonraker
-Remote: origin
-Branch: master
-Remote URL: https://github.com/Arksine/moonraker.git
-Recovery URL: https://github.com/Arksine/moonraker.git
-Current Commit SHA: 9ad8fed81ea4f81d308e68a301a5ccb84f77f192
-Upstream Commit SHA: f946e6a28d7506d8da16851cbf730fa89b267926
-Current Version: v0.8.0-206-g9ad8fed8
-Upstream Version: v0.8.0-309-gf946e6a2
-Rollback Commit: 797c62389d31de2ec6c386af83b9cd0957f50068
-Rollback Branch: master
-Rollback Version: v0.8.0-136-g797c6238
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 103
-Diverged: False
-Repo Warnings:
-  Repo has untracked source files: ['moonraker/components/timelapse.py']
-2024-02-06 20:06:57,160 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
-2024-02-06 20:06:57,160 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
-2024-02-06 20:06:57,184 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper status --porcelain -b) successfully finished
-2024-02-06 20:06:57,190 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper branch --list --no-color) successfully finished
-2024-02-06 20:06:57,195 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper remote get-url origin) successfully finished
-2024-02-06 20:06:58,029 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper fetch origin --prune --progress) successfully finished
-2024-02-06 20:06:58,034 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:06:58,037 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-parse HEAD) successfully finished
-2024-02-06 20:06:58,088 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:06:58,091 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-parse origin/master) successfully finished
-2024-02-06 20:06:58,141 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:06:58,146 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-list HEAD..9f41f53c5e364694b9b41279b3b3aee34250b93a --count) successfully finished
-2024-02-06 20:06:58,151 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper log 99d7af87fd7cd74b9a6eab355eb71327ed3b8256..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:06:58,207 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:06:58,208 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
-Owner: Klipper3d
-Repository Name: klipper
-Path: /home/turbo/klipper
-Remote: origin
-Branch: master
-Remote URL: https://github.com/Klipper3d/klipper
-Recovery URL: https://github.com/Klipper3d/klipper
-Current Commit SHA: 99d7af87fd7cd74b9a6eab355eb71327ed3b8256
-Upstream Commit SHA: 9f41f53c5e364694b9b41279b3b3aee34250b93a
-Current Version: v0.12.0-25-g99d7af87
-Upstream Version: v0.12.0-102-g9f41f53c
-Rollback Commit: 6f7c743615fa84198a5635569c8bcdf5f42d3e82
-Rollback Branch: master
-Rollback Version: v0.11.0-255-g6f7c7436
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 77
-Diverged: False
-2024-02-06 20:06:58,208 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
-2024-02-06 20:06:58,208 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
-2024-02-06 20:06:58,419 [web_deploy.py:_log_client_info()] - Web Client mainsail Detected:
-Repo: mainsail-crew/mainsail
-Channel: stable
-Path: /home/turbo/mainsail
-Local Version: v2.8.0
-Remote Version: v2.9.1
-Valid: True
-Fallback Client Detected: False
-Pre-release: False
-Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.9.1/mainsail.zip
-Download Size: 2071443
-Content Type: application/zip
-Rollback Version: v2.6.2
-Rollback Repo: mainsail-crew/mainsail
-2024-02-06 20:06:58,434 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot status --porcelain -b) successfully finished
-2024-02-06 20:06:58,440 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot branch --list --no-color) successfully finished
-2024-02-06 20:06:58,446 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot remote get-url origin) successfully finished
-2024-02-06 20:06:58,929 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot fetch origin --prune --progress) successfully finished
-2024-02-06 20:06:58,933 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:06:58,936 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-parse HEAD) successfully finished
-2024-02-06 20:06:58,940 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:06:58,943 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-parse origin/master) successfully finished
-2024-02-06 20:06:58,947 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot describe origin/master --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:06:58,951 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-list HEAD..b9b47003e13b8a23af696594aac8ba53c777f5a7 --count) successfully finished
-2024-02-06 20:06:58,951 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
-Owner: nlef
-Repository Name: moonraker-telegram-bot
-Path: /home/turbo/moonraker-telegram-bot
-Remote: origin
-Branch: master
-Remote URL: https://github.com/nlef/moonraker-telegram-bot.git
-Recovery URL: https://github.com/nlef/moonraker-telegram-bot.git
-Current Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
-Upstream Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
-Current Version: v1.5-0-gb9b47003
-Upstream Version: v1.5-0-gb9b47003
-Rollback Commit: b9b47003e13b8a23af696594aac8ba53c777f5a7
-Rollback Branch: master
-Rollback Version: v1.5-0-gb9b4700
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 0
-Diverged: False
-2024-02-06 20:06:58,951 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Channel: dev
-2024-02-06 20:06:58,951 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Validity check for git repo passed
-2024-02-06 20:06:58,971 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest status --porcelain -b) successfully finished
-2024-02-06 20:06:58,977 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest branch --list --no-color) successfully finished
-2024-02-06 20:06:58,982 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest remote get-url origin) successfully finished
-2024-02-06 20:06:59,481 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest fetch origin --prune --progress) successfully finished
-2024-02-06 20:06:59,485 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:06:59,488 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-parse HEAD) successfully finished
-2024-02-06 20:06:59,495 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:06:59,499 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-parse origin/master) successfully finished
-2024-02-06 20:06:59,506 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:06:59,510 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-list HEAD..c0c9c418c8e7d6158bfd7bb51a184ab20b77d075 --count) successfully finished
-2024-02-06 20:06:59,515 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest log f7ac6aa298143f0019eae9b2b2be8039196ebeda..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:06:59,531 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:06:59,532 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
-Owner: mainsail-crew
-Repository Name: crowsnest
-Path: /home/turbo/crowsnest
-Remote: origin
-Branch: master
-Remote URL: https://github.com/mainsail-crew/crowsnest.git
-Recovery URL: https://github.com/mainsail-crew/crowsnest.git
-Current Commit SHA: f7ac6aa298143f0019eae9b2b2be8039196ebeda
-Upstream Commit SHA: c0c9c418c8e7d6158bfd7bb51a184ab20b77d075
-Current Version: v4.1.1-1-gf7ac6aa2
-Upstream Version: v4.1.3-1-gc0c9c418
-Rollback Commit: 8b54eae98dcb5de73f5aab121805ef018cda5052
-Rollback Branch: master
-Rollback Version: v4.0.2-2-g8b54eae9
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 19
-Diverged: False
-2024-02-06 20:06:59,532 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
-2024-02-06 20:06:59,532 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
-2024-02-06 20:06:59,566 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico status --porcelain -b) successfully finished
-2024-02-06 20:06:59,572 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico branch --list --no-color) successfully finished
-2024-02-06 20:06:59,577 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico remote get-url origin) successfully finished
-2024-02-06 20:07:00,383 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico fetch origin --prune --progress) successfully finished
-2024-02-06 20:07:00,388 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:07:00,390 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse HEAD) successfully finished
-2024-02-06 20:07:00,400 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:07:00,403 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse origin/master) successfully finished
-2024-02-06 20:07:00,411 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe origin/master --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:07:00,416 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-list HEAD..9a8640b506129df5f3e4fee8da1e39427607b9bb --count) successfully finished
-2024-02-06 20:07:00,420 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico log f9327841627bade6efb237ee21898344ba8fe336..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:07:00,452 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:07:00,453 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
-Owner: TheSpaghettiDetective
-Repository Name: moonraker-obico
-Path: /home/turbo/moonraker-obico
-Remote: origin
-Branch: master
-Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
-Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
-Current Commit SHA: f9327841627bade6efb237ee21898344ba8fe336
-Upstream Commit SHA: 9a8640b506129df5f3e4fee8da1e39427607b9bb
-Current Version: v1.5.3-3-gf9327841
-Upstream Version: v1.5.5-2-g9a8640b5
-Rollback Commit: 1cebe71f85c94115c24ec5be2c54be6f940ee95f
-Rollback Branch: master
-Rollback Version: v1.4.7-0-g1cebe71f
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 16
-Diverged: False
-2024-02-06 20:07:00,453 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Channel: dev
-2024-02-06 20:07:00,453 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Validity check for git repo passed
-2024-02-06 20:07:00,480 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere status --porcelain -b) successfully finished
-2024-02-06 20:07:00,486 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere branch --list --no-color) successfully finished
-2024-02-06 20:07:00,492 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere remote get-url origin) successfully finished
-2024-02-06 20:07:01,251 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere fetch origin --prune --progress) successfully finished
-2024-02-06 20:07:01,255 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere merge-base --is-ancestor HEAD origin/master) successfully finished
-2024-02-06 20:07:01,259 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere rev-parse HEAD) successfully finished
-2024-02-06 20:07:01,280 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:07:01,313 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:07:01,318 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere rev-list HEAD..dbbfcc8fa027eb2181414f0069f26528550a5854 --count) successfully finished
-2024-02-06 20:07:01,324 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere log 531a894c90ae7f5dbe60e19efe17175fa6e63019..dbbfcc8fa027eb2181414f0069f26528550a5854 --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:07:01,337 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:07:01,337 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
-Owner: QuinnDamerell
-Repository Name: OctoPrint-OctoEverywhere
-Path: /home/turbo/octoeverywhere
-Remote: origin
-Branch: master
-Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
-Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
-Current Commit SHA: 531a894c90ae7f5dbe60e19efe17175fa6e63019
-Upstream Commit SHA: dbbfcc8fa027eb2181414f0069f26528550a5854
-Current Version: 2.10.0-0-g531a894c
-Upstream Version: 2.10.8
-Rollback Commit: 2be2cafc1e278ca6ad96ed6506ad260b98a4d4cc
-Rollback Branch: master
-Rollback Version: 2.7.6-0-g2be2cafc
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 27
-Diverged: False
-2024-02-06 20:07:01,337 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Channel: beta
-2024-02-06 20:07:01,337 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Validity check for git repo passed
-2024-02-06 20:07:01,361 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse status --porcelain -b) successfully finished
-2024-02-06 20:07:01,369 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse branch --list --no-color) successfully finished
-2024-02-06 20:07:01,377 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse remote get-url origin) successfully finished
-2024-02-06 20:07:01,867 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse fetch origin --prune --progress) successfully finished
-2024-02-06 20:07:01,870 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse merge-base --is-ancestor HEAD origin/main) successfully finished
-2024-02-06 20:07:01,873 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse HEAD) successfully finished
-2024-02-06 20:07:01,880 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe --always --tags --long --dirty --abbrev=8) successfully finished
-2024-02-06 20:07:01,882 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse origin/main) successfully finished
-2024-02-06 20:07:01,887 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe origin/main --always --tags --long --abbrev=8) successfully finished
-2024-02-06 20:07:01,891 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-list HEAD..c7fff11e542b95e0e15b8bb1443cea8159ac0274 --count) successfully finished
-2024-02-06 20:07:01,895 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse log 57bec0dec80e5058eda13cd3586bc2bda0632900..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2024-02-06 20:07:01,900 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2024-02-06 20:07:01,900 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
-Owner: mainsail-crew
-Repository Name: moonraker-timelapse
-Path: /home/turbo/moonraker-timelapse
-Remote: origin
-Branch: main
-Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
-Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
-Current Commit SHA: 57bec0dec80e5058eda13cd3586bc2bda0632900
-Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
-Current Version: v0.0.1-142-g57bec0de
-Upstream Version: v0.0.1-143-gc7fff11e
-Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
-Rollback Branch: main
-Rollback Version: v0.0.1-142-g57bec0d
-Is Dirty: False
-Is Detached: False
-Is Shallow: False
-Commits Behind Count: 1
-Diverged: False
-2024-02-06 20:07:01,900 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
-2024-02-06 20:07:01,900 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
-2024-02-06 20:07:02,822 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.62ms
-2024-02-06 20:07:02,822 [websockets.py:open()] - Websocket Opened: ID: 139997979090064, Proxied: False, User Agent: , Host Name: 127.0.0.1
-2024-02-06 20:07:02,959 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
-2024-02-06 20:08:55,145 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.80ms
-2024-02-06 20:08:55,145 [websockets.py:open()] - Websocket Opened: ID: 139997978673552, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0, Host Name: localhost
-2024-02-06 20:08:55,202 [websockets.py:_handle_identify()] - Websocket 139997978673552 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
-2024-02-06 20:08:56,554 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.79ms
-2024-02-06 20:08:56,554 [websockets.py:open()] - Websocket Opened: ID: 139997978676864, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0, Host Name: localhost
-2024-02-06 20:08:56,563 [websockets.py:_handle_identify()] - Websocket 139997978676864 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
-2024-02-06 20:51:48,961 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
-2024-02-06 20:51:48,961 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.90ms
-2024-02-06 20:51:48,962 [websockets.py:open()] - Websocket Opened: ID: 139997980619296, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
-2024-02-06 20:51:48,971 [websockets.py:_handle_identify()] - Websocket 139997980619296 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
-2024-02-06 20:51:49,988 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.72ms
-2024-02-06 20:51:49,988 [websockets.py:open()] - Websocket Opened: ID: 139997980610512, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
-2024-02-06 20:51:50,064 [websockets.py:_handle_identify()] - Websocket 139997980610512 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
-2024-02-06 20:59:36,328 [app.py:prepare()] - Upload Request Received from 192.168.1.12
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJXxNfYfbPmvQvlEs
-2024-02-06 20:59:36,666 [app.py:post()] - Processing Uploaded File: BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode
-2024-02-06 20:59:36,813 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
-
-2024-02-06 20:59:36,852 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
-2024-02-06 20:59:36,888 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 561.15ms
-2024-02-06 20:59:36,905 [job_state.py:_status_update()] - Job Started: BABEL_33m_0,20mm_205C_PLA_ENDER3.gcode
-2024-02-06 21:38:31,932 [timelapse.py:render()] - no frames to render, skip
-2024-02-06 21:59:11,533 [websockets.py:on_close()] - Websocket Closed: ID: 139997980619296 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.57
-2024-02-06 21:59:11,535 [websockets.py:on_close()] - Websocket Closed: ID: 139997980610512 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.54
-2024-02-06 21:59:20,616 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.82ms
-2024-02-06 21:59:20,616 [websockets.py:open()] - Websocket Opened: ID: 139997952848656, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
-2024-02-06 21:59:20,629 [websockets.py:_handle_identify()] - Websocket 139997952848656 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
-2024-02-06 21:59:21,094 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
-2024-02-06 21:59:21,094 [websockets.py:open()] - Websocket Opened: ID: 139997952843424, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
-2024-02-06 21:59:21,164 [websockets.py:_handle_identify()] - Websocket 139997952843424 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-07 13:56:27,007 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/login
+2024-02-07 13:56:27,007 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.login
+2024-02-07 13:56:27,007 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/logout
+2024-02-07 13:56:27,007 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.logout
+2024-02-07 13:56:27,007 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/refresh_jwt
+2024-02-07 13:56:27,007 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.refresh_jwt
+2024-02-07 13:56:27,007 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST DELETE) /access/user
+2024-02-07 13:56:27,008 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.get_user, access.post_user, access.delete_user
+2024-02-07 13:56:27,008 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/users/list
+2024-02-07 13:56:27,008 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.users.list
+2024-02-07 13:56:27,008 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /access/user/password
+2024-02-07 13:56:27,009 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.user.password
+2024-02-07 13:56:27,009 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET POST) /access/api_key
+2024-02-07 13:56:27,009 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.get_api_key, access.post_api_key
+2024-02-07 13:56:27,009 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/oneshot_token
+2024-02-07 13:56:27,009 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.oneshot_token
+2024-02-07 13:56:27,009 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /access/info
+2024-02-07 13:56:27,009 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: access.info
+2024-02-07 13:56:27,009 [server.py:load_component()] - Component (authorization) loaded
+2024-02-07 13:56:27,017 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/version
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/server
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/login
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/currentuser
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/settings
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/job
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/printer
+2024-02-07 13:56:27,018 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/printer/command
+2024-02-07 13:56:27,019 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /api/printerprofiles
+2024-02-07 13:56:27,019 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /api/files/moonraker/(?P<relative_path>.+)
+2024-02-07 13:56:27,019 [server.py:load_component()] - Component (octoprint_compat) loaded
+2024-02-07 13:56:27,024 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET DELETE) /server/history/job
+2024-02-07 13:56:27,024 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.get_job, server.history.delete_job
+2024-02-07 13:56:27,024 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/history/list
+2024-02-07 13:56:27,024 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.list
+2024-02-07 13:56:27,024 [app.py:register_local_handler()] - Registering HTTP Endpoint: (GET) /server/history/totals
+2024-02-07 13:56:27,024 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.totals
+2024-02-07 13:56:27,025 [app.py:register_local_handler()] - Registering HTTP Endpoint: (POST) /server/history/reset_totals
+2024-02-07 13:56:27,025 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: server.history.reset_totals
+2024-02-07 13:56:27,027 [server.py:load_component()] - Component (history) loaded
+2024-02-07 13:56:27,043 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2024-02-07 13:56:27,099 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
+2024-02-07 13:56:27,602 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2024-02-07 13:56:27,602 [machine.py:validation_init()] - Installation version in database up to date
