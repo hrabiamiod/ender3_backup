@@ -470,3 +470,276 @@ CORS Domains:
 2024-02-07 13:56:27,099 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
 2024-02-07 13:56:27,602 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
 2024-02-07 13:56:27,602 [machine.py:validation_init()] - Installation version in database up to date
+2024-02-07 13:56:28,226 [machine.py:check_virt_status()] - No Virtualization Detected
+2024-02-07 13:56:28,239 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-02-07 13:56:28,240 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-02-07 13:56:28,457 [server.py:add_log_rollover_item()] - 
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'network-online.target', 'sysinit.target']
+**After=['system.slice', '-.mount', 'systemd-journald.socket', 'basic.target', 'network-online.target', 'sysinit.target']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/turbo/printer_data/systemd/moonraker.env
+**ExecStart=/home/turbo/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/turbo/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=turbo
+2024-02-07 13:56:28,458 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
+2024-02-07 13:56:28,458 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
+2024-02-07 13:56:28,458 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
+2024-02-07 13:56:28,458 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-02-07 13:56:28,458 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
+2024-02-07 13:56:28,459 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['network-online.target', '-.mount', 'systemd-journald.socket', 'basic.target', 'system.slice', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-02-07 13:56:28,459 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
+2024-02-07 13:56:28,459 [server.py:_initialize_component()] - Performing Component Post Init: [timelapse]
+2024-02-07 13:56:28,459 [timelapse.py:parseWebcamConfig()] - snapshoturl: http://localhost/webcam/?action=snapshot, Flip V/H: False/False, rotation: 0
+2024-02-07 13:56:28,459 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2024-02-07 13:56:28,523 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
+2024-02-07 13:56:28,532 [base_deploy.py:log_info()] - Git Repo moonraker: Stored pip version: 23.0
+2024-02-07 13:56:29,048 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/turbo/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker.git
+Recovery URL: https://github.com/Arksine/moonraker.git
+Current Commit SHA: 9ad8fed81ea4f81d308e68a301a5ccb84f77f192
+Upstream Commit SHA: f946e6a28d7506d8da16851cbf730fa89b267926
+Current Version: v0.8.0-206-g9ad8fed8
+Upstream Version: v0.8.0-309-gf946e6a2
+Rollback Commit: 797c62389d31de2ec6c386af83b9cd0957f50068
+Rollback Branch: master
+Rollback Version: v0.8.0-136-g797c6238
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 103
+Diverged: False
+Repo Warnings:
+  Repo has untracked source files: ['moonraker/components/timelapse.py']
+2024-02-07 13:56:29,603 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/turbo/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 99d7af87fd7cd74b9a6eab355eb71327ed3b8256
+Upstream Commit SHA: 9f41f53c5e364694b9b41279b3b3aee34250b93a
+Current Version: v0.12.0-25-g99d7af87
+Upstream Version: v0.12.0-102-g9f41f53c
+Rollback Commit: 6f7c743615fa84198a5635569c8bcdf5f42d3e82
+Rollback Branch: master
+Rollback Version: v0.11.0-255-g6f7c7436
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 77
+Diverged: False
+2024-02-07 13:56:29,615 [web_deploy.py:_log_client_info()] - Web Client mainsail Detected:
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/turbo/mainsail
+Local Version: v2.8.0
+Remote Version: v2.9.1
+Valid: True
+Fallback Client Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.9.1/mainsail.zip
+Download Size: 2071443
+Content Type: application/zip
+Rollback Version: v2.6.2
+Rollback Repo: mainsail-crew/mainsail
+2024-02-07 13:56:30,184 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
+Owner: nlef
+Repository Name: moonraker-telegram-bot
+Path: /home/turbo/moonraker-telegram-bot
+Remote: origin
+Branch: master
+Remote URL: https://github.com/nlef/moonraker-telegram-bot.git
+Recovery URL: https://github.com/nlef/moonraker-telegram-bot.git
+Current Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Upstream Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Current Version: v1.5-0-gb9b47003
+Upstream Version: v1.5-0-gb9b47003
+Rollback Commit: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Rollback Branch: master
+Rollback Version: v1.5-0-gb9b4700
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-02-07 13:56:30,835 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/turbo/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: f7ac6aa298143f0019eae9b2b2be8039196ebeda
+Upstream Commit SHA: c0c9c418c8e7d6158bfd7bb51a184ab20b77d075
+Current Version: v4.1.1-1-gf7ac6aa2
+Upstream Version: v4.1.3-1-gc0c9c418
+Rollback Commit: 8b54eae98dcb5de73f5aab121805ef018cda5052
+Rollback Branch: master
+Rollback Version: v4.0.2-2-g8b54eae9
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 19
+Diverged: False
+2024-02-07 13:56:30,835 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Stored pip version: 22.0.2
+2024-02-07 13:56:31,365 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+Owner: TheSpaghettiDetective
+Repository Name: moonraker-obico
+Path: /home/turbo/moonraker-obico
+Remote: origin
+Branch: master
+Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Current Commit SHA: f9327841627bade6efb237ee21898344ba8fe336
+Upstream Commit SHA: 9a8640b506129df5f3e4fee8da1e39427607b9bb
+Current Version: v1.5.3-3-gf9327841
+Upstream Version: v1.5.5-2-g9a8640b5
+Rollback Commit: 1cebe71f85c94115c24ec5be2c54be6f940ee95f
+Rollback Branch: master
+Rollback Version: v1.4.7-0-g1cebe71f
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 16
+Diverged: False
+2024-02-07 13:56:31,365 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Stored pip version: 23.0
+2024-02-07 13:56:31,891 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+Owner: QuinnDamerell
+Repository Name: OctoPrint-OctoEverywhere
+Path: /home/turbo/octoeverywhere
+Remote: origin
+Branch: master
+Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Current Commit SHA: 531a894c90ae7f5dbe60e19efe17175fa6e63019
+Upstream Commit SHA: dbbfcc8fa027eb2181414f0069f26528550a5854
+Current Version: 2.10.0-0-g531a894c
+Upstream Version: 2.10.8
+Rollback Commit: 2be2cafc1e278ca6ad96ed6506ad260b98a4d4cc
+Rollback Branch: master
+Rollback Version: 2.7.6-0-g2be2cafc
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 27
+Diverged: False
+2024-02-07 13:56:32,408 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/turbo/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-142-g57bec0de
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Rollback Branch: main
+Rollback Version: v0.0.1-142-g57bec0d
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 1
+Diverged: False
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 24 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 25 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 26 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Web Client mainsail: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 26 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 27 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 27 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 28 Seconds
+2024-02-07 13:56:32,408 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 29 Seconds
+2024-02-07 13:56:32,409 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 6 Days, 6 Hours, 10 Minutes, 29 Seconds
+2024-02-07 13:56:32,411 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
+2024-02-07 13:56:32,412 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
+2024-02-07 13:56:32,412 [app.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-02-07 13:56:32,663 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 13:56:32,690 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['system.slice', '-.mount', 'basic.target', 'systemd-journald.socket', 'network-online.target', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-02-07 13:56:32,942 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-25-g99d7af87
+2024-02-07 13:56:32,945 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/info
+2024-02-07 13:56:32,946 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.info
+2024-02-07 13:56:32,946 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/emergency_stop
+2024-02-07 13:56:32,946 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.emergency_stop
+2024-02-07 13:56:32,946 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/help
+2024-02-07 13:56:32,946 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.help
+2024-02-07 13:56:32,946 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/script
+2024-02-07 13:56:32,946 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.script
+2024-02-07 13:56:32,946 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/restart
+2024-02-07 13:56:32,946 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.restart
+2024-02-07 13:56:32,946 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/firmware_restart
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.firmware_restart
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/list
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.list
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/query
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.query
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/subscribe
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.subscribe
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/cancel
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.cancel
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/pause
+2024-02-07 13:56:32,947 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.pause
+2024-02-07 13:56:32,947 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/resume
+2024-02-07 13:56:32,948 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.resume
+2024-02-07 13:56:32,948 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_stepper
+2024-02-07 13:56:32,948 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_stepper
+2024-02-07 13:56:32,948 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/query_endstops/status
+2024-02-07 13:56:32,948 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.query_endstops.status
+2024-02-07 13:56:32,948 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2024-02-07 13:56:32,948 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2024-02-07 13:56:32,958 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 13:56:32,960 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 13:56:33,208 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-07 13:56:33,464 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-07 13:56:33,961 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-07 13:56:34,060 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-07 13:56:34,064 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.71ms
+2024-02-07 13:56:34,064 [websockets.py:open()] - Websocket Opened: ID: 140409870777312, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-02-07 13:56:34,220 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.95ms
+2024-02-07 13:56:34,220 [websockets.py:open()] - Websocket Opened: ID: 140409869272352, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 13:56:34,224 [websockets.py:_handle_identify()] - Websocket 140409869272352 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 13:56:34,224 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
