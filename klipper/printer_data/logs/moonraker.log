@@ -759,3 +759,175 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAJTZMMFAlpRQBZ
 2024-02-07 16:59:30,488 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it.gcode") successfully finished
 2024-02-07 16:59:30,498 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 951.69ms
 2024-02-07 16:59:30,717 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it.gcode
+2024-02-07 17:00:32,096 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-07 17:00:32,101 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1707321602.106507, Usage: 1.22%, Memory: 46560 kB
+System Time: 1707321603.110399, Usage: 0.9%, Memory: 46560 kB
+System Time: 1707321604.110747, Usage: 0.83%, Memory: 46560 kB
+System Time: 1707321605.110231, Usage: 0.77%, Memory: 46560 kB
+System Time: 1707321606.110424, Usage: 0.67%, Memory: 46560 kB
+System Time: 1707321607.110851, Usage: 0.55%, Memory: 46560 kB
+System Time: 1707321608.111939, Usage: 0.77%, Memory: 46560 kB
+System Time: 1707321609.112227, Usage: 0.61%, Memory: 46560 kB
+System Time: 1707321610.112691, Usage: 0.75%, Memory: 46560 kB
+System Time: 1707321611.113754, Usage: 0.7%, Memory: 46560 kB
+System Time: 1707321612.114546, Usage: 1.74%, Memory: 46560 kB
+System Time: 1707321613.115634, Usage: 0.68%, Memory: 46560 kB
+System Time: 1707321614.115580, Usage: 1.11%, Memory: 46560 kB
+System Time: 1707321615.116618, Usage: 0.75%, Memory: 46560 kB
+System Time: 1707321616.118676, Usage: 0.65%, Memory: 46560 kB
+System Time: 1707321617.118923, Usage: 0.78%, Memory: 46560 kB
+System Time: 1707321618.119319, Usage: 0.73%, Memory: 46560 kB
+System Time: 1707321619.119783, Usage: 0.74%, Memory: 46560 kB
+System Time: 1707321620.122671, Usage: 0.77%, Memory: 46560 kB
+System Time: 1707321621.120631, Usage: 0.74%, Memory: 46560 kB
+System Time: 1707321622.121587, Usage: 0.73%, Memory: 46560 kB
+System Time: 1707321623.121704, Usage: 0.56%, Memory: 46560 kB
+System Time: 1707321624.122491, Usage: 1.98%, Memory: 46560 kB
+System Time: 1707321625.122805, Usage: 1.22%, Memory: 46560 kB
+System Time: 1707321626.123042, Usage: 0.57%, Memory: 46560 kB
+System Time: 1707321627.124450, Usage: 0.71%, Memory: 46560 kB
+System Time: 1707321628.124762, Usage: 0.64%, Memory: 46560 kB
+System Time: 1707321629.125878, Usage: 0.74%, Memory: 46560 kB
+System Time: 1707321630.126638, Usage: 0.61%, Memory: 46560 kB
+System Time: 1707321631.126746, Usage: 0.98%, Memory: 46560 kB
+CPU Temperature: None
+2024-02-07 17:00:32,101 [websockets.py:on_close()] - Websocket Closed: ID: 140409869272352 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.88
+2024-02-07 17:00:32,533 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-02-07 17:00:33,554 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 17:00:34,108 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-07 17:00:34,109 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.69ms
+2024-02-07 17:00:34,109 [websockets.py:open()] - Websocket Opened: ID: 140409869634912, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:00:34,110 [websockets.py:_handle_identify()] - Websocket 140409869634912 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:00:34,119 [websockets.py:on_close()] - Websocket Closed: ID: 140409869634912 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.01
+2024-02-07 17:00:34,809 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 17:00:36,099 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 17:00:36,100 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 17:00:36,100 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-02-07 17:00:36,127 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.78ms
+2024-02-07 17:00:36,127 [websockets.py:open()] - Websocket Opened: ID: 140409868068048, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:00:36,133 [websockets.py:_handle_identify()] - Websocket 140409868068048 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:01:49,851 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 17:01:49,852 [websockets.py:on_close()] - Websocket Closed: ID: 140409868068048 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.72
+2024-02-07 17:01:51,106 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 17:01:51,857 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-07 17:01:51,857 [websockets.py:open()] - Websocket Opened: ID: 140409868064112, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:01:51,859 [websockets.py:_handle_identify()] - Websocket 140409868064112 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:01:52,415 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 17:01:52,416 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 17:01:52,417 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-02-07 17:01:59,456 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 17:01:59,457 [websockets.py:on_close()] - Websocket Closed: ID: 140409868064112 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.60
+2024-02-07 17:02:00,710 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 17:02:01,464 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-07 17:02:01,464 [websockets.py:open()] - Websocket Opened: ID: 140409868297328, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:02:01,466 [websockets.py:_handle_identify()] - Websocket 140409868297328 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:02:02,998 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 17:02:02,998 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 17:02:03,248 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-07 17:02:03,504 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-07 17:02:04,253 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-07 17:02:10,311 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5emI1YFdi6WGIg6r
+2024-02-07 17:02:11,106 [app.py:post()] - Processing Uploaded File: CFFFP_2x2x6_Post-it_50.gcode
+2024-02-07 17:02:11,199 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-07 17:02:11,232 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it_50.gcode") successfully finished
+2024-02-07 17:02:11,242 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 930.89ms
+2024-02-07 17:02:11,267 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it_50.gcode
+2024-02-07 17:11:00,317 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.72ms
+2024-02-07 17:11:00,317 [websockets.py:open()] - Websocket Opened: ID: 140409867971568, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-07 17:11:00,335 [websockets.py:_handle_identify()] - Websocket 140409867971568 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-07 17:11:01,244 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
+2024-02-07 17:11:01,244 [websockets.py:open()] - Websocket Opened: ID: 140409868296656, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-07 17:11:01,314 [websockets.py:_handle_identify()] - Websocket 140409868296656 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-07 17:21:07,742 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-07 17:21:07,747 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1707322838.184747, Usage: 0.72%, Memory: 47432 kB
+System Time: 1707322839.185923, Usage: 0.7%, Memory: 47432 kB
+System Time: 1707322840.186296, Usage: 0.65%, Memory: 47432 kB
+System Time: 1707322841.186864, Usage: 0.69%, Memory: 47432 kB
+System Time: 1707322842.187312, Usage: 0.96%, Memory: 47432 kB
+System Time: 1707322843.188358, Usage: 1.86%, Memory: 47432 kB
+System Time: 1707322844.188437, Usage: 1.26%, Memory: 47432 kB
+System Time: 1707322845.189178, Usage: 0.64%, Memory: 47432 kB
+System Time: 1707322846.189808, Usage: 0.61%, Memory: 47432 kB
+System Time: 1707322847.191225, Usage: 0.55%, Memory: 47432 kB
+System Time: 1707322848.191970, Usage: 0.71%, Memory: 47432 kB
+System Time: 1707322849.193268, Usage: 0.71%, Memory: 47432 kB
+System Time: 1707322850.193934, Usage: 0.63%, Memory: 47432 kB
+System Time: 1707322851.194721, Usage: 0.69%, Memory: 47432 kB
+System Time: 1707322852.195492, Usage: 0.89%, Memory: 47432 kB
+System Time: 1707322853.197726, Usage: 0.63%, Memory: 47432 kB
+System Time: 1707322854.198738, Usage: 1.83%, Memory: 47432 kB
+System Time: 1707322855.200110, Usage: 0.68%, Memory: 47432 kB
+System Time: 1707322856.200948, Usage: 1.11%, Memory: 47432 kB
+System Time: 1707322857.202245, Usage: 0.63%, Memory: 47432 kB
+System Time: 1707322858.202909, Usage: 0.7%, Memory: 47432 kB
+System Time: 1707322859.204227, Usage: 0.69%, Memory: 47432 kB
+System Time: 1707322860.205014, Usage: 0.65%, Memory: 47432 kB
+System Time: 1707322861.205514, Usage: 0.69%, Memory: 47432 kB
+System Time: 1707322862.205843, Usage: 0.93%, Memory: 47432 kB
+System Time: 1707322863.207210, Usage: 0.97%, Memory: 47432 kB
+System Time: 1707322864.207662, Usage: 1.0%, Memory: 47432 kB
+System Time: 1707322865.208447, Usage: 0.62%, Memory: 47432 kB
+System Time: 1707322866.211069, Usage: 1.76%, Memory: 47432 kB
+System Time: 1707322867.209606, Usage: 1.12%, Memory: 47432 kB
+CPU Temperature: None
+2024-02-07 17:21:07,748 [websockets.py:on_close()] - Websocket Closed: ID: 140409868297328 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.28
+2024-02-07 17:21:09,753 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
+2024-02-07 17:21:09,753 [websockets.py:open()] - Websocket Opened: ID: 140409867967824, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:21:09,755 [websockets.py:_handle_identify()] - Websocket 140409867967824 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:21:25,884 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 17:21:25,886 [websockets.py:on_close()] - Websocket Closed: ID: 140409867967824 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.13
+2024-02-07 17:21:27,139 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 17:21:27,892 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.70ms
+2024-02-07 17:21:27,892 [websockets.py:open()] - Websocket Opened: ID: 140409868289696, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:21:27,894 [websockets.py:_handle_identify()] - Websocket 140409868289696 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:21:28,448 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 17:21:28,448 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 17:21:28,449 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-02-07 17:24:13,168 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-07 17:24:13,171 [websockets.py:on_close()] - Websocket Closed: ID: 140409868289696 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.28
+2024-02-07 17:24:14,426 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-07 17:24:15,177 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-07 17:24:15,177 [websockets.py:open()] - Websocket Opened: ID: 140409869287232, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-07 17:24:15,179 [websockets.py:_handle_identify()] - Websocket 140409869287232 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-07 17:24:16,719 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-07 17:24:16,720 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-07 17:24:16,970 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-07 17:24:17,225 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-07 17:24:18,224 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-07 17:25:46,588 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJx2BTvk8kqFwdTzy
+2024-02-07 17:25:47,466 [app.py:post()] - Processing Uploaded File: CFFFP_2x2x6_Post-it_3.gcode
+2024-02-07 17:25:47,562 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-07 17:25:47,595 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "CFFFP_2x2x6_Post-it_3.gcode") successfully finished
+2024-02-07 17:25:47,604 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1016.14ms
+2024-02-07 17:25:47,680 [job_state.py:_status_update()] - Job Started: CFFFP_2x2x6_Post-it_3.gcode
