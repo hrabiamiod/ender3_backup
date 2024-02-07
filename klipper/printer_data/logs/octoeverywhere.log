@@ -6474,3 +6474,9 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-07 13:56:34,232 - INFO - Moonraker client setting up default notification hooks
 2024-02-07 13:56:34,713 - INFO - Printer state at socket connect is: standby
 2024-02-07 13:56:34,714 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-07 16:59:30,721 - INFO - FileMetadataCache updated for file [CFFFP_2x2x6_Post-it.gcode]; est time: 6861.0, size: 3819, filament usage: 17720
+2024-02-07 16:59:30,721 - INFO - Gadget is now watching!
+2024-02-07 16:59:30,722 - INFO - New print started; PrintId: ceAIxhsE0JKosmN2ZvHA0L32VgsIrrAlzacjmtAxSKsFTH3hEfFELYCu2cup file:CFFFP_2x2x6_Post-it.gcode size:3819 filament:17720
+2024-02-07 16:59:31,476 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-07 16:59:31,888 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-07 17:00:01,033 - INFO - Waiting to predict with Gadget because the printer is warming up.
