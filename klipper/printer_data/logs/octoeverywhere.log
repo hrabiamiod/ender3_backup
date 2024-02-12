@@ -9019,3 +9019,255 @@ Exception: Unknown klippy waiting state. disconnected
 2024-02-12 21:16:36,005 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-02-12 21:21:36,403 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-02-12 21:26:36,814 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-02-12 21:31:37,219 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-02-12 21:35:40,699 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-02-12 21:35:40,700 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 21:35:40,701 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 21:35:40,701 - INFO - Moonraker websocket connection closed.
+2024-02-12 21:35:40,701 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-12 21:35:41,555 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-12 21:35:41,556 - INFO - Moonraker client failed to send JsonRPC request server.info
+2024-02-12 21:35:41,556 - ERROR - Moonraker client failed to send klippy ready query message. 99990001 - No active websocket connected.
+2024-02-12 21:35:41,558 - ERROR - Moonraker client exception in klippy waiting logic.; Exception Exception: Error returned from klippy state query. 99990001 - No active websocket connected.; Traceback (most recent call last):
+  File "/home/turbo/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 557, in _AfterOpenReadyWaiter
+    raise Exception("Error returned from klippy state query. "+ str(result.GetLoggingErrorStr()))
+Exception: Error returned from klippy state query. 99990001 - No active websocket connected.
+
+2024-02-12 21:35:41,558 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 21:35:41,558 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 21:35:42,703 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-12 21:35:42,706 - INFO - Websocket connected
+2024-02-12 21:35:42,706 - INFO - Moonraker client websocket opened.
+2024-02-12 21:35:42,706 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:35:42,707 - INFO - Authenticating with moonraker...
+2024-02-12 21:35:42,713 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:35:42,713 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-02-12 21:35:44,715 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-12 21:35:44,715 - INFO - Moonraker client setting up default notification hooks
+2024-02-12 21:35:45,024 - INFO - Printer state at socket connect is: standby
+2024-02-12 21:35:45,024 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-12 21:36:11,347 - INFO - Gadget is now watching!
+2024-02-12 21:36:11,353 - INFO - FileMetadataCache updated for file [MAJLO_NAPIS_20_3m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 198.0, size: 138, filament usage: 117
+2024-02-12 21:36:11,353 - INFO - Gadget has stopped watching!
+2024-02-12 21:36:11,353 - INFO - RepeatTimer thread exit
+2024-02-12 21:36:11,354 - INFO - RepeatTimer thread exit
+2024-02-12 21:36:11,355 - INFO - RepeatTimer thread exit
+2024-02-12 21:36:11,356 - INFO - Gadget is now watching!
+2024-02-12 21:36:11,356 - INFO - New print started; PrintId: emxaGhjB78RE8LjwuTBORFEq5QgcUvefNddrj7BfFytjbIDqzRv1ftqzyX8x file:MAJLO_NAPIS_20_3m_0,20mm_205C_PLA_ENDER3.gcode size:138 filament:117
+2024-02-12 21:36:12,106 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:36:12,107 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:36:12,692 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-12 21:36:12,716 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-12 21:36:41,689 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:37:12,019 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:37:16,534 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:37:16,698 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:37:42,349 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:38:12,687 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:38:43,014 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:39:13,314 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:39:43,638 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:40:13,970 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:40:17,482 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:40:17,648 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-12 21:40:26,002 - INFO - First layer timer is done. Stopping.
+2024-02-12 21:40:26,003 - INFO - RepeatTimer thread exit
+2024-02-12 21:40:26,507 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:40:26,683 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-12 21:40:44,804 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:40:58,086 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:40:58,261 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:41:24,154 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:41:24,368 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:41:49,964 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:41:50,130 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:42:10,769 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:42:10,951 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:42:36,830 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:42:36,999 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:42:45,601 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:42:57,131 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:42:57,310 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:43:22,690 - INFO - Starting FinalSnap
+2024-02-12 21:43:23,194 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:23,358 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-12 21:43:23,694 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:23,694 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:24,698 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:24,698 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:25,701 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:25,702 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:26,705 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:26,705 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:27,709 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:27,709 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:28,713 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:28,713 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:29,716 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:29,717 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:30,721 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:30,722 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:31,726 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:31,726 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:32,729 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:32,730 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:33,733 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:33,734 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:34,737 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:34,738 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:35,741 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:35,741 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:36,745 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:36,745 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:37,749 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:37,749 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:38,752 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:38,753 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:39,756 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:39,757 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:40,760 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:40,760 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:41,764 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:41,765 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:42,770 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:42,771 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:43,775 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:43,775 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:44,779 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:44,779 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:45,783 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:45,783 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:46,786 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:46,787 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:47,790 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:47,790 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:48,794 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:48,794 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:49,798 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:49,798 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:50,801 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:50,802 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:51,805 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:51,805 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:52,809 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:52,809 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:53,813 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:53,814 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:54,818 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:54,819 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:55,822 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:55,822 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:56,826 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:56,826 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:57,830 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:57,830 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:58,833 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:58,834 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:43:59,837 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:43:59,838 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:44:00,841 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:44:00,841 - INFO - FinalSnap failed to get a snapshot
+2024-02-12 21:44:01,045 - INFO - Gadget has stopped watching!
+2024-02-12 21:44:01,046 - INFO - RepeatTimer thread exit
+2024-02-12 21:44:01,047 - INFO - RepeatTimer thread exit
+2024-02-12 21:44:01,546 - INFO - Stopping final snap but there's no snapshot to use.
+2024-02-12 21:44:01,547 - INFO - RepeatTimer thread exit
+2024-02-12 21:44:01,550 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:44:01,960 - INFO - NotificationsHandler successfully sent 'done'
+2024-02-12 21:49:41,930 - INFO - Gadget is now watching!
+2024-02-12 21:49:41,933 - INFO - FileMetadataCache updated for file [MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 2326.0, size: 1524, filament usage: 1536
+2024-02-12 21:49:41,933 - INFO - Gadget has stopped watching!
+2024-02-12 21:49:41,933 - INFO - RepeatTimer thread exit
+2024-02-12 21:49:41,933 - INFO - RepeatTimer thread exit
+2024-02-12 21:49:41,934 - INFO - Gadget is now watching!
+2024-02-12 21:49:41,934 - INFO - RepeatTimer thread exit
+2024-02-12 21:49:41,935 - INFO - New print started; PrintId: rxT41ueFarEE1Klbqs8ivfroMl8FEZC5rwOmUT2ifPun7ree96gvIZ2Sljal file:MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode size:1524 filament:1536
+2024-02-12 21:49:42,686 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:49:42,687 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:49:42,922 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-12 21:49:43,097 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-12 21:50:12,248 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:50:42,573 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:50:47,334 - INFO - First layer timer is done. Stopping.
+2024-02-12 21:50:47,335 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,611 - INFO - Gadget has stopped watching!
+2024-02-12 21:50:55,611 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,611 - INFO - Gadget is now watching!
+2024-02-12 21:50:55,612 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,613 - INFO - FileMetadataCache updated for file [MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 2326.0, size: 1524, filament usage: 1536
+2024-02-12 21:50:55,613 - INFO - Gadget has stopped watching!
+2024-02-12 21:50:55,614 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,614 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,614 - INFO - RepeatTimer thread exit
+2024-02-12 21:50:55,614 - INFO - Gadget is now watching!
+2024-02-12 21:50:55,616 - INFO - New print started; PrintId: HuqDnaSwGFYAygGqwhQZPAMezg6IjhT8NFo32Pb0pF0acy5hCu4uJJD7rrMl file:MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode size:1524 filament:1536
+2024-02-12 21:50:56,367 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:50:56,369 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:50:56,560 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-12 21:50:56,732 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-12 21:51:25,933 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:51:56,265 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:52:08,803 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:52:08,981 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-12 21:52:15,065 - INFO - First layer timer is done. Stopping.
+2024-02-12 21:52:15,066 - INFO - RepeatTimer thread exit
+2024-02-12 21:52:15,570 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:52:15,749 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-12 21:52:27,098 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:53:29,995 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-02-12 21:53:29,995 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 21:53:29,997 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 21:53:29,998 - INFO - Moonraker websocket connection closed.
+2024-02-12 21:53:29,998 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-12 21:53:32,000 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-12 21:53:32,003 - INFO - Websocket connected
+2024-02-12 21:53:32,003 - INFO - Moonraker client websocket opened.
+2024-02-12 21:53:32,004 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:53:32,004 - INFO - Authenticating with moonraker...
+2024-02-12 21:53:32,010 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:53:32,011 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-02-12 21:53:35,002 - INFO - Gadget has stopped watching!
+2024-02-12 21:53:35,002 - INFO - RepeatTimer thread exit
+2024-02-12 21:53:35,004 - INFO - RepeatTimer thread exit
+2024-02-12 21:53:35,509 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:53:35,707 - INFO - NotificationsHandler successfully sent 'error'
+2024-02-12 21:54:37,744 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-02-12 21:54:37,744 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 21:54:37,745 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 21:54:37,745 - INFO - Moonraker websocket connection closed.
+2024-02-12 21:54:37,745 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-12 21:54:38,098 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-12 21:54:38,099 - INFO - Moonraker client failed to send JsonRPC request server.info
+2024-02-12 21:54:38,099 - ERROR - Moonraker client failed to send klippy ready query message. 99990001 - No active websocket connected.
+2024-02-12 21:54:38,099 - ERROR - Moonraker client exception in klippy waiting logic.; Exception Exception: Error returned from klippy state query. 99990001 - No active websocket connected.; Traceback (most recent call last):
+  File "/home/turbo/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 557, in _AfterOpenReadyWaiter
+    raise Exception("Error returned from klippy state query. "+ str(result.GetLoggingErrorStr()))
+Exception: Error returned from klippy state query. 99990001 - No active websocket connected.
+
+2024-02-12 21:54:38,099 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 21:54:38,099 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 21:54:39,747 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-12 21:54:39,750 - INFO - Websocket connected
+2024-02-12 21:54:39,750 - INFO - Moonraker client websocket opened.
+2024-02-12 21:54:39,750 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:54:39,750 - INFO - Authenticating with moonraker...
+2024-02-12 21:54:39,756 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 21:54:39,757 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-02-12 21:54:41,760 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-12 21:54:41,761 - INFO - Moonraker client setting up default notification hooks
+2024-02-12 21:54:42,041 - INFO - Printer state at socket connect is: standby
+2024-02-12 21:54:42,042 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-12 21:58:53,159 - INFO - Gadget is now watching!
+2024-02-12 21:58:53,162 - INFO - FileMetadataCache updated for file [MELA_33m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 1966.0, size: 1033, filament usage: 1446
+2024-02-12 21:58:53,163 - INFO - Gadget has stopped watching!
+2024-02-12 21:58:53,163 - INFO - RepeatTimer thread exit
+2024-02-12 21:58:53,163 - INFO - RepeatTimer thread exit
+2024-02-12 21:58:53,164 - INFO - RepeatTimer thread exit
+2024-02-12 21:58:53,165 - INFO - Gadget is now watching!
+2024-02-12 21:58:53,166 - INFO - New print started; PrintId: Gs0YCw8BCflSMIBhH1IEEqHNKwG4LZgDueKl5MkElQy1ocQekbCuCpK32J2x file:MELA_33m_0,20mm_205C_PLA_ENDER3.gcode size:1033 filament:1446
+2024-02-12 21:58:53,914 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:58:53,914 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-12 21:58:54,111 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-12 21:58:54,288 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-12 21:59:23,489 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-12 21:59:53,814 - INFO - Waiting to predict with Gadget because the printer is warming up.

@@ -820,3 +820,111 @@ CPU Temperature: None
 2024-02-12 20:53:51,773 [websockets.py:_handle_identify()] - Websocket 139694003458576 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-02-12 20:55:17,380 [websockets.py:on_close()] - Websocket Closed: ID: 139694003458576 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.64
 2024-02-12 20:55:17,381 [websockets.py:on_close()] - Websocket Closed: ID: 139694003631344 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.65
+2024-02-12 21:35:35,742 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.86ms
+2024-02-12 21:35:35,742 [websockets.py:open()] - Websocket Opened: ID: 139693975471968, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-12 21:35:35,774 [websockets.py:_handle_identify()] - Websocket 139693975471968 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-12 21:35:36,660 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-02-12 21:35:36,660 [websockets.py:open()] - Websocket Opened: ID: 139693975486224, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-12 21:35:36,729 [websockets.py:_handle_identify()] - Websocket 139693975486224 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-12 21:35:40,698 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-12 21:35:40,701 [websockets.py:on_close()] - Websocket Closed: ID: 139694003462752 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.97
+2024-02-12 21:35:41,954 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-12 21:35:42,011 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'sysinit.target', 'system.slice']
+**After=['systemd-journald.socket', 'network-online.target', 'basic.target', 'system.slice', '-.mount', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-02-12 21:35:42,705 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-12 21:35:42,706 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.79ms
+2024-02-12 21:35:42,706 [websockets.py:open()] - Websocket Opened: ID: 139694003633744, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-12 21:35:42,707 [websockets.py:_handle_identify()] - Websocket 139694003633744 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-12 21:35:44,272 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-12 21:35:44,272 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-12 21:35:44,523 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-12 21:35:44,777 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-12 21:35:45,527 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-12 21:36:10,742 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1c2yDqOTmAZ9QWjH
+2024-02-12 21:36:10,788 [app.py:post()] - Processing Uploaded File: MAJLO_NAPIS_20_3m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:36:10,894 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-12 21:36:10,914 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MAJLO_NAPIS_20_3m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-12 21:36:10,926 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 184.28ms
+2024-02-12 21:36:11,096 [job_state.py:_status_update()] - Job Started: MAJLO_NAPIS_20_3m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:44:00,939 [timelapse.py:render()] - no frames to render, skip
+2024-02-12 21:49:40,937 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuuefgSoP3a2JqXHD
+2024-02-12 21:49:41,382 [app.py:post()] - Processing Uploaded File: MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:49:41,476 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-12 21:49:41,512 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-12 21:49:41,523 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 586.51ms
+2024-02-12 21:49:41,678 [job_state.py:_status_update()] - Job Started: MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:50:55,359 [job_state.py:_status_update()] - Job Started: MAJLO_KORPUS_20_39m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:53:29,991 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-12 21:53:29,996 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1707771180.679365, Usage: 0.51%, Memory: 47412 kB
+System Time: 1707771181.679795, Usage: 0.51%, Memory: 47412 kB
+System Time: 1707771182.680245, Usage: 0.54%, Memory: 47412 kB
+System Time: 1707771183.680659, Usage: 0.59%, Memory: 47412 kB
+System Time: 1707771184.681157, Usage: 0.54%, Memory: 47412 kB
+System Time: 1707771185.682977, Usage: 1.67%, Memory: 47412 kB
+System Time: 1707771186.684640, Usage: 1.28%, Memory: 47412 kB
+System Time: 1707771187.686591, Usage: 0.56%, Memory: 47412 kB
+System Time: 1707771188.688836, Usage: 0.53%, Memory: 47412 kB
+System Time: 1707771189.691058, Usage: 0.53%, Memory: 47412 kB
+System Time: 1707771190.692936, Usage: 0.58%, Memory: 47412 kB
+System Time: 1707771191.694590, Usage: 0.54%, Memory: 47412 kB
+System Time: 1707771192.696306, Usage: 0.53%, Memory: 47412 kB
+System Time: 1707771193.698241, Usage: 0.59%, Memory: 47412 kB
+System Time: 1707771194.700170, Usage: 0.58%, Memory: 47412 kB
+System Time: 1707771195.701603, Usage: 0.6%, Memory: 47412 kB
+System Time: 1707771196.702920, Usage: 1.83%, Memory: 47412 kB
+System Time: 1707771197.703494, Usage: 0.64%, Memory: 47412 kB
+System Time: 1707771198.703784, Usage: 0.96%, Memory: 47412 kB
+System Time: 1707771199.704140, Usage: 0.56%, Memory: 47412 kB
+System Time: 1707771200.704975, Usage: 0.56%, Memory: 47412 kB
+System Time: 1707771201.706283, Usage: 0.56%, Memory: 47412 kB
+System Time: 1707771202.706770, Usage: 0.55%, Memory: 47412 kB
+System Time: 1707771203.707266, Usage: 0.6%, Memory: 47412 kB
+System Time: 1707771204.707757, Usage: 0.51%, Memory: 47412 kB
+System Time: 1707771205.708179, Usage: 0.6%, Memory: 47412 kB
+System Time: 1707771206.709114, Usage: 0.94%, Memory: 47412 kB
+System Time: 1707771207.709714, Usage: 0.57%, Memory: 47412 kB
+System Time: 1707771208.710720, Usage: 1.66%, Memory: 47412 kB
+System Time: 1707771209.711189, Usage: 1.11%, Memory: 47412 kB
+CPU Temperature: None
+2024-02-12 21:53:29,998 [websockets.py:on_close()] - Websocket Closed: ID: 139694003633744 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.29
+2024-02-12 21:53:32,002 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.76ms
+2024-02-12 21:53:32,003 [websockets.py:open()] - Websocket Opened: ID: 139694003543424, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-12 21:53:32,005 [websockets.py:_handle_identify()] - Websocket 139694003543424 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-12 21:54:37,741 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-12 21:54:37,745 [websockets.py:on_close()] - Websocket Closed: ID: 139694003543424 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.74
+2024-02-12 21:54:38,999 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-12 21:54:39,749 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-12 21:54:39,749 [websockets.py:open()] - Websocket Opened: ID: 139694001614528, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-12 21:54:39,751 [websockets.py:_handle_identify()] - Websocket 139694001614528 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-12 21:54:41,288 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-12 21:54:41,289 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-12 21:54:41,539 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-12 21:54:41,795 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-12 21:54:42,294 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-12 21:58:52,444 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywpAxzTtOJTcSYz8g
+2024-02-12 21:58:52,607 [app.py:post()] - Processing Uploaded File: MELA_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 21:58:52,700 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-12 21:58:52,731 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MELA_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-12 21:58:52,743 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 298.66ms
+2024-02-12 21:58:52,906 [job_state.py:_status_update()] - Job Started: MELA_33m_0,20mm_205C_PLA_ENDER3.gcode
