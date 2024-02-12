@@ -8844,3 +8844,16 @@ Exception: Unknown klippy waiting state. disconnected
 2024-02-12 08:20:19,397 - INFO - RepeatTimer thread exit
 2024-02-12 08:20:19,400 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-12 08:20:19,838 - INFO - NotificationsHandler successfully sent 'done'
+2024-02-12 08:55:36,721 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-02-12 08:55:36,721 - INFO - Moonraker client websocket shutdown called.
+2024-02-12 08:55:36,723 - INFO - Moonraker client websocket shutdown complete.
+2024-02-12 08:55:36,723 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-02-12 08:55:36,724 - INFO - Moonraker websocket connection closed.
+2024-02-12 08:55:36,724 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-12 08:55:38,727 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-12 08:55:38,729 - INFO - Websocket connected
+2024-02-12 08:55:38,730 - INFO - Moonraker client websocket opened.
+2024-02-12 08:55:38,730 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 08:55:38,730 - INFO - Authenticating with moonraker...
+2024-02-12 08:55:38,737 - INFO - Moonraker client waiting for klippy ready...
+2024-02-12 08:55:38,738 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
