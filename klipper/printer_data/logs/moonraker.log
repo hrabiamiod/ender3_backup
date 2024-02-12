@@ -740,3 +740,21 @@ Properties:
 2024-02-12 07:04:38,824 [websockets.py:open()] - Websocket Opened: ID: 139694003464240, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-02-12 07:04:38,843 [websockets.py:_handle_identify()] - Websocket 139694003464240 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
 2024-02-12 07:04:39,183 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-12 07:04:54,931 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.57ms
+2024-02-12 07:04:54,931 [websockets.py:open()] - Websocket Opened: ID: 139694002312752, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-02-12 07:04:55,031 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-02-12 07:05:05,016 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-12 07:05:09,585 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.77ms
+2024-02-12 07:05:09,585 [websockets.py:open()] - Websocket Opened: ID: 139694003463664, Proxied: True, User Agent: BBL-Slicer/v01.08.04.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.211
+2024-02-12 07:05:09,600 [websockets.py:_handle_identify()] - Websocket 139694003463664 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-12 07:05:10,426 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.85ms
+2024-02-12 07:05:10,427 [websockets.py:open()] - Websocket Opened: ID: 139694002308432, Proxied: True, User Agent: BBL-Slicer/v01.08.04.51 (light) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52, Host Name: 192.168.1.211
+2024-02-12 07:05:10,431 [websockets.py:_handle_identify()] - Websocket 139694002308432 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-12 07:07:53,010 [websockets.py:on_close()] - Websocket Closed: ID: 139694002308432 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.58
+2024-02-12 07:07:53,012 [websockets.py:on_close()] - Websocket Closed: ID: 139694003463664 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.42
+2024-02-12 07:07:53,161 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.76ms
+2024-02-12 07:07:53,161 [websockets.py:open()] - Websocket Opened: ID: 139694001817584, Proxied: True, User Agent: BBL-Slicer/v01.08.04.51 (dark) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko), Host Name: 192.168.1.211
+2024-02-12 07:07:53,170 [websockets.py:_handle_identify()] - Websocket 139694001817584 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-12 07:07:54,006 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.78ms
+2024-02-12 07:07:54,006 [websockets.py:open()] - Websocket Opened: ID: 139694001827712, Proxied: True, User Agent: BBL-Slicer/v01.08.04.51 (dark) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko), Host Name: 192.168.1.211
+2024-02-12 07:07:54,060 [websockets.py:_handle_identify()] - Websocket 139694001827712 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
