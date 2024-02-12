@@ -758,3 +758,11 @@ Properties:
 2024-02-12 07:07:54,006 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.78ms
 2024-02-12 07:07:54,006 [websockets.py:open()] - Websocket Opened: ID: 139694001827712, Proxied: True, User Agent: BBL-Slicer/v01.08.04.51 (dark) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko), Host Name: 192.168.1.211
 2024-02-12 07:07:54,060 [websockets.py:_handle_identify()] - Websocket 139694001827712 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-12 07:33:06,881 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=------------------------d03cc415ddfdbaed
+2024-02-12 07:33:07,241 [app.py:post()] - Processing Uploaded File: majlo_tst.gcode
+2024-02-12 07:33:07,364 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-12 07:33:07,414 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "majlo_tst.gcode") successfully finished
+2024-02-12 07:33:07,430 [app.py:log_request()] - 201 POST /api/files/local (192.168.1.12) [_TRUSTED_USER_] 548.80ms
+2024-02-12 07:33:07,439 [job_state.py:_status_update()] - Job Started: majlo_tst.gcode
