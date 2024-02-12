@@ -954,3 +954,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryB11vpfUJNmhQnW
 2024-02-12 23:12:23,231 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ROKSI_17m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-12 23:12:23,239 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 334.01ms
 2024-02-12 23:12:23,438 [job_state.py:_status_update()] - Job Started: ROKSI_17m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 23:34:10,806 [timelapse.py:render()] - no frames to render, skip
+2024-02-12 23:39:05,909 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqdvCBpnIBlABrPfZ
+2024-02-12 23:39:06,167 [app.py:post()] - Processing Uploaded File: ROKSI2_17m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 23:39:06,267 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-12 23:39:06,311 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ROKSI2_17m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-12 23:39:06,329 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 420.35ms
+2024-02-12 23:39:06,415 [job_state.py:_status_update()] - Job Started: ROKSI2_17m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-12 23:59:57,278 [timelapse.py:render()] - no frames to render, skip
