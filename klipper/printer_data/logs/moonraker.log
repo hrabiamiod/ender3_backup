@@ -2021,3 +2021,9 @@ Properties:
 2024-02-16 17:28:25,376 [websockets.py:write_to_socket()] - Websocket closed while writing: 140308106837392
 2024-02-16 17:28:29,594 [websockets.py:on_close()] - Websocket Closed: ID: 140308108680576 Close Code: None, Close Reason: None, Pong Time Elapsed: 39.76
 2024-02-16 17:28:29,815 [websockets.py:on_close()] - Websocket Closed: ID: 140308106837392 Close Code: None, Close Reason: None, Pong Time Elapsed: 37.94
+2024-02-16 17:32:33,388 [timelapse.py:render()] - no frames to render, skip
+2024-02-16 17:41:45,593 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': Timeout while connecting
+2024-02-16 17:42:01,717 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-16 17:42:10,477 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': Timeout while connecting
+2024-02-16 17:42:37,484 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': Timeout while connecting
+2024-02-16 17:51:18,579 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
