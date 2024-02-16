@@ -2027,3 +2027,6 @@ Properties:
 2024-02-16 17:42:10,477 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': Timeout while connecting
 2024-02-16 17:42:37,484 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': Timeout while connecting
 2024-02-16 17:51:18,579 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-16 18:31:18,585 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-02-16 18:41:07,699 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-16 18:53:41,824 [job_state.py:_status_update()] - Job Started: chmurka2.gcode
