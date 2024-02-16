@@ -843,3 +843,19 @@ Commits Behind Count: 1
 Diverged: False
 2024-02-16 13:15:33,413 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
 2024-02-16 13:15:33,413 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
+2024-02-16 13:42:05,406 [app.py:log_request()] - 404 GET /api/ (127.0.0.1) [No User] 19.83ms
+2024-02-16 13:48:13,084 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-02-16 13:48:13,085 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.88ms
+2024-02-16 13:48:13,085 [websockets.py:open()] - Websocket Opened: ID: 139658700189520, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-16 13:48:13,162 [websockets.py:_handle_identify()] - Websocket 139658700189520 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-16 13:48:14,684 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.70ms
+2024-02-16 13:48:14,684 [websockets.py:open()] - Websocket Opened: ID: 139658700182368, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-16 13:48:14,744 [websockets.py:_handle_identify()] - Websocket 139658700182368 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-16 13:49:01,875 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryerNgbusbqINrBtk1
+2024-02-16 13:49:03,389 [app.py:post()] - Processing Uploaded File: chmurka.gcode
+2024-02-16 13:49:03,518 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-16 13:49:03,551 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "chmurka.gcode") successfully finished
+2024-02-16 13:49:03,563 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 1689.28ms
+2024-02-16 13:49:03,716 [job_state.py:_status_update()] - Job Started: chmurka.gcode

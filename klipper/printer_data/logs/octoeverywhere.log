@@ -10324,3 +10324,41 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-16 13:15:25,745 - INFO - Printer state at socket connect is: standby
 2024-02-16 13:15:25,746 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
 2024-02-16 13:15:30,036 - INFO - Ping Pong Stats: Default:[fra,32.42466449737549], Lowest:[fra,32.42466449737549] Use Low Latency Enabled: True
+2024-02-16 13:49:03,969 - INFO - Gadget is now watching!
+2024-02-16 13:49:03,971 - INFO - FileMetadataCache updated for file [chmurka.gcode]; est time: 2038.0, size: 1212, filament usage: 1235
+2024-02-16 13:49:03,971 - INFO - Gadget has stopped watching!
+2024-02-16 13:49:03,971 - INFO - RepeatTimer thread exit
+2024-02-16 13:49:03,972 - INFO - RepeatTimer thread exit
+2024-02-16 13:49:03,972 - INFO - RepeatTimer thread exit
+2024-02-16 13:49:03,972 - INFO - Gadget is now watching!
+2024-02-16 13:49:03,973 - INFO - New print started; PrintId: wqEHT5R3cP0pUgSGfj7vJ7iJdICx1lN4DxLpnkdsrs9qs08iGXSlKXB4LXOg file:chmurka.gcode size:1212 filament:1235
+2024-02-16 13:49:04,725 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 13:49:04,726 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 13:49:05,136 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-16 13:49:05,150 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-16 13:49:34,309 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 13:50:04,646 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 13:50:34,966 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 13:51:05,291 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 13:51:35,622 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 13:51:38,133 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 13:51:38,356 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-16 13:52:06,459 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 13:52:34,788 - INFO - Gadget has stopped watching!
+2024-02-16 13:52:34,788 - INFO - RepeatTimer thread exit
+2024-02-16 13:52:34,789 - INFO - RepeatTimer thread exit
+2024-02-16 13:52:34,789 - INFO - RepeatTimer thread exit
+2024-02-16 13:52:35,293 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 13:52:35,766 - INFO - NotificationsHandler successfully sent 'failed'
+2024-02-16 13:52:59,607 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-02-16 13:52:59,607 - ERROR - Connection to remote host was lost. - goodbye
+2024-02-16 13:52:59,608 - INFO - Service websocket closed.
+2024-02-16 13:52:59,609 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-16 13:52:59,610 - INFO - Closing all open web stream sockets (0)
+2024-02-16 13:52:59,610 - INFO - Sleeping for 8 seconds before trying again.
+2024-02-16 13:53:07,618 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-16 13:53:07,619 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140363028911472
+2024-02-16 13:53:08,762 - INFO - Websocket connected
+2024-02-16 13:53:08,762 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-02-16 13:53:14,196 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-02-16 13:53:14,196 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
