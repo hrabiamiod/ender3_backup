@@ -10881,3 +10881,109 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-16 16:28:43,756 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-02-16 16:29:14,075 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-02-16 16:29:44,397 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:30:14,724 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:30:20,492 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:30:20,687 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-16 16:30:45,553 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:32:46,340 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:32:56,115 - INFO - Gadget has stopped watching!
+2024-02-16 16:32:56,115 - INFO - RepeatTimer thread exit
+2024-02-16 16:32:56,116 - INFO - RepeatTimer thread exit
+2024-02-16 16:32:56,116 - INFO - First layer timer is done. Stopping.
+2024-02-16 16:32:56,116 - INFO - RepeatTimer thread exit
+2024-02-16 16:32:56,619 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:32:57,073 - INFO - NotificationsHandler successfully sent 'failed'
+2024-02-16 16:33:41,219 - INFO - FileMetadataCache updated for file [chmurka2.gcode]; est time: 2291.0, size: 1236, filament usage: 1542
+2024-02-16 16:33:41,220 - INFO - Gadget is now watching!
+2024-02-16 16:33:41,220 - INFO - New print started; PrintId: U16BNRWFVSR42kdbZEavgxMUq193ohCGnJFFE5FiIUBKfVpIqSlYj8tajrii file:chmurka2.gcode size:1236 filament:1542
+2024-02-16 16:33:41,973 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:33:42,331 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-16 16:34:11,550 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:34:41,877 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:35:12,204 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:35:36,011 - INFO - First layer timer is done. Stopping.
+2024-02-16 16:35:36,011 - INFO - RepeatTimer thread exit
+2024-02-16 16:35:42,279 - WARNING - Gadget timer is running but the print state is not printing, so the timer is topping.
+2024-02-16 16:35:42,279 - INFO - Gadget has stopped watching!
+2024-02-16 16:35:42,279 - INFO - RepeatTimer thread exit
+2024-02-16 16:36:27,942 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-02-16 16:36:27,942 - INFO - Moonraker client websocket shutdown called.
+2024-02-16 16:36:27,943 - INFO - Moonraker client websocket shutdown complete.
+2024-02-16 16:36:27,943 - INFO - Moonraker websocket connection closed.
+2024-02-16 16:36:27,944 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-16 16:36:29,946 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-16 16:36:29,949 - INFO - Websocket connected
+2024-02-16 16:36:29,949 - INFO - Moonraker client websocket opened.
+2024-02-16 16:36:29,949 - INFO - Moonraker client waiting for klippy ready...
+2024-02-16 16:36:29,950 - INFO - Authenticating with moonraker...
+2024-02-16 16:36:29,956 - INFO - Moonraker client waiting for klippy ready...
+2024-02-16 16:36:29,956 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-02-16 16:36:31,958 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-16 16:36:31,958 - INFO - Moonraker client setting up default notification hooks
+2024-02-16 16:36:32,237 - INFO - Printer state at socket connect is: standby
+2024-02-16 16:36:32,238 - INFO - Moonraker client sync state: Detected no active print but our ping timers ARE RUNNING. Stopping them now.
+2024-02-16 16:36:32,238 - INFO - RepeatTimer thread exit
+2024-02-16 16:36:39,006 - INFO - FileMetadataCache updated for file [chmurka2.gcode]; est time: 2291.0, size: 1236, filament usage: 1542
+2024-02-16 16:36:39,007 - INFO - Gadget is now watching!
+2024-02-16 16:36:39,008 - INFO - New print started; PrintId: 9yBvhzcvazQlSNajs1u1DuK38hDeB3bAyxm3wO29RrSvUpZbIvDxKtQ66i0z file:chmurka2.gcode size:1236 filament:1542
+2024-02-16 16:36:39,758 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:36:40,132 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-16 16:37:09,333 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:37:39,659 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:38:09,989 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:38:40,317 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-16 16:38:52,600 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-02-16 16:38:52,600 - INFO - Moonraker client websocket shutdown called.
+2024-02-16 16:38:52,601 - INFO - Moonraker client websocket shutdown complete.
+2024-02-16 16:38:52,602 - INFO - Moonraker websocket connection closed.
+2024-02-16 16:38:52,602 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-16 16:38:54,347 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-16 16:38:54,347 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-02-16 16:38:54,347 - ERROR - Moonraker client failed _GetCurrentPrintStats. 99990001 - No active websocket connected.
+2024-02-16 16:38:54,347 - WARNING - ShouldPrintingTimersBeRunning failed to get current state.
+2024-02-16 16:38:54,348 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-16 16:38:54,348 - INFO - Moonraker client failed to send JsonRPC request printer.objects.query
+2024-02-16 16:38:54,348 - ERROR - GetCurrentLayerInfo failed to query toolhead objects: 99990001 - No active websocket connected.
+2024-02-16 16:38:54,605 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-16 16:38:54,608 - INFO - Websocket connected
+2024-02-16 16:38:54,608 - INFO - Moonraker client websocket opened.
+2024-02-16 16:38:54,608 - INFO - Moonraker client waiting for klippy ready...
+2024-02-16 16:38:54,608 - INFO - Authenticating with moonraker...
+2024-02-16 16:38:54,615 - INFO - Moonraker client waiting for klippy ready...
+2024-02-16 16:38:54,615 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-02-16 16:38:57,605 - INFO - Gadget has stopped watching!
+2024-02-16 16:38:57,606 - INFO - RepeatTimer thread exit
+2024-02-16 16:38:57,607 - INFO - RepeatTimer thread exit
+2024-02-16 16:38:57,607 - INFO - RepeatTimer thread exit
+2024-02-16 16:38:58,111 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-16 16:38:58,345 - INFO - NotificationsHandler successfully sent 'error'
+2024-02-16 16:41:15,013 - INFO - ##################################
+2024-02-16 16:41:15,028 - INFO - #### OctoEverywhere Starting #####
+2024-02-16 16:41:15,029 - INFO - ##################################
+2024-02-16 16:41:15,036 - INFO - Plugin Version: 2.10.0
+2024-02-16 16:41:15,036 - INFO - Our existing update config file include was found in the moonraker config.
+2024-02-16 16:41:15,036 - INFO - Existing update config file found with the correct file contents.
+2024-02-16 16:41:15,356 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-02-16 16:41:15,357 - INFO - Setting up relay with frontend port 80
+2024-02-16 16:41:15,360 - INFO - OctoPingPong stats loaded from file.
+2024-02-16 16:41:15,363 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-02-16 16:41:15,364 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-16 16:41:15,365 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:139686535782384
+2024-02-16 16:41:15,902 - INFO - Websocket connected
+2024-02-16 16:41:15,903 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-02-16 16:41:16,519 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-02-16 16:41:16,519 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-16 16:41:16,519 - INFO - Starting Moonraker connection client.
+2024-02-16 16:41:16,519 - INFO - Moonraker client starting websocket connection thread.
+2024-02-16 16:41:16,520 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-16 16:41:16,521 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-02-16 16:41:16,521 - ERROR - [Errno 111] Connection refused - goodbye
+2024-02-16 16:41:16,522 - INFO - Moonraker websocket connection closed.
+2024-02-16 16:41:16,522 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-16 16:41:18,533 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-16 16:41:18,534 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-02-16 16:41:18,535 - ERROR - [Errno 111] Connection refused - goodbye
+2024-02-16 16:41:18,535 - INFO - Moonraker websocket connection closed.
+2024-02-16 16:41:18,535 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
