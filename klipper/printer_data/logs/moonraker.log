@@ -897,3 +897,42 @@ CPU Temperature: None
 2024-02-16 14:05:43,131 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
 2024-02-16 14:05:43,131 [websockets.py:open()] - Websocket Opened: ID: 139658700184768, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-02-16 14:05:43,133 [websockets.py:_handle_identify()] - Websocket 139658700184768 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-16 14:33:51,595 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-16 14:33:51,597 [websockets.py:on_close()] - Websocket Closed: ID: 139658700184768 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.46
+2024-02-16 14:33:52,850 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-16 14:33:52,875 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['sysinit.target', 'systemd-journald.socket', 'basic.target', '-.mount', 'network-online.target', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-02-16 14:33:53,602 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.70ms
+2024-02-16 14:33:53,603 [websockets.py:open()] - Websocket Opened: ID: 139658666080768, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-16 14:33:53,605 [websockets.py:_handle_identify()] - Websocket 139658666080768 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-16 14:33:55,392 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-16 14:33:55,393 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-16 14:33:55,643 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-16 14:33:55,898 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-16 14:33:56,398 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-16 14:34:19,218 [websockets.py:on_close()] - Websocket Closed: ID: 139658700189520 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.11
+2024-02-16 14:34:19,222 [websockets.py:on_close()] - Websocket Closed: ID: 139658700182368 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.52
+2024-02-16 14:34:19,317 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.71ms
+2024-02-16 14:34:19,318 [websockets.py:open()] - Websocket Opened: ID: 139658700187984, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-16 14:34:19,326 [websockets.py:_handle_identify()] - Websocket 139658700187984 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-16 14:34:20,095 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.69ms
+2024-02-16 14:34:20,095 [websockets.py:open()] - Websocket Opened: ID: 139658700186064, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-16 14:34:20,181 [websockets.py:_handle_identify()] - Websocket 139658700186064 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-16 14:34:37,748 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on x after full movement
+2024-02-16 14:35:07,224 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on x after full movement
+2024-02-16 14:37:53,228 [job_state.py:_status_update()] - Job Started: chmurka.gcode
+2024-02-16 14:53:46,039 [websockets.py:on_close()] - Websocket Closed: ID: 139658700187984 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.70
+2024-02-16 14:53:46,040 [websockets.py:on_close()] - Websocket Closed: ID: 139658700186064 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.92
