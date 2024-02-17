@@ -743,3 +743,4 @@ Properties:
 2024-02-17 10:12:24,856 [websockets.py:_handle_identify()] - Websocket 139981697351200 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
 2024-02-17 10:12:25,326 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-02-17 10:12:25,577 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-02-17 11:17:19,326 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
