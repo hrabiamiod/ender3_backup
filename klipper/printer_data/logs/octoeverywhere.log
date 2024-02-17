@@ -11752,3 +11752,13 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-17 10:12:22,845 - ERROR - [Errno 111] Connection refused - goodbye
 2024-02-17 10:12:22,845 - INFO - Moonraker websocket connection closed.
 2024-02-17 10:12:22,845 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-02-17 10:12:24,848 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-17 10:12:24,852 - INFO - Websocket connected
+2024-02-17 10:12:24,853 - INFO - Moonraker client websocket opened.
+2024-02-17 10:12:24,855 - INFO - Moonraker client waiting for klippy ready...
+2024-02-17 10:12:24,855 - INFO - Authenticating with moonraker...
+2024-02-17 10:12:24,913 - INFO - Moonraker client waiting for klippy ready...
+2024-02-17 10:12:24,914 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-17 10:12:24,914 - INFO - Moonraker client setting up default notification hooks
+2024-02-17 10:12:25,327 - INFO - Printer state at socket connect is: standby
+2024-02-17 10:12:25,327 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
