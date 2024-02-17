@@ -813,3 +813,40 @@ CPU Temperature: None
 2024-02-17 12:11:02,823 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-02-17 12:17:25,686 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-02-17 12:21:42,122 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 12:38:02,477 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 12:40:00,258 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 12:40:50,371 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-17 12:40:50,374 [websockets.py:on_close()] - Websocket Closed: ID: 139981907688704 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.24
+2024-02-17 12:40:51,627 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-17 12:40:52,378 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-17 12:40:52,378 [websockets.py:open()] - Websocket Opened: ID: 139981662576960, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-17 12:40:52,380 [websockets.py:_handle_identify()] - Websocket 139981662576960 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-17 12:40:53,915 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-17 12:40:53,916 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-17 12:40:54,166 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-17 12:40:54,423 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-17 12:40:54,920 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-17 12:46:49,613 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-17 12:46:49,615 [websockets.py:on_close()] - Websocket Closed: ID: 139981662576960 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.24
+2024-02-17 12:46:50,867 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-17 12:46:51,620 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.72ms
+2024-02-17 12:46:51,620 [websockets.py:open()] - Websocket Opened: ID: 139981697101888, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-17 12:46:51,622 [websockets.py:_handle_identify()] - Websocket 139981697101888 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-17 12:46:53,478 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-17 12:46:53,479 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-17 12:46:53,728 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-17 12:46:53,985 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-17 12:46:54,483 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-17 12:47:12,281 [job_state.py:_status_update()] - Job Started: chmurka2.gcode
+2024-02-17 12:50:32,651 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
+2024-02-17 12:50:32,651 [websockets.py:open()] - Websocket Opened: ID: 139981697348704, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-17 12:50:32,659 [websockets.py:_handle_identify()] - Websocket 139981697348704 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-17 12:52:16,361 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymoMyWdAeSp466tWF
+2024-02-17 12:52:16,547 [app.py:post()] - Processing Uploaded File: chmurka3.gcode
+2024-02-17 12:52:16,673 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-17 12:52:16,705 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "chmurka3.gcode") successfully finished
+2024-02-17 12:52:16,713 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 353.09ms
+2024-02-17 12:52:16,800 [job_state.py:_status_update()] - Job Started: chmurka3.gcode
+2024-02-17 12:52:19,345 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
