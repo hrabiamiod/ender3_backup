@@ -796,3 +796,20 @@ CPU Temperature: None
 2024-02-17 11:52:05,710 [websockets.py:_handle_identify()] - Websocket 139981908596224 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
 2024-02-17 11:52:35,919 [websockets.py:write_to_socket()] - Websocket closed while writing: 139981696861040
 2024-02-17 11:52:40,755 [websockets.py:on_close()] - Websocket Closed: ID: 139981696861040 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-02-17 12:02:34,369 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.95ms
+2024-02-17 12:02:34,369 [websockets.py:open()] - Websocket Opened: ID: 139981697585488, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-17 12:02:34,380 [websockets.py:_handle_identify()] - Websocket 139981697585488 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-17 12:02:38,125 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-17 12:02:38,127 [websockets.py:on_close()] - Websocket Closed: ID: 139981908596224 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.42
+2024-02-17 12:02:39,380 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-17 12:02:40,133 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-17 12:02:40,133 [websockets.py:open()] - Websocket Opened: ID: 139981907688704, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-17 12:02:40,135 [websockets.py:_handle_identify()] - Websocket 139981907688704 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-17 12:02:41,695 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-17 12:02:41,696 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-17 12:02:41,946 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-17 12:02:42,202 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-17 12:02:42,701 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-17 12:11:02,823 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 12:17:25,686 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 12:21:42,122 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
