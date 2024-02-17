@@ -852,3 +852,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymoMyWdAeSp466t
 2024-02-17 12:52:19,345 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
 2024-02-17 13:47:19,356 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-02-17 13:52:19,358 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-02-17 14:02:07,770 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 14:12:20,416 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-17 14:13:22,862 [job_state.py:_status_update()] - Job Started: chmurka3.gcode
+2024-02-17 14:17:37,046 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-17 14:17:37,048 [websockets.py:on_close()] - Websocket Closed: ID: 139981697101888 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.43
+2024-02-17 14:17:38,301 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-17 14:17:39,053 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-17 14:17:39,055 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.74ms
+2024-02-17 14:17:39,055 [websockets.py:open()] - Websocket Opened: ID: 139981697588704, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-17 14:17:39,056 [websockets.py:_handle_identify()] - Websocket 139981697588704 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-17 14:17:40,644 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-17 14:17:40,644 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-17 14:17:40,895 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-17 14:17:41,150 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-17 14:17:41,901 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-17 14:19:56,738 [job_state.py:_status_update()] - Job Started: chmurka3.gcode
