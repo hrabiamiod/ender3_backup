@@ -799,3 +799,19 @@ Error configuring printer
 2024-02-18 15:17:02,920 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-02-18 15:23:39,515 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-02-18 15:25:55,542 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:32:07,530 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:35:52,096 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:38:07,734 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:42:30,562 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:45:14,052 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:50:35,020 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:51:02,404 [websockets.py:on_close()] - Websocket Closed: ID: 140097850347520 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.20
+2024-02-18 15:51:02,630 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.72ms
+2024-02-18 15:51:02,630 [websockets.py:open()] - Websocket Opened: ID: 140097831876544, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-18 15:51:04,658 [websockets.py:_handle_identify()] - Websocket 140097831876544 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-18 15:51:04,701 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-02-18 15:51:04,702 [websockets.py:open()] - Websocket Opened: ID: 140097831906528, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-18 15:51:04,775 [websockets.py:_handle_identify()] - Websocket 140097831906528 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-18 15:53:39,182 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:55:41,614 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-18 15:58:02,632 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
