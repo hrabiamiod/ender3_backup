@@ -801,3 +801,69 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryq7GowT9OV7duYW
 2024-02-21 13:50:49,247 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-02-21 13:50:49,998 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-02-21 13:55:54,466 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-21 14:33:20,464 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-02-21 14:45:09,772 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.56
+2024-02-21 14:45:09,773 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 1.72ms
+2024-02-21 14:45:09,773 [websockets.py:open()] - Websocket Opened: ID: 140712773083216, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-21 14:45:09,790 [websockets.py:_handle_identify()] - Websocket 140712773083216 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-21 14:45:10,320 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.71ms
+2024-02-21 14:45:10,320 [websockets.py:open()] - Websocket Opened: ID: 140712773085136, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-21 14:45:10,329 [websockets.py:_handle_identify()] - Websocket 140712773085136 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-21 14:45:29,060 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-21 14:46:13,920 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-21 14:46:13,932 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1708523144.738813, Usage: 0.81%, Memory: 48532 kB
+System Time: 1708523145.739352, Usage: 0.9%, Memory: 48532 kB
+System Time: 1708523146.739782, Usage: 0.85%, Memory: 48532 kB
+System Time: 1708523147.740342, Usage: 0.97%, Memory: 48532 kB
+System Time: 1708523148.741590, Usage: 0.78%, Memory: 48532 kB
+System Time: 1708523149.742409, Usage: 1.09%, Memory: 48532 kB
+System Time: 1708523150.743320, Usage: 2.07%, Memory: 48532 kB
+System Time: 1708523151.744618, Usage: 0.89%, Memory: 48532 kB
+System Time: 1708523152.745416, Usage: 1.56%, Memory: 48532 kB
+System Time: 1708523153.746417, Usage: 0.86%, Memory: 48532 kB
+System Time: 1708523154.746730, Usage: 0.98%, Memory: 48532 kB
+System Time: 1708523155.747338, Usage: 0.79%, Memory: 48532 kB
+System Time: 1708523156.748065, Usage: 0.99%, Memory: 48532 kB
+System Time: 1708523157.748460, Usage: 0.86%, Memory: 48532 kB
+System Time: 1708523158.749410, Usage: 0.89%, Memory: 48532 kB
+System Time: 1708523159.751229, Usage: 1.31%, Memory: 48532 kB
+System Time: 1708523160.752643, Usage: 0.9%, Memory: 48532 kB
+System Time: 1708523161.753706, Usage: 0.93%, Memory: 48532 kB
+System Time: 1708523162.755991, Usage: 1.94%, Memory: 48532 kB
+System Time: 1708523163.757137, Usage: 1.6%, Memory: 48532 kB
+System Time: 1708523164.758180, Usage: 0.85%, Memory: 48532 kB
+System Time: 1708523165.758749, Usage: 0.98%, Memory: 48532 kB
+System Time: 1708523166.759389, Usage: 0.81%, Memory: 48532 kB
+System Time: 1708523167.760589, Usage: 0.95%, Memory: 48532 kB
+System Time: 1708523168.761182, Usage: 0.8%, Memory: 48532 kB
+System Time: 1708523169.762005, Usage: 1.35%, Memory: 48532 kB
+System Time: 1708523170.763387, Usage: 1.04%, Memory: 48532 kB
+System Time: 1708523171.763948, Usage: 0.78%, Memory: 48532 kB
+System Time: 1708523172.764671, Usage: 1.3%, Memory: 48532 kB
+System Time: 1708523173.768353, Usage: 2.09%, Memory: 48532 kB
+CPU Temperature: None
+2024-02-21 14:46:13,936 [websockets.py:on_close()] - Websocket Closed: ID: 140712773722432 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.73
+2024-02-21 14:46:14,087 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Lost communication with MCU 'mcu'
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-02-21 14:46:15,942 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
+2024-02-21 14:46:15,942 [websockets.py:open()] - Websocket Opened: ID: 140712745647696, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-21 14:46:15,944 [websockets.py:_handle_identify()] - Websocket 140712745647696 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-21 14:46:19,463 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-21 14:46:19,464 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Disconnected
+2024-02-21 14:46:19,465 [websockets.py:on_close()] - Websocket Closed: ID: 140712745647696 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.52
+2024-02-21 14:46:20,720 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-21 14:46:21,471 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-21 14:46:21,471 [websockets.py:open()] - Websocket Opened: ID: 140712745644384, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-21 14:46:21,473 [websockets.py:_handle_identify()] - Websocket 140712745644384 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-21 14:46:23,005 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-21 14:46:23,005 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-21 14:46:23,256 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-21 14:46:23,511 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-21 14:46:24,512 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-21 14:47:26,656 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
