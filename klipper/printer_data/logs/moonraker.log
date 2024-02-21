@@ -870,3 +870,11 @@ Printer is shutdown
 2024-02-21 15:20:11,372 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-02-21 15:48:20,482 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-02-21 15:48:20,482 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-02-21 16:43:18,294 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-21 16:43:18,294 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.95ms
+2024-02-21 16:43:18,294 [websockets.py:open()] - Websocket Opened: ID: 140712773715760, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-21 16:43:18,320 [websockets.py:_handle_identify()] - Websocket 140712773715760 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-21 16:43:18,948 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-02-21 16:43:18,948 [websockets.py:open()] - Websocket Opened: ID: 140712773445296, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-21 16:43:19,037 [websockets.py:_handle_identify()] - Websocket 140712773445296 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-21 16:43:32,519 [job_state.py:_status_update()] - Job Started: MELA_38m_0,20mm_205C_PLA_ENDER3.gcode
