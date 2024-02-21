@@ -787,3 +787,17 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryq7GowT9OV7duYW
 2024-02-21 13:29:35,566 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-21 13:29:35,579 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 350.43ms
 2024-02-21 13:29:35,739 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-21 13:30:46,062 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-02-21 13:50:45,192 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-21 13:50:45,195 [websockets.py:on_close()] - Websocket Closed: ID: 140712773365296 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.44
+2024-02-21 13:50:46,449 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-21 13:50:47,198 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-21 13:50:47,200 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.76ms
+2024-02-21 13:50:47,200 [websockets.py:open()] - Websocket Opened: ID: 140712773722432, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-21 13:50:47,201 [websockets.py:_handle_identify()] - Websocket 140712773722432 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-21 13:50:48,741 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-21 13:50:48,742 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-21 13:50:48,992 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-21 13:50:49,247 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-21 13:50:49,998 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-21 13:55:54,466 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
