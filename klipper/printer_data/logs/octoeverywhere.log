@@ -13464,3 +13464,35 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-21 09:08:25,758 - INFO - Moonraker client websocket opened.
 2024-02-21 09:08:25,758 - INFO - Moonraker client waiting for klippy ready...
 2024-02-21 09:08:25,758 - INFO - Authenticating with moonraker...
+2024-02-21 09:08:25,845 - INFO - Moonraker client waiting for klippy ready...
+2024-02-21 09:08:25,847 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-21 09:08:25,847 - INFO - Moonraker client setting up default notification hooks
+2024-02-21 09:08:26,229 - INFO - Printer state at socket connect is: standby
+2024-02-21 09:08:26,229 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-21 09:18:57,453 - INFO - Gadget is now watching!
+2024-02-21 09:18:57,455 - INFO - FileMetadataCache updated for file [MELA_38m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 2254.0, size: 1539, filament usage: 1520
+2024-02-21 09:18:57,456 - INFO - Gadget has stopped watching!
+2024-02-21 09:18:57,457 - INFO - RepeatTimer thread exit
+2024-02-21 09:18:57,457 - INFO - RepeatTimer thread exit
+2024-02-21 09:18:57,458 - INFO - RepeatTimer thread exit
+2024-02-21 09:18:57,459 - INFO - Gadget is now watching!
+2024-02-21 09:18:57,460 - INFO - New print started; PrintId: rCMqNKgv29rqQtyB33HqWjP2YibfAq8K84PF1EPUlcX9dUixGjBruZsefHSb file:MELA_38m_0,20mm_205C_PLA_ENDER3.gcode size:1539 filament:1520
+2024-02-21 09:18:58,209 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:18:58,209 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:18:58,435 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-21 09:18:58,610 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-21 09:19:27,786 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-21 09:19:58,113 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-21 09:20:28,436 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-21 09:20:58,759 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-21 09:21:05,280 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:21:05,438 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-21 09:21:29,597 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:23:30,404 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:24:57,384 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:24:57,611 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:25:31,218 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:27:32,039 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:28:19,417 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:28:19,583 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:29:32,859 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
