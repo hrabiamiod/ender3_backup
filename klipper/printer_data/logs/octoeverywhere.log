@@ -13496,3 +13496,56 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-21 09:28:19,417 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-21 09:28:19,583 - INFO - NotificationsHandler successfully sent 'progress'
 2024-02-21 09:29:32,859 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:31:07,864 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:31:08,078 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:31:33,676 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:31:50,970 - INFO - First layer timer is done. Stopping.
+2024-02-21 09:31:50,970 - INFO - RepeatTimer thread exit
+2024-02-21 09:31:51,474 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:31:51,652 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-21 09:33:34,492 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:34:01,567 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:34:01,742 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:35:35,310 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:36:30,952 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:36:31,157 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:37:36,132 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:39:22,666 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:39:22,826 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:39:36,953 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:41:37,773 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:43:38,627 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:44:00,935 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:44:01,109 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:45:39,445 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:47:40,253 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:49:08,981 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:49:09,181 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:49:41,058 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:51:41,861 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:53:42,676 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:55:43,489 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:55:55,269 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:55:55,476 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-21 09:57:44,305 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-21 09:57:58,336 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-02-21 09:57:58,336 - ERROR - Connection to remote host was lost. - goodbye
+2024-02-21 09:57:58,337 - INFO - Service websocket closed.
+2024-02-21 09:57:58,338 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-21 09:57:58,338 - INFO - Closing all open web stream sockets (0)
+2024-02-21 09:57:58,338 - INFO - Sleeping for 5 seconds before trying again.
+2024-02-21 09:58:03,340 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-21 09:58:03,341 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140298245876624
+2024-02-21 09:58:03,384 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-21 09:58:03,385 - ERROR - [Errno 111] Connection refused - goodbye
+2024-02-21 09:58:03,385 - ERROR - OctoEverywhere Ws error: [Errno 111] Connection refused
+2024-02-21 09:58:03,385 - INFO - Service websocket closed.
+2024-02-21 09:58:03,385 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-02-21 09:58:03,386 - INFO - Closing all open web stream sockets (0)
+2024-02-21 09:58:03,386 - INFO - Sleeping for 16 seconds before trying again.
+2024-02-21 09:58:19,402 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:140298199008544
+2024-02-21 09:58:20,062 - INFO - Websocket connected
+2024-02-21 09:58:20,062 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2024-02-21 09:58:24,771 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2024-02-21 09:58:24,772 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-21 09:59:45,115 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
