@@ -1628,3 +1628,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryw0N5bFUzteRNgk
 2024-02-23 23:17:45,571 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bentley2_37m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-23 23:17:45,582 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 278.38ms
 2024-02-23 23:17:45,808 [job_state.py:_status_update()] - Job Started: bentley2_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-23 23:47:35,438 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': Timeout while connecting
