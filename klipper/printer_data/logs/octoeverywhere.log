@@ -18184,3 +18184,34 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-23 17:47:10,840 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
 2024-02-23 17:47:10,840 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
 2024-02-23 17:47:10,840 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-02-23 17:47:13,864 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:139813767899664
+2024-02-23 17:47:13,866 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-23 17:47:13,866 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-23 17:47:13,866 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-23 17:47:13,866 - INFO - Service websocket closed.
+2024-02-23 17:47:13,866 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-02-23 17:47:13,867 - INFO - Sleeping for 24 seconds before trying again.
+2024-02-23 17:47:37,891 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:139813767901296
+2024-02-23 17:47:37,893 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-23 17:47:37,893 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-23 17:47:37,893 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-23 17:47:37,893 - INFO - Service websocket closed.
+2024-02-23 17:47:37,893 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-02-23 17:47:37,893 - INFO - Sleeping for 54 seconds before trying again.
+2024-02-23 17:48:31,947 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:139813767900624
+2024-02-23 17:48:32,211 - INFO - Websocket connected
+2024-02-23 17:48:32,212 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2024-02-23 17:48:32,310 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2024-02-23 17:48:32,310 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-23 17:48:32,310 - INFO - Starting Moonraker connection client.
+2024-02-23 17:48:32,310 - INFO - Moonraker client starting websocket connection thread.
+2024-02-23 17:48:32,311 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-02-23 17:48:32,314 - INFO - Websocket connected
+2024-02-23 17:48:32,314 - INFO - Moonraker client websocket opened.
+2024-02-23 17:48:32,314 - INFO - Moonraker client waiting for klippy ready...
+2024-02-23 17:48:32,315 - INFO - Authenticating with moonraker...
+2024-02-23 17:48:32,321 - INFO - Moonraker client waiting for klippy ready...
+2024-02-23 17:48:32,322 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-02-23 17:48:32,322 - INFO - Moonraker client setting up default notification hooks
+2024-02-23 17:48:32,652 - INFO - Printer state at socket connect is: standby
+2024-02-23 17:48:32,652 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
