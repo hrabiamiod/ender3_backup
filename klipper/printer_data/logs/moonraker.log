@@ -1616,3 +1616,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryMfQ3opBSTj1CcM
 2024-02-23 21:49:07,546 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ARCZI_2_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-23 21:49:07,557 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 316.93ms
 2024-02-23 21:49:07,788 [job_state.py:_status_update()] - Job Started: ARCZI_2_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-23 22:28:37,474 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 5.000 193.800 10.000 [2876.542]
