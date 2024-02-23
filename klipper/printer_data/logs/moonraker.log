@@ -1592,3 +1592,9 @@ moonraker.utils.ServerError: Unable to repair loose objects, use hard recovery
 2024-02-23 17:49:26,515 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.94ms
 2024-02-23 17:49:26,515 [websockets.py:open()] - Websocket Opened: ID: 139848059268464, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-02-23 17:49:26,524 [websockets.py:_handle_identify()] - Websocket 139848059268464 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-23 18:01:38,708 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-02-23 18:01:38,708 [app.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.98ms
+2024-02-23 18:01:38,708 [websockets.py:open()] - Websocket Opened: ID: 139848059054416, Proxied: True, User Agent: Dart/3.2 (dart:io), Host Name: 192.168.1.211
+2024-02-23 18:01:38,714 [websockets.py:_handle_identify()] - Websocket 139848059054416 Client Identified - Name: Mobileraker-ios, Version: 2.6.11-395, Type: mobile
+2024-02-23 18:01:52,345 [job_state.py:_status_update()] - Job Started: CHMURKA_SLICER_4.gcode
+2024-02-23 18:02:36,967 [websockets.py:on_close()] - Websocket Closed: ID: 139848059054416 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.22
