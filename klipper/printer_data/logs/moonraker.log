@@ -1598,3 +1598,11 @@ moonraker.utils.ServerError: Unable to repair loose objects, use hard recovery
 2024-02-23 18:01:38,714 [websockets.py:_handle_identify()] - Websocket 139848059054416 Client Identified - Name: Mobileraker-ios, Version: 2.6.11-395, Type: mobile
 2024-02-23 18:01:52,345 [job_state.py:_status_update()] - Job Started: CHMURKA_SLICER_4.gcode
 2024-02-23 18:02:36,967 [websockets.py:on_close()] - Websocket Closed: ID: 139848059054416 Close Code: None, Close Reason: None, Pong Time Elapsed: 8.22
+2024-02-23 18:52:02,189 [app.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.84ms
+2024-02-23 18:52:02,190 [websockets.py:open()] - Websocket Opened: ID: 139848032912816, Proxied: True, User Agent: Dart/3.2 (dart:io), Host Name: 192.168.1.211
+2024-02-23 18:52:03,395 [websockets.py:_handle_identify()] - Websocket 139848032912816 Client Identified - Name: Mobileraker-ios, Version: 2.6.11-395, Type: mobile
+2024-02-23 18:52:08,427 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-02-23 18:52:08,427 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-23 18:52:08,427 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-02-23 18:52:52,338 [websockets.py:write_to_socket()] - Websocket closed while writing: 139848032912816
+2024-02-23 18:52:57,193 [websockets.py:on_close()] - Websocket Closed: ID: 139848032912816 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
