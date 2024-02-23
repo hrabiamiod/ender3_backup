@@ -754,3 +754,18 @@ Properties:
 2024-02-23 12:43:20,687 [job_state.py:_status_update()] - Job Started: BAKS_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-02-23 12:46:10,712 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-02-23 12:51:10,713 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-02-23 14:15:42,368 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-23 14:15:42,368 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.98ms
+2024-02-23 14:15:42,369 [websockets.py:open()] - Websocket Opened: ID: 139661200519952, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-23 14:15:43,398 [websockets.py:_handle_identify()] - Websocket 139661200519952 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-23 14:16:11,952 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-02-23 14:16:11,953 [websockets.py:open()] - Websocket Opened: ID: 139661200513472, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-23 14:16:12,026 [websockets.py:_handle_identify()] - Websocket 139661200513472 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-23 14:28:34,410 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryv8SSL31ZBXZzamAu
+2024-02-23 14:28:34,616 [app.py:post()] - Processing Uploaded File: ARCZI_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-23 14:28:34,742 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-23 14:28:34,775 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ARCZI_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-23 14:28:34,786 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 377.14ms
+2024-02-23 14:28:35,005 [job_state.py:_status_update()] - Job Started: ARCZI_38m_0,20mm_205C_PLA_ENDER3.gcode
