@@ -18126,3 +18126,61 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-23 17:02:15,819 - INFO - RepeatTimer thread exit
 2024-02-23 17:02:15,822 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-23 17:02:16,226 - INFO - NotificationsHandler successfully sent 'done'
+2024-02-23 17:31:30,293 - INFO - Gadget is now watching!
+2024-02-23 17:31:30,296 - INFO - FileMetadataCache updated for file [CHMURKA_SLICER_4.gcode]; est time: 1824.0, size: 1241, filament usage: 1166
+2024-02-23 17:31:30,296 - INFO - Gadget has stopped watching!
+2024-02-23 17:31:30,296 - INFO - RepeatTimer thread exit
+2024-02-23 17:31:30,297 - INFO - RepeatTimer thread exit
+2024-02-23 17:31:30,297 - INFO - RepeatTimer thread exit
+2024-02-23 17:31:30,297 - INFO - Gadget is now watching!
+2024-02-23 17:31:30,298 - INFO - New print started; PrintId: OuD8Y3sgkvlnfY3m21RkxwlShz4ywjjfSa6cESb7umlB6dd49aN0zyuylOv7 file:CHMURKA_SLICER_4.gcode size:1241 filament:1166
+2024-02-23 17:31:31,049 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:31:31,050 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:31:31,233 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-23 17:31:31,423 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-23 17:32:00,621 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:32:30,934 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:33:01,261 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:33:31,588 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:34:01,910 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:34:32,224 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:35:02,541 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 17:35:05,300 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:35:05,458 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-23 17:35:33,371 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:37:34,154 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:38:08,735 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:38:08,939 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 17:39:34,954 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:41:12,200 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:41:12,383 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 17:41:35,762 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:43:36,572 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:43:36,574 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:43:36,792 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 17:45:00,033 - INFO - First layer timer is done. Stopping.
+2024-02-23 17:45:00,034 - INFO - RepeatTimer thread exit
+2024-02-23 17:45:00,538 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 17:45:00,719 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-23 17:45:37,374 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+                                                                                                                                                                                           2024-02-23 17:47:05,773 - INFO - ##################################
+2024-02-23 17:47:05,782 - INFO - #### OctoEverywhere Starting #####
+2024-02-23 17:47:05,782 - INFO - ##################################
+2024-02-23 17:47:05,786 - INFO - Plugin Version: 2.10.0
+2024-02-23 17:47:05,787 - INFO - Our existing update config file include was found in the moonraker config.
+2024-02-23 17:47:05,787 - INFO - Existing update config file found with the correct file contents.
+2024-02-23 17:47:05,832 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-02-23 17:47:05,834 - INFO - Setting up relay with frontend port 80
+2024-02-23 17:47:05,838 - INFO - OctoPingPong stats loaded from file.
+2024-02-23 17:47:05,843 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-02-23 17:47:05,847 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-23 17:47:05,847 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:139813767896976
+2024-02-23 17:47:05,857 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-02-23 17:47:05,857 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-02-23 17:47:05,857 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-02-23 17:47:05,857 - INFO - Service websocket closed.
+2024-02-23 17:47:05,857 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-23 17:47:05,857 - INFO - Sleeping for 8 seconds before trying again.
+2024-02-23 17:47:10,840 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-02-23 17:47:10,840 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-02-23 17:47:10,840 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
