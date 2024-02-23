@@ -1606,3 +1606,4 @@ moonraker.utils.ServerError: Unable to repair loose objects, use hard recovery
 2024-02-23 18:52:08,427 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
 2024-02-23 18:52:52,338 [websockets.py:write_to_socket()] - Websocket closed while writing: 139848032912816
 2024-02-23 18:52:57,193 [websockets.py:on_close()] - Websocket Closed: ID: 139848032912816 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2024-02-23 19:52:08,438 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
