@@ -17812,3 +17812,56 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-23 16:29:02,373 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-02-23 16:29:32,708 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-02-23 16:30:03,031 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 16:30:33,355 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 16:31:03,684 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-23 16:31:25,990 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:31:26,148 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-23 16:31:34,506 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:33:35,301 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:33:40,562 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:33:40,765 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:35:36,085 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:36:59,794 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:36:59,957 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:37:36,881 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:39:24,667 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:39:24,860 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:39:37,698 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:41:09,119 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-02-23 16:41:09,119 - ERROR - ping/pong timed out - goodbye
+2024-02-23 16:41:09,120 - INFO - Service websocket closed.
+2024-02-23 16:41:09,120 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-02-23 16:41:09,120 - INFO - Closing all open web stream sockets (0)
+2024-02-23 16:41:09,120 - INFO - Sleeping for 4 seconds before trying again.
+2024-02-23 16:41:10,416 - INFO - First layer timer is done. Stopping.
+2024-02-23 16:41:10,417 - INFO - RepeatTimer thread exit
+2024-02-23 16:41:10,920 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:41:11,093 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-23 16:41:13,123 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-23 16:41:13,124 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140297514785168
+2024-02-23 16:41:13,309 - INFO - Websocket connected
+2024-02-23 16:41:13,309 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-02-23 16:41:13,372 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-02-23 16:41:13,373 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-23 16:41:38,495 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:41:48,772 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:41:48,930 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:43:39,306 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:43:54,341 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:43:54,508 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:45:40,097 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:46:02,657 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:46:02,854 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:47:40,886 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:49:41,677 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:49:57,209 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:49:57,379 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:51:42,460 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:53:25,464 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:53:25,663 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:53:43,254 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:55:44,070 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:57:44,882 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:57:49,895 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-23 16:57:50,063 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-23 16:59:45,684 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
