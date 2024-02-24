@@ -1066,3 +1066,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryT8d2HbBDecT4hY
 2024-02-24 09:19:25,429 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "PEPSI2_37m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-24 09:19:25,445 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 395.53ms
 2024-02-24 09:19:25,539 [job_state.py:_status_update()] - Job Started: PEPSI2_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-24 09:54:15,397 [job_state.py:_status_update()] - Job Started: PEPSI2_37m_0,20mm_205C_PLA_ENDER3.gcode
