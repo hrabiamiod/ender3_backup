@@ -1067,3 +1067,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryT8d2HbBDecT4hY
 2024-02-24 09:19:25,445 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 395.53ms
 2024-02-24 09:19:25,539 [job_state.py:_status_update()] - Job Started: PEPSI2_37m_0,20mm_205C_PLA_ENDER3.gcode
 2024-02-24 09:54:15,397 [job_state.py:_status_update()] - Job Started: PEPSI2_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-24 10:14:10,608 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-24 10:14:10,608 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-02-24 10:24:10,609 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
