@@ -758,3 +758,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykdJl0w2UyvZk0u
 2024-02-26 17:16:24,904 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-26 17:16:24,915 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 521.35ms
 2024-02-26 17:16:25,093 [job_state.py:_status_update()] - Job Started: MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-26 18:10:52,224 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-26 18:20:52,226 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
