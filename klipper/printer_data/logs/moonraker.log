@@ -743,3 +743,18 @@ Properties:
 2024-02-26 17:05:58,657 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.62ms
 2024-02-26 17:05:58,658 [websockets.py:open()] - Websocket Opened: ID: 140398778826128, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-02-26 17:05:58,876 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-02-26 17:11:29,436 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-26 17:11:29,437 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.95ms
+2024-02-26 17:11:29,437 [websockets.py:open()] - Websocket Opened: ID: 140398778554720, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-26 17:11:29,447 [websockets.py:_handle_identify()] - Websocket 140398778554720 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-26 17:11:30,504 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.71ms
+2024-02-26 17:11:30,504 [websockets.py:open()] - Websocket Opened: ID: 140398778817200, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-26 17:11:30,588 [websockets.py:_handle_identify()] - Websocket 140398778817200 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-26 17:16:24,395 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykdJl0w2UyvZk0u9j
+2024-02-26 17:16:24,749 [app.py:post()] - Processing Uploaded File: MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-26 17:16:24,870 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-26 17:16:24,904 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-26 17:16:24,915 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 521.35ms
+2024-02-26 17:16:25,093 [job_state.py:_status_update()] - Job Started: MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode

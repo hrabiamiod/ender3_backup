@@ -20662,3 +20662,38 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-26 17:05:56,357 - INFO - Printer state at socket connect is: standby
 2024-02-26 17:05:56,358 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
 2024-02-26 17:05:59,994 - INFO - Ping Pong Stats: Default:[fra,33.057498931884766], Lowest:[fra,33.057498931884766] Use Low Latency Enabled: True
+2024-02-26 17:16:25,346 - INFO - Gadget is now watching!
+2024-02-26 17:16:25,348 - INFO - FileMetadataCache updated for file [MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 2275.0, size: 1462, filament usage: 1518
+2024-02-26 17:16:25,348 - INFO - Gadget has stopped watching!
+2024-02-26 17:16:25,348 - INFO - RepeatTimer thread exit
+2024-02-26 17:16:25,348 - INFO - RepeatTimer thread exit
+2024-02-26 17:16:25,350 - INFO - RepeatTimer thread exit
+2024-02-26 17:16:25,352 - INFO - Gadget is now watching!
+2024-02-26 17:16:25,354 - INFO - New print started; PrintId: fFLDPiCV1WVGaKDqQBBIZwOGLwcqxiHAtH8l9sVcGg46z94PHfu11GAUQy61 file:MANIA_38m_0,20mm_205C_PLA_ENDER3.gcode size:1462 filament:1518
+2024-02-26 17:16:26,104 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:16:26,105 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:16:26,314 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-26 17:16:26,504 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-26 17:16:55,680 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-26 17:17:26,009 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-26 17:17:56,343 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-26 17:18:26,670 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-26 17:18:56,994 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-26 17:19:10,782 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:19:10,947 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-26 17:19:27,826 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:21:28,638 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:23:29,444 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:23:38,969 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:23:39,165 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-26 17:25:30,250 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:26:46,452 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:26:46,624 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-26 17:27:31,068 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:29:31,882 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:29:53,189 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:29:53,403 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-26 17:29:54,937 - INFO - First layer timer is done. Stopping.
+2024-02-26 17:29:54,938 - INFO - RepeatTimer thread exit
+2024-02-26 17:29:55,441 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-26 17:29:55,605 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
