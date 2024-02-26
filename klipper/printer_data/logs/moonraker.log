@@ -1581,3 +1581,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybjc4Z9q6t8PZ8W
 2024-02-26 19:32:37,883 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MANKA_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-02-26 19:32:37,894 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 298.97ms
 2024-02-26 19:32:38,094 [job_state.py:_status_update()] - Job Started: MANKA_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-26 20:17:11,922 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4XYd4fLbkv4pi5dc
+2024-02-26 20:17:12,352 [app.py:post()] - Processing Uploaded File: dwie_test.gcode
+2024-02-26 20:17:12,449 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-26 20:17:12,481 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "dwie_test.gcode") successfully finished
+2024-02-26 20:17:12,492 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 571.01ms
+2024-02-26 20:17:12,662 [job_state.py:_status_update()] - Job Started: dwie_test.gcode
