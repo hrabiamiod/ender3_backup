@@ -825,3 +825,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryERLN8H14IFASP6
 2024-02-28 11:25:44,428 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "tafla.gcode") successfully finished
 2024-02-28 11:25:44,446 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 190.91ms
 2024-02-28 11:25:44,449 [job_state.py:_status_update()] - Job Started: tafla.gcode
+2024-02-28 11:40:09,507 [job_state.py:_status_update()] - Job Started: majlo_dual_color.gcode
+2024-02-28 11:40:54,030 [websockets.py:on_close()] - Websocket Closed: ID: 139820995639328 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.25
+2024-02-28 11:40:54,030 [websockets.py:on_close()] - Websocket Closed: ID: 139820993732832 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.43
+2024-02-28 11:40:54,174 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-02-28 11:40:54,174 [websockets.py:open()] - Websocket Opened: ID: 139820995640624, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 11:40:54,180 [websockets.py:_handle_identify()] - Websocket 139820995640624 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-28 11:40:54,585 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
+2024-02-28 11:40:54,585 [websockets.py:open()] - Websocket Opened: ID: 139820995348992, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 11:40:54,654 [websockets.py:_handle_identify()] - Websocket 139820995348992 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
