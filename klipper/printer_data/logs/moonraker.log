@@ -1168,3 +1168,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary933AcIklpPY95W
 2024-02-28 15:32:39,359 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "majlo_rosa_temp.gcode") successfully finished
 2024-02-28 15:32:39,379 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 438.48ms
 2024-02-28 15:32:39,468 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
+2024-02-28 16:24:01,324 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
