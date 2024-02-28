@@ -1169,3 +1169,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary933AcIklpPY95W
 2024-02-28 15:32:39,379 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 438.48ms
 2024-02-28 15:32:39,468 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
 2024-02-28 16:24:01,324 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
+2024-02-28 16:33:58,134 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-28 16:33:58,134 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
