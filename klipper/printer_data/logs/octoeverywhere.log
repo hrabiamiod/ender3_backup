@@ -24949,3 +24949,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-28 19:51:58,254 - INFO - RepeatTimer thread exit
 2024-02-28 19:51:58,257 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-28 19:51:58,612 - INFO - NotificationsHandler successfully sent 'done'
+2024-02-28 23:28:34,798 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-02-28 23:28:34,798 - ERROR - ping/pong timed out - goodbye
+2024-02-28 23:28:34,799 - INFO - Service websocket closed.
+2024-02-28 23:28:34,799 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]
+2024-02-28 23:28:34,799 - INFO - Closing all open web stream sockets (0)
+2024-02-28 23:28:34,799 - INFO - Sleeping for 10 seconds before trying again.
+2024-02-28 23:28:44,809 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-28 23:28:44,810 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4] wsId:140399197489664
+2024-02-28 23:28:45,003 - INFO - Websocket connected
+2024-02-28 23:28:45,003 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2024-02-28 23:28:45,262 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2024-02-28 23:28:45,263 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
