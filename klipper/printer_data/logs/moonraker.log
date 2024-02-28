@@ -834,3 +834,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryERLN8H14IFASP6
 2024-02-28 11:40:54,585 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
 2024-02-28 11:40:54,585 [websockets.py:open()] - Websocket Opened: ID: 139820995348992, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-02-28 11:40:54,654 [websockets.py:_handle_identify()] - Websocket 139820995348992 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-28 12:23:58,098 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
