@@ -837,3 +837,334 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryERLN8H14IFASP6
 2024-02-28 12:23:58,098 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-02-28 12:43:58,101 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-02-28 14:29:51,708 [job_state.py:_status_update()] - Job Started: majlo_dual_color.gcode
+2024-02-28 15:30:42,378 [base_deploy.py:log_info()] - PackageKit: Detected 46 package updates:
+base-files
+cmake
+cmake-data
+coreutils
+dns-root-data
+docker-ce
+docker-ce-cli
+docker-ce-rootless-extras
+docker-compose-plugin
+firmware-sof-signed
+gdm3
+gir1.2-gdm-1.0
+iptables
+language-pack-en
+language-pack-en-base
+language-pack-gnome-en
+language-pack-gnome-en-base
+less
+libde265-0
+libegl-mesa0
+libgbm1
+libgdm1
+libgl1-mesa-dri
+libglapi-mesa
+libglx-mesa0
+libip4tc2
+libip6tc2
+libssl-dev
+libssl3
+libtiff5
+libuv1
+libxatracker2
+libxtables12
+mesa-va-drivers
+mesa-vdpau-drivers
+mesa-vulkan-drivers
+openssl
+python-apt-common
+python3-apt
+python3-distupgrade
+tcpdump
+tracker-extract
+tracker-miner-fs
+ubuntu-release-upgrader-core
+ubuntu-release-upgrader-gtk
+unzip
+2024-02-28 15:30:42,429 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker status --porcelain -b) successfully finished
+2024-02-28 15:30:42,435 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker branch --list --no-color) successfully finished
+2024-02-28 15:30:42,441 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker remote get-url origin) successfully finished
+2024-02-28 15:30:43,128 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:43,134 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:43,137 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-parse HEAD) successfully finished
+2024-02-28 15:30:43,150 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:43,154 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-parse origin/master) successfully finished
+2024-02-28 15:30:43,164 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:43,170 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker rev-list HEAD..9813011db2e65f13072b8e31ad9a9364e99e338d --count) successfully finished
+2024-02-28 15:30:43,177 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker log 9ad8fed81ea4f81d308e68a301a5ccb84f77f192..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:43,208 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:43,208 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/turbo/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker.git
+Recovery URL: https://github.com/Arksine/moonraker.git
+Current Commit SHA: 9ad8fed81ea4f81d308e68a301a5ccb84f77f192
+Upstream Commit SHA: 9813011db2e65f13072b8e31ad9a9364e99e338d
+Current Version: v0.8.0-206-g9ad8fed8
+Upstream Version: v0.8.0-318-g9813011d
+Rollback Commit: 797c62389d31de2ec6c386af83b9cd0957f50068
+Rollback Branch: master
+Rollback Version: v0.8.0-136-g797c6238
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 112
+Diverged: False
+Repo Warnings:
+  Repo has untracked source files: ['moonraker/components/timelapse.py']
+2024-02-28 15:30:43,209 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2024-02-28 15:30:43,209 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2024-02-28 15:30:43,287 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper status --porcelain -b) successfully finished
+2024-02-28 15:30:43,295 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper branch --list --no-color) successfully finished
+2024-02-28 15:30:43,303 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper remote get-url origin) successfully finished
+2024-02-28 15:30:44,063 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:44,069 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:44,073 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-parse HEAD) successfully finished
+2024-02-28 15:30:44,148 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:44,152 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-parse origin/master) successfully finished
+2024-02-28 15:30:44,206 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:44,212 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper rev-list HEAD..a77d07907fdfcd76f7175231caee170db205ff04 --count) successfully finished
+2024-02-28 15:30:44,219 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper log 99d7af87fd7cd74b9a6eab355eb71327ed3b8256..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:44,279 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:44,279 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/turbo/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 99d7af87fd7cd74b9a6eab355eb71327ed3b8256
+Upstream Commit SHA: a77d07907fdfcd76f7175231caee170db205ff04
+Current Version: v0.12.0-25-g99d7af87
+Upstream Version: v0.12.0-114-ga77d0790
+Rollback Commit: 6f7c743615fa84198a5635569c8bcdf5f42d3e82
+Rollback Branch: master
+Rollback Version: v0.11.0-255-g6f7c7436
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 89
+Diverged: False
+2024-02-28 15:30:44,279 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2024-02-28 15:30:44,279 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2024-02-28 15:30:44,575 [web_deploy.py:_log_client_info()] - Web Client mainsail Detected:
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/turbo/mainsail
+Local Version: v2.8.0
+Remote Version: v2.10.0
+Valid: True
+Fallback Client Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.10.0/mainsail.zip
+Download Size: 2081565
+Content Type: application/zip
+Rollback Version: v2.6.2
+Rollback Repo: mainsail-crew/mainsail
+2024-02-28 15:30:44,592 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot status --porcelain -b) successfully finished
+2024-02-28 15:30:44,602 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot branch --list --no-color) successfully finished
+2024-02-28 15:30:44,612 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot remote get-url origin) successfully finished
+2024-02-28 15:30:45,103 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:45,106 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:45,109 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-parse HEAD) successfully finished
+2024-02-28 15:30:45,113 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:45,116 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-parse origin/master) successfully finished
+2024-02-28 15:30:45,119 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:45,122 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-telegram-bot rev-list HEAD..b9b47003e13b8a23af696594aac8ba53c777f5a7 --count) successfully finished
+2024-02-28 15:30:45,122 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
+Owner: nlef
+Repository Name: moonraker-telegram-bot
+Path: /home/turbo/moonraker-telegram-bot
+Remote: origin
+Branch: master
+Remote URL: https://github.com/nlef/moonraker-telegram-bot.git
+Recovery URL: https://github.com/nlef/moonraker-telegram-bot.git
+Current Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Upstream Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Current Version: v1.5-0-gb9b47003
+Upstream Version: v1.5-0-gb9b47003
+Rollback Commit: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Rollback Branch: master
+Rollback Version: v1.5-0-gb9b4700
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-02-28 15:30:45,123 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Channel: dev
+2024-02-28 15:30:45,123 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Validity check for git repo passed
+2024-02-28 15:30:45,157 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest status --porcelain -b) successfully finished
+2024-02-28 15:30:45,163 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest branch --list --no-color) successfully finished
+2024-02-28 15:30:45,168 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest remote get-url origin) successfully finished
+2024-02-28 15:30:45,671 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:45,676 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:45,679 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-parse HEAD) successfully finished
+2024-02-28 15:30:45,686 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:45,689 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-parse origin/master) successfully finished
+2024-02-28 15:30:45,696 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:45,701 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest rev-list HEAD..ba0ac8fbe4567cda574d5835f0e13b3434f16713 --count) successfully finished
+2024-02-28 15:30:45,706 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest log f7ac6aa298143f0019eae9b2b2be8039196ebeda..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:45,723 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/crowsnest for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:45,723 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/turbo/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: f7ac6aa298143f0019eae9b2b2be8039196ebeda
+Upstream Commit SHA: ba0ac8fbe4567cda574d5835f0e13b3434f16713
+Current Version: v4.1.1-1-gf7ac6aa2
+Upstream Version: v4.1.4-1-gba0ac8fb
+Rollback Commit: 8b54eae98dcb5de73f5aab121805ef018cda5052
+Rollback Branch: master
+Rollback Version: v4.0.2-2-g8b54eae9
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 23
+Diverged: False
+2024-02-28 15:30:45,723 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2024-02-28 15:30:45,723 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2024-02-28 15:30:45,776 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico status --porcelain -b) successfully finished
+2024-02-28 15:30:45,781 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico branch --list --no-color) successfully finished
+2024-02-28 15:30:45,786 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico remote get-url origin) successfully finished
+2024-02-28 15:30:46,349 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:46,354 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:46,357 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse HEAD) successfully finished
+2024-02-28 15:30:46,392 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:46,395 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse origin/master) successfully finished
+2024-02-28 15:30:46,404 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:46,408 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-list HEAD..9a8640b506129df5f3e4fee8da1e39427607b9bb --count) successfully finished
+2024-02-28 15:30:46,413 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico log f9327841627bade6efb237ee21898344ba8fe336..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:46,451 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:46,451 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+Owner: TheSpaghettiDetective
+Repository Name: moonraker-obico
+Path: /home/turbo/moonraker-obico
+Remote: origin
+Branch: master
+Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Current Commit SHA: f9327841627bade6efb237ee21898344ba8fe336
+Upstream Commit SHA: 9a8640b506129df5f3e4fee8da1e39427607b9bb
+Current Version: v1.5.3-3-gf9327841
+Upstream Version: v1.5.5-2-g9a8640b5
+Rollback Commit: 1cebe71f85c94115c24ec5be2c54be6f940ee95f
+Rollback Branch: master
+Rollback Version: v1.4.7-0-g1cebe71f
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 16
+Diverged: False
+2024-02-28 15:30:46,451 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Channel: dev
+2024-02-28 15:30:46,451 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Validity check for git repo passed
+2024-02-28 15:30:46,499 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere status --porcelain -b) successfully finished
+2024-02-28 15:30:46,505 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere branch --list --no-color) successfully finished
+2024-02-28 15:30:46,510 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere remote get-url origin) successfully finished
+2024-02-28 15:30:47,370 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:47,375 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-02-28 15:30:47,379 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere rev-parse HEAD) successfully finished
+2024-02-28 15:30:47,385 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:47,416 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:47,420 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere rev-list HEAD..dbbfcc8fa027eb2181414f0069f26528550a5854 --count) successfully finished
+2024-02-28 15:30:47,425 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere log 531a894c90ae7f5dbe60e19efe17175fa6e63019..dbbfcc8fa027eb2181414f0069f26528550a5854 --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:47,435 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:47,436 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+Owner: QuinnDamerell
+Repository Name: OctoPrint-OctoEverywhere
+Path: /home/turbo/octoeverywhere
+Remote: origin
+Branch: master
+Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Current Commit SHA: 531a894c90ae7f5dbe60e19efe17175fa6e63019
+Upstream Commit SHA: dbbfcc8fa027eb2181414f0069f26528550a5854
+Current Version: 2.10.0-0-g531a894c
+Upstream Version: 2.10.8
+Rollback Commit: 2be2cafc1e278ca6ad96ed6506ad260b98a4d4cc
+Rollback Branch: master
+Rollback Version: 2.7.6-0-g2be2cafc
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 27
+Diverged: False
+2024-02-28 15:30:47,436 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Channel: beta
+2024-02-28 15:30:47,436 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Validity check for git repo passed
+2024-02-28 15:30:47,453 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse status --porcelain -b) successfully finished
+2024-02-28 15:30:47,462 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse branch --list --no-color) successfully finished
+2024-02-28 15:30:47,468 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse remote get-url origin) successfully finished
+2024-02-28 15:30:47,953 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse fetch origin --prune --progress) successfully finished
+2024-02-28 15:30:47,957 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse merge-base --is-ancestor HEAD origin/main) successfully finished
+2024-02-28 15:30:47,960 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse HEAD) successfully finished
+2024-02-28 15:30:47,967 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-02-28 15:30:47,969 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse origin/main) successfully finished
+2024-02-28 15:30:47,975 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe origin/main --always --tags --long --abbrev=8) successfully finished
+2024-02-28 15:30:47,978 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-list HEAD..c7fff11e542b95e0e15b8bb1443cea8159ac0274 --count) successfully finished
+2024-02-28 15:30:47,982 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse log 57bec0dec80e5058eda13cd3586bc2bda0632900..origin/main --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-02-28 15:30:47,987 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/main --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-02-28 15:30:47,988 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/turbo/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-142-g57bec0de
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Rollback Branch: main
+Rollback Version: v0.0.1-142-g57bec0d
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 1
+Diverged: False
+2024-02-28 15:30:47,988 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
+2024-02-28 15:30:47,988 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
+2024-02-28 15:32:01,475 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-28 15:32:01,478 [websockets.py:on_close()] - Websocket Closed: ID: 139820995356768 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.41
+2024-02-28 15:32:02,730 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-28 15:32:03,483 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-28 15:32:03,484 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.89ms
+2024-02-28 15:32:03,484 [websockets.py:open()] - Websocket Opened: ID: 139820995353408, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-28 15:32:03,486 [websockets.py:_handle_identify()] - Websocket 139820995353408 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-28 15:32:05,024 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-28 15:32:05,026 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-28 15:32:05,276 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-28 15:32:05,531 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-28 15:32:06,282 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-28 15:32:09,857 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-28 15:32:09,859 [websockets.py:on_close()] - Websocket Closed: ID: 139820995353408 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.38
+2024-02-28 15:32:09,940 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-02-28 15:32:11,112 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-28 15:32:11,866 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-02-28 15:32:11,866 [websockets.py:open()] - Websocket Opened: ID: 139820995355472, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-28 15:32:11,868 [websockets.py:_handle_identify()] - Websocket 139820995355472 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-28 15:32:13,401 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-28 15:32:13,402 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-28 15:32:13,652 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-28 15:32:13,907 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-28 15:32:14,657 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-28 15:32:38,940 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-28 15:32:38,941 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary933AcIklpPY95WgP
+2024-02-28 15:32:39,217 [app.py:post()] - Processing Uploaded File: majlo_rosa_temp.gcode
+2024-02-28 15:32:39,322 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-28 15:32:39,359 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "majlo_rosa_temp.gcode") successfully finished
+2024-02-28 15:32:39,379 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 438.48ms
+2024-02-28 15:32:39,468 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
