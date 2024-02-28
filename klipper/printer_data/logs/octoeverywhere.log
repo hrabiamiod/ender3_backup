@@ -24224,3 +24224,49 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-28 17:57:39,036 - INFO - RepeatTimer thread exit
 2024-02-28 17:57:39,040 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-02-28 17:57:39,429 - INFO - NotificationsHandler successfully sent 'done'
+2024-02-28 18:16:12,831 - INFO - Gadget is now watching!
+2024-02-28 18:16:12,834 - INFO - FileMetadataCache updated for file [majlo_rosa_temp.gcode]; est time: 2298.0, size: 1510, filament usage: 1516
+2024-02-28 18:16:12,834 - INFO - Gadget has stopped watching!
+2024-02-28 18:16:12,834 - INFO - RepeatTimer thread exit
+2024-02-28 18:16:12,836 - INFO - Gadget is now watching!
+2024-02-28 18:16:12,834 - INFO - RepeatTimer thread exit
+2024-02-28 18:16:12,835 - INFO - RepeatTimer thread exit
+2024-02-28 18:16:12,838 - INFO - New print started; PrintId: gdWU1YpRorCaJ6qV8buyrA5t1xa6kA4raLIoUWsH7cTMTMJXWcoxuCdfV6Ef file:majlo_rosa_temp.gcode size:1510 filament:1516
+2024-02-28 18:16:13,587 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:16:13,588 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:16:13,807 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-28 18:16:13,978 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-28 18:16:43,171 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:17:13,514 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:17:43,841 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:18:14,161 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:18:44,488 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:19:14,812 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-28 18:19:21,084 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:19:21,251 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-02-28 18:19:27,348 - INFO - First layer timer is done. Stopping.
+2024-02-28 18:19:27,349 - INFO - RepeatTimer thread exit
+2024-02-28 18:19:27,852 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:19:28,011 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-02-28 18:19:45,651 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:21:46,471 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:23:47,272 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:23:54,538 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:23:54,752 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-28 18:25:48,085 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:27:16,567 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:27:16,733 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-28 18:27:48,906 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-28 18:28:27,442 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-02-28 18:28:27,442 - ERROR - ping/pong timed out - goodbye
+2024-02-28 18:28:27,442 - INFO - Service websocket closed.
+2024-02-28 18:28:27,442 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-02-28 18:28:27,442 - INFO - Closing all open web stream sockets (0)
+2024-02-28 18:28:27,442 - INFO - Sleeping for 7 seconds before trying again.
+2024-02-28 18:28:34,449 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-02-28 18:28:34,450 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3] wsId:140399236107952
+2024-02-28 18:28:34,825 - INFO - Websocket connected
+2024-02-28 18:28:34,826 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2024-02-28 18:28:34,926 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2024-02-28 18:28:34,926 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-02-28 18:29:49,751 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
