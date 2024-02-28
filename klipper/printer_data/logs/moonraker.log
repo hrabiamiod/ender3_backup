@@ -836,3 +836,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryERLN8H14IFASP6
 2024-02-28 11:40:54,654 [websockets.py:_handle_identify()] - Websocket 139820995348992 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-02-28 12:23:58,098 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-02-28 12:43:58,101 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-02-28 14:29:51,708 [job_state.py:_status_update()] - Job Started: majlo_dual_color.gcode
