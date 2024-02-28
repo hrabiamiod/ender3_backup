@@ -779,3 +779,49 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHgX2c8L1ROiimK
 2024-02-28 10:35:07,171 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
 2024-02-28 10:35:07,172 [websockets.py:open()] - Websocket Opened: ID: 139820995672000, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-02-28 10:35:07,260 [websockets.py:_handle_identify()] - Websocket 139820995672000 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-28 11:08:58,089 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-28 11:13:17,496 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryunsmQtw9iJjMDjqS
+2024-02-28 11:13:17,500 [app.py:post()] - Processing Uploaded File: printer.cfg
+2024-02-28 11:13:17,507 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 11.14ms
+2024-02-28 11:13:18,549 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-28 11:13:18,551 [websockets.py:on_close()] - Websocket Closed: ID: 139820993884704 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.40
+2024-02-28 11:13:19,804 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-28 11:13:20,081 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-28 11:13:20,081 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-28 11:13:20,082 [klippy_connection.py:_check_ready()] - 
+Option 'default_parameter_x' is not valid in section 'gcode_macro m600'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-02-28 11:13:20,557 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-28 11:13:20,557 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.25ms
+2024-02-28 11:13:20,558 [websockets.py:open()] - Websocket Opened: ID: 139820993887632, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-28 11:13:20,561 [websockets.py:_handle_identify()] - Websocket 139820993887632 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-28 11:18:58,091 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
+2024-02-28 11:18:58,091 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-02-28 11:20:05,034 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPZNcLVns56BeV0iM
+2024-02-28 11:20:05,038 [app.py:post()] - Processing Uploaded File: printer.cfg
+2024-02-28 11:20:05,040 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.33ms
+2024-02-28 11:20:05,065 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-28 11:20:05,067 [websockets.py:on_close()] - Websocket Closed: ID: 139820993887632 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.51
+2024-02-28 11:20:06,319 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-28 11:20:07,072 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.64ms
+2024-02-28 11:20:07,072 [websockets.py:open()] - Websocket Opened: ID: 139820995356768, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-28 11:20:07,074 [websockets.py:_handle_identify()] - Websocket 139820995356768 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-28 11:20:08,858 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-28 11:20:08,859 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-28 11:20:09,109 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-28 11:20:09,368 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-28 11:20:10,367 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-28 11:25:44,255 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryERLN8H14IFASP6Q7
+2024-02-28 11:25:44,297 [app.py:post()] - Processing Uploaded File: tafla.gcode
+2024-02-28 11:25:44,406 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-28 11:25:44,428 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "tafla.gcode") successfully finished
+2024-02-28 11:25:44,446 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 190.91ms
+2024-02-28 11:25:44,449 [job_state.py:_status_update()] - Job Started: tafla.gcode
