@@ -652,3 +652,122 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 27
 Diverged: False
+2024-02-28 10:04:01,070 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/turbo/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-142-g57bec0de
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Rollback Branch: main
+Rollback Version: v0.0.1-142-g57bec0d
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 1
+Diverged: False
+2024-02-28 10:04:01,070 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 2 Days, 7 Hours, 43 Minutes, 13 Seconds
+2024-02-28 10:04:01,070 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 16 Seconds
+2024-02-28 10:04:01,070 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 18 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Web Client mainsail: Next refresh in: 2 Days, 7 Hours, 43 Minutes, 15 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 19 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 20 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 20 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 21 Seconds
+2024-02-28 10:04:01,071 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 2 Days, 23 Hours, 5 Minutes, 22 Seconds
+2024-02-28 10:04:01,075 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
+2024-02-28 10:04:01,075 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
+2024-02-28 10:04:01,075 [app.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-02-28 10:04:01,326 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-28 10:04:01,356 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'sysinit.target']
+**After=['sysinit.target', '-.mount', 'basic.target', 'system.slice', 'network-online.target', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-02-28 10:04:01,607 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-25-g99d7af87
+2024-02-28 10:04:01,611 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/info
+2024-02-28 10:04:01,611 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.info
+2024-02-28 10:04:01,611 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/emergency_stop
+2024-02-28 10:04:01,611 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.emergency_stop
+2024-02-28 10:04:01,611 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/help
+2024-02-28 10:04:01,611 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.help
+2024-02-28 10:04:01,611 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/script
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.script
+2024-02-28 10:04:01,612 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/restart
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.restart
+2024-02-28 10:04:01,612 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/firmware_restart
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.firmware_restart
+2024-02-28 10:04:01,612 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/list
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.list
+2024-02-28 10:04:01,612 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/query
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.query
+2024-02-28 10:04:01,612 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/subscribe
+2024-02-28 10:04:01,612 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.subscribe
+2024-02-28 10:04:01,613 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/cancel
+2024-02-28 10:04:01,613 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.cancel
+2024-02-28 10:04:01,613 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/pause
+2024-02-28 10:04:01,613 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.pause
+2024-02-28 10:04:01,613 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/resume
+2024-02-28 10:04:01,614 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.resume
+2024-02-28 10:04:01,614 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_stepper
+2024-02-28 10:04:01,614 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_stepper
+2024-02-28 10:04:01,614 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/query_endstops/status
+2024-02-28 10:04:01,614 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.query_endstops.status
+2024-02-28 10:04:01,614 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2024-02-28 10:04:01,614 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2024-02-28 10:04:01,615 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-28 10:04:01,616 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-28 10:04:01,866 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-28 10:04:02,122 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-28 10:04:02,148 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-02-28 10:04:02,148 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.14ms
+2024-02-28 10:04:02,149 [websockets.py:open()] - Websocket Opened: ID: 139820993884704, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-02-28 10:04:02,158 [websockets.py:_handle_identify()] - Websocket 139820993884704 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-02-28 10:04:02,618 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-28 10:04:07,402 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.57ms
+2024-02-28 10:04:07,402 [websockets.py:open()] - Websocket Opened: ID: 139820994145552, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-02-28 10:04:07,642 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-02-28 10:08:11,468 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.56
+2024-02-28 10:08:11,468 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.98ms
+2024-02-28 10:08:11,468 [websockets.py:open()] - Websocket Opened: ID: 139820993737200, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 10:08:11,474 [websockets.py:_handle_identify()] - Websocket 139820993737200 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-28 10:08:12,102 [app.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.70ms
+2024-02-28 10:08:12,102 [websockets.py:open()] - Websocket Opened: ID: 139820993733888, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 10:08:12,109 [websockets.py:_handle_identify()] - Websocket 139820993733888 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-28 10:15:33,004 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-02-28 10:15:33,005 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.88ms
+2024-02-28 10:15:33,005 [websockets.py:open()] - Websocket Opened: ID: 139820993887344, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 10:15:33,034 [websockets.py:_handle_identify()] - Websocket 139820993887344 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-28 10:16:55,772 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-28 10:16:55,773 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.82ms
+2024-02-28 10:16:55,774 [websockets.py:open()] - Websocket Opened: ID: 139820995639328, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 10:16:55,779 [websockets.py:_handle_identify()] - Websocket 139820995639328 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-02-28 10:17:33,976 [websockets.py:write_to_socket()] - Websocket closed while writing: 139820993887344
+2024-02-28 10:17:38,006 [websockets.py:on_close()] - Websocket Closed: ID: 139820993887344 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-02-28 10:18:13,926 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-02-28 10:18:13,926 [websockets.py:open()] - Websocket Opened: ID: 139820993732832, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-02-28 10:18:13,932 [websockets.py:_handle_identify()] - Websocket 139820993732832 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-02-28 10:18:29,714 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHgX2c8L1ROiimKjX
+2024-02-28 10:18:29,977 [app.py:post()] - Processing Uploaded File: majlo_dual_color.gcode
+2024-02-28 10:18:30,099 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-28 10:18:30,133 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "majlo_dual_color.gcode") successfully finished
+2024-02-28 10:18:30,145 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 431.55ms
+2024-02-28 10:18:30,173 [job_state.py:_status_update()] - Job Started: majlo_dual_color.gcode
