@@ -25349,3 +25349,19 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-02-29 21:26:40,869 - INFO - Moonraker client setting up default notification hooks
 2024-02-29 21:26:41,792 - INFO - Printer state at socket connect is: standby
 2024-02-29 21:26:41,792 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-02-29 22:28:57,315 - INFO - Gadget is now watching!
+2024-02-29 22:28:57,320 - INFO - FileMetadataCache updated for file [tafla.gcode]; est time: 443.0, size: 258, filament usage: 336
+2024-02-29 22:28:57,320 - INFO - Gadget has stopped watching!
+2024-02-29 22:28:57,320 - INFO - RepeatTimer thread exit
+2024-02-29 22:28:57,321 - INFO - RepeatTimer thread exit
+2024-02-29 22:28:57,324 - INFO - RepeatTimer thread exit
+2024-02-29 22:28:57,324 - INFO - Gadget is now watching!
+2024-02-29 22:28:57,325 - INFO - New print started; PrintId: EqdnrpWAmzD6E4whac9EkmbrE2CJZ8XXz6twlimFLsYOFxrdPtoFNdtyMTis file:tafla.gcode size:258 filament:336
+2024-02-29 22:28:58,073 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-29 22:28:58,074 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-29 22:28:58,258 - INFO - NotificationsHandler successfully sent 'resume'
+2024-02-29 22:28:58,549 - INFO - NotificationsHandler successfully sent 'started'
+2024-02-29 22:29:16,115 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-02-29 22:29:16,284 - INFO - NotificationsHandler successfully sent 'progress'
+2024-02-29 22:29:27,636 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-02-29 22:29:57,960 - INFO - Waiting to predict with Gadget because the printer is warming up.
