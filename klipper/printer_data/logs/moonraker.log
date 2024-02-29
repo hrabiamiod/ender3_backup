@@ -965,3 +965,12 @@ Properties:
 2024-02-29 22:26:58,136 [websockets.py:open()] - Websocket Opened: ID: 140363158849088, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-02-29 22:26:58,205 [websockets.py:_handle_identify()] - Websocket 140363158849088 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-02-29 22:28:57,062 [job_state.py:_status_update()] - Job Started: tafla.gcode
+2024-02-29 22:31:35,781 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-02-29 22:41:46,180 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjuphtT17sJ8uB2Rc
+2024-02-29 22:41:46,356 [app.py:post()] - Processing Uploaded File: Norka_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-29 22:41:46,479 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-29 22:41:46,514 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Norka_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-29 22:41:46,526 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 346.99ms
+2024-02-29 22:41:46,573 [job_state.py:_status_update()] - Job Started: Norka_38m_0,20mm_205C_PLA_ENDER3.gcode
