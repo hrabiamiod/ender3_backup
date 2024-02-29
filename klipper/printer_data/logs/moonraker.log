@@ -204,3 +204,12 @@ Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-25-g99d7af87
 2024-02-29 00:03:49,117 [websockets.py:on_close()] - Websocket Closed: ID: 139820993734176 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.11
 2024-02-29 00:03:49,118 [websockets.py:on_close()] - Websocket Closed: ID: 139820995672000 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.94
+2024-02-29 01:02:07,724 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-02-29 01:02:07,724 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPSrfhODonw5SYARP
+2024-02-29 01:02:08,011 [app.py:post()] - Processing Uploaded File: Sunny_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-02-29 01:02:08,104 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-02-29 01:02:08,136 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Sunny_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-02-29 01:02:08,147 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 424.04ms
+2024-02-29 01:02:08,344 [job_state.py:_status_update()] - Job Started: Sunny_38m_0,20mm_205C_PLA_ENDER3.gcode
