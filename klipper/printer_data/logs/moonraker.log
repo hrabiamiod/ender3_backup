@@ -940,3 +940,19 @@ Properties:
 2024-03-01 23:29:41,037 [websockets.py:_handle_identify()] - Websocket 139959511480544 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
 2024-03-01 23:29:41,261 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.77ms
 2024-03-01 23:29:41,262 [websockets.py:open()] - Websocket Opened: ID: 139959511481072, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-03-01 23:31:06,300 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-01 23:31:06,300 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-01 23:31:06,301 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-03-01 23:59:58,083 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-01 23:59:58,083 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.91ms
+2024-03-01 23:59:58,084 [websockets.py:open()] - Websocket Opened: ID: 139959511232048, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-01 23:59:58,095 [websockets.py:_handle_identify()] - Websocket 139959511232048 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-01 23:59:58,941 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.67ms
+2024-03-01 23:59:58,941 [websockets.py:open()] - Websocket Opened: ID: 139959511221680, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-01 23:59:59,004 [websockets.py:_handle_identify()] - Websocket 139959511221680 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
