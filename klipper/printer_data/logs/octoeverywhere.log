@@ -26187,3 +26187,50 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-01 00:14:04,176 - INFO - RepeatTimer thread exit
 2024-03-01 00:14:04,180 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-03-01 00:14:04,566 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-01 23:29:33,812 - INFO - ##################################
+2024-03-01 23:29:33,820 - INFO - #### OctoEverywhere Starting #####
+2024-03-01 23:29:33,820 - INFO - ##################################
+2024-03-01 23:29:33,825 - INFO - Plugin Version: 2.10.0
+2024-03-01 23:29:33,826 - INFO - Our existing update config file include was found in the moonraker config.
+2024-03-01 23:29:33,826 - INFO - Existing update config file found with the correct file contents.
+2024-03-01 23:29:33,978 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-03-01 23:29:33,987 - INFO - Setting up relay with frontend port 80
+2024-03-01 23:29:33,994 - INFO - OctoPingPong stats loaded from file.
+2024-03-01 23:29:33,996 - INFO - Updating server latencies...
+2024-03-01 23:29:34,001 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-03-01 23:29:34,002 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-01 23:29:34,002 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:139995684513984
+2024-03-01 23:29:34,352 - INFO - Websocket connected
+2024-03-01 23:29:34,352 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-03-01 23:29:34,976 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-03-01 23:29:34,977 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-01 23:29:34,977 - INFO - Starting Moonraker connection client.
+2024-03-01 23:29:34,979 - INFO - Moonraker client starting websocket connection thread.
+2024-03-01 23:29:34,994 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-01 23:29:34,995 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-01 23:29:34,996 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-01 23:29:34,996 - INFO - Moonraker websocket connection closed.
+2024-03-01 23:29:34,996 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-01 23:29:37,000 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-01 23:29:37,001 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-01 23:29:37,009 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-01 23:29:37,014 - INFO - Moonraker websocket connection closed.
+2024-03-01 23:29:37,015 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-01 23:29:39,012 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-03-01 23:29:39,025 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-03-01 23:29:39,025 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-03-01 23:29:39,025 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-01 23:29:39,027 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-01 23:29:39,027 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-01 23:29:39,027 - INFO - Moonraker websocket connection closed.
+2024-03-01 23:29:39,027 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-01 23:29:41,031 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-01 23:29:41,035 - INFO - Websocket connected
+2024-03-01 23:29:41,036 - INFO - Moonraker client websocket opened.
+2024-03-01 23:29:41,036 - INFO - Moonraker client waiting for klippy ready...
+2024-03-01 23:29:41,036 - INFO - Authenticating with moonraker...
+2024-03-01 23:29:41,408 - INFO - Moonraker client waiting for klippy ready...
+2024-03-01 23:29:41,410 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
