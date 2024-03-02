@@ -982,3 +982,11 @@ Properties:
 2024-03-02 09:57:11,598 [websockets.py:_handle_identify()] - Websocket 140333578615152 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
 2024-03-02 09:57:11,831 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-03-02 09:57:12,333 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-03-02 10:07:07,081 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-02 10:07:07,081 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.96ms
+2024-03-02 10:07:07,081 [websockets.py:open()] - Websocket Opened: ID: 140333578824304, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-02 10:07:07,096 [websockets.py:_handle_identify()] - Websocket 140333578824304 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-02 10:13:43,041 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.71ms
+2024-03-02 10:13:43,041 [websockets.py:open()] - Websocket Opened: ID: 140333578379632, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-02 10:13:43,046 [websockets.py:_handle_identify()] - Websocket 140333578379632 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-02 10:17:07,445 [job_state.py:_status_update()] - Job Started: tafla.gcode
