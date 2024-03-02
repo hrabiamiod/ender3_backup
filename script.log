@@ -9521,3 +9521,21 @@ WARNING: git-filter-branch has a glut of gotchas generating mangled history
 	 set FILTER_BRANCH_SQUELCH_WARNING=1.
 Proceeding with filter-branch...
 
+[master 78adcd1] crontab -  - Kopia zapasowa z dnia: 02-03-24
+ 13 files changed, 49096 insertions(+), 3999 deletions(-)
+ create mode 100644 klipper/printer_data/gcodes/.thumbs/lara2_32m_0,20mm_210C_PLA_ENDER3-300x300.png
+ create mode 100644 klipper/printer_data/gcodes/.thumbs/lara2_32m_0,20mm_210C_PLA_ENDER3-32x32.png
+ create mode 100644 klipper/printer_data/gcodes/lara2_32m_0,20mm_210C_PLA_ENDER3.gcode
+ rewrite klipper/printer_data/logs/klippy.log (86%)
+ copy klipper/printer_data/logs/{klippy.log => klippy.log.2024-03-01} (100%)
+ rewrite klipper/printer_data/logs/moonraker.log (89%)
+ copy klipper/printer_data/logs/{moonraker.log => moonraker.log.2024-03-01} (100%)
+Reinitialized existing Git repository in /home/turbo/klipper-backup/.git/
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+Proceeding with filter-branch...
+
