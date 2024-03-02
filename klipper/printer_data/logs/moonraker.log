@@ -990,3 +990,11 @@ Properties:
 2024-03-02 10:13:43,041 [websockets.py:open()] - Websocket Opened: ID: 140333578379632, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-03-02 10:13:43,046 [websockets.py:_handle_identify()] - Websocket 140333578379632 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-03-02 10:17:07,445 [job_state.py:_status_update()] - Job Started: tafla.gcode
+2024-03-02 10:30:04,407 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKywcUsFYYtNJc0oI
+2024-03-02 10:30:04,699 [app.py:post()] - Processing Uploaded File: Fred_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-02 10:30:04,820 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-02 10:30:04,854 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Fred_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-02 10:30:04,865 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 459.05ms
+2024-03-02 10:30:04,952 [job_state.py:_status_update()] - Job Started: Fred_38m_0,20mm_205C_PLA_ENDER3.gcode
