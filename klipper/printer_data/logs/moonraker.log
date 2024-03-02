@@ -943,3 +943,42 @@ Properties:
 2024-03-02 09:57:10,692 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.00ms
 2024-03-02 09:57:10,692 [websockets.py:open()] - Websocket Opened: ID: 140333578613328, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-03-02 09:57:10,794 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-25-g99d7af87
+2024-03-02 09:57:10,797 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/info
+2024-03-02 09:57:10,797 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.info
+2024-03-02 09:57:10,797 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/emergency_stop
+2024-03-02 09:57:10,803 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.emergency_stop
+2024-03-02 09:57:10,804 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/help
+2024-03-02 09:57:10,804 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.help
+2024-03-02 09:57:10,804 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/script
+2024-03-02 09:57:10,804 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.script
+2024-03-02 09:57:10,804 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/restart
+2024-03-02 09:57:10,804 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.restart
+2024-03-02 09:57:10,804 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/firmware_restart
+2024-03-02 09:57:10,804 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.firmware_restart
+2024-03-02 09:57:10,804 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/list
+2024-03-02 09:57:10,804 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.list
+2024-03-02 09:57:10,805 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/query
+2024-03-02 09:57:10,805 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.query
+2024-03-02 09:57:10,805 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/subscribe
+2024-03-02 09:57:10,805 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.subscribe
+2024-03-02 09:57:10,805 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/cancel
+2024-03-02 09:57:10,805 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.cancel
+2024-03-02 09:57:10,805 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/pause
+2024-03-02 09:57:10,805 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.pause
+2024-03-02 09:57:10,805 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/resume
+2024-03-02 09:57:10,806 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.resume
+2024-03-02 09:57:10,806 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_stepper
+2024-03-02 09:57:10,806 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_stepper
+2024-03-02 09:57:10,806 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/query_endstops/status
+2024-03-02 09:57:10,806 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.query_endstops.status
+2024-03-02 09:57:10,806 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2024-03-02 09:57:10,806 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2024-03-02 09:57:10,829 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-02 09:57:10,833 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-02 09:57:11,079 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-02 09:57:11,347 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-02 09:57:11,595 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 2.49ms
+2024-03-02 09:57:11,595 [websockets.py:open()] - Websocket Opened: ID: 140333578615152, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-02 09:57:11,598 [websockets.py:_handle_identify()] - Websocket 140333578615152 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-03-02 09:57:11,831 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-02 09:57:12,333 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
