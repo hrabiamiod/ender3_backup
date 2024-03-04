@@ -749,3 +749,12 @@ Properties:
 2024-03-04 19:38:05,580 [websockets.py:_handle_identify()] - Websocket 140246076805936 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-04 19:38:05,672 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.90ms
 2024-03-04 19:38:05,672 [websockets.py:open()] - Websocket Opened: ID: 140246076804544, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-03-04 20:01:02,976 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-03-04 20:01:47,384 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynhQrluvXhEBG5vx2
+2024-03-04 20:01:47,654 [app.py:post()] - Processing Uploaded File: Koles_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-04 20:01:47,775 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-04 20:01:47,808 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Koles_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-04 20:01:47,820 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 437.48ms
+2024-03-04 20:01:48,047 [job_state.py:_status_update()] - Job Started: Koles_38m_0,20mm_205C_PLA_ENDER3.gcode
