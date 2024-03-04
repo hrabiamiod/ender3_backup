@@ -684,3 +684,68 @@ Diverged: False
 2024-03-04 19:38:00,361 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
 2024-03-04 19:38:00,368 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
 2024-03-04 19:38:00,368 [app.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-03-04 19:38:00,619 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-04 19:38:00,722 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'system.slice', 'sysinit.target']
+**After=['network-online.target', 'sysinit.target', 'systemd-journald.socket', 'basic.target', 'system.slice', '-.mount']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-04 19:38:00,973 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-25-g99d7af87
+2024-03-04 19:38:00,979 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/info
+2024-03-04 19:38:00,979 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.info
+2024-03-04 19:38:00,979 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/emergency_stop
+2024-03-04 19:38:00,979 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.emergency_stop
+2024-03-04 19:38:00,979 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/help
+2024-03-04 19:38:00,979 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.help
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/script
+2024-03-04 19:38:00,980 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.script
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/restart
+2024-03-04 19:38:00,980 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.restart
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/gcode/firmware_restart
+2024-03-04 19:38:00,980 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.gcode.firmware_restart
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/list
+2024-03-04 19:38:00,980 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.list
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/query
+2024-03-04 19:38:00,980 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.query
+2024-03-04 19:38:00,980 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/objects/subscribe
+2024-03-04 19:38:00,983 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.objects.subscribe
+2024-03-04 19:38:00,983 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/cancel
+2024-03-04 19:38:00,983 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.cancel
+2024-03-04 19:38:00,983 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/pause
+2024-03-04 19:38:00,984 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.pause
+2024-03-04 19:38:00,984 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/pause_resume/resume
+2024-03-04 19:38:00,984 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.pause_resume.resume
+2024-03-04 19:38:00,984 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_stepper
+2024-03-04 19:38:00,986 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_stepper
+2024-03-04 19:38:00,986 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/query_endstops/status
+2024-03-04 19:38:00,986 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.query_endstops.status
+2024-03-04 19:38:00,986 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2024-03-04 19:38:00,986 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2024-03-04 19:38:00,988 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-04 19:38:00,989 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-04 19:38:01,239 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-04 19:38:01,494 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-04 19:38:01,779 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-04 19:38:01,781 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 2.08ms
+2024-03-04 19:38:01,781 [websockets.py:open()] - Websocket Opened: ID: 140246076711712, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-04 19:38:01,782 [websockets.py:_handle_identify()] - Websocket 140246076711712 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-03-04 19:38:01,990 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-04 19:38:05,475 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-04 19:38:05,475 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.99ms
+2024-03-04 19:38:05,476 [websockets.py:open()] - Websocket Opened: ID: 140246076715264, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-04 19:38:05,481 [websockets.py:_handle_identify()] - Websocket 140246076715264 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-04 19:38:05,514 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.79ms
+2024-03-04 19:38:05,514 [websockets.py:open()] - Websocket Opened: ID: 140246076805936, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-04 19:38:05,580 [websockets.py:_handle_identify()] - Websocket 140246076805936 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-04 19:38:05,672 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.90ms
+2024-03-04 19:38:05,672 [websockets.py:open()] - Websocket Opened: ID: 140246076804544, Proxied: False, User Agent: , Host Name: 127.0.0.1
