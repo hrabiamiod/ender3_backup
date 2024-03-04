@@ -770,3 +770,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXzR1te58QuA8RR
 2024-03-04 21:59:32,347 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "numery_33m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-03-04 21:59:32,358 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 368.51ms
 2024-03-04 21:59:32,398 [job_state.py:_status_update()] - Job Started: numery_33m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-04 22:42:07,358 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryg4vQCCa5MiiyA8fb
+2024-03-04 22:42:07,604 [app.py:post()] - Processing Uploaded File: numery2_31m_0,20mm_215C_PLA_ENDER3.gcode
+2024-03-04 22:42:07,697 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-04 22:42:07,726 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "numery2_31m_0,20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-03-04 22:42:07,735 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 377.07ms
+2024-03-04 22:42:07,807 [job_state.py:_status_update()] - Job Started: numery2_31m_0,20mm_215C_PLA_ENDER3.gcode
+2024-03-04 22:43:10,630 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk0yAPAKfmvhGS4Kk
+2024-03-04 22:43:10,802 [app.py:post()] - Processing Uploaded File: numery3_31m_0,20mm_215C_PLA_ENDER3.gcode
+2024-03-04 22:43:10,895 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-04 22:43:10,925 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "numery3_31m_0,20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-03-04 22:43:10,934 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 304.03ms
+2024-03-04 22:43:10,978 [job_state.py:_status_update()] - Job Started: numery3_31m_0,20mm_215C_PLA_ENDER3.gcode
