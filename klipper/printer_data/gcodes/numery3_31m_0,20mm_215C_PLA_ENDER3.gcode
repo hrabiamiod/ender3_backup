@@ -27,7 +27,7 @@ M104 S215 ; set extruder temp
 BED_MESH_CALIBRATE AREA_START=83.7684,88.5669 AREA_END=143.763,126.207
 
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
-M109 S215 ; wait for extruder temp
+M109 S210 ; wait for extruder temp
 G1 X0.1 Y20 Z0.3 F5000.0 ; Move to start position
 
 G1 X0.1 Y200.0 Z0.3 F1500.0 E15 ; Draw the first line

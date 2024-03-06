@@ -757,3 +757,12 @@ Properties:
 2024-03-06 17:35:14,704 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
 2024-03-06 17:35:14,704 [websockets.py:open()] - Websocket Opened: ID: 140008045751040, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-03-06 17:35:14,784 [websockets.py:_handle_identify()] - Websocket 140008045751040 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-06 18:05:27,403 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 71.000 38.000 10.000 [100.000]
+2024-03-06 18:10:43,123 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryti0UVUHpahBWvExG
+2024-03-06 18:10:43,263 [app.py:post()] - Processing Uploaded File: numery3_31m_0,20mm_215C_PLA_ENDER3.gcode
+2024-03-06 18:10:43,422 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-06 18:10:43,467 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "numery3_31m_0,20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-03-06 18:10:43,470 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 347.96ms
+2024-03-06 18:10:51,213 [job_state.py:_status_update()] - Job Started: numery3_31m_0,20mm_215C_PLA_ENDER3.gcode
