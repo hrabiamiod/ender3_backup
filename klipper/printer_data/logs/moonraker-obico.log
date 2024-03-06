@@ -267,3 +267,12 @@
 2024-03-06 10:00:10,379   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
 b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
 2024-03-06 10:00:11,145      INFO  backoff - Backing off wait_for_janus(...) for 0.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:00:12,970      INFO  backoff - Backing off wait_for_janus(...) for 0.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:00:14,213      INFO  backoff - Backing off wait_for_janus(...) for 3.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:00:19,491      INFO  backoff - Backing off wait_for_janus(...) for 7.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:00:28,132      INFO  backoff - Backing off wait_for_janus(...) for 13.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:00:42,105      INFO  backoff - Backing off wait_for_janus(...) for 21.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:01:04,412      INFO  backoff - Backing off wait_for_janus(...) for 48.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:01:53,509      INFO  backoff - Backing off wait_for_janus(...) for 95.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:03:30,281      INFO  backoff - Backing off wait_for_janus(...) for 245.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-06 10:07:36,596     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)

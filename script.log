@@ -9997,3 +9997,18 @@ Proceeding with filter-branch...
 
 Proceeding with filter-branch...
 
+[master 7f9297b] crontab -  - Kopia zapasowa z dnia: 06-03-24
+ 12 files changed, 225519 insertions(+), 2183 deletions(-)
+ create mode 100644 klipper/printer_data/logs/crowsnest.log.2024-03-06
+ rewrite klipper/printer_data/logs/klippy.log (95%)
+ copy klipper/printer_data/logs/{klippy.log => klippy.log.2024-03-05} (100%)
+ create mode 100644 klipper/printer_data/logs/moonraker.log.2024-03-05
+Reinitialized existing Git repository in /home/turbo/klipper-backup/.git/
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+Proceeding with filter-branch...
+
