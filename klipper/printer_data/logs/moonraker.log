@@ -766,3 +766,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryti0UVUHpahBWvE
 2024-03-06 18:10:43,467 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "numery3_31m_0,20mm_215C_PLA_ENDER3.gcode") successfully finished
 2024-03-06 18:10:43,470 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 347.96ms
 2024-03-06 18:10:51,213 [job_state.py:_status_update()] - Job Started: numery3_31m_0,20mm_215C_PLA_ENDER3.gcode
+2024-03-06 19:14:20,345 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiQ4u0vXucAtqx9wr
+2024-03-06 19:14:20,602 [app.py:post()] - Processing Uploaded File: Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-06 19:14:20,694 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-06 19:14:20,726 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-06 19:14:20,739 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 395.22ms
+2024-03-06 19:14:20,834 [job_state.py:_status_update()] - Job Started: Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode
