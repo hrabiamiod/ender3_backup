@@ -776,3 +776,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiQ4u0vXucAtqx9
 2024-03-06 19:14:20,834 [job_state.py:_status_update()] - Job Started: Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-03-06 20:01:41,601 [job_state.py:_status_update()] - Job Started: Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode
 2024-03-06 20:15:02,695 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-06 20:35:01,477 [websockets.py:on_close()] - Websocket Closed: ID: 140008045741296 Close Code: None, Close Reason: None, Pong Time Elapsed: 7.72
+2024-03-06 20:35:01,478 [websockets.py:on_close()] - Websocket Closed: ID: 140008045751040 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.77
+2024-03-06 20:49:01,658 [job_state.py:_status_update()] - Job Started: Muflon2_38m_0,20mm_205C_PLA_ENDER3.gcode
