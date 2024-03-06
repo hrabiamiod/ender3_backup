@@ -30062,3 +30062,9 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-06 10:00:07,041 - INFO - Moonraker client setting up default notification hooks
 2024-03-06 10:00:07,496 - INFO - Printer state at socket connect is: standby
 2024-03-06 10:00:07,496 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-06 15:00:00,787 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-03-06 15:00:00,787 - ERROR - ping/pong timed out - goodbye
+2024-03-06 15:00:00,791 - INFO - Service websocket closed.
+2024-03-06 15:00:00,791 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-03-06 15:00:00,791 - INFO - Closing all open web stream sockets (0)
+2024-03-06 15:00:00,791 - INFO - Sleeping for 5 seconds before trying again.
