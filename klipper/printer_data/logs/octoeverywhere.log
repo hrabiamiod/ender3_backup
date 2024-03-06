@@ -30068,3 +30068,9 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-06 15:00:00,791 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
 2024-03-06 15:00:00,791 - INFO - Closing all open web stream sockets (0)
 2024-03-06 15:00:00,791 - INFO - Sleeping for 5 seconds before trying again.
+2024-03-06 15:00:05,796 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-06 15:00:05,797 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:139988682959760
+2024-03-06 15:00:06,018 - INFO - Websocket connected
+2024-03-06 15:00:06,019 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-03-06 15:00:06,083 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-03-06 15:00:06,083 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
