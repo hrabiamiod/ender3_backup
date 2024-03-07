@@ -291,3 +291,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuZwDxh5Kbpd9tU
 2024-03-07 01:20:22,537 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 842.86ms
 2024-03-07 01:20:22,611 [job_state.py:_status_update()] - Job Started: Gala_32m_0,20mm_205C_PLA_ENDER3.gcode
 2024-03-07 01:30:02,744 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-07 01:40:02,745 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
