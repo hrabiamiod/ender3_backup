@@ -275,3 +275,19 @@ Properties:
 2024-03-07 00:41:31,500 [websockets.py:write_to_socket()] - Websocket closed while writing: 140008044789136
 2024-03-07 00:41:35,634 [websockets.py:on_close()] - Websocket Closed: ID: 140008044785152 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
 2024-03-07 00:41:35,669 [websockets.py:on_close()] - Websocket Closed: ID: 140008044789136 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-03-07 01:04:54,050 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-03-07 01:04:54,050 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.90ms
+2024-03-07 01:04:54,050 [websockets.py:open()] - Websocket Opened: ID: 140008018818048, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-07 01:04:54,059 [websockets.py:_handle_identify()] - Websocket 140008018818048 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-07 01:20:02,016 [app.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.70ms
+2024-03-07 01:20:02,016 [websockets.py:open()] - Websocket Opened: ID: 140008045625600, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-07 01:20:02,023 [websockets.py:_handle_identify()] - Websocket 140008045625600 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-07 01:20:21,695 [app.py:prepare()] - Upload Request Received from 192.168.1.83
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuZwDxh5Kbpd9tU65
+2024-03-07 01:20:22,406 [app.py:post()] - Processing Uploaded File: Gala_32m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-07 01:20:22,499 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-07 01:20:22,528 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Gala_32m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-07 01:20:22,537 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.83) [_TRUSTED_USER_] 842.86ms
+2024-03-07 01:20:22,611 [job_state.py:_status_update()] - Job Started: Gala_32m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-07 01:30:02,744 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
