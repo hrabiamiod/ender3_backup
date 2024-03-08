@@ -896,3 +896,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarye1gQN0JWP4yOsQ
 2024-03-08 23:06:04,401 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "SKY_16m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-03-08 23:06:04,411 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 278.48ms
 2024-03-08 23:06:04,557 [job_state.py:_status_update()] - Job Started: SKY_16m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-08 23:32:57,642 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryStQhgfSoQE6NUefC
+2024-03-08 23:32:57,842 [app.py:post()] - Processing Uploaded File: FIFI_16m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-08 23:32:57,935 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-08 23:32:57,959 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "FIFI_16m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-08 23:32:57,968 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 326.29ms
+2024-03-08 23:32:58,036 [job_state.py:_status_update()] - Job Started: FIFI_16m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-08 23:55:40,868 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAC08yvqboUpLOZ9x
+2024-03-08 23:55:41,004 [app.py:post()] - Processing Uploaded File: TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-08 23:55:41,108 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-08 23:55:41,132 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-08 23:55:41,142 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 274.55ms
+2024-03-08 23:55:41,211 [job_state.py:_status_update()] - Job Started: TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode

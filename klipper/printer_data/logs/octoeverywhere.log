@@ -33217,3 +33217,266 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-08 23:28:22,798 - INFO - RepeatTimer thread exit
 2024-03-08 23:28:22,802 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
 2024-03-08 23:28:23,182 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-08 23:31:31,622 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-08 23:31:31,622 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-08 23:31:31,622 - INFO - Service websocket closed.
+2024-03-08 23:31:31,624 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-03-08 23:31:31,624 - INFO - Closing all open web stream sockets (0)
+2024-03-08 23:31:31,624 - INFO - Sleeping for 3 seconds before trying again.
+2024-03-08 23:31:34,627 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-08 23:31:34,628 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3] wsId:140564486877008
+2024-03-08 23:31:34,676 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-08 23:31:34,677 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-08 23:31:34,677 - ERROR - OctoEverywhere Ws error: [Errno 111] Connection refused
+2024-03-08 23:31:34,677 - INFO - Service websocket closed.
+2024-03-08 23:31:34,677 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]
+2024-03-08 23:31:34,677 - INFO - Closing all open web stream sockets (0)
+2024-03-08 23:31:34,678 - INFO - Sleeping for 15 seconds before trying again.
+2024-03-08 23:31:49,678 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4] wsId:140564487365504
+2024-03-08 23:31:50,237 - INFO - Websocket connected
+2024-03-08 23:31:50,238 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2024-03-08 23:31:59,947 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2024-03-08 23:31:59,947 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-08 23:32:58,039 - INFO - FileMetadataCache updated for file [FIFI_16m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 952.0, size: 657, filament usage: 633
+2024-03-08 23:32:58,039 - INFO - Gadget is now watching!
+2024-03-08 23:32:58,040 - INFO - New print started; PrintId: QrSkldJPdo2hDMlzXQBX03l9NKVqrmGBvqZy7w8wxQs0zTVSrRQRFwTF6Rng file:FIFI_16m_0,20mm_205C_PLA_ENDER3.gcode size:657 filament:633
+2024-03-08 23:32:58,793 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:32:59,185 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-08 23:33:28,364 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:33:58,691 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:34:29,005 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:34:59,327 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:35:29,646 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:35:44,183 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:35:44,352 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-08 23:36:00,472 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:37:55,380 - INFO - Updating server latencies...
+2024-03-08 23:38:01,267 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:38:04,431 - INFO - Ping Pong Stats: Default:[fra,34.06713008880615], Lowest:[fra,34.06713008880615] Use Low Latency Enabled: True
+2024-03-08 23:38:13,796 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:38:13,997 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:39:42,262 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:39:42,427 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:40:02,060 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:41:06,463 - INFO - First layer timer is done. Stopping.
+2024-03-08 23:41:06,464 - INFO - RepeatTimer thread exit
+2024-03-08 23:41:06,972 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:41:07,163 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-03-08 23:41:12,228 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:41:12,388 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:42:02,857 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:42:18,147 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:42:18,324 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:43:36,855 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:43:37,026 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:44:03,679 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:44:55,808 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:44:55,979 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:46:04,491 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:46:33,569 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:46:33,726 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:48:05,303 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:48:16,324 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:48:16,490 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:50:06,107 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:50:50,710 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:50:50,914 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-08 23:52:02,875 - INFO - Starting FinalSnap
+2024-03-08 23:52:03,879 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:03,879 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:04,882 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:04,883 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:05,886 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:05,887 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:06,887 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:06,890 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:06,890 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:07,894 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:07,894 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:08,898 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:08,898 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:09,902 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:09,902 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:10,905 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:10,906 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:11,909 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:11,909 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:12,913 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:12,914 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:13,919 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:13,921 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:14,924 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:14,924 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:15,928 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:15,928 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:16,932 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:16,932 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:17,936 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:17,936 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:18,939 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:18,940 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:19,943 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:19,943 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:20,947 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:20,947 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:21,951 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:21,951 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:22,954 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:22,955 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:23,958 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:23,958 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:24,963 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:24,964 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:25,967 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:25,968 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:26,971 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:26,971 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:27,975 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:27,975 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:28,979 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:28,979 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:29,983 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:29,983 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:30,986 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:30,987 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:31,990 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:31,990 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:32,994 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:32,994 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:33,997 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:33,998 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:35,002 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:35,002 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:36,006 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:36,008 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:37,013 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:37,015 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:38,018 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:38,019 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:39,022 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:39,023 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:40,026 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:40,026 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:41,030 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:41,030 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:42,034 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:42,034 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:43,038 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:43,038 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:44,042 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:44,042 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:45,045 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:45,046 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:46,049 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:46,049 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:47,053 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:47,053 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:48,058 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:48,059 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:49,063 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:49,063 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:50,067 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:50,067 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:51,071 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:51,071 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:52,074 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:52,075 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:53,078 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:53,079 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:54,082 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:54,082 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:55,086 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:55,086 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:56,089 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:56,090 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:57,093 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:57,094 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:58,097 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:58,097 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:52:59,102 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:52:59,103 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:00,107 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:00,107 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:01,111 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:01,111 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:02,114 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:02,115 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:03,118 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:03,118 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:04,122 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:04,122 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:05,126 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:05,126 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:06,129 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:06,130 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:07,133 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:07,133 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:08,137 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:08,137 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:09,141 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:09,141 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:10,145 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:10,146 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:11,151 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:11,152 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:12,155 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:12,156 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:13,159 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:13,160 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:14,163 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:14,164 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:15,167 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:15,167 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:16,171 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:16,171 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:17,175 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:17,175 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:18,178 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:18,179 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:19,182 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:19,183 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:20,186 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:20,186 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:21,190 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:21,190 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:22,194 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:22,195 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:23,199 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:23,199 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:24,203 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:24,203 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:25,207 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:25,207 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:26,210 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:26,211 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:27,214 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:27,214 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:28,218 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:28,218 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:29,222 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:29,222 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:30,226 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:30,226 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:31,111 - INFO - Gadget has stopped watching!
+2024-03-08 23:53:31,111 - INFO - RepeatTimer thread exit
+2024-03-08 23:53:31,113 - INFO - RepeatTimer thread exit
+2024-03-08 23:53:31,229 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:31,230 - INFO - FinalSnap failed to get a snapshot
+2024-03-08 23:53:31,612 - INFO - Stopping final snap but there's no snapshot to use.
+2024-03-08 23:53:31,612 - INFO - RepeatTimer thread exit
+2024-03-08 23:53:31,616 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:53:31,997 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-08 23:55:41,214 - INFO - FileMetadataCache updated for file [TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode]; est time: 992.0, size: 716, filament usage: 639
+2024-03-08 23:55:41,214 - INFO - Gadget is now watching!
+2024-03-08 23:55:41,215 - INFO - New print started; PrintId: HegY5YqWd6dU4sEAFx11eF79i3AvKdvdVrkRz1t2UHsJMmjY5oOLfwRfs3fu file:TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode size:716 filament:639
+2024-03-08 23:55:41,966 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:55:42,310 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-08 23:56:11,533 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:56:41,857 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:57:12,188 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:57:42,509 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:58:12,833 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:58:43,165 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-08 23:58:51,694 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-08 23:58:51,879 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-08 23:59:14,007 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
