@@ -32746,3 +32746,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-08 14:49:06,647 - INFO - Moonraker client setting up default notification hooks
 2024-03-08 14:49:07,254 - INFO - Printer state at socket connect is: standby
 2024-03-08 14:49:07,254 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-08 19:49:00,873 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-03-08 19:49:00,873 - ERROR - ping/pong timed out - goodbye
+2024-03-08 19:49:00,874 - INFO - Service websocket closed.
+2024-03-08 19:49:00,875 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-03-08 19:49:00,875 - INFO - Closing all open web stream sockets (0)
+2024-03-08 19:49:00,875 - INFO - Sleeping for 5 seconds before trying again.
+2024-03-08 19:49:05,880 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-08 19:49:05,881 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:140564525411216
+2024-03-08 19:49:06,094 - INFO - Websocket connected
+2024-03-08 19:49:06,094 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-03-08 19:49:06,158 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-03-08 19:49:06,158 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
