@@ -34478,3 +34478,19 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-09 09:21:18,294 - INFO - Moonraker client setting up default notification hooks
 2024-03-09 09:21:18,660 - INFO - Printer state at socket connect is: standby
 2024-03-09 09:21:18,661 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-09 09:57:57,495 - INFO - Gadget is now watching!
+2024-03-09 09:57:57,499 - INFO - FileMetadataCache updated for file [majlo_rosa_temp.gcode]; est time: 2298.0, size: 1510, filament usage: 1516
+2024-03-09 09:57:57,500 - INFO - Gadget has stopped watching!
+2024-03-09 09:57:57,500 - INFO - RepeatTimer thread exit
+2024-03-09 09:57:57,503 - INFO - RepeatTimer thread exit
+2024-03-09 09:57:57,503 - INFO - Gadget is now watching!
+2024-03-09 09:57:57,504 - INFO - RepeatTimer thread exit
+2024-03-09 09:57:57,506 - INFO - New print started; PrintId: QGoB4c4BPQVX0DZPRt6BYYl2zliPjAprldQdIJOQz0GBTk9uXSpfbVU7VtFM file:majlo_rosa_temp.gcode size:1510 filament:1516
+2024-03-09 09:57:58,246 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-09 09:57:58,251 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2024-03-09 09:57:58,574 - INFO - NotificationsHandler successfully sent 'resume'
+2024-03-09 09:57:58,730 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-09 09:58:27,821 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-09 09:58:58,150 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-09 09:59:28,486 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-09 09:59:58,820 - INFO - Waiting to predict with Gadget because the printer is warming up.
