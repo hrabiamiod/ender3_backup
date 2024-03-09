@@ -1062,3 +1062,5 @@ Properties:
 2024-03-09 09:58:36,662 [websockets.py:open()] - Websocket Opened: ID: 140341043809392, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-03-09 09:58:36,730 [websockets.py:_handle_identify()] - Websocket 140341043809392 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
 2024-03-09 10:26:13,096 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-09 10:36:13,097 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
+2024-03-09 10:41:13,098 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.56
