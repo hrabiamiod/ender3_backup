@@ -203,3 +203,41 @@ Git Repo octoeverywhere: No warnings detected
 Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-25-g99d7af87
 2024-03-09 00:17:56,618 [job_state.py:_status_update()] - Job Started: TOSIA_17m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-09 00:40:07,383 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
+2024-03-09 00:40:07,383 [websockets.py:open()] - Websocket Opened: ID: 140461246037680, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-09 00:40:07,396 [websockets.py:_handle_identify()] - Websocket 140461246037680 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-09 00:40:08,396 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
+2024-03-09 00:40:08,396 [websockets.py:open()] - Websocket Opened: ID: 140461245950384, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-09 00:40:08,514 [websockets.py:_handle_identify()] - Websocket 140461245950384 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-09 00:43:19,249 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.76ms
+2024-03-09 00:43:19,249 [websockets.py:open()] - Websocket Opened: ID: 140461245720672, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.local
+2024-03-09 00:43:19,267 [websockets.py:_handle_identify()] - Websocket 140461245720672 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-09 00:43:20,090 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.72ms
+2024-03-09 00:43:20,090 [websockets.py:open()] - Websocket Opened: ID: 140461246037056, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.local
+2024-03-09 00:43:20,163 [websockets.py:_handle_identify()] - Websocket 140461246037056 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-09 00:44:04,284 [websockets.py:on_close()] - Websocket Closed: ID: 140461246037056 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.19
+2024-03-09 00:44:04,285 [websockets.py:on_close()] - Websocket Closed: ID: 140461245720672 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.03
+2024-03-09 00:44:04,552 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
+2024-03-09 00:44:04,552 [websockets.py:open()] - Websocket Opened: ID: 140461245791584, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-09 00:44:04,571 [websockets.py:_handle_identify()] - Websocket 140461245791584 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-09 00:44:05,380 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
+2024-03-09 00:44:05,380 [websockets.py:open()] - Websocket Opened: ID: 140461245779344, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-09 00:44:05,453 [websockets.py:_handle_identify()] - Websocket 140461245779344 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-09 00:44:21,516 [websockets.py:on_close()] - Websocket Closed: ID: 140461245779344 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.13
+2024-03-09 00:44:21,518 [websockets.py:on_close()] - Websocket Closed: ID: 140461245791584 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.96
+2024-03-09 00:44:44,160 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-03-09 00:44:44,160 [websockets.py:open()] - Websocket Opened: ID: 140461245846416, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-09 00:44:44,178 [websockets.py:_handle_identify()] - Websocket 140461245846416 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-09 00:44:45,103 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.79ms
+2024-03-09 00:44:45,103 [websockets.py:open()] - Websocket Opened: ID: 140461245790096, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-09 00:44:45,175 [websockets.py:_handle_identify()] - Websocket 140461245790096 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-09 00:45:10,538 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7NNug4Xcoseykd5y
+2024-03-09 00:45:10,728 [app.py:post()] - Processing Uploaded File: ROKI_16m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-09 00:45:10,821 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-09 00:45:10,845 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ROKI_16m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-09 00:45:10,855 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 317.64ms
+2024-03-09 00:45:10,888 [job_state.py:_status_update()] - Job Started: ROKI_16m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-09 00:45:33,218 [websockets.py:on_close()] - Websocket Closed: ID: 140461246037680 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.83
+2024-03-09 00:45:33,220 [websockets.py:on_close()] - Websocket Closed: ID: 140461245950384 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.82
