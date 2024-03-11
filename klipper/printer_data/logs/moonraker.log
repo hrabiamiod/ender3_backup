@@ -788,3 +788,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhbwwJmkQ87lJ6r
 2024-03-11 14:28:32,240 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_37m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-03-11 14:28:32,249 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 421.17ms
 2024-03-11 14:28:32,408 [job_state.py:_status_update()] - Job Started: luna_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-11 15:33:31,436 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
