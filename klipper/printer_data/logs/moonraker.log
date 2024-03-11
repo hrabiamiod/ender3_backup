@@ -829,3 +829,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKzR0WYQLb4ULQz
 2024-03-11 17:08:31,453 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-03-11 17:19:31,842 [job_state.py:_status_update()] - Job Started: draco_42m_0,20mm_210C_PLA_ENDER3.gcode
 2024-03-11 18:53:06,413 [job_state.py:_status_update()] - Job Started: draco_42m_0,20mm_210C_PLA_ENDER3.gcode
+2024-03-11 19:09:12,660 [websockets.py:on_close()] - Websocket Closed: ID: 133321740041376 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.48
+2024-03-11 19:09:12,661 [websockets.py:on_close()] - Websocket Closed: ID: 133321740041568 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.93
