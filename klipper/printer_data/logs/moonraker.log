@@ -743,3 +743,22 @@ Properties:
 2024-03-11 11:53:35,961 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.56ms
 2024-03-11 11:53:35,961 [websockets.py:open()] - Websocket Opened: ID: 133321740040752, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-03-11 11:53:36,167 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-03-11 12:00:38,895 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-11 12:00:38,896 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.43ms
+2024-03-11 12:00:38,896 [websockets.py:open()] - Websocket Opened: ID: 133321739748112, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-11 12:00:38,901 [websockets.py:_handle_identify()] - Websocket 133321739748112 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-11 12:00:45,562 [websockets.py:on_close()] - Websocket Closed: ID: 133321739748112 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.67
+2024-03-11 12:00:45,722 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.91ms
+2024-03-11 12:00:45,722 [websockets.py:open()] - Websocket Opened: ID: 133321740041568, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-11 12:00:45,728 [websockets.py:_handle_identify()] - Websocket 133321740041568 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-11 12:00:46,180 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-03-11 12:00:46,180 [websockets.py:open()] - Websocket Opened: ID: 133321740041376, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-11 12:00:46,235 [websockets.py:_handle_identify()] - Websocket 133321740041376 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-11 12:05:17,149 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydYcKvoM0jHfYhAIs
+2024-03-11 12:05:18,440 [app.py:post()] - Processing Uploaded File: brysio_38m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-11 12:05:18,563 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-11 12:05:18,594 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "brysio_38m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-11 12:05:18,604 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1455.74ms
+2024-03-11 12:05:18,826 [job_state.py:_status_update()] - Job Started: brysio_38m_0,20mm_205C_PLA_ENDER3.gcode

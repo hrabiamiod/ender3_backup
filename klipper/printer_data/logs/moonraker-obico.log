@@ -1745,3 +1745,57 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-11 11:54:23,991      INFO  backoff - Backing off wait_for_janus(...) for 76.9s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-03-11 11:55:41,949      INFO  backoff - Backing off wait_for_janus(...) for 66.4s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-03-11 11:56:49,366     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-11 12:05:19,079      INFO  obico.app - detected state change: Operational -> Printing
+2024-03-11 12:05:19,095      INFO  backoff - Backing off capture_jpeg(...) for 0.1s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:05:19,191      INFO  backoff - Backing off capture_jpeg(...) for 0.6s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:05:19,455      INFO  obico.app - print event: PrintStarted (1710155118)
+2024-03-11 12:05:19,761     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:05:19,762   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:07:19,778      INFO  backoff - Backing off capture_jpeg(...) for 0.2s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:07:19,983      INFO  backoff - Backing off capture_jpeg(...) for 0.5s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:07:20,440     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:07:20,440   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:09:20,458      INFO  backoff - Backing off capture_jpeg(...) for 0.4s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:09:20,818      INFO  backoff - Backing off capture_jpeg(...) for 0.8s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:09:21,591     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:09:21,591   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:11:20,608      INFO  backoff - Backing off capture_jpeg(...) for 0.1s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:11:20,729      INFO  backoff - Backing off capture_jpeg(...) for 0.4s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:11:21,159     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:11:21,160   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:13:21,175      INFO  backoff - Backing off capture_jpeg(...) for 0.6s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:13:21,826      INFO  backoff - Backing off capture_jpeg(...) for 1.4s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:13:23,220     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:13:23,220   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:15:21,237      INFO  backoff - Backing off capture_jpeg(...) for 0.9s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:15:22,151      INFO  backoff - Backing off capture_jpeg(...) for 1.5s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:15:23,627     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:15:23,628   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:17:21,648      INFO  backoff - Backing off capture_jpeg(...) for 0.8s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:17:22,471      INFO  backoff - Backing off capture_jpeg(...) for 0.2s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:17:22,658     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:17:22,658   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:19:21,674      INFO  backoff - Backing off capture_jpeg(...) for 0.8s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:19:22,504      INFO  backoff - Backing off capture_jpeg(...) for 1.7s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:19:24,232     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:19:24,232   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:21:22,249      INFO  backoff - Backing off capture_jpeg(...) for 0.1s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:21:22,330      INFO  backoff - Backing off capture_jpeg(...) for 0.4s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:21:22,690     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:21:22,690   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:23:22,707      INFO  backoff - Backing off capture_jpeg(...) for 0.9s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:23:23,612      INFO  backoff - Backing off capture_jpeg(...) for 0.6s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:23:24,169     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:23:24,169   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:25:23,189      INFO  backoff - Backing off capture_jpeg(...) for 0.7s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:25:23,934      INFO  backoff - Backing off capture_jpeg(...) for 0.5s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:25:24,468     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:25:24,468   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:27:23,485      INFO  backoff - Backing off capture_jpeg(...) for 0.8s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:27:24,305      INFO  backoff - Backing off capture_jpeg(...) for 0.6s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:27:24,924     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:27:24,925   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
+2024-03-11 12:29:23,943      INFO  backoff - Backing off capture_jpeg(...) for 0.0s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:29:23,950      INFO  backoff - Backing off capture_jpeg(...) for 0.7s (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:29:24,648     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot)
+2024-03-11 12:29:24,649   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
