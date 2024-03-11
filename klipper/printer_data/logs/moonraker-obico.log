@@ -2452,3 +2452,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-11 19:43:21,195   WARNING  obico.webcam_capture - Failed to capture jpeg - 502 Server Error: Bad Gateway for url: http://localhost/webcam/?action=snapshot
 2024-03-11 19:44:46,853      INFO  obico.app - detected state change: Printing -> Operational
 2024-03-11 19:44:46,853      INFO  obico.app - print event: PrintDone (1710179586)
+2024-03-11 23:32:38,451   WARNING  obico.ws - WS Closed - None - None
+2024-03-11 23:41:22,789   WARNING  obico.ws - WS Closed - None - None
