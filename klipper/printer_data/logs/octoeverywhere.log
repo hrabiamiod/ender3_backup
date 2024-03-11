@@ -35235,3 +35235,6 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-11 11:53:34,915 - INFO - Moonraker client waiting for klippy ready...
 2024-03-11 11:53:34,916 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
 2024-03-11 11:53:34,916 - INFO - Moonraker client setting up default notification hooks
+2024-03-11 11:53:35,407 - INFO - Printer state at socket connect is: standby
+2024-03-11 11:53:35,407 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-11 11:53:38,892 - INFO - Ping Pong Stats: Default:[fra,34.20376777648926], Lowest:[fra,34.20376777648926] Use Low Latency Enabled: True
