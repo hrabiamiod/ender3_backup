@@ -780,3 +780,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBvn0JOzlIapm7u
 2024-03-11 13:41:29,975 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 396.16ms
 2024-03-11 13:41:30,205 [job_state.py:_status_update()] - Job Started: hana_37m_0,20mm_205C_PLA_ENDER3.gcode
 2024-03-11 13:42:33,208 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-03-11 14:28:31,828 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhbwwJmkQ87lJ6rq3
+2024-03-11 14:28:32,117 [app.py:post()] - Processing Uploaded File: luna_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-11 14:28:32,210 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-11 14:28:32,240 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_37m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-11 14:28:32,249 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 421.17ms
+2024-03-11 14:28:32,408 [job_state.py:_status_update()] - Job Started: luna_37m_0,20mm_205C_PLA_ENDER3.gcode
