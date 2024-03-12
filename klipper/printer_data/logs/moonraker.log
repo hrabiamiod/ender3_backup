@@ -204,3 +204,13 @@ Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-25-g99d7af87
 2024-03-12 03:30:43,066 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-03-12 03:32:03,135 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-12 22:19:07,667 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-12 22:19:07,668 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.93ms
+2024-03-12 22:19:07,668 [websockets.py:open()] - Websocket Opened: ID: 133321740031824, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-12 22:19:08,550 [websockets.py:on_close()] - Websocket Closed: ID: 133321740031824 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.88
+2024-03-12 22:22:18,270 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.74ms
+2024-03-12 22:22:18,270 [websockets.py:open()] - Websocket Opened: ID: 133321714370352, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-12 22:22:18,288 [websockets.py:_handle_identify()] - Websocket 133321714370352 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-12 22:22:18,903 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-03-12 22:22:18,903 [websockets.py:open()] - Websocket Opened: ID: 133321714372848, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-12 22:22:19,021 [websockets.py:_handle_identify()] - Websocket 133321714372848 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
