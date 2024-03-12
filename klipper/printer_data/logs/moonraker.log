@@ -214,3 +214,95 @@ Klipper Version: v0.12.0-25-g99d7af87
 2024-03-12 22:22:18,903 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
 2024-03-12 22:22:18,903 [websockets.py:open()] - Websocket Opened: ID: 133321714372848, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-03-12 22:22:19,021 [websockets.py:_handle_identify()] - Websocket 133321714372848 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
+2024-03-12 22:49:41,163 [app.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywclIdCAly2H39C0R
+2024-03-12 22:49:41,330 [app.py:post()] - Processing Uploaded File: luna_32m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-12 22:49:41,424 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-12 22:49:41,453 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_32m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-12 22:49:41,462 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 299.98ms
+2024-03-12 22:49:41,616 [job_state.py:_status_update()] - Job Started: luna_32m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-12 22:54:09,305 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-12 22:54:09,309 [websockets.py:on_close()] - Websocket Closed: ID: 133321714214048 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.99
+2024-03-12 22:54:09,310 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1710280419.510516, Usage: 1.86%, Memory: 48708 kB
+System Time: 1710280420.510990, Usage: 1.14%, Memory: 48708 kB
+System Time: 1710280421.511863, Usage: 0.52%, Memory: 48708 kB
+System Time: 1710280422.512858, Usage: 0.7%, Memory: 48708 kB
+System Time: 1710280423.513832, Usage: 0.61%, Memory: 48708 kB
+System Time: 1710280424.514371, Usage: 0.71%, Memory: 48708 kB
+System Time: 1710280425.514683, Usage: 0.54%, Memory: 48712 kB
+System Time: 1710280426.515558, Usage: 0.74%, Memory: 48712 kB
+System Time: 1710280427.515704, Usage: 0.52%, Memory: 48712 kB
+System Time: 1710280428.516498, Usage: 0.9%, Memory: 48712 kB
+System Time: 1710280429.517537, Usage: 0.64%, Memory: 48712 kB
+System Time: 1710280430.518785, Usage: 1.75%, Memory: 48712 kB
+System Time: 1710280431.521612, Usage: 0.76%, Memory: 48712 kB
+System Time: 1710280432.520266, Usage: 1.03%, Memory: 48712 kB
+System Time: 1710280433.521229, Usage: 0.67%, Memory: 48712 kB
+System Time: 1710280434.521784, Usage: 0.55%, Memory: 48712 kB
+System Time: 1710280435.523608, Usage: 0.65%, Memory: 48712 kB
+System Time: 1710280436.524252, Usage: 0.6%, Memory: 48712 kB
+System Time: 1710280437.524743, Usage: 0.64%, Memory: 48712 kB
+System Time: 1710280438.525700, Usage: 0.82%, Memory: 48712 kB
+System Time: 1710280439.526349, Usage: 0.58%, Memory: 48712 kB
+System Time: 1710280440.527667, Usage: 0.67%, Memory: 48712 kB
+System Time: 1710280441.528091, Usage: 0.59%, Memory: 48712 kB
+System Time: 1710280442.528484, Usage: 1.8%, Memory: 48712 kB
+System Time: 1710280443.529019, Usage: 1.06%, Memory: 48712 kB
+System Time: 1710280444.530227, Usage: 0.67%, Memory: 48712 kB
+System Time: 1710280445.532445, Usage: 0.57%, Memory: 48712 kB
+System Time: 1710280446.533372, Usage: 0.6%, Memory: 48712 kB
+System Time: 1710280447.533792, Usage: 0.68%, Memory: 48712 kB
+System Time: 1710280448.534059, Usage: 0.77%, Memory: 48712 kB
+CPU Temperature: None
+2024-03-12 22:54:11,317 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-12 22:54:11,318 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.46ms
+2024-03-12 22:54:11,318 [websockets.py:open()] - Websocket Opened: ID: 133321713517040, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-12 22:54:11,320 [websockets.py:_handle_identify()] - Websocket 133321713517040 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-03-12 22:54:22,026 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-12 22:54:22,028 [websockets.py:on_close()] - Websocket Closed: ID: 133321713517040 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.71
+2024-03-12 22:54:23,282 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-12 22:54:23,347 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['-.mount', 'system.slice', 'sysinit.target', 'basic.target', 'network-online.target', 'systemd-journald.socket']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-12 22:54:24,033 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-03-12 22:54:24,033 [websockets.py:open()] - Websocket Opened: ID: 133321713758032, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-12 22:54:24,035 [websockets.py:_handle_identify()] - Websocket 133321713758032 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-03-12 22:54:24,604 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-12 22:54:24,605 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-12 22:54:24,605 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-03-12 22:54:27,432 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-12 22:54:27,434 [websockets.py:on_close()] - Websocket Closed: ID: 133321713758032 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.40
+2024-03-12 22:54:28,687 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-12 22:54:29,440 [app.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.73ms
+2024-03-12 22:54:29,440 [websockets.py:open()] - Websocket Opened: ID: 133321714377888, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-12 22:54:29,442 [websockets.py:_handle_identify()] - Websocket 133321714377888 Client Identified - Name: OctoEverywhere, Version: 2.10.0, Type: agent
+2024-03-12 22:54:29,968 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-12 22:54:29,968 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-12 22:54:29,969 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
