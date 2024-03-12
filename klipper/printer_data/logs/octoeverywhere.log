@@ -37303,3 +37303,39 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-12 02:53:49,666 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4]. Starting handshake...
 2024-03-12 02:53:49,730 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
 2024-03-12 02:53:49,730 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-12 03:30:59,638 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-12 03:30:59,638 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-12 03:30:59,639 - INFO - Service websocket closed.
+2024-03-12 03:30:59,640 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4]
+2024-03-12 03:30:59,640 - INFO - Closing all open web stream sockets (0)
+2024-03-12 03:30:59,641 - INFO - Sleeping for 5 seconds before trying again.
+2024-03-12 03:31:04,646 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-12 03:31:04,646 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[5] wsId:129441869804688
+2024-03-12 03:31:04,647 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-12 03:31:04,648 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-12 03:31:04,648 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-12 03:31:04,648 - INFO - Service websocket closed.
+2024-03-12 03:31:04,648 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[5]
+2024-03-12 03:31:04,648 - INFO - Closing all open web stream sockets (0)
+2024-03-12 03:31:04,648 - INFO - Sleeping for 14 seconds before trying again.
+2024-03-12 03:31:18,651 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[6] wsId:129441796508256
+2024-03-12 03:31:18,653 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-12 03:31:18,653 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-12 03:31:18,653 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-12 03:31:18,653 - INFO - Service websocket closed.
+2024-03-12 03:31:18,654 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[6]
+2024-03-12 03:31:18,654 - INFO - Closing all open web stream sockets (0)
+2024-03-12 03:31:18,654 - INFO - Sleeping for 37 seconds before trying again.
+2024-03-12 03:31:55,690 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[7] wsId:129441796510080
+2024-03-12 03:31:55,691 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-12 03:31:55,692 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-12 03:31:55,691 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-12 03:31:55,692 - INFO - Service websocket closed.
+2024-03-12 03:31:55,692 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[7]
+2024-03-12 03:31:55,692 - INFO - Closing all open web stream sockets (0)
+2024-03-12 03:31:55,692 - INFO - Sleeping for 77 seconds before trying again.
+2024-03-12 03:33:12,758 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8] wsId:129441796511952
+2024-03-12 03:33:13,002 - INFO - Websocket connected
+2024-03-12 03:33:13,003 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8]. Starting handshake...
+2024-03-12 03:33:13,068 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
+2024-03-12 03:33:13,068 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
