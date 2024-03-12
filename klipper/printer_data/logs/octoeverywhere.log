@@ -37339,3 +37339,15 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-12 03:33:13,003 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8]. Starting handshake...
 2024-03-12 03:33:13,068 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
 2024-03-12 03:33:13,068 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-12 05:18:21,942 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-12 05:18:21,943 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-12 05:18:21,943 - INFO - Service websocket closed.
+2024-03-12 05:18:21,945 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8]
+2024-03-12 05:18:21,945 - INFO - Closing all open web stream sockets (0)
+2024-03-12 05:18:21,945 - INFO - Sleeping for 6 seconds before trying again.
+2024-03-12 05:18:27,951 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-12 05:18:27,952 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9] wsId:129441869347280
+2024-03-12 05:18:29,353 - INFO - Websocket connected
+2024-03-12 05:18:29,354 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9]. Starting handshake...
+2024-03-12 05:18:35,420 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[9], successfully connected to OctoEverywhere!
+2024-03-12 05:18:35,420 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
