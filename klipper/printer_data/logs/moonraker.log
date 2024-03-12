@@ -318,3 +318,11 @@ Error configuring printer
 2024-03-12 23:02:23,372 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-12 23:02:23,871 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-03-12 23:02:45,930 [job_state.py:_status_update()] - Job Started: luna_32m_0,20mm_205C_PLA_ENDER3.gcode
+2024-03-12 23:38:55,981 [websockets.py:on_close()] - Websocket Closed: ID: 133321714372848 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.08
+2024-03-12 23:38:55,982 [websockets.py:on_close()] - Websocket Closed: ID: 133321714370352 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.71
+2024-03-12 23:51:28,634 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.07ms
+2024-03-12 23:51:28,634 [websockets.py:open()] - Websocket Opened: ID: 133321714370496, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-12 23:51:28,655 [websockets.py:_handle_identify()] - Websocket 133321714370496 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-12 23:51:29,678 [app.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-03-12 23:51:29,678 [websockets.py:open()] - Websocket Opened: ID: 133321714213760, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-12 23:51:29,763 [websockets.py:_handle_identify()] - Websocket 133321714213760 Client Identified - Name: mainsail, Version: 2.8.0, Type: web
