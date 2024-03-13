@@ -2591,3 +2591,27 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-13 12:08:28,680      INFO  obico.app - detected state change: Operational -> Offline
 2024-03-13 12:11:48,366     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-03-13 13:41:46,593   WARNING  obico.ws - WS Closed - None - None
+2024-03-13 16:01:32,719   WARNING  obico.ws - WS Closed - None - None
+2024-03-13 16:10:50,905     ERROR  obico.utils - 
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 205, in event_loop
+    self._process_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 217, in _process_event
+    self._on_moonrakerconn_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 257, in _on_moonrakerconn_event
+    self._received_klippy_update(event.data['result'])
+KeyError: 'result'
+2024-03-13 16:16:21,261      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 16:16:56,508      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-13 16:19:21,686      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 16:26:51,797      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-13 16:26:51,889     ERROR  obico.utils - 
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 205, in event_loop
+    self._process_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 217, in _process_event
+    self._on_moonrakerconn_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 257, in _on_moonrakerconn_event
+    self._received_klippy_update(event.data['result'])
+KeyError: 'result'
+2024-03-13 16:27:21,929      INFO  obico.app - detected state change: Offline -> Operational
