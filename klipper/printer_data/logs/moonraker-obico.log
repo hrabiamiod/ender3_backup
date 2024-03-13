@@ -2590,3 +2590,4 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-13 12:08:17,353      INFO  backoff - Backing off wait_for_janus(...) for 209.9s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-03-13 12:08:28,680      INFO  obico.app - detected state change: Operational -> Offline
 2024-03-13 12:11:48,366     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 13:41:46,593   WARNING  obico.ws - WS Closed - None - None
