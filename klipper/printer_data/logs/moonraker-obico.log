@@ -2570,3 +2570,23 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-13 12:06:11,313   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
 2024-03-13 12:06:11,316      INFO  backoff - Backing off ensure_api_key(...) for 2.2s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x73f1a01ffd60>: Failed to establish a new connection: [Errno 111] Connection refused')))
 2024-03-13 12:06:12,170   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-13 12:06:13,172   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-13 12:06:13,483   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-13 12:06:13,490      INFO  obico.moonraker_conn - connection is open
+2024-03-13 12:06:13,588      INFO  obico.moonraker_conn - Klippy ready
+2024-03-13 12:06:14,187   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 58463}, sender='moonrakerconn')
+2024-03-13 12:06:14,187      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 12:06:14,187      INFO  obico.janus - Starting webcam streamer
+2024-03-13 12:06:14,261   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-03-13 12:06:15,192      INFO  backoff - Backing off wait_for_janus(...) for 0.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:16,698      INFO  backoff - Backing off wait_for_janus(...) for 0.4s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:18,117      INFO  backoff - Backing off wait_for_janus(...) for 2.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:21,299      INFO  backoff - Backing off wait_for_janus(...) for 7.9s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:30,168      INFO  backoff - Backing off wait_for_janus(...) for 15.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:46,712      INFO  backoff - Backing off wait_for_janus(...) for 0.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:06:47,955      INFO  backoff - Backing off wait_for_janus(...) for 48.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:07:37,709      INFO  backoff - Backing off wait_for_janus(...) for 38.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:08:17,353      INFO  backoff - Backing off wait_for_janus(...) for 209.9s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 12:08:28,680      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-13 12:11:48,366     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
