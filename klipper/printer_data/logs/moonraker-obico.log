@@ -2615,3 +2615,31 @@ Traceback (most recent call last):
     self._received_klippy_update(event.data['result'])
 KeyError: 'result'
 2024-03-13 16:27:21,929      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 16:47:33,013      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-13 16:47:53,161      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 16:50:22,306      INFO  backoff - Backing off capture_jpeg(...) for 0.1s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-13 16:50:22,453      INFO  backoff - Backing off capture_jpeg(...) for 1.8s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-13 16:50:24,304     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-13 16:50:24,305   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-03-13 16:58:33,900      INFO  obico.app - Fetching linked printer...
+2024-03-13 16:58:34,387      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-03-13 16:58:34,391   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-13 16:58:34,391   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-13 16:58:34,403      INFO  obico.moonraker_conn - connection is open
+2024-03-13 16:58:34,503      INFO  obico.moonraker_conn - Klippy ready
+2024-03-13 16:58:35,432      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-13 16:58:35,439      INFO  obico.janus - Starting webcam streamer
+2024-03-13 16:58:35,443      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-03-13 16:58:35,687   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-03-13 16:58:36,468      INFO  backoff - Backing off wait_for_janus(...) for 0.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:58:38,053      INFO  backoff - Backing off wait_for_janus(...) for 0.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:58:39,848      INFO  backoff - Backing off wait_for_janus(...) for 2.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:58:42,809      INFO  backoff - Backing off wait_for_janus(...) for 1.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:58:45,478      INFO  backoff - Backing off wait_for_janus(...) for 15.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:58:51,601   WARNING  obico.ws - WS Closed - 1001 - Server Shutdown
+2024-03-13 16:58:51,602      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-13 16:58:51,603   WARNING  obico.ws - WS Closed - None - None
+2024-03-13 16:59:01,849      INFO  backoff - Backing off wait_for_janus(...) for 28.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 16:59:30,876      INFO  backoff - Backing off wait_for_janus(...) for 36.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-13 17:00:07,869      INFO  backoff - Backing off wait_for_janus(...) for 87.5s (ConnectionRefusedError: [Errno 111] Connection refused)
