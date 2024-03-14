@@ -662,3 +662,75 @@ Content-Type: multipart/form-data; boundary=---------------------------129221019
 2024-03-14 15:52:09,246 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-03-14 15:52:09,518 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-14 15:52:10,503 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-14 16:14:59,853 [application.py:prepare()] - Upload Request Received from 192.168.1.211
+Content-Type: multipart/form-data; boundary=---------------------------32132787383084117019619404405
+2024-03-14 16:14:59,858 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-14 16:14:59,865 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.211) [_TRUSTED_USER_] 12.54ms
+2024-03-14 16:15:01,056 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 16:15:01,065 [websockets.py:on_close()] - Websocket Closed: ID: 126417621907824 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.92
+2024-03-14 16:15:02,317 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 16:15:03,072 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-03-14 16:15:03,072 [websockets.py:open()] - Websocket Opened: ID: 126417621898608, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 16:15:03,074 [websockets.py:_handle_identify()] - Websocket 126417621898608 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 16:15:04,750 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 16:15:04,752 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 16:15:04,753 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-03-14 16:16:07,727 [application.py:prepare()] - Upload Request Received from 192.168.1.211
+Content-Type: multipart/form-data; boundary=---------------------------42879493731308984352442538867
+2024-03-14 16:16:07,733 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-14 16:16:07,737 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.211) [_TRUSTED_USER_] 10.06ms
+2024-03-14 16:16:07,830 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 16:16:07,836 [websockets.py:on_close()] - Websocket Closed: ID: 126417621898608 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.76
+2024-03-14 16:16:09,091 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 16:16:09,370 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 16:16:09,371 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 16:16:09,372 [klippy_connection.py:_check_ready()] - 
+Option 'mesh_min' in section 'bed_mesh' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-03-14 16:16:09,842 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2024-03-14 16:16:09,842 [websockets.py:open()] - Websocket Opened: ID: 126417648421952, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 16:16:09,844 [websockets.py:_handle_identify()] - Websocket 126417648421952 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 16:17:57,184 [application.py:prepare()] - Upload Request Received from 192.168.1.211
+Content-Type: multipart/form-data; boundary=---------------------------243829563133939531041949529254
+2024-03-14 16:17:57,191 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-14 16:17:57,194 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.211) [_TRUSTED_USER_] 10.56ms
+2024-03-14 16:17:57,675 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 16:17:57,682 [websockets.py:on_close()] - Websocket Closed: ID: 126417648421952 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.84
+2024-03-14 16:17:58,932 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 16:17:59,688 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.79ms
+2024-03-14 16:17:59,689 [websockets.py:open()] - Websocket Opened: ID: 126417621893616, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 16:17:59,694 [websockets.py:_handle_identify()] - Websocket 126417621893616 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 16:18:01,417 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 16:18:01,417 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 16:18:01,419 [klippy_connection.py:_check_ready()] - 
+Existing command 'BED_MESH_CALIBRATE' not found in gcode_macro rename
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-03-14 16:21:01,089 [application.py:prepare()] - Upload Request Received from 192.168.1.211
+Content-Type: multipart/form-data; boundary=---------------------------18313372944465359832943568922
+2024-03-14 16:21:01,095 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-14 16:21:01,100 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.211) [_TRUSTED_USER_] 11.97ms
+2024-03-14 16:21:01,221 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 16:21:01,226 [websockets.py:on_close()] - Websocket Closed: ID: 126417621893616 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.54
+2024-03-14 16:21:02,481 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 16:21:03,231 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.76ms
+2024-03-14 16:21:03,231 [websockets.py:open()] - Websocket Opened: ID: 126417621905808, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 16:21:03,233 [websockets.py:_handle_identify()] - Websocket 126417621905808 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 16:21:04,893 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 16:21:04,894 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 16:21:05,145 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-14 16:21:05,402 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-14 16:21:06,153 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
