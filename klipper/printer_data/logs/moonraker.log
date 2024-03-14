@@ -589,3 +589,5 @@ Content-Type: multipart/form-data; boundary=---------------------------356627725
 2024-03-14 05:45:09,344 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-03-14 05:45:09,611 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-14 05:45:10,599 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-14 06:45:43,575 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-14 06:50:43,573 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.211
