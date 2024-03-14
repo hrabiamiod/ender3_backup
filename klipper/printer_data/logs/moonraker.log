@@ -631,3 +631,34 @@ CPU Temperature: None
 2024-03-14 08:49:41,769 [websockets.py:open()] - Websocket Opened: ID: 126417648701440, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-03-14 08:49:41,770 [websockets.py:_handle_identify()] - Websocket 126417648701440 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
 2024-03-14 09:50:43,617 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-14 15:40:15,018 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 15:40:15,027 [websockets.py:on_close()] - Websocket Closed: ID: 126417648701440 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.26
+2024-03-14 15:40:16,282 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 15:40:17,033 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-14 15:40:17,033 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.17ms
+2024-03-14 15:40:17,034 [websockets.py:open()] - Websocket Opened: ID: 126417648380912, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 15:40:17,037 [websockets.py:_handle_identify()] - Websocket 126417648380912 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 15:40:18,893 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 15:40:18,894 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 15:40:19,144 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-14 15:40:19,408 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-14 15:40:20,149 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-14 15:48:48,262 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 125.000 235.000 10.000 [0.000]
+2024-03-14 15:50:07,811 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 113.000 -7.000 10.000 [0.000]
+2024-03-14 15:50:28,518 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.211
+2024-03-14 15:51:09,948 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 113.000 235.000 10.000 [0.000]
+2024-03-14 15:52:01,991 [application.py:prepare()] - Upload Request Received from 192.168.1.211
+Content-Type: multipart/form-data; boundary=---------------------------12922101916989770512902769986
+2024-03-14 15:52:01,999 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-14 15:52:02,004 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.211) [_TRUSTED_USER_] 13.13ms
+2024-03-14 15:52:03,140 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 15:52:03,144 [websockets.py:on_close()] - Websocket Closed: ID: 126417648380912 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 6.11
+2024-03-14 15:52:04,404 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 15:52:05,148 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.72ms
+2024-03-14 15:52:05,148 [websockets.py:open()] - Websocket Opened: ID: 126417621907824, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 15:52:05,165 [websockets.py:_handle_identify()] - Websocket 126417621907824 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 15:52:08,995 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 15:52:08,996 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 15:52:09,246 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-14 15:52:09,518 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-14 15:52:10,503 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
