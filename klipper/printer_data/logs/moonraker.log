@@ -591,3 +591,42 @@ Content-Type: multipart/form-data; boundary=---------------------------356627725
 2024-03-14 05:45:10,599 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-03-14 06:45:43,575 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-03-14 06:50:43,573 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.211
+2024-03-14 08:49:39,749 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-14 08:49:39,753 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1710402550.673959, Usage: 1.86%, Memory: 41000 kB
+System Time: 1710402551.674711, Usage: 1.19%, Memory: 41000 kB
+System Time: 1710402552.674972, Usage: 0.68%, Memory: 41000 kB
+System Time: 1710402553.676244, Usage: 0.67%, Memory: 41000 kB
+System Time: 1710402554.677323, Usage: 0.64%, Memory: 41000 kB
+System Time: 1710402555.678372, Usage: 0.8%, Memory: 41000 kB
+System Time: 1710402556.679083, Usage: 0.96%, Memory: 41000 kB
+System Time: 1710402557.679539, Usage: 0.72%, Memory: 41000 kB
+System Time: 1710402558.679914, Usage: 0.64%, Memory: 41000 kB
+System Time: 1710402559.680631, Usage: 0.66%, Memory: 41000 kB
+System Time: 1710402560.681593, Usage: 0.71%, Memory: 41000 kB
+System Time: 1710402561.698608, Usage: 1.74%, Memory: 41000 kB
+System Time: 1710402562.693773, Usage: 0.76%, Memory: 41000 kB
+System Time: 1710402563.693755, Usage: 1.19%, Memory: 41000 kB
+System Time: 1710402564.694803, Usage: 0.65%, Memory: 41000 kB
+System Time: 1710402565.695786, Usage: 0.71%, Memory: 41000 kB
+System Time: 1710402566.695972, Usage: 0.91%, Memory: 41000 kB
+System Time: 1710402567.696805, Usage: 0.78%, Memory: 41000 kB
+System Time: 1710402568.697978, Usage: 0.66%, Memory: 41000 kB
+System Time: 1710402569.698651, Usage: 0.68%, Memory: 41000 kB
+System Time: 1710402570.699301, Usage: 0.73%, Memory: 41000 kB
+System Time: 1710402571.699956, Usage: 0.67%, Memory: 41000 kB
+System Time: 1710402572.700392, Usage: 0.66%, Memory: 41000 kB
+System Time: 1710402573.701152, Usage: 1.86%, Memory: 41000 kB
+System Time: 1710402574.701830, Usage: 0.67%, Memory: 41000 kB
+System Time: 1710402575.702418, Usage: 1.75%, Memory: 41000 kB
+System Time: 1710402576.703503, Usage: 0.87%, Memory: 41000 kB
+System Time: 1710402577.704245, Usage: 0.82%, Memory: 41000 kB
+System Time: 1710402578.706057, Usage: 0.63%, Memory: 41000 kB
+System Time: 1710402579.707981, Usage: 0.66%, Memory: 41000 kB
+CPU Temperature: None
+2024-03-14 08:49:39,757 [websockets.py:on_close()] - Websocket Closed: ID: 126417648697600 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.60
+2024-03-14 08:49:41,763 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-14 08:49:41,769 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 4.03ms
+2024-03-14 08:49:41,769 [websockets.py:open()] - Websocket Opened: ID: 126417648701440, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 08:49:41,770 [websockets.py:_handle_identify()] - Websocket 126417648701440 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
