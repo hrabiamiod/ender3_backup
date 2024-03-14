@@ -855,3 +855,17 @@ Content-Type: multipart/form-data; boundary=---------------------------357109786
 2024-03-14 16:53:15,383 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-03-14 16:53:15,640 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-14 16:53:16,639 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-14 17:11:44,436 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-14 17:11:44,443 [websockets.py:on_close()] - Websocket Closed: ID: 126417622611280 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.93
+2024-03-14 17:11:45,696 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-14 17:11:46,448 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
+2024-03-14 17:11:46,448 [websockets.py:open()] - Websocket Opened: ID: 126417650009424, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-14 17:11:46,451 [websockets.py:_handle_identify()] - Websocket 126417650009424 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-14 17:11:48,020 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-14 17:11:48,020 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-14 17:11:48,271 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-14 17:11:48,536 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-14 17:11:49,028 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-14 17:12:26,406 [job_state.py:_status_update()] - Job Started: majlo_rosa_temp.gcode
+2024-03-14 17:26:55,450 [websockets.py:on_close()] - Websocket Closed: ID: 126417648321824 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.20
+2024-03-14 17:26:55,450 [websockets.py:on_close()] - Websocket Closed: ID: 126417648333680 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.75
