@@ -1064,3 +1064,15 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaOxTUDtrPpy7SY
 2024-03-15 15:39:13,526 [websockets.py:on_close()] - Websocket Closed: ID: 138393776435744 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
 2024-03-15 15:39:13,719 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777934192
 2024-03-15 15:39:18,550 [websockets.py:on_close()] - Websocket Closed: ID: 138393777934192 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-03-15 16:05:24,921 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.65ms
+2024-03-15 16:05:24,921 [websockets.py:open()] - Websocket Opened: ID: 138393776357920, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 16:05:24,928 [websockets.py:_handle_identify()] - Websocket 138393776357920 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 16:05:25,910 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.64ms
+2024-03-15 16:05:25,911 [websockets.py:open()] - Websocket Opened: ID: 138393776371792, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 16:05:25,918 [websockets.py:_handle_identify()] - Websocket 138393776371792 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 16:05:32,650 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-15 16:05:55,251 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393776357920
+2024-03-15 16:05:55,942 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393776371792
+2024-03-15 16:05:59,922 [websockets.py:on_close()] - Websocket Closed: ID: 138393776357920 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-15 16:06:00,913 [websockets.py:on_close()] - Websocket Closed: ID: 138393776371792 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-15 16:20:32,652 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
