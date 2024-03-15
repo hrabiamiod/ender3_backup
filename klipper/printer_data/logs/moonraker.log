@@ -1150,3 +1150,28 @@ CPU Temperature: None
 2024-03-15 17:48:33,329 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.23ms
 2024-03-15 17:48:33,329 [websockets.py:open()] - Websocket Opened: ID: 138393777005632, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-03-15 17:48:33,331 [websockets.py:_handle_identify()] - Websocket 138393777005632 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-15 18:01:01,361 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.68ms
+2024-03-15 18:01:01,361 [websockets.py:open()] - Websocket Opened: ID: 138393777938992, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 18:01:01,369 [websockets.py:_handle_identify()] - Websocket 138393777938992 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 18:01:31,518 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777938992
+2024-03-15 18:01:36,362 [websockets.py:on_close()] - Websocket Closed: ID: 138393777938992 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-15 18:08:27,085 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.66ms
+2024-03-15 18:08:27,085 [websockets.py:open()] - Websocket Opened: ID: 138393777833488, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 18:08:27,323 [websockets.py:_handle_identify()] - Websocket 138393777833488 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 18:08:31,675 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.65ms
+2024-03-15 18:08:31,675 [websockets.py:open()] - Websocket Opened: ID: 138393777841120, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 18:08:31,682 [websockets.py:_handle_identify()] - Websocket 138393777841120 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 18:11:07,997 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777833488
+2024-03-15 18:11:11,999 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777841120
+2024-03-15 18:11:12,087 [websockets.py:on_close()] - Websocket Closed: ID: 138393777833488 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.87
+2024-03-15 18:11:16,678 [websockets.py:on_close()] - Websocket Closed: ID: 138393777841120 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2024-03-15 18:27:08,858 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.78ms
+2024-03-15 18:27:08,859 [websockets.py:open()] - Websocket Opened: ID: 138393540738064, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 18:27:08,877 [websockets.py:_handle_identify()] - Websocket 138393540738064 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 18:27:24,743 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-03-15 18:27:24,743 [websockets.py:open()] - Websocket Opened: ID: 138393777005344, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 18:27:24,757 [websockets.py:_handle_identify()] - Websocket 138393777005344 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 18:27:54,755 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777005344
+2024-03-15 18:27:59,745 [websockets.py:on_close()] - Websocket Closed: ID: 138393777005344 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-15 18:28:08,899 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393540738064
+2024-03-15 18:28:13,860 [websockets.py:on_close()] - Websocket Closed: ID: 138393540738064 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
