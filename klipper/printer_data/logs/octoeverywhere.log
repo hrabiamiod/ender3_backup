@@ -40506,3 +40506,22 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-15 19:49:00,626 - INFO - NotificationsHandler successfully sent 'progress'
 2024-03-15 19:53:28,678 - INFO - NotificationsHandler successfully sent 'progress'
 2024-03-15 19:57:41,979 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-15 20:01:31,936 - INFO - Starting FinalSnap
+2024-03-15 20:03:30,260 - INFO - Gadget has stopped watching!
+2024-03-15 20:03:30,263 - INFO - RepeatTimer thread exit
+2024-03-15 20:03:30,264 - INFO - RepeatTimer thread exit
+2024-03-15 20:03:30,761 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-03-15 20:03:30,762 - INFO - RepeatTimer thread exit
+2024-03-15 20:03:32,778 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-15 20:12:16,635 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-15 20:12:16,635 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-15 20:12:16,636 - INFO - Service websocket closed.
+2024-03-15 20:12:16,638 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-03-15 20:12:16,638 - INFO - Closing all open web stream sockets (0)
+2024-03-15 20:12:16,638 - INFO - Sleeping for 4 seconds before trying again.
+2024-03-15 20:12:20,640 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-15 20:12:20,641 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:128890741946160
+2024-03-15 20:12:21,216 - INFO - Websocket connected
+2024-03-15 20:12:21,216 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2024-03-15 20:12:23,521 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2024-03-15 20:12:23,522 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
