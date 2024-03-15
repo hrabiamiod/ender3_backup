@@ -1076,3 +1076,14 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaOxTUDtrPpy7SY
 2024-03-15 16:05:59,922 [websockets.py:on_close()] - Websocket Closed: ID: 138393776357920 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
 2024-03-15 16:06:00,913 [websockets.py:on_close()] - Websocket Closed: ID: 138393776371792 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
 2024-03-15 16:20:32,652 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-15 16:41:39,672 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.56
+2024-03-15 16:41:39,673 [application.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.89ms
+2024-03-15 16:41:39,673 [websockets.py:open()] - Websocket Opened: ID: 138393540738496, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 16:41:39,703 [websockets.py:_handle_identify()] - Websocket 138393540738496 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 16:41:39,841 [application.py:log_request()] - 101 GET /websocket (192.168.1.56) [_TRUSTED_USER_] 0.61ms
+2024-03-15 16:41:39,842 [websockets.py:open()] - Websocket Opened: ID: 138393540732352, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 16:41:39,863 [websockets.py:_handle_identify()] - Websocket 138393540732352 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 16:41:44,592 [websockets.py:on_close()] - Websocket Closed: ID: 138393540732352 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.75
+2024-03-15 16:41:44,593 [websockets.py:on_close()] - Websocket Closed: ID: 138393540738496 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.92
+2024-03-15 16:44:21,846 [job_state.py:_status_update()] - Job Started: MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-15 16:45:33,156 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
