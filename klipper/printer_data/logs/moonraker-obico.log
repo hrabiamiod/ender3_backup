@@ -2881,3 +2881,34 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-15 14:10:33,677   WARNING  obico.app - Connections not ready. Trying again in 1s...
 2024-03-15 14:10:34,678   WARNING  obico.app - Connections not ready. Trying again in 1s...
 2024-03-15 14:10:35,680   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 14:10:36,681   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 14:10:37,552   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-15 14:10:37,559      INFO  obico.moonraker_conn - connection is open
+2024-03-15 14:10:37,692      INFO  obico.janus - Starting webcam streamer
+2024-03-15 14:10:37,695      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-03-15 14:10:37,697      INFO  obico.moonraker_conn - Klippy ready
+2024-03-15 14:10:37,748   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-03-15 14:10:37,946      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-15 14:10:38,196   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 15547}, sender='moonrakerconn')
+2024-03-15 14:10:38,701      INFO  backoff - Backing off wait_for_janus(...) for 0.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:10:40,299      INFO  backoff - Backing off wait_for_janus(...) for 0.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:10:42,143      INFO  backoff - Backing off wait_for_janus(...) for 1.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:10:44,906      INFO  backoff - Backing off wait_for_janus(...) for 0.9s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:10:47,399      INFO  backoff - Backing off wait_for_janus(...) for 10.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:10:59,149      INFO  backoff - Backing off wait_for_janus(...) for 12.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:11:12,911      INFO  backoff - Backing off wait_for_janus(...) for 52.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:12:06,160      INFO  backoff - Backing off wait_for_janus(...) for 47.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:12:54,224      INFO  backoff - Backing off wait_for_janus(...) for 199.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:16:15,052     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 14:18:29,194      INFO  backoff - Backing off capture_jpeg(...) for 0.1s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-15 14:18:29,250      INFO  backoff - Backing off capture_jpeg(...) for 0.9s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-15 14:18:30,187     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-15 14:18:30,187   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-03-15 14:22:51,919      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-15 14:23:31,283      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-15 14:25:01,469      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-15 14:26:01,444      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-15 14:26:09,468      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-15 14:27:01,357      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-15 14:27:23,407      INFO  obico.app - detected state change: Operational -> Offline
