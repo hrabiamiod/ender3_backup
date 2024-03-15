@@ -40525,3 +40525,29 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-15 20:12:21,216 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]. Starting handshake...
 2024-03-15 20:12:23,521 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
 2024-03-15 20:12:23,522 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-15 21:00:25,959 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-15 21:00:25,959 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-15 21:00:25,960 - INFO - Service websocket closed.
+2024-03-15 21:00:25,961 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-03-15 21:00:25,961 - INFO - Closing all open web stream sockets (0)
+2024-03-15 21:00:25,962 - INFO - Sleeping for 4 seconds before trying again.
+2024-03-15 21:00:29,964 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-15 21:00:29,965 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3] wsId:128890742228880
+2024-03-15 21:00:30,584 - INFO - Websocket connected
+2024-03-15 21:00:30,585 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2024-03-15 21:00:33,813 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2024-03-15 21:00:33,813 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-15 21:24:25,724 - INFO - FileMetadataCache updated for file [CHMURKA_SLICER_5.gcode]; est time: 1823.0, size: 1231, filament usage: 1238
+2024-03-15 21:24:25,725 - INFO - Gadget HostLock cleared
+2024-03-15 21:24:25,725 - INFO - Gadget is now watching!
+2024-03-15 21:24:25,726 - INFO - New print started; PrintId: NIjRyh0c8vVroITCrN2shHiiJ0JhcyYb2AAoFKTvQjoRSyT9AQfJKB3JJ8gP file:CHMURKA_SLICER_5.gcode size:1231 filament:1238
+2024-03-15 21:24:27,155 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-15 21:24:56,047 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 21:25:26,367 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 21:25:56,687 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 21:26:27,003 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 21:26:54,744 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-15 21:26:59,001 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-03-15 21:27:02,830 - INFO - First layer timer is done. Stopping.
+2024-03-15 21:27:02,830 - INFO - RepeatTimer thread exit
+2024-03-15 21:27:03,790 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
