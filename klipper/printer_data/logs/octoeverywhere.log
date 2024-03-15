@@ -40573,3 +40573,26 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-15 21:51:25,820 - INFO - NotificationsHandler successfully sent 'progress'
 2024-03-15 21:55:54,048 - INFO - NotificationsHandler successfully sent 'progress'
 2024-03-15 21:58:50,746 - INFO - Starting FinalSnap
+2024-03-15 22:00:57,574 - INFO - Gadget has stopped watching!
+2024-03-15 22:00:57,575 - INFO - RepeatTimer thread exit
+2024-03-15 22:00:57,575 - INFO - RepeatTimer thread exit
+2024-03-15 22:00:58,076 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-03-15 22:00:58,076 - INFO - RepeatTimer thread exit
+2024-03-15 22:00:59,622 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-15 22:05:15,006 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-03-15 22:05:15,006 - INFO - Moonraker client websocket shutdown called.
+2024-03-15 22:05:15,010 - INFO - Moonraker client websocket shutdown complete.
+2024-03-15 22:05:15,010 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-03-15 22:05:15,010 - INFO - Moonraker websocket connection closed.
+2024-03-15 22:05:15,010 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-15 22:05:17,015 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-15 22:05:17,018 - INFO - Websocket connected
+2024-03-15 22:05:17,019 - INFO - Moonraker client websocket opened.
+2024-03-15 22:05:17,019 - INFO - Moonraker client waiting for klippy ready...
+2024-03-15 22:05:17,019 - INFO - Authenticating with moonraker...
+2024-03-15 22:05:17,028 - INFO - Moonraker client waiting for klippy ready...
+2024-03-15 22:05:17,029 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-15 22:10:17,462 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-15 22:15:17,861 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-15 22:20:18,273 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-15 22:25:18,676 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
