@@ -980,3 +980,67 @@ CPU Temperature: None
 2024-03-15 15:00:00,665 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.64ms
 2024-03-15 15:00:00,665 [websockets.py:open()] - Websocket Opened: ID: 138393540764688, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-03-15 15:00:00,667 [websockets.py:_handle_identify()] - Websocket 138393540764688 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-15 15:00:09,182 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-15 15:00:09,184 [websockets.py:on_close()] - Websocket Closed: ID: 138393540764688 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.52
+2024-03-15 15:00:10,438 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-15 15:00:11,189 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.63ms
+2024-03-15 15:00:11,189 [websockets.py:open()] - Websocket Opened: ID: 138393540697328, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-15 15:00:11,191 [websockets.py:_handle_identify()] - Websocket 138393540697328 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-15 15:00:12,796 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-15 15:00:12,797 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-15 15:00:13,046 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-15 15:00:13,302 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-15 15:00:14,051 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-15 15:01:18,329 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 240.000 44.000 10.000 [0.000]
+2024-03-15 15:02:03,497 [application.py:prepare()] - Upload Request Received from 192.168.1.16
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryehAyM6eXMnoTC7bV
+2024-03-15 15:02:03,505 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-15 15:02:03,507 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.16) [_TRUSTED_USER_] 10.82ms
+2024-03-15 15:02:04,589 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-15 15:02:04,591 [websockets.py:on_close()] - Websocket Closed: ID: 138393540697328 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.40
+2024-03-15 15:02:05,846 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-15 15:02:06,597 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-03-15 15:02:06,597 [websockets.py:open()] - Websocket Opened: ID: 138393540704336, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-15 15:02:06,599 [websockets.py:_handle_identify()] - Websocket 138393540704336 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-15 15:02:08,218 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-15 15:02:08,219 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-15 15:02:08,469 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-15 15:02:08,725 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-15 15:02:09,474 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-15 15:03:43,252 [websockets.py:on_close()] - Websocket Closed: ID: 138393776297808 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.12
+2024-03-15 15:03:43,254 [websockets.py:on_close()] - Websocket Closed: ID: 138393777778176 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.14
+2024-03-15 15:03:43,605 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-03-15 15:03:43,605 [websockets.py:open()] - Websocket Opened: ID: 138393776296896, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:03:43,611 [websockets.py:_handle_identify()] - Websocket 138393776296896 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 15:03:43,891 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.65ms
+2024-03-15 15:03:43,891 [websockets.py:open()] - Websocket Opened: ID: 138393776304720, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:03:43,944 [websockets.py:_handle_identify()] - Websocket 138393776304720 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 15:04:33,764 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393776296896
+2024-03-15 15:04:34,097 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393776304720
+2024-03-15 15:04:38,607 [websockets.py:on_close()] - Websocket Closed: ID: 138393776296896 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.89
+2024-03-15 15:04:38,892 [websockets.py:on_close()] - Websocket Closed: ID: 138393776304720 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2024-03-15 15:05:01,636 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 1.13ms
+2024-03-15 15:05:01,637 [websockets.py:open()] - Websocket Opened: ID: 138393776426048, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:05:01,646 [websockets.py:_handle_identify()] - Websocket 138393776426048 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 15:05:13,649 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.65ms
+2024-03-15 15:05:13,649 [websockets.py:open()] - Websocket Opened: ID: 138393777777456, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:05:13,657 [websockets.py:_handle_identify()] - Websocket 138393777777456 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 15:06:13,847 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393777777456
+2024-03-15 15:06:18,651 [websockets.py:on_close()] - Websocket Closed: ID: 138393777777456 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-03-15 15:06:21,852 [websockets.py:write_to_socket()] - Websocket closed while writing: 138393776426048
+2024-03-15 15:06:26,638 [websockets.py:on_close()] - Websocket Closed: ID: 138393776426048 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-03-15 15:12:20,089 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-15 15:12:20,090 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.87ms
+2024-03-15 15:12:20,090 [websockets.py:open()] - Websocket Opened: ID: 138393776307456, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:12:20,100 [websockets.py:_handle_identify()] - Websocket 138393776307456 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 15:12:20,460 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.65ms
+2024-03-15 15:12:20,461 [websockets.py:open()] - Websocket Opened: ID: 138393776292432, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 15:12:20,522 [websockets.py:_handle_identify()] - Websocket 138393776292432 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-15 15:16:50,958 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaOxTUDtrPpy7SYYi
+2024-03-15 15:16:51,136 [application.py:post()] - Processing Uploaded File: MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-15 15:16:51,259 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-15 15:16:51,291 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-15 15:16:53,177 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 2218.64ms
+2024-03-15 15:16:53,185 [job_state.py:_status_update()] - Job Started: MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode
