@@ -1823,3 +1823,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary46QXRjPFaGQBRD
 2024-03-15 19:23:03,331 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-03-15 19:25:09,099 [websockets.py:write_to_socket()] - Websocket closed while writing: 137810744586736
 2024-03-15 19:25:13,541 [websockets.py:on_close()] - Websocket Closed: ID: 137810744586736 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.89
+2024-03-15 19:40:14,390 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.68ms
+2024-03-15 19:40:14,390 [websockets.py:open()] - Websocket Opened: ID: 137810743968624, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-15 19:40:14,422 [websockets.py:_handle_identify()] - Websocket 137810743968624 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-15 19:44:25,108 [websockets.py:write_to_socket()] - Websocket closed while writing: 137810743968624
+2024-03-15 19:44:29,393 [websockets.py:on_close()] - Websocket Closed: ID: 137810743968624 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
