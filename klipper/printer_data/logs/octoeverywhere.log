@@ -40465,3 +40465,33 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-15 19:18:05,445 - ERROR - [Errno 111] Connection refused - goodbye
 2024-03-15 19:18:05,445 - INFO - Moonraker websocket connection closed.
 2024-03-15 19:18:05,445 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-15 19:18:07,448 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-15 19:18:07,449 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-15 19:18:07,449 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-15 19:18:07,450 - INFO - Moonraker websocket connection closed.
+2024-03-15 19:18:07,450 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-15 19:18:09,453 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-15 19:18:09,457 - INFO - Websocket connected
+2024-03-15 19:18:09,457 - INFO - Moonraker client websocket opened.
+2024-03-15 19:18:09,457 - INFO - Moonraker client waiting for klippy ready...
+2024-03-15 19:18:09,458 - INFO - Authenticating with moonraker...
+2024-03-15 19:18:09,466 - INFO - Moonraker client waiting for klippy ready...
+2024-03-15 19:18:09,467 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-03-15 19:18:09,467 - INFO - Moonraker client setting up default notification hooks
+2024-03-15 19:18:09,782 - INFO - Printer state at socket connect is: standby
+2024-03-15 19:18:09,782 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-15 19:21:58,759 - INFO - FileMetadataCache updated for file [MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2299.0, size: 1497, filament usage: 1610
+2024-03-15 19:21:58,760 - INFO - Gadget is now watching!
+2024-03-15 19:21:58,760 - INFO - New print started; PrintId: QcBIaBSDoZpkKNU1fIiVmZ5YAjK4mNlAwzil4EOSCPWesxYFQ1IWMTGSIi2S file:MAJLO_infili_1_20_38m_0.20mm_205C_PLA_ENDER3.gcode size:1497 filament:1610
+2024-03-15 19:22:00,412 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-15 19:22:29,092 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:22:59,430 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:23:29,762 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:24:00,103 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:24:30,419 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:25:00,747 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:25:31,078 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-15 19:25:51,063 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-15 19:26:04,265 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-03-15 19:29:27,709 - INFO - NotificationsHandler successfully sent 'progress'

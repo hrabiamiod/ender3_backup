@@ -3138,3 +3138,31 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-15 19:18:03,708   WARNING  obico.app - Connections not ready. Trying again in 1s...
 2024-03-15 19:18:04,710   WARNING  obico.app - Connections not ready. Trying again in 1s...
 2024-03-15 19:18:05,711   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 19:18:06,712   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 19:18:07,236   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-15 19:18:07,239      INFO  backoff - Backing off ensure_api_key(...) for 1.1s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7aa0dd753670>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-15 19:18:07,714   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 19:18:08,295   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-15 19:18:08,298      INFO  backoff - Backing off ensure_api_key(...) for 1.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7aa0dd753e50>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-15 19:18:08,715   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 19:18:09,716   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-15 19:18:10,201   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-15 19:18:10,207      INFO  obico.moonraker_conn - connection is open
+2024-03-15 19:18:10,306      INFO  obico.moonraker_conn - Klippy ready
+2024-03-15 19:18:10,730      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-15 19:18:10,732      INFO  obico.janus - Starting webcam streamer
+2024-03-15 19:18:10,737      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-03-15 19:18:10,784   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-03-15 19:18:11,739      INFO  backoff - Backing off wait_for_janus(...) for 0.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:12,918      INFO  backoff - Backing off wait_for_janus(...) for 1.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:15,214      INFO  backoff - Backing off wait_for_janus(...) for 1.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:18,010      INFO  backoff - Backing off wait_for_janus(...) for 5.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:24,537      INFO  backoff - Backing off wait_for_janus(...) for 6.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:31,574      INFO  backoff - Backing off wait_for_janus(...) for 16.9s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:18:49,542      INFO  backoff - Backing off wait_for_janus(...) for 14.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:19:04,598      INFO  backoff - Backing off wait_for_janus(...) for 54.4s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:20:00,058      INFO  backoff - Backing off wait_for_janus(...) for 21.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:20:22,654     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-03-15 19:21:59,006      INFO  obico.app - detected state change: Operational -> Printing
+2024-03-15 19:21:59,328      INFO  obico.app - print event: PrintStarted (1710526918)
