@@ -852,3 +852,19 @@ Error configuring printer
 2024-03-16 11:45:17,831 [websockets.py:_handle_identify()] - Websocket 138651666957696 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-16 11:45:47,875 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666957696
 2024-03-16 11:45:52,826 [websockets.py:on_close()] - Websocket Closed: ID: 138651666957696 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-16 12:01:14,570 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.72ms
+2024-03-16 12:01:14,570 [websockets.py:open()] - Websocket Opened: ID: 138651666867072, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 12:01:14,578 [websockets.py:_handle_identify()] - Websocket 138651666867072 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 12:04:24,878 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-16 12:04:25,362 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666867072
+2024-03-16 12:04:29,572 [websockets.py:on_close()] - Websocket Closed: ID: 138651666867072 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-03-16 12:18:03,620 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.73ms
+2024-03-16 12:18:03,621 [websockets.py:open()] - Websocket Opened: ID: 138651877824816, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 12:18:03,628 [websockets.py:_handle_identify()] - Websocket 138651877824816 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 12:18:34,258 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651877824816
+2024-03-16 12:18:38,622 [websockets.py:on_close()] - Websocket Closed: ID: 138651877824816 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-16 12:18:47,891 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.69ms
+2024-03-16 12:18:47,891 [websockets.py:open()] - Websocket Opened: ID: 138651877827648, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 12:18:47,920 [websockets.py:_handle_identify()] - Websocket 138651877827648 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 12:20:08,364 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651877827648
+2024-03-16 12:20:12,895 [websockets.py:on_close()] - Websocket Closed: ID: 138651877827648 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
