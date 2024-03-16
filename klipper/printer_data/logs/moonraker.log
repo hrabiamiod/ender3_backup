@@ -893,3 +893,8 @@ Error configuring printer
 2024-03-16 13:56:52,113 [websockets.py:_handle_identify()] - Websocket 138651666868656 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-16 13:59:42,378 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666868656
 2024-03-16 13:59:47,109 [websockets.py:on_close()] - Websocket Closed: ID: 138651666868656 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2024-03-16 14:17:16,797 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-03-16 14:17:16,797 [websockets.py:open()] - Websocket Opened: ID: 138651877789312, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 14:17:16,809 [websockets.py:_handle_identify()] - Websocket 138651877789312 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 14:20:06,903 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651877789312
+2024-03-16 14:20:11,801 [websockets.py:on_close()] - Websocket Closed: ID: 138651877789312 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.94
