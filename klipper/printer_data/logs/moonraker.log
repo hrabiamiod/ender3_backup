@@ -842,3 +842,13 @@ Error configuring printer
 2024-03-16 11:22:42,628 [websockets.py:_handle_identify()] - Websocket 138651666864240 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-16 11:24:23,264 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666864240
 2024-03-16 11:24:27,622 [websockets.py:on_close()] - Websocket Closed: ID: 138651666864240 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.89
+2024-03-16 11:35:47,620 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.72ms
+2024-03-16 11:35:47,620 [websockets.py:open()] - Websocket Opened: ID: 138651666873504, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 11:35:47,627 [websockets.py:_handle_identify()] - Websocket 138651666873504 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 11:36:18,178 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666873504
+2024-03-16 11:36:22,622 [websockets.py:on_close()] - Websocket Closed: ID: 138651666873504 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-16 11:45:17,822 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.72ms
+2024-03-16 11:45:17,822 [websockets.py:open()] - Websocket Opened: ID: 138651666957696, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-16 11:45:17,831 [websockets.py:_handle_identify()] - Websocket 138651666957696 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-16 11:45:47,875 [websockets.py:write_to_socket()] - Websocket closed while writing: 138651666957696
+2024-03-16 11:45:52,826 [websockets.py:on_close()] - Websocket Closed: ID: 138651666957696 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
