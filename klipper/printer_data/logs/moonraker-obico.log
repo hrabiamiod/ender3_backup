@@ -5806,3 +5806,36 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-18 22:28:44,240      INFO  backoff - Backing off wait_for_klippy_ready(...) for 10.1s (False)
 2024-03-18 22:28:54,312      INFO  backoff - Backing off wait_for_klippy_ready(...) for 51.0s (False)
 2024-03-18 22:29:45,380      INFO  backoff - Backing off wait_for_klippy_ready(...) for 23.2s (False)
+2024-03-18 22:30:08,592      INFO  backoff - Backing off wait_for_klippy_ready(...) for 54.6s (False)
+2024-03-18 22:31:03,289      INFO  backoff - Backing off wait_for_klippy_ready(...) for 30.1s (False)
+2024-03-18 22:31:33,444      INFO  backoff - Backing off wait_for_klippy_ready(...) for 27.5s (False)
+2024-03-18 22:32:01,016      INFO  backoff - Backing off wait_for_klippy_ready(...) for 8.4s (False)
+2024-03-18 22:32:09,380      INFO  backoff - Backing off wait_for_klippy_ready(...) for 27.0s (False)
+2024-03-18 22:32:36,401      INFO  backoff - Backing off wait_for_klippy_ready(...) for 1.9s (False)
+2024-03-18 22:32:38,292      INFO  backoff - Backing off wait_for_klippy_ready(...) for 55.3s (False)
+2024-03-18 22:33:33,649      INFO  backoff - Backing off wait_for_klippy_ready(...) for 54.0s (False)
+2024-03-18 22:34:27,692      INFO  backoff - Backing off wait_for_klippy_ready(...) for 4.0s (False)
+2024-03-18 22:34:31,652      INFO  backoff - Backing off wait_for_klippy_ready(...) for 21.8s (False)
+2024-03-18 22:34:53,516      INFO  backoff - Backing off wait_for_klippy_ready(...) for 13.3s (False)
+2024-03-18 22:35:06,868      INFO  backoff - Backing off wait_for_klippy_ready(...) for 31.9s (False)
+2024-03-18 22:35:38,781      INFO  backoff - Backing off wait_for_klippy_ready(...) for 33.8s (False)
+2024-03-18 22:36:12,654      INFO  backoff - Backing off wait_for_klippy_ready(...) for 37.9s (False)
+2024-03-18 22:36:50,632      INFO  backoff - Backing off wait_for_klippy_ready(...) for 31.3s (False)
+2024-03-18 22:37:21,960      INFO  backoff - Backing off wait_for_klippy_ready(...) for 47.2s (False)
+2024-03-18 22:38:09,228      INFO  backoff - Backing off wait_for_klippy_ready(...) for 38.0s (False)
+2024-03-18 22:38:47,296      INFO  backoff - Backing off wait_for_klippy_ready(...) for 32.5s (False)
+2024-03-18 22:39:19,880      INFO  backoff - Backing off wait_for_klippy_ready(...) for 51.4s (False)
+2024-03-18 22:40:11,285      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.2s (False)
+2024-03-18 22:40:11,502      INFO  backoff - Backing off wait_for_klippy_ready(...) for 6.1s (False)
+2024-03-18 22:40:17,576      INFO  backoff - Backing off wait_for_klippy_ready(...) for 48.9s (False)
+2024-03-18 22:41:06,517      INFO  backoff - Backing off wait_for_klippy_ready(...) for 35.6s (False)
+2024-03-18 22:41:42,196      INFO  backoff - Backing off wait_for_klippy_ready(...) for 58.7s (False)
+2024-03-18 22:42:41,160      INFO  obico.moonraker_conn - Klippy ready
+2024-03-18 22:42:41,413      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-18 22:45:43,889   WARNING  obico.ws - WS Closed - 1001 - Server Shutdown
+2024-03-18 22:45:43,890      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-18 22:45:43,891   WARNING  obico.ws - WS Closed - None - None
+2024-03-18 22:47:44,073   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-03-18 22:47:44,076      INFO  obico.moonraker_conn - connection is open
+2024-03-18 22:47:44,174      INFO  obico.moonraker_conn - Klippy ready
+2024-03-18 22:47:44,383      INFO  obico.app - detected state change: Offline -> Operational
