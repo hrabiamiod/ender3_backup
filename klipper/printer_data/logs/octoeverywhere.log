@@ -40763,3 +40763,43 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-16 17:50:02,719 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-03-16 17:55:03,126 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-03-16 18:00:03,479 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-03-18 08:26:00,608 - INFO - ##################################
+2024-03-18 08:26:00,643 - INFO - #### OctoEverywhere Starting #####
+2024-03-18 08:26:00,644 - INFO - ##################################
+2024-03-18 08:26:00,667 - INFO - Plugin Version: 2.10.8
+2024-03-18 08:26:00,668 - INFO - Our existing update config file include was found in the moonraker config.
+2024-03-18 08:26:00,668 - INFO - Existing update config file found with the correct file contents.
+2024-03-18 08:26:00,843 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-03-18 08:26:00,852 - INFO - Setting up relay with frontend port 80
+2024-03-18 08:26:00,855 - INFO - OctoPingPong stats loaded from file.
+2024-03-18 08:26:00,858 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-03-18 08:26:00,861 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-18 08:26:00,862 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:138573116653728
+2024-03-18 08:26:00,891 - INFO - Updating server latencies...
+2024-03-18 08:26:02,638 - INFO - Websocket connected
+2024-03-18 08:26:02,639 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-03-18 08:26:03,583 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-03-18 08:26:03,583 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-18 08:26:03,583 - INFO - Starting Moonraker connection client.
+2024-03-18 08:26:03,591 - INFO - Moonraker client starting websocket connection thread.
+2024-03-18 08:26:03,598 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-18 08:26:03,633 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-18 08:26:03,635 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-18 08:26:03,635 - INFO - Moonraker websocket connection closed.
+2024-03-18 08:26:03,636 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-18 08:26:05,641 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-18 08:26:05,642 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-18 08:26:05,642 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-18 08:26:05,642 - INFO - Moonraker websocket connection closed.
+2024-03-18 08:26:05,642 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-18 08:26:05,858 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-03-18 08:26:05,858 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-03-18 08:26:05,858 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-03-18 08:26:07,645 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-18 08:26:07,647 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2024-03-18 08:26:07,648 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-18 08:26:07,648 - INFO - Moonraker websocket connection closed.
+2024-03-18 08:26:07,648 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
