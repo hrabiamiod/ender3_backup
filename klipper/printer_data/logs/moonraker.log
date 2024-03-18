@@ -1747,3 +1747,48 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryybpERGeRXl8RQk
 2024-03-18 23:02:43,659 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bianka_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-03-18 23:02:43,672 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1616.96ms
 2024-03-18 23:02:43,739 [job_state.py:_status_update()] - Job Started: bianka_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-18 23:50:44,853 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-18 23:51:14,878 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-18 23:51:14,880 [websockets.py:on_close()] - Websocket Closed: ID: 138441930349952 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.56
+2024-03-18 23:51:16,134 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-18 23:51:16,159 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', '-.mount', 'sysinit.target']
+**After=['sysinit.target', 'basic.target', 'system.slice', '-.mount', 'systemd-journald.socket', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-18 23:51:16,886 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-18 23:51:16,888 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.79ms
+2024-03-18 23:51:16,888 [websockets.py:open()] - Websocket Opened: ID: 138441904422384, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-18 23:51:16,890 [websockets.py:_handle_identify()] - Websocket 138441904422384 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-18 23:51:18,535 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-18 23:51:18,536 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-18 23:51:18,786 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-18 23:51:19,041 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-18 23:51:19,791 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-18 23:51:29,650 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on y after full movement
+2024-03-18 23:52:40,730 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynMDzcdSoUsYA8wTs
+2024-03-18 23:52:40,740 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-03-18 23:52:40,742 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 12.37ms
+2024-03-18 23:52:41,809 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-18 23:52:41,814 [websockets.py:on_close()] - Websocket Closed: ID: 138441904422384 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.93
+2024-03-18 23:52:43,068 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-18 23:52:43,819 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-03-18 23:52:43,819 [websockets.py:open()] - Websocket Opened: ID: 138441902707552, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-18 23:52:43,822 [websockets.py:_handle_identify()] - Websocket 138441902707552 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-18 23:52:45,518 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-18 23:52:45,519 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-18 23:52:45,769 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-18 23:52:46,025 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-18 23:52:46,774 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-18 23:54:28,273 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on z after full movement

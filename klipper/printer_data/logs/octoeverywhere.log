@@ -41114,3 +41114,46 @@ Exception: Error returned from klippy state query. 99990001 - No active websocke
 2024-03-18 23:23:08,836 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
 2024-03-18 23:26:16,259 - INFO - NotificationsHandler successfully sent 'progress'
 2024-03-18 23:30:01,962 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-18 23:35:47,384 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-18 23:41:53,136 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-18 23:46:34,724 - INFO - Starting FinalSnap
+2024-03-18 23:48:59,607 - INFO - Gadget has stopped watching!
+2024-03-18 23:48:59,608 - INFO - RepeatTimer thread exit
+2024-03-18 23:48:59,610 - INFO - RepeatTimer thread exit
+2024-03-18 23:49:00,108 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-03-18 23:49:00,108 - INFO - RepeatTimer thread exit
+2024-03-18 23:49:01,330 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-18 23:51:14,879 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-03-18 23:51:14,879 - INFO - Moonraker client websocket shutdown called.
+2024-03-18 23:51:14,881 - INFO - Moonraker client websocket shutdown complete.
+2024-03-18 23:51:14,881 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-03-18 23:51:14,881 - INFO - Moonraker websocket connection closed.
+2024-03-18 23:51:14,881 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-18 23:51:16,884 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-18 23:51:16,888 - INFO - Websocket connected
+2024-03-18 23:51:16,889 - INFO - Moonraker client websocket opened.
+2024-03-18 23:51:16,889 - INFO - Moonraker client waiting for klippy ready...
+2024-03-18 23:51:16,889 - INFO - Authenticating with moonraker...
+2024-03-18 23:51:16,896 - INFO - Moonraker client waiting for klippy ready...
+2024-03-18 23:51:16,897 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-03-18 23:51:18,900 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-03-18 23:51:18,900 - INFO - Moonraker client setting up default notification hooks
+2024-03-18 23:51:19,288 - INFO - Printer state at socket connect is: standby
+2024-03-18 23:51:19,288 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2024-03-18 23:52:41,812 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-03-18 23:52:41,812 - INFO - Moonraker client websocket shutdown called.
+2024-03-18 23:52:41,814 - INFO - Moonraker client websocket shutdown complete.
+2024-03-18 23:52:41,814 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-03-18 23:52:41,814 - INFO - Moonraker websocket connection closed.
+2024-03-18 23:52:41,814 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-18 23:52:43,817 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-18 23:52:43,820 - INFO - Websocket connected
+2024-03-18 23:52:43,820 - INFO - Moonraker client websocket opened.
+2024-03-18 23:52:43,821 - INFO - Moonraker client waiting for klippy ready...
+2024-03-18 23:52:43,821 - INFO - Authenticating with moonraker...
+2024-03-18 23:52:43,827 - INFO - Moonraker client waiting for klippy ready...
+2024-03-18 23:52:43,828 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-03-18 23:52:45,831 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-03-18 23:52:45,831 - INFO - Moonraker client setting up default notification hooks
+2024-03-18 23:52:46,275 - INFO - Printer state at socket connect is: standby
+2024-03-18 23:52:46,275 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
