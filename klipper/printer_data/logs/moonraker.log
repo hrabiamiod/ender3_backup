@@ -1739,3 +1739,11 @@ Commits Behind Count: 0
 Diverged: False
 2024-03-18 22:50:57,808 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
 2024-03-18 22:50:57,808 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
+2024-03-18 23:02:42,055 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryybpERGeRXl8RQkNn
+2024-03-18 23:02:43,474 [application.py:post()] - Processing Uploaded File: bianka_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-18 23:02:43,622 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-18 23:02:43,659 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bianka_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-03-18 23:02:43,672 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1616.96ms
+2024-03-18 23:02:43,739 [job_state.py:_status_update()] - Job Started: bianka_38m_0.20mm_205C_PLA_ENDER3.gcode

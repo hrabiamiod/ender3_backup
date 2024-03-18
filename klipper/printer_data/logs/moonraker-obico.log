@@ -5839,3 +5839,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-18 22:47:44,076      INFO  obico.moonraker_conn - connection is open
 2024-03-18 22:47:44,174      INFO  obico.moonraker_conn - Klippy ready
 2024-03-18 22:47:44,383      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-18 23:02:43,996      INFO  obico.app - detected state change: Operational -> Printing
+2024-03-18 23:02:44,340      INFO  obico.app - print event: PrintStarted (1710799363)
