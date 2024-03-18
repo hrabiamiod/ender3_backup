@@ -385,3 +385,183 @@ Commits Behind Count: 0
 Diverged: False
 Repo Warnings:
   Repo has untracked source files: ['moonraker/components/timelapse.py']
+2024-03-18 08:26:07,175 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/turbo/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 18de421c4acbdb00946df35dfb412dedb159abca
+Upstream Commit SHA: 18de421c4acbdb00946df35dfb412dedb159abca
+Current Version: v0.12.0-118-g18de421c
+Upstream Version: v0.12.0-118-g18de421c
+Rollback Commit: 99d7af87fd7cd74b9a6eab355eb71327ed3b8256
+Rollback Branch: master
+Rollback Version: v0.12.0-25-g99d7af87
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:07,187 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/turbo/mainsail
+Local Version: v2.10.0
+Remote Version: v2.10.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.10.0/mainsail.zip
+Download Size: 2081565
+Content Type: application/zip
+Rollback Version: v2.8.0
+Rollback Repo: mainsail-crew/mainsail
+2024-03-18 08:26:07,739 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
+Owner: nlef
+Repository Name: moonraker-telegram-bot
+Path: /home/turbo/moonraker-telegram-bot
+Remote: origin
+Branch: master
+Remote URL: https://github.com/nlef/moonraker-telegram-bot.git
+Recovery URL: https://github.com/nlef/moonraker-telegram-bot.git
+Current Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Upstream Commit SHA: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Current Version: v1.5-0-gb9b47003
+Upstream Version: v1.5-0-gb9b47003
+Rollback Commit: b9b47003e13b8a23af696594aac8ba53c777f5a7
+Rollback Branch: master
+Rollback Version: v1.5-0-gb9b4700
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:08,400 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/turbo/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: e96cd46ffb4a42ae1fbf23118caa68dd0dac0597
+Upstream Commit SHA: e96cd46ffb4a42ae1fbf23118caa68dd0dac0597
+Current Version: v4.1.6-1-ge96cd46f
+Upstream Version: v4.1.6-1-ge96cd46f
+Rollback Commit: f7ac6aa298143f0019eae9b2b2be8039196ebeda
+Rollback Branch: master
+Rollback Version: v4.1.1-1-gf7ac6aa2
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:08,401 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Stored pip version: 22.0.2
+2024-03-18 08:26:08,983 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+Owner: TheSpaghettiDetective
+Repository Name: moonraker-obico
+Path: /home/turbo/moonraker-obico
+Remote: origin
+Branch: master
+Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Current Commit SHA: 0fb027e5e57945911afc0aca00784c0480aff077
+Upstream Commit SHA: 0fb027e5e57945911afc0aca00784c0480aff077
+Current Version: v1.5.6-0-g0fb027e5
+Upstream Version: v1.5.6-0-g0fb027e5
+Rollback Commit: f9327841627bade6efb237ee21898344ba8fe336
+Rollback Branch: master
+Rollback Version: v1.5.3-3-gf9327841
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:08,983 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Stored pip version: 23.0
+2024-03-18 08:26:09,536 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+Owner: QuinnDamerell
+Repository Name: OctoPrint-OctoEverywhere
+Path: /home/turbo/octoeverywhere
+Remote: origin
+Branch: master
+Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Current Commit SHA: dbbfcc8fa027eb2181414f0069f26528550a5854
+Upstream Commit SHA: dbbfcc8fa027eb2181414f0069f26528550a5854
+Current Version: 2.10.8-0-gdbbfcc8f
+Upstream Version: 2.10.8
+Rollback Commit: 531a894c90ae7f5dbe60e19efe17175fa6e63019
+Rollback Branch: master
+Rollback Version: 2.10.0-0-g531a894c
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:10,060 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/turbo/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-143-gc7fff11e
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Rollback Branch: main
+Rollback Version: v0.0.1-142-g57bec0de
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 17 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 2 Days, 8 Hours, 36 Minutes, 42 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 2 Days, 8 Hours, 36 Minutes, 51 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Web Client mainsail: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 19 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Next refresh in: 4 Days, 10 Hours, 51 Minutes, 59 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 21 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 22 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 40 Seconds
+2024-03-18 08:26:10,060 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 2 Days, 8 Hours, 32 Minutes, 43 Seconds
+2024-03-18 08:26:10,063 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
+2024-03-18 08:26:10,063 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
+2024-03-18 08:26:10,063 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-03-18 08:26:10,314 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-18 08:26:10,341 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['-.mount', 'basic.target', 'system.slice', 'systemd-journald.socket', 'sysinit.target', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-18 08:26:10,593 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-118-g18de421c
+2024-03-18 08:26:11,658 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-18 08:26:11,659 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.74ms
+2024-03-18 08:26:11,659 [websockets.py:open()] - Websocket Opened: ID: 136280011693776, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-18 08:26:11,661 [websockets.py:_handle_identify()] - Websocket 136280011693776 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-18 08:26:28,844 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.65ms
+2024-03-18 08:26:28,844 [websockets.py:open()] - Websocket Opened: ID: 136280011753312, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-03-18 08:27:35,548 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-18 08:27:35,549 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-18 08:27:35,550 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
