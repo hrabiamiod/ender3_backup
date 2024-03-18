@@ -566,3 +566,9 @@ config, and restart the host software.
 Error configuring printer
 
 2024-03-18 09:31:06,701 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-18 21:06:47,755 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-03-18 21:06:47,756 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.94ms
+2024-03-18 21:06:47,756 [websockets.py:open()] - Websocket Opened: ID: 136280011502640, Proxied: True, User Agent: Dart/3.2 (dart:io), Host Name: 192.168.1.211
+2024-03-18 21:06:47,769 [websockets.py:_handle_identify()] - Websocket 136280011502640 Client Identified - Name: Mobileraker-ios, Version: 2.6.11-395, Type: mobile
+2024-03-18 21:07:48,063 [websockets.py:write_to_socket()] - Websocket closed while writing: 136280011502640
+2024-03-18 21:07:52,758 [websockets.py:on_close()] - Websocket Closed: ID: 136280011502640 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
