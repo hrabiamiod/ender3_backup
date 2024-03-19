@@ -266,3 +266,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryi4BZ8VgQrwUKnm
 2024-03-19 00:20:11,536 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bianka_1_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-03-19 00:20:11,545 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 515.31ms
 2024-03-19 00:20:11,584 [job_state.py:_status_update()] - Job Started: bianka_1_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-19 01:10:15,847 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywzjo9P6kfAdCfxUf
+2024-03-19 01:10:16,479 [application.py:post()] - Processing Uploaded File: bianka_fast_27m_0.20mm_210C_PLA_ENDER3.gcode
+2024-03-19 01:10:16,601 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-19 01:10:16,638 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bianka_fast_27m_0.20mm_210C_PLA_ENDER3.gcode") successfully finished
+2024-03-19 01:10:16,652 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 805.58ms
+2024-03-19 01:10:16,810 [job_state.py:_status_update()] - Job Started: bianka_fast_27m_0.20mm_210C_PLA_ENDER3.gcode
+2024-03-19 01:10:44,871 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
