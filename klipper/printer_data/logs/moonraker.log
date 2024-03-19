@@ -887,3 +887,41 @@ Properties:
 2024-03-19 08:28:17,496 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
 2024-03-19 08:28:17,497 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-19 08:28:17,987 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-19 08:41:13,475 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-19 08:41:13,478 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1710834044.331966, Usage: 0.38%, Memory: 46640 kB
+System Time: 1710834045.333194, Usage: 0.43%, Memory: 46640 kB
+System Time: 1710834046.334365, Usage: 0.42%, Memory: 46640 kB
+System Time: 1710834047.335356, Usage: 0.5%, Memory: 46640 kB
+System Time: 1710834048.335860, Usage: 0.6%, Memory: 46644 kB
+System Time: 1710834049.336997, Usage: 0.5%, Memory: 46644 kB
+System Time: 1710834050.339308, Usage: 0.42%, Memory: 46644 kB
+System Time: 1710834051.341455, Usage: 0.44%, Memory: 46644 kB
+System Time: 1710834052.341798, Usage: 1.48%, Memory: 46644 kB
+System Time: 1710834053.342428, Usage: 0.45%, Memory: 46644 kB
+System Time: 1710834054.343313, Usage: 0.78%, Memory: 46644 kB
+System Time: 1710834055.344414, Usage: 0.43%, Memory: 46644 kB
+System Time: 1710834056.346405, Usage: 0.38%, Memory: 46644 kB
+System Time: 1710834057.347635, Usage: 0.51%, Memory: 46644 kB
+System Time: 1710834058.348112, Usage: 0.59%, Memory: 46644 kB
+System Time: 1710834059.349115, Usage: 0.5%, Memory: 46644 kB
+System Time: 1710834060.349473, Usage: 0.42%, Memory: 46644 kB
+System Time: 1710834061.350710, Usage: 0.43%, Memory: 46644 kB
+System Time: 1710834062.351288, Usage: 0.44%, Memory: 46644 kB
+System Time: 1710834063.352060, Usage: 0.49%, Memory: 46644 kB
+System Time: 1710834064.352702, Usage: 1.4%, Memory: 46644 kB
+System Time: 1710834065.353205, Usage: 0.86%, Memory: 46644 kB
+System Time: 1710834066.354381, Usage: 0.42%, Memory: 46644 kB
+System Time: 1710834067.356305, Usage: 0.5%, Memory: 46644 kB
+System Time: 1710834068.357861, Usage: 0.62%, Memory: 46644 kB
+System Time: 1710834069.358983, Usage: 0.52%, Memory: 46644 kB
+System Time: 1710834070.359930, Usage: 0.51%, Memory: 46644 kB
+System Time: 1710834071.360850, Usage: 0.29%, Memory: 46644 kB
+System Time: 1710834072.361906, Usage: 0.27%, Memory: 46644 kB
+System Time: 1710834073.362746, Usage: 0.31%, Memory: 46644 kB
+CPU Temperature: None
+2024-03-19 08:41:13,478 [websockets.py:on_close()] - Websocket Closed: ID: 131342744968816 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.65
+2024-03-19 08:41:15,485 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.71ms
+2024-03-19 08:41:15,485 [websockets.py:open()] - Websocket Opened: ID: 131342744811936, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-19 08:41:15,489 [websockets.py:_handle_identify()] - Websocket 131342744811936 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
