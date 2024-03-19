@@ -5859,3 +5859,33 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-19 01:05:52,217      INFO  obico.app - print event: PrintDone (1710804011)
 2024-03-19 01:10:17,062      INFO  obico.app - detected state change: Operational -> Printing
 2024-03-19 01:10:17,371      INFO  obico.app - print event: PrintStarted (1710807016)
+2024-03-19 01:46:26,651      INFO  obico.app - detected state change: Printing -> Operational
+2024-03-19 01:46:26,652      INFO  obico.app - print event: PrintDone (1710807016)
+2024-03-19 01:47:08,030      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-19 08:28:00,845      INFO  obico.app - Fetching linked printer...
+2024-03-19 08:28:01,250      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-03-19 08:28:01,252   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:01,257   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-19 08:28:01,331      INFO  backoff - Backing off ensure_api_key(...) for 0.5s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b17a81f9b40>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-19 08:28:01,877   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-19 08:28:01,879      INFO  backoff - Backing off ensure_api_key(...) for 0.1s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b17a81fa6e0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-19 08:28:02,017   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-19 08:28:02,019      INFO  backoff - Backing off ensure_api_key(...) for 1.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b17a81fae30>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-19 08:28:02,255   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:03,257   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:03,941   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-19 08:28:03,944      INFO  backoff - Backing off ensure_api_key(...) for 3.3s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b17a81fb640>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-19 08:28:04,262   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:05,265   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:06,269   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:07,269   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-19 08:28:07,272   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-19 08:28:07,282      INFO  obico.moonraker_conn - connection is open
+2024-03-19 08:28:07,294      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.9s (False)
+2024-03-19 08:28:08,179      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.4s (False)
+2024-03-19 08:28:08,287      INFO  obico.janus - Starting webcam streamer
+2024-03-19 08:28:08,290      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-03-19 08:28:08,433   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-03-19 08:28:08,558      INFO  backoff - Backing off wait_for_klippy_ready(...) for 3.6s (False)
+2024-03-19 08:28:09,292      INFO  backoff - Backing off wait_for_janus(...) for 0.6s (ConnectionRefusedError: [Errno 111] Connection refused)
