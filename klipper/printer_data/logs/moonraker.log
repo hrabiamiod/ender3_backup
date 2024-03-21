@@ -580,3 +580,6 @@ Error configuring printer
 2024-03-21 13:20:09,931 [websockets.py:open()] - Websocket Opened: ID: 135512760639232, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-03-21 13:20:10,206 [websockets.py:_handle_identify()] - Websocket 135512760639232 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-21 14:24:19,802 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-21 23:08:33,262 [websockets.py:on_close()] - Websocket Closed: ID: 135512760639232 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.33
+2024-03-21 23:08:33,262 [websockets.py:on_close()] - Websocket Closed: ID: 135512760644512 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.37
+2024-03-21 23:08:33,263 [websockets.py:on_close()] - Websocket Closed: ID: 135512760642592 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.40
