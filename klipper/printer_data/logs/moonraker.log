@@ -536,3 +536,35 @@ Diverged: False
 2024-03-21 10:24:18,452 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
 2024-03-21 10:24:18,452 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
 2024-03-21 10:24:18,704 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-21 10:24:18,759 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['basic.target', 'system.slice', 'systemd-journald.socket', 'network-online.target', '-.mount', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-21 10:24:18,869 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-21 10:24:18,889 [application.py:log_request()] - 404 GET /api/ (127.0.0.1) [_TRUSTED_USER_] 20.06ms
+2024-03-21 10:24:19,014 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-125-gbfb71bc2
+2024-03-21 10:24:19,400 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.33ms
+2024-03-21 10:24:19,400 [websockets.py:open()] - Websocket Opened: ID: 135512760633424, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-21 10:24:19,403 [websockets.py:_handle_identify()] - Websocket 135512760633424 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-21 10:24:19,604 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.84ms
+2024-03-21 10:24:19,605 [websockets.py:open()] - Websocket Opened: ID: 135512759368624, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-03-21 10:25:48,905 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-21 10:25:48,906 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-21 10:25:48,907 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
