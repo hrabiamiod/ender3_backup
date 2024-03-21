@@ -569,3 +569,13 @@ config, and restart the host software.
 Error configuring printer
 
 2024-03-21 11:24:19,771 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-21 13:20:09,859 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-21 13:20:09,860 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.88ms
+2024-03-21 13:20:09,860 [websockets.py:open()] - Websocket Opened: ID: 135512760642592, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-21 13:20:09,872 [websockets.py:_handle_identify()] - Websocket 135512760642592 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-21 13:20:09,887 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.62ms
+2024-03-21 13:20:09,887 [websockets.py:open()] - Websocket Opened: ID: 135512760644512, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-03-21 13:20:09,916 [websockets.py:_handle_identify()] - Websocket 135512760644512 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-21 13:20:09,931 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.71ms
+2024-03-21 13:20:09,931 [websockets.py:open()] - Websocket Opened: ID: 135512760639232, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-21 13:20:10,206 [websockets.py:_handle_identify()] - Websocket 135512760639232 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
