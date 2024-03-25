@@ -18714,3 +18714,4 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-25 20:51:31,562      INFO  backoff - Backing off wait_for_klippy_ready(...) for 54.0s (False)
 2024-03-25 20:52:25,810      INFO  obico.moonraker_conn - Klippy ready
 2024-03-25 20:52:26,061      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-25 21:29:42,186      INFO  obico.app - detected state change: Operational -> Offline

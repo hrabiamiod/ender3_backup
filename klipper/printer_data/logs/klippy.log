@@ -7790,3 +7790,235 @@ webhooks: registering remote method 'start_job_queue' for connection id: 1354487
 webhooks: registering remote method 'timelapse_newframe' for connection id: 135448706727648
 webhooks: registering remote method 'timelapse_saveFrames' for connection id: 135448706727648
 webhooks: registering remote method 'timelapse_render' for connection id: 135448706727648
+b'Got EOF when reading from device'
+Timeout with MCU 'PIS' (eventtime=385561.358647)
+Transition to shutdown state: Lost communication with MCU 'PIS'
+Dumping gcode input 0 blocks
+Dumping 20 requests for client 135448706727648
+Received 384976.751913: b'{"id": 135512733219088, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385006.780914: b'{"id": 135512733006864, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385036.816810: b'{"id": 135512759366608, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385066.844493: b'{"id": 135512733216448, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385096.871260: b'{"id": 135512760614720, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385126.900131: b'{"id": 135512759415760, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385156.929050: b'{"id": 135512759281232, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385186.957436: b'{"id": 135512733209584, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385216.988533: b'{"id": 135512733205120, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385247.016124: b'{"id": 135512733218512, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385277.045024: b'{"id": 135512759416288, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385307.074981: b'{"id": 135512758992512, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385337.106512: b'{"id": 135512760608240, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385367.135331: b'{"id": 135512759444880, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385397.164291: b'{"id": 135512759580848, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385427.192617: b'{"id": 135512759575616, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385457.221713: b'{"id": 135512759574752, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385487.253252: b'{"id": 135512759449872, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385517.282361: b'{"id": 135512759450064, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+Received 385547.311110: b'{"id": 135512760614528, "method": "objects/query", "params": {"objects": {"webhooks": null, "print_stats": null, "virtual_sdcard": null, "display_status": null, "heaters": null, "toolhead": null, "extruder": null, "gcode_move": null, "gcode_macro _OBICO_LAYER_CHANGE": null, "fan": null, "heater_bed": null}}}'
+gcode state: absolute_coord=True absolute_extrude=True base_position=[0.0, 0.0, 0.0, 0.0] last_position=[0.0, 0.0, 0.0, 0.0] homing_position=[0.0, 0.0, 0.0, 0.0] speed_factor=0.016666666666666666 extrude_factor=1.0 speed=25.0
+Reactor garbage collection: (385186.957618696, 384676.451502284, 0.0)
+MCU 'mcu' shutdown: Command request
+clocksync state: mcu_freq=64000000 last_clock=424369686000 clock_est=(385532.764 422542245840 63997552.786) min_half_rtt=0.000095 min_rtt_time=384428.019 time_avg=385532.764(843.486) clock_avg=422542245840.246(53981019852.336) pred_variance=1381265.853
+Dumping serial stats: bytes_write=35330 bytes_read=280664 bytes_retransmit=0 bytes_invalid=0 send_seq=4125 receive_seq=4125 retransmit_seq=0 srtt=0.001 rttvar=0.001 rto=0.025 ready_bytes=0 upcoming_bytes=0
+Dumping send queue 100 messages
+Sent 0 385486.484217 385486.484217 6: seq: 19, get_clock
+Sent 1 385487.469142 385487.469142 6: seq: 1a, get_clock
+Sent 2 385488.453297 385488.453297 6: seq: 1b, get_clock
+Sent 3 385489.438052 385489.438052 6: seq: 1c, get_clock
+Sent 4 385490.422978 385490.422978 6: seq: 1d, get_clock
+Sent 5 385491.407679 385491.407679 6: seq: 1e, get_clock
+Sent 6 385492.392423 385492.392423 6: seq: 1f, get_clock
+Sent 7 385493.377316 385493.377316 6: seq: 10, get_clock
+Sent 8 385494.361488 385494.361488 6: seq: 11, get_clock
+Sent 9 385495.346258 385495.346258 6: seq: 12, get_clock
+Sent 10 385496.331016 385496.331016 6: seq: 13, get_clock
+Sent 11 385497.315883 385497.315883 6: seq: 14, get_clock
+Sent 12 385498.300932 385498.300932 6: seq: 15, get_clock
+Sent 13 385499.285437 385499.285437 6: seq: 16, get_clock
+Sent 14 385500.270007 385500.270007 6: seq: 17, get_clock
+Sent 15 385501.254718 385501.254718 6: seq: 18, get_clock
+Sent 16 385502.239235 385502.239235 6: seq: 19, get_clock
+Sent 17 385503.223352 385503.223352 6: seq: 1a, get_clock
+Sent 18 385504.208035 385504.208035 6: seq: 1b, get_clock
+Sent 19 385505.192953 385505.192953 6: seq: 1c, get_clock
+Sent 20 385506.177844 385506.177844 6: seq: 1d, get_clock
+Sent 21 385507.162712 385507.162712 6: seq: 1e, get_clock
+Sent 22 385508.147171 385508.147171 6: seq: 1f, get_clock
+Sent 23 385509.131815 385509.131815 6: seq: 10, get_clock
+Sent 24 385510.116726 385510.116726 6: seq: 11, get_clock
+Sent 25 385511.101238 385511.101238 6: seq: 12, get_clock
+Sent 26 385511.320384 385511.320384 14: seq: 13, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'4 '
+Sent 27 385511.821567 385511.821567 9: seq: 14, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 28 385511.827219 385511.827219 10: seq: 15, st7920_send_data oid=3 data=b'3 '
+Sent 29 385512.085878 385512.085878 6: seq: 16, get_clock
+Sent 30 385513.071095 385513.071095 6: seq: 17, get_clock
+Sent 31 385514.055916 385514.055916 6: seq: 18, get_clock
+Sent 32 385514.826717 385514.826717 9: seq: 19, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 33 385514.832219 385514.832219 10: seq: 1a, st7920_send_data oid=3 data=b'4 '
+Sent 34 385515.040006 385515.040006 6: seq: 1b, get_clock
+Sent 35 385515.831941 385515.831941 9: seq: 1c, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 36 385515.837750 385515.837750 10: seq: 1d, st7920_send_data oid=3 data=b'3 '
+Sent 37 385516.025033 385516.025033 6: seq: 1e, get_clock
+Sent 38 385517.010051 385517.010051 6: seq: 1f, get_clock
+Sent 39 385517.994310 385517.994310 6: seq: 10, get_clock
+Sent 40 385518.979089 385518.979089 6: seq: 11, get_clock
+Sent 41 385519.964007 385519.964007 6: seq: 12, get_clock
+Sent 42 385520.948209 385520.948209 6: seq: 13, get_clock
+Sent 43 385521.933069 385521.933069 6: seq: 14, get_clock
+Sent 44 385522.917806 385522.917806 6: seq: 15, get_clock
+Sent 45 385523.902703 385523.902703 6: seq: 16, get_clock
+Sent 46 385524.339299 385524.339299 14: seq: 17, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'4 '
+Sent 47 385524.839563 385524.839563 9: seq: 18, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 48 385524.845226 385524.845226 10: seq: 19, st7920_send_data oid=3 data=b'3 '
+Sent 49 385524.886797 385524.886797 6: seq: 1a, get_clock
+Sent 50 385525.871578 385525.871578 6: seq: 1b, get_clock
+Sent 51 385526.856461 385526.856461 6: seq: 1c, get_clock
+Sent 52 385527.841001 385527.841001 6: seq: 1d, get_clock
+Sent 53 385528.825412 385528.825412 6: seq: 1e, get_clock
+Sent 54 385529.810140 385529.810140 6: seq: 1f, get_clock
+Sent 55 385530.795084 385530.795084 6: seq: 10, get_clock
+Sent 56 385531.779097 385531.779097 6: seq: 11, get_clock
+Sent 57 385532.764021 385532.764021 6: seq: 12, get_clock
+Sent 58 385532.849198 385532.849198 14: seq: 13, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'4 '
+Sent 59 385533.349869 385533.349869 14: seq: 14, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'3 '
+Sent 60 385533.748304 385533.748304 6: seq: 15, get_clock
+Sent 61 385533.850240 385533.850240 9: seq: 16, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 62 385533.856205 385533.856205 10: seq: 17, st7920_send_data oid=3 data=b'4 '
+Sent 63 385534.351108 385534.351108 9: seq: 18, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 64 385534.356221 385534.356221 10: seq: 19, st7920_send_data oid=3 data=b'3 '
+Sent 65 385534.732556 385534.732556 6: seq: 1a, get_clock
+Sent 66 385535.717758 385535.717758 6: seq: 1b, get_clock
+Sent 67 385536.702850 385536.702850 6: seq: 1c, get_clock
+Sent 68 385537.687069 385537.687069 6: seq: 1d, get_clock
+Sent 69 385538.671707 385538.671707 6: seq: 1e, get_clock
+Sent 70 385539.656804 385539.656804 6: seq: 1f, get_clock
+Sent 71 385540.641111 385540.641111 6: seq: 10, get_clock
+Sent 72 385541.625907 385541.625907 6: seq: 11, get_clock
+Sent 73 385542.610745 385542.610745 6: seq: 12, get_clock
+Sent 74 385543.595421 385543.595421 6: seq: 13, get_clock
+Sent 75 385544.580250 385544.580250 6: seq: 14, get_clock
+Sent 76 385545.564793 385545.564793 6: seq: 15, get_clock
+Sent 77 385546.549693 385546.549693 6: seq: 16, get_clock
+Sent 78 385547.534052 385547.534052 6: seq: 17, get_clock
+Sent 79 385548.518272 385548.518272 6: seq: 18, get_clock
+Sent 80 385548.871187 385548.871187 9: seq: 19, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 81 385548.877222 385548.877222 10: seq: 1a, st7920_send_data oid=3 data=b'4 '
+Sent 82 385549.503172 385549.503172 6: seq: 1b, get_clock
+Sent 83 385549.872842 385549.872842 9: seq: 1c, st7920_send_cmds oid=3 cmds=b'\x82'
+Sent 84 385549.878227 385549.878227 10: seq: 1d, st7920_send_data oid=3 data=b'3 '
+Sent 85 385550.487857 385550.487857 6: seq: 1e, get_clock
+Sent 86 385551.472447 385551.472447 6: seq: 1f, get_clock
+Sent 87 385552.456575 385552.456575 6: seq: 10, get_clock
+Sent 88 385553.376309 385553.376309 14: seq: 11, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'4 '
+Sent 89 385553.441512 385553.441512 6: seq: 12, get_clock
+Sent 90 385553.876410 385553.876410 14: seq: 13, st7920_send_cmds oid=3 cmds=b'\x82', st7920_send_data oid=3 data=b'3 '
+Sent 91 385554.426351 385554.426351 6: seq: 14, get_clock
+Sent 92 385555.410895 385555.410895 6: seq: 15, get_clock
+Sent 93 385556.394869 385556.394869 6: seq: 16, get_clock
+Sent 94 385557.379836 385557.379836 6: seq: 17, get_clock
+Sent 95 385558.364576 385558.364576 6: seq: 18, get_clock
+Sent 96 385559.348723 385559.348723 6: seq: 19, get_clock
+Sent 97 385560.333888 385560.333888 6: seq: 1a, get_clock
+Sent 98 385561.318741 385561.318741 6: seq: 1b, get_clock
+Sent 99 385561.359835 385561.359835 6: seq: 1c, emergency_stop
+Dumping receive queue 100 messages
+Receive: 0 385548.880134 385548.877222 15: seq: 1b, analog_in_state oid=13 next_clock=2685524992 value=31419
+Receive: 1 385548.970168 385548.877222 15: seq: 1b, analog_in_state oid=22 next_clock=2691284992 value=31385
+Receive: 2 385549.180167 385548.877222 15: seq: 1b, analog_in_state oid=13 next_clock=2704724992 value=31420
+Receive: 3 385549.270162 385548.877222 15: seq: 1b, analog_in_state oid=22 next_clock=2710484992 value=31385
+Receive: 4 385549.480161 385548.877222 15: seq: 1b, analog_in_state oid=13 next_clock=2723924992 value=31417
+Receive: 5 385549.504144 385549.503172 11: seq: 1c, clock clock=2706723453
+Receive: 6 385549.570187 385549.503172 15: seq: 1c, analog_in_state oid=22 next_clock=2729684992 value=31383
+Receive: 7 385549.780165 385549.503172 15: seq: 1c, analog_in_state oid=13 next_clock=2743124992 value=31414
+Receive: 8 385549.870164 385549.503172 15: seq: 1c, analog_in_state oid=22 next_clock=2748884992 value=31392
+Receive: 9 385550.080165 385549.878227 15: seq: 1e, analog_in_state oid=13 next_clock=2762324992 value=31418
+Receive: 10 385550.170169 385549.878227 15: seq: 1e, analog_in_state oid=22 next_clock=2768084992 value=31394
+Receive: 11 385550.380169 385549.878227 15: seq: 1e, analog_in_state oid=13 next_clock=2781524992 value=31415
+Receive: 12 385550.470162 385549.878227 15: seq: 1e, analog_in_state oid=22 next_clock=2787284992 value=31388
+Receive: 13 385550.488148 385550.487857 11: seq: 1f, clock clock=2769740743
+Receive: 14 385550.680164 385550.487857 15: seq: 1f, analog_in_state oid=13 next_clock=2800724992 value=31402
+Receive: 15 385550.770248 385550.487857 15: seq: 1f, analog_in_state oid=22 next_clock=2806484992 value=31388
+Receive: 16 385550.980178 385550.487857 15: seq: 1f, analog_in_state oid=13 next_clock=2819924992 value=31420
+Receive: 17 385551.070166 385550.487857 15: seq: 1f, analog_in_state oid=22 next_clock=2825684992 value=31383
+Receive: 18 385551.280176 385550.487857 15: seq: 1f, analog_in_state oid=13 next_clock=2839124992 value=31406
+Receive: 19 385551.370162 385550.487857 15: seq: 1f, analog_in_state oid=22 next_clock=2844884992 value=31392
+Receive: 20 385551.473150 385551.472447 11: seq: 10, clock clock=2832752225
+Receive: 21 385551.580173 385551.472447 15: seq: 10, analog_in_state oid=13 next_clock=2858324992 value=31406
+Receive: 22 385551.670162 385551.472447 15: seq: 10, analog_in_state oid=22 next_clock=2864084992 value=31381
+Receive: 23 385551.880170 385551.472447 15: seq: 10, analog_in_state oid=13 next_clock=2877524992 value=31414
+Receive: 24 385551.970196 385551.472447 15: seq: 10, analog_in_state oid=22 next_clock=2883284992 value=31392
+Receive: 25 385552.180156 385551.472447 15: seq: 10, analog_in_state oid=13 next_clock=2896724992 value=31421
+Receive: 26 385552.270176 385551.472447 15: seq: 10, analog_in_state oid=22 next_clock=2902484992 value=31370
+Receive: 27 385552.457164 385552.456575 11: seq: 11, clock clock=2895734215
+Receive: 28 385552.480150 385552.456575 15: seq: 11, analog_in_state oid=13 next_clock=2915924992 value=31408
+Receive: 29 385552.570171 385552.456575 15: seq: 11, analog_in_state oid=22 next_clock=2921684992 value=31404
+Receive: 30 385552.743169 385552.456575 14: seq: 11, stats count=178 sum=153571 sumsq=950620
+Receive: 31 385552.780166 385552.456575 15: seq: 11, analog_in_state oid=13 next_clock=2935124992 value=31420
+Receive: 32 385552.870181 385552.456575 15: seq: 11, analog_in_state oid=22 next_clock=2940884992 value=31372
+Receive: 33 385553.080164 385552.456575 15: seq: 11, analog_in_state oid=13 next_clock=2954324992 value=31403
+Receive: 34 385553.170197 385552.456575 15: seq: 11, analog_in_state oid=22 next_clock=2960084992 value=31375
+Receive: 35 385553.380135 385553.376309 15: seq: 12, analog_in_state oid=13 next_clock=2973524992 value=31420
+Receive: 36 385553.442159 385553.441512 11: seq: 13, clock clock=2958767728
+Receive: 37 385553.470149 385553.441512 15: seq: 13, analog_in_state oid=22 next_clock=2979284992 value=31378
+Receive: 38 385553.680170 385553.441512 15: seq: 13, analog_in_state oid=13 next_clock=2992724992 value=31421
+Receive: 39 385553.770232 385553.441512 15: seq: 13, analog_in_state oid=22 next_clock=2998484992 value=31392
+Receive: 40 385553.980166 385553.876410 15: seq: 14, analog_in_state oid=13 next_clock=3011924992 value=31425
+Receive: 41 385554.070185 385553.876410 15: seq: 14, analog_in_state oid=22 next_clock=3017684992 value=31398
+Receive: 42 385554.280166 385553.876410 15: seq: 14, analog_in_state oid=13 next_clock=3031124992 value=31412
+Receive: 43 385554.370185 385553.876410 15: seq: 14, analog_in_state oid=22 next_clock=3036884992 value=31380
+Receive: 44 385554.427149 385554.426351 11: seq: 15, clock clock=3021794504
+Receive: 45 385554.580175 385554.426351 15: seq: 15, analog_in_state oid=13 next_clock=3050324992 value=31421
+Receive: 46 385554.670186 385554.426351 15: seq: 15, analog_in_state oid=22 next_clock=3056084992 value=31385
+Receive: 47 385554.880168 385554.426351 15: seq: 15, analog_in_state oid=13 next_clock=3069524992 value=31405
+Receive: 48 385554.970180 385554.426351 15: seq: 15, analog_in_state oid=22 next_clock=3075284992 value=31389
+Receive: 49 385555.180164 385554.426351 15: seq: 15, analog_in_state oid=13 next_clock=3088724992 value=31417
+Receive: 50 385555.270154 385554.426351 15: seq: 15, analog_in_state oid=22 next_clock=3094484992 value=31389
+Receive: 51 385555.411139 385555.410895 11: seq: 16, clock clock=3084802828
+Receive: 52 385555.480160 385555.410895 15: seq: 16, analog_in_state oid=13 next_clock=3107924992 value=31410
+Receive: 53 385555.570161 385555.410895 15: seq: 16, analog_in_state oid=22 next_clock=3113684992 value=31380
+Receive: 54 385555.780177 385555.410895 15: seq: 16, analog_in_state oid=13 next_clock=3127124992 value=31418
+Receive: 55 385555.870168 385555.410895 15: seq: 16, analog_in_state oid=22 next_clock=3132884992 value=31387
+Receive: 56 385556.080159 385555.410895 15: seq: 16, analog_in_state oid=13 next_clock=3146324992 value=31417
+Receive: 57 385556.170170 385555.410895 15: seq: 16, analog_in_state oid=22 next_clock=3152084992 value=31385
+Receive: 58 385556.380159 385555.410895 15: seq: 16, analog_in_state oid=13 next_clock=3165524992 value=31421
+Receive: 59 385556.395146 385556.394869 11: seq: 17, clock clock=3147774759
+Receive: 60 385556.470161 385556.394869 15: seq: 17, analog_in_state oid=22 next_clock=3171284992 value=31388
+Receive: 61 385556.680162 385556.394869 15: seq: 17, analog_in_state oid=13 next_clock=3184724992 value=31417
+Receive: 62 385556.770163 385556.394869 15: seq: 17, analog_in_state oid=22 next_clock=3190484992 value=31382
+Receive: 63 385556.980163 385556.394869 15: seq: 17, analog_in_state oid=13 next_clock=3203924992 value=31403
+Receive: 64 385557.070160 385556.394869 15: seq: 17, analog_in_state oid=22 next_clock=3209684992 value=31383
+Receive: 65 385557.282548 385556.394869 15: seq: 17, analog_in_state oid=13 next_clock=3223124992 value=31426
+Receive: 66 385557.370156 385556.394869 15: seq: 17, analog_in_state oid=22 next_clock=3228884992 value=31383
+Receive: 67 385557.380142 385557.379836 11: seq: 18, clock clock=3210810367
+Receive: 68 385557.580185 385557.379836 15: seq: 18, analog_in_state oid=13 next_clock=3242324992 value=31417
+Receive: 69 385557.670169 385557.379836 15: seq: 18, analog_in_state oid=22 next_clock=3248084992 value=31386
+Receive: 70 385557.843161 385557.379836 14: seq: 18, stats count=176 sum=154104 sumsq=1166988
+Receive: 71 385557.880168 385557.379836 15: seq: 18, analog_in_state oid=13 next_clock=3261524992 value=31406
+Receive: 72 385557.970179 385557.379836 15: seq: 18, analog_in_state oid=22 next_clock=3267284992 value=31390
+Receive: 73 385558.180174 385557.379836 15: seq: 18, analog_in_state oid=13 next_clock=3280724992 value=31417
+Receive: 74 385558.270176 385557.379836 15: seq: 18, analog_in_state oid=22 next_clock=3286484992 value=31390
+Receive: 75 385558.365157 385558.364576 11: seq: 19, clock clock=3273831593
+Receive: 76 385558.480168 385558.364576 15: seq: 19, analog_in_state oid=13 next_clock=3299924992 value=31409
+Receive: 77 385558.570163 385558.364576 15: seq: 19, analog_in_state oid=22 next_clock=3305684992 value=31388
+Receive: 78 385558.780166 385558.364576 15: seq: 19, analog_in_state oid=13 next_clock=3319124992 value=31424
+Receive: 79 385558.870183 385558.364576 15: seq: 19, analog_in_state oid=22 next_clock=3324884992 value=31378
+Receive: 80 385559.080171 385558.364576 15: seq: 19, analog_in_state oid=13 next_clock=3338324992 value=31423
+Receive: 81 385559.170173 385558.364576 15: seq: 19, analog_in_state oid=22 next_clock=3344084992 value=31378
+Receive: 82 385559.349140 385559.348723 11: seq: 1a, clock clock=3336814644
+Receive: 83 385559.380162 385559.348723 15: seq: 1a, analog_in_state oid=13 next_clock=3357524992 value=31419
+Receive: 84 385559.470161 385559.348723 15: seq: 1a, analog_in_state oid=22 next_clock=3363284992 value=31388
+Receive: 85 385559.680161 385559.348723 15: seq: 1a, analog_in_state oid=13 next_clock=3376724992 value=31405
+Receive: 86 385559.770186 385559.348723 15: seq: 1a, analog_in_state oid=22 next_clock=3382484992 value=31390
+Receive: 87 385559.980177 385559.348723 15: seq: 1a, analog_in_state oid=13 next_clock=3395924992 value=31409
+Receive: 88 385560.070181 385559.348723 15: seq: 1a, analog_in_state oid=22 next_clock=3401684992 value=31381
+Receive: 89 385560.280169 385559.348723 15: seq: 1a, analog_in_state oid=13 next_clock=3415124992 value=31422
+Receive: 90 385560.334154 385560.333888 11: seq: 1b, clock clock=3399862903
+Receive: 91 385560.370174 385560.333888 15: seq: 1b, analog_in_state oid=22 next_clock=3420884992 value=31390
+Receive: 92 385560.580164 385560.333888 15: seq: 1b, analog_in_state oid=13 next_clock=3434324992 value=31413
+Receive: 93 385560.670163 385560.333888 15: seq: 1b, analog_in_state oid=22 next_clock=3440084992 value=31383
+Receive: 94 385560.880174 385560.333888 15: seq: 1b, analog_in_state oid=13 next_clock=3453524992 value=31421
+Receive: 95 385560.970168 385560.333888 15: seq: 1b, analog_in_state oid=22 next_clock=3459284992 value=31395
+Receive: 96 385561.180168 385560.333888 15: seq: 1b, analog_in_state oid=13 next_clock=3472724992 value=31411
+Receive: 97 385561.270168 385560.333888 15: seq: 1b, analog_in_state oid=22 next_clock=3478484992 value=31384
+Receive: 98 385561.319156 385561.318741 11: seq: 1c, clock clock=3462890992
+Receive: 99 385561.362014 385561.359835 12: seq: 1d, shutdown clock=3465521061 static_string_id=Command request

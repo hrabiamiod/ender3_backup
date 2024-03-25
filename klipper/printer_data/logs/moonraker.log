@@ -420,3 +420,41 @@ Error configuring printer
 2024-03-25 20:52:13,518 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-03-25 20:52:13,774 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-25 20:52:14,273 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-25 21:29:42,182 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-25 21:29:42,186 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1711398552.302355, Usage: 0.7%, Memory: 44700 kB
+System Time: 1711398553.302864, Usage: 0.65%, Memory: 44700 kB
+System Time: 1711398554.303519, Usage: 0.7%, Memory: 44700 kB
+System Time: 1711398555.306184, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398556.307098, Usage: 0.62%, Memory: 44700 kB
+System Time: 1711398557.307983, Usage: 0.62%, Memory: 44700 kB
+System Time: 1711398558.309520, Usage: 0.79%, Memory: 44700 kB
+System Time: 1711398559.318437, Usage: 1.74%, Memory: 44700 kB
+System Time: 1711398560.311096, Usage: 0.74%, Memory: 44700 kB
+System Time: 1711398561.311632, Usage: 1.2%, Memory: 44700 kB
+System Time: 1711398562.312167, Usage: 0.73%, Memory: 44700 kB
+System Time: 1711398563.313440, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398564.313897, Usage: 0.71%, Memory: 44700 kB
+System Time: 1711398565.314456, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398566.314924, Usage: 0.6%, Memory: 44700 kB
+System Time: 1711398567.315897, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398568.316754, Usage: 0.86%, Memory: 44700 kB
+System Time: 1711398569.317510, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398570.318299, Usage: 0.7%, Memory: 44700 kB
+System Time: 1711398571.318997, Usage: 1.81%, Memory: 44700 kB
+System Time: 1711398572.319752, Usage: 0.67%, Memory: 44700 kB
+System Time: 1711398573.320470, Usage: 1.12%, Memory: 44700 kB
+System Time: 1711398574.321412, Usage: 0.7%, Memory: 44700 kB
+System Time: 1711398575.322363, Usage: 0.62%, Memory: 44700 kB
+System Time: 1711398576.323040, Usage: 0.59%, Memory: 44700 kB
+System Time: 1711398577.323928, Usage: 0.63%, Memory: 44700 kB
+System Time: 1711398578.324379, Usage: 1.15%, Memory: 44700 kB
+System Time: 1711398579.325990, Usage: 0.99%, Memory: 44700 kB
+System Time: 1711398580.326319, Usage: 0.8%, Memory: 44700 kB
+System Time: 1711398581.328019, Usage: 0.73%, Memory: 44700 kB
+CPU Temperature: None
+2024-03-25 21:29:42,188 [websockets.py:on_close()] - Websocket Closed: ID: 135512760611552 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.40
+2024-03-25 21:29:44,221 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.92ms
+2024-03-25 21:29:44,222 [websockets.py:open()] - Websocket Opened: ID: 135512759415520, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 21:29:44,239 [websockets.py:_handle_identify()] - Websocket 135512759415520 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
