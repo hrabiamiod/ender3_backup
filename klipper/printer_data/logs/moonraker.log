@@ -303,3 +303,74 @@ mcu 'PIS': Command format mismatch: query_adxl345 oid=%c rest_ticks=%u vs query_
 2024-03-25 19:49:10,425 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
 2024-03-25 19:49:20,451 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-03-25 19:49:20,460 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-03-25 20:05:29,542 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-25 20:05:29,547 [websockets.py:on_close()] - Websocket Closed: ID: 135512732997120 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.80
+2024-03-25 20:05:31,555 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.79ms
+2024-03-25 20:05:31,555 [websockets.py:open()] - Websocket Opened: ID: 135512759274656, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:31,561 [websockets.py:_handle_identify()] - Websocket 135512759274656 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:31,580 [websockets.py:on_close()] - Websocket Closed: ID: 135512759274656 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.02
+2024-03-25 20:05:33,587 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.73ms
+2024-03-25 20:05:33,587 [websockets.py:open()] - Websocket Opened: ID: 135512759450352, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:33,589 [websockets.py:_handle_identify()] - Websocket 135512759450352 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:33,601 [websockets.py:on_close()] - Websocket Closed: ID: 135512759450352 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.01
+2024-03-25 20:05:35,610 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2024-03-25 20:05:35,610 [websockets.py:open()] - Websocket Opened: ID: 135512759441424, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:35,612 [websockets.py:_handle_identify()] - Websocket 135512759441424 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:35,637 [websockets.py:on_close()] - Websocket Closed: ID: 135512759441424 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.03
+2024-03-25 20:05:37,645 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.02ms
+2024-03-25 20:05:37,645 [websockets.py:open()] - Websocket Opened: ID: 135512759443824, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:37,650 [websockets.py:_handle_identify()] - Websocket 135512759443824 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:37,661 [websockets.py:on_close()] - Websocket Closed: ID: 135512759443824 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.02
+2024-03-25 20:05:39,667 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.70ms
+2024-03-25 20:05:39,667 [websockets.py:open()] - Websocket Opened: ID: 135512759447136, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:39,671 [websockets.py:_handle_identify()] - Websocket 135512759447136 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:39,682 [websockets.py:on_close()] - Websocket Closed: ID: 135512759447136 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.02
+2024-03-25 20:05:40,342 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512759368624
+2024-03-25 20:05:40,353 [websockets.py:on_close()] - Websocket Closed: ID: 135512759368624 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.75
+2024-03-25 20:05:40,862 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-25 20:05:40,936 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'system.slice', 'sysinit.target']
+**After=['systemd-journald.socket', 'system.slice', 'network-online.target', 'basic.target', '-.mount', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-03-25 20:05:41,438 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-132-ge37b007f
+2024-03-25 20:05:41,688 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.70ms
+2024-03-25 20:05:41,688 [websockets.py:open()] - Websocket Opened: ID: 135512759361616, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:05:41,691 [websockets.py:_handle_identify()] - Websocket 135512759361616 Client Identified - Name: OctoEverywhere, Version: 2.10.8, Type: agent
+2024-03-25 20:05:43,002 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-25 20:05:43,005 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-25 20:05:43,007 [klippy_connection.py:_check_ready()] - 
+MCU Protocol error
+
+This is frequently caused by running an older version of the
+firmware on the MCU(s). Fix by recompiling and flashing the
+firmware.
+
+Your Klipper version is: v0.12.0-132-ge37b007f
+MCU(s) which should be updated:
+mcu: Current version v0.12.0-25-g99d7af87
+PIS: Current version v0.11.0-219-g645a1b83
+Up-to-date MCU(s):
+<none>
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+
+mcu 'PIS': Command format mismatch: query_adxl345 oid=%c rest_ticks=%u vs query_adxl345 oid=%c clock=%u rest_ticks=%u
+2024-03-25 20:05:58,573 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512759361616
+2024-03-25 20:05:58,578 [websockets.py:on_close()] - Websocket Closed: ID: 135512759361616 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.89
+2024-03-25 20:05:59,602 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.55ms
+2024-03-25 20:05:59,602 [websockets.py:open()] - Websocket Opened: ID: 135512759362864, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-03-25 20:06:08,453 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2024-03-25 20:06:08,453 [websockets.py:open()] - Websocket Opened: ID: 135512732888000, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-25 20:06:08,455 [websockets.py:_handle_identify()] - Websocket 135512732888000 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
