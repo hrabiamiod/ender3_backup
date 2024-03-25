@@ -220,3 +220,4 @@ Klipper Version: v0.12.0-125-gbfb71bc2
 2024-03-25 09:18:30,640 [websockets.py:open()] - Websocket Opened: ID: 135512733005136, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-03-25 09:18:30,658 [websockets.py:_handle_identify()] - Websocket 135512732994864 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-25 09:18:30,724 [websockets.py:_handle_identify()] - Websocket 135512733005136 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-25 10:19:20,906 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
