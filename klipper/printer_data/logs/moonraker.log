@@ -221,3 +221,11 @@ Klipper Version: v0.12.0-125-gbfb71bc2
 2024-03-25 09:18:30,658 [websockets.py:_handle_identify()] - Websocket 135512732994864 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-25 09:18:30,724 [websockets.py:_handle_identify()] - Websocket 135512733005136 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-03-25 10:19:20,906 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-25 16:44:15,744 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-25 16:44:15,744 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.95ms
+2024-03-25 16:44:15,744 [websockets.py:open()] - Websocket Opened: ID: 135512759280080, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-25 16:44:15,751 [websockets.py:_handle_identify()] - Websocket 135512759280080 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-25 16:44:17,102 [websockets.py:on_close()] - Websocket Closed: ID: 135512732998128 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.50
+2024-03-25 16:44:17,103 [websockets.py:on_close()] - Websocket Closed: ID: 135512759280080 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.36
+2024-03-25 16:46:12,985 [websockets.py:on_close()] - Websocket Closed: ID: 135512732994864 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.43
+2024-03-25 16:46:12,985 [websockets.py:on_close()] - Websocket Closed: ID: 135512733005136 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.34
