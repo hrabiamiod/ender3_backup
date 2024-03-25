@@ -18715,3 +18715,10 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-25 20:52:25,810      INFO  obico.moonraker_conn - Klippy ready
 2024-03-25 20:52:26,061      INFO  obico.app - detected state change: Offline -> Operational
 2024-03-25 21:29:42,186      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-25 21:32:43,141      INFO  obico.app - detected state change: Offline -> Operational
+2024-03-25 21:34:28,258      INFO  backoff - Backing off capture_jpeg(...) for 0.5s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-25 21:34:28,723      INFO  backoff - Backing off capture_jpeg(...) for 0.2s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-25 21:34:28,914     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-03-25 21:34:28,914   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-03-25 21:38:28,473      INFO  obico.app - detected state change: Operational -> Offline
+2024-03-25 21:42:13,727      INFO  obico.app - detected state change: Offline -> Operational
