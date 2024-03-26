@@ -44222,3 +44222,23 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 21:25:27,339 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9]. Starting handshake...
 2024-03-26 21:25:27,633 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[9], successfully connected to OctoEverywhere!
 2024-03-26 21:25:27,633 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-26 23:04:09,788 - INFO - FileMetadataCache updated for file [SISI2_37m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2220.0, size: 1425, filament usage: 1606
+2024-03-26 23:04:09,791 - INFO - Gadget HostLock cleared
+2024-03-26 23:04:09,791 - INFO - Gadget is now watching!
+2024-03-26 23:04:09,793 - INFO - New print started; PrintId: v5avdoy7ttxKLLY3X1BvoQKuwrKO4sX7pLYDiaOfnNWCmTewoJCb2IbykZxH file:SISI2_37m_0.20mm_205C_PLA_ENDER3.gcode size:1425 filament:1606
+2024-03-26 23:04:11,347 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-26 23:04:40,113 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 23:05:10,432 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 23:05:40,745 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 23:06:11,069 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 23:06:42,759 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-03-26 23:06:54,312 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-26 23:12:01,381 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 23:15:32,415 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 23:18:05,886 - INFO - First layer timer is done. Stopping.
+2024-03-26 23:18:05,886 - INFO - RepeatTimer thread exit
+2024-03-26 23:18:07,167 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-03-26 23:19:01,452 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 23:22:19,973 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 23:25:32,011 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 23:29:57,981 - INFO - NotificationsHandler successfully sent 'progress'
