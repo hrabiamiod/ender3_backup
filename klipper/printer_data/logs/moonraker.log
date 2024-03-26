@@ -251,3 +251,16 @@ CPU Temperature: None
 2024-03-26 00:10:26,964 [websockets.py:on_close()] - Websocket Closed: ID: 135512733038864 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.92
 2024-03-26 00:14:21,073 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-03-26 01:04:21,079 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-26 03:31:10,228 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-26 03:31:52,235 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512759483888
+2024-03-26 03:31:54,358 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512732876960
+2024-03-26 03:31:56,924 [websockets.py:on_close()] - Websocket Closed: ID: 135512759483888 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-03-26 03:31:59,283 [websockets.py:on_close()] - Websocket Closed: ID: 135512732876960 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-03-26 03:32:20,309 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-26 03:32:20,609 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.211
+2024-03-26 03:32:20,611 [application.py:log_request()] - 101 GET /websocket (192.168.1.211) [_TRUSTED_USER_] 2.35ms
+2024-03-26 03:32:20,611 [websockets.py:open()] - Websocket Opened: ID: 135512732882672, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
+2024-03-26 03:32:20,639 [websockets.py:_handle_identify()] - Websocket 135512732882672 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-26 03:41:23,548 [application.py:log_request()] - 101 GET /websocket (192.168.1.211) [_TRUSTED_USER_] 12.75ms
+2024-03-26 03:41:23,549 [websockets.py:open()] - Websocket Opened: ID: 135512759416816, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
+2024-03-26 03:41:23,601 [websockets.py:_handle_identify()] - Websocket 135512759416816 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
