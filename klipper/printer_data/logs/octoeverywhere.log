@@ -44014,3 +44014,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 10:58:05,789 - INFO - Moonraker client setting up default notification hooks
 2024-03-26 10:58:06,262 - INFO - Printer state at socket connect is: standby
 2024-03-26 10:58:06,264 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-03-26 13:32:57,993 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-03-26 13:32:57,993 - ERROR - ping/pong timed out - goodbye
+2024-03-26 13:32:57,994 - INFO - Service websocket closed.
+2024-03-26 13:32:57,994 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6]
+2024-03-26 13:32:57,994 - INFO - Closing all open web stream sockets (0)
+2024-03-26 13:32:57,994 - INFO - Sleeping for 8 seconds before trying again.
+2024-03-26 13:33:06,002 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-26 13:33:06,004 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7] wsId:130207242691936
+2024-03-26 13:33:06,389 - INFO - Websocket connected
+2024-03-26 13:33:06,390 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7]. Starting handshake...
+2024-03-26 13:33:06,535 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[7], successfully connected to OctoEverywhere!
+2024-03-26 13:33:06,536 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
