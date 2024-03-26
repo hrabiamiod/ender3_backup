@@ -44210,3 +44210,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 20:38:05,515 - INFO - RepeatTimer thread exit
 2024-03-26 20:38:05,515 - INFO - RepeatTimer thread exit
 2024-03-26 20:38:08,035 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-26 21:25:21,079 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-03-26 21:25:21,080 - ERROR - ping/pong timed out - goodbye
+2024-03-26 21:25:21,081 - INFO - Service websocket closed.
+2024-03-26 21:25:21,082 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[8]
+2024-03-26 21:25:21,086 - INFO - Closing all open web stream sockets (0)
+2024-03-26 21:25:21,089 - INFO - Sleeping for 6 seconds before trying again.
+2024-03-26 21:25:27,093 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-26 21:25:27,096 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9] wsId:130207241688624
+2024-03-26 21:25:27,338 - INFO - Websocket connected
+2024-03-26 21:25:27,339 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9]. Starting handshake...
+2024-03-26 21:25:27,633 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[9], successfully connected to OctoEverywhere!
+2024-03-26 21:25:27,633 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
