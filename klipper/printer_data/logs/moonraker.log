@@ -401,3 +401,6 @@ moonraker.utils.ServerError: Klippy Host not connected
 2024-03-26 19:58:04,112 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-26 19:58:04,861 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-03-26 19:58:36,698 [job_state.py:_status_update()] - Job Started: SISI_32m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-26 20:53:51,656 [websockets.py:on_close()] - Websocket Closed: ID: 135512759412976 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.55
+2024-03-26 20:53:51,660 [websockets.py:on_close()] - Websocket Closed: ID: 135512759450256 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.51
+2024-03-26 20:59:21,305 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
