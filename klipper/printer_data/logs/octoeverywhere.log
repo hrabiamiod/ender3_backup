@@ -44026,3 +44026,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 13:33:06,390 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7]. Starting handshake...
 2024-03-26 13:33:06,535 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[7], successfully connected to OctoEverywhere!
 2024-03-26 13:33:06,536 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-26 16:25:11,541 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-26 16:25:11,541 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-26 16:25:11,542 - INFO - Service websocket closed.
+2024-03-26 16:25:11,543 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7]
+2024-03-26 16:25:11,544 - INFO - Closing all open web stream sockets (0)
+2024-03-26 16:25:11,544 - INFO - Sleeping for 8 seconds before trying again.
+2024-03-26 16:25:19,552 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-26 16:25:19,552 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[8] wsId:130207310040848
+2024-03-26 16:25:21,091 - INFO - Websocket connected
+2024-03-26 16:25:21,092 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[8]. Starting handshake...
+2024-03-26 16:25:33,711 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
+2024-03-26 16:25:33,711 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
