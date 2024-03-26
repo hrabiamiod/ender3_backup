@@ -316,3 +316,88 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDSQEa1A3Wog1kX
 2024-03-26 17:44:26,190 [job_state.py:_status_update()] - Job Started: SISI_32m_0.20mm_205C_PLA_ENDER3.gcode
 2024-03-26 17:49:21,269 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-03-26 18:44:21,287 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.211
+2024-03-26 19:42:18,758 [job_state.py:_status_update()] - Job Started: SISI_32m_0.20mm_205C_PLA_ENDER3.gcode
+2024-03-26 19:50:21,897 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-26 19:50:21,915 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1711478992.009286, Usage: 1.43%, Memory: 19352 kB
+System Time: 1711478993.009368, Usage: 1.03%, Memory: 19352 kB
+System Time: 1711478994.009169, Usage: 0.81%, Memory: 19352 kB
+System Time: 1711478995.011060, Usage: 1.05%, Memory: 19352 kB
+System Time: 1711478996.011745, Usage: 0.8%, Memory: 19352 kB
+System Time: 1711478997.012195, Usage: 0.81%, Memory: 19352 kB
+System Time: 1711478998.013154, Usage: 0.94%, Memory: 19352 kB
+System Time: 1711478999.014066, Usage: 0.71%, Memory: 19352 kB
+System Time: 1711479000.017856, Usage: 1.42%, Memory: 19360 kB
+System Time: 1711479001.016350, Usage: 1.15%, Memory: 19360 kB
+System Time: 1711479002.019303, Usage: 2.18%, Memory: 19372 kB
+System Time: 1711479003.019847, Usage: 0.85%, Memory: 19376 kB
+System Time: 1711479004.021343, Usage: 1.42%, Memory: 19376 kB
+System Time: 1711479005.021824, Usage: 0.98%, Memory: 19376 kB
+System Time: 1711479006.022563, Usage: 0.88%, Memory: 19376 kB
+System Time: 1711479007.023075, Usage: 1.04%, Memory: 19376 kB
+System Time: 1711479008.024242, Usage: 0.94%, Memory: 19376 kB
+System Time: 1711479009.025357, Usage: 0.91%, Memory: 19376 kB
+System Time: 1711479010.025957, Usage: 1.07%, Memory: 19376 kB
+System Time: 1711479011.028006, Usage: 0.99%, Memory: 19376 kB
+System Time: 1711479012.028509, Usage: 1.01%, Memory: 19376 kB
+System Time: 1711479013.029514, Usage: 0.82%, Memory: 19376 kB
+System Time: 1711479014.031790, Usage: 2.23%, Memory: 19376 kB
+System Time: 1711479015.032187, Usage: 0.98%, Memory: 19376 kB
+System Time: 1711479016.032947, Usage: 1.55%, Memory: 19376 kB
+System Time: 1711479017.034300, Usage: 1.0%, Memory: 19376 kB
+System Time: 1711479018.034316, Usage: 0.92%, Memory: 19376 kB
+System Time: 1711479019.036286, Usage: 0.97%, Memory: 19376 kB
+System Time: 1711479020.035578, Usage: 1.59%, Memory: 19376 kB
+System Time: 1711479021.036088, Usage: 1.1%, Memory: 19376 kB
+CPU Temperature: None
+2024-03-26 19:50:21,930 [websockets.py:on_close()] - Websocket Closed: ID: 135512733037184 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.20
+2024-03-26 19:50:23,951 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-26 19:50:23,962 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 14.65ms
+2024-03-26 19:50:23,965 [websockets.py:open()] - Websocket Opened: ID: 135512759408416, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-26 19:50:23,972 [websockets.py:_handle_identify()] - Websocket 135512759408416 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-03-26 19:57:52,845 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-26 19:57:52,848 [websockets.py:on_close()] - Websocket Closed: ID: 135512759408416 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.88
+2024-03-26 19:57:54,107 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-26 19:57:54,860 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-03-26 19:57:54,864 [websockets.py:open()] - Websocket Opened: ID: 135512759353600, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-26 19:57:54,887 [websockets.py:_handle_identify()] - Websocket 135512759353600 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-03-26 19:57:58,188 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-26 19:57:58,189 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-26 19:57:58,439 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-26 19:57:58,704 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-26 19:57:59,266 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-03-26 19:57:59,274 [data_store.py:_init_sensors()] - Error subscribing to sensors: Klippy Disconnected
+2024-03-26 19:57:59,274 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Disconnected
+2024-03-26 19:57:59,281 [websockets.py:on_close()] - Websocket Closed: ID: 135512759353600 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.42
+2024-03-26 19:57:59,289 [server.py:_process_event()] - 
+Error processing callback in event server:klippy_ready
+Traceback (most recent call last):
+  File "/home/turbo/moonraker/moonraker/components/octoprint_compat.py", line 144, in _init
+    result = await self.klippy_apis.subscribe_objects(sub)
+  File "/home/turbo/moonraker/moonraker/components/klippy_apis.py", line 243, in subscribe_objects
+    result = await self._send_klippy_request(SUBSCRIPTION_ENDPOINT, params, default)
+  File "/home/turbo/moonraker/moonraker/components/klippy_apis.py", line 108, in _send_klippy_request
+    result = await self.klippy.request(req)
+  File "/home/turbo/moonraker/moonraker/components/klippy_connection.py", line 577, in request
+    return await self._request_subscripton(web_request)
+  File "/home/turbo/moonraker/moonraker/components/klippy_connection.py", line 611, in _request_subscripton
+    result = await self._request_standard(web_request, 20.0)
+  File "/home/turbo/moonraker/moonraker/components/klippy_connection.py", line 678, in _request_standard
+    return await base_request.wait(timeout)
+  File "/home/turbo/moonraker/moonraker/components/klippy_connection.py", line 789, in wait
+    return await asyncio.wait_for(asyncio.shield(self._fut), to)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+moonraker.utils.ServerError: Klippy Host not connected
+
+2024-03-26 19:58:00,530 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-03-26 19:58:01,285 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 3.65ms
+2024-03-26 19:58:01,285 [websockets.py:open()] - Websocket Opened: ID: 135512733037280, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-26 19:58:01,291 [websockets.py:_handle_identify()] - Websocket 135512733037280 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-03-26 19:58:03,610 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-03-26 19:58:03,611 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-03-26 19:58:03,858 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-03-26 19:58:04,112 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-03-26 19:58:04,861 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-26 19:58:36,698 [job_state.py:_status_update()] - Job Started: SISI_32m_0.20mm_205C_PLA_ENDER3.gcode
