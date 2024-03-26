@@ -44069,3 +44069,21 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 17:16:21,079 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
 2024-03-26 17:16:21,079 - INFO - RepeatTimer thread exit
 2024-03-26 17:16:22,230 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-26 17:44:26,194 - INFO - FileMetadataCache updated for file [SISI_32m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 1948.0, size: 1081, filament usage: 1530
+2024-03-26 17:44:26,197 - INFO - Gadget HostLock cleared
+2024-03-26 17:44:26,198 - INFO - Gadget is now watching!
+2024-03-26 17:44:26,198 - INFO - New print started; PrintId: 531BJXJ2mIBQBjTnwKlol6UmCq70ar8uJzAU8flA9uVeGwTSDVaFtJsPA2zk file:SISI_32m_0.20mm_205C_PLA_ENDER3.gcode size:1081 filament:1530
+2024-03-26 17:44:27,539 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-26 17:44:56,524 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 17:45:26,847 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 17:45:57,171 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 17:46:27,487 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 17:46:57,818 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 17:47:12,555 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-26 17:47:29,791 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-03-26 17:52:06,130 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 17:56:20,843 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 17:56:31,164 - INFO - First layer timer is done. Stopping.
+2024-03-26 17:56:31,168 - INFO - RepeatTimer thread exit
+2024-03-26 17:56:32,673 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-03-26 17:59:05,699 - INFO - NotificationsHandler successfully sent 'progress'
