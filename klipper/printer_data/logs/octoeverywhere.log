@@ -44252,3 +44252,17 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 23:49:19,722 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
 2024-03-26 23:49:19,725 - INFO - RepeatTimer thread exit
 2024-03-26 23:49:21,104 - INFO - NotificationsHandler successfully sent 'done'
+2024-03-27 00:24:59,540 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-03-27 00:24:59,540 - INFO - Moonraker client websocket shutdown called.
+2024-03-27 00:24:59,544 - INFO - Moonraker client websocket shutdown complete.
+2024-03-27 00:24:59,545 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-03-27 00:24:59,545 - INFO - Moonraker websocket connection closed.
+2024-03-27 00:24:59,546 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-27 00:25:01,550 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-27 00:25:01,556 - INFO - Websocket connected
+2024-03-27 00:25:01,557 - INFO - Moonraker client websocket opened.
+2024-03-27 00:25:01,557 - INFO - Moonraker client waiting for klippy ready...
+2024-03-27 00:25:01,557 - INFO - Authenticating with moonraker...
+2024-03-27 00:25:01,569 - INFO - Moonraker client waiting for klippy ready...
+2024-03-27 00:25:01,571 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 00:30:02,052 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
