@@ -44038,3 +44038,22 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-26 16:25:21,092 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[8]. Starting handshake...
 2024-03-26 16:25:33,711 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
 2024-03-26 16:25:33,711 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-26 16:46:10,285 - INFO - FileMetadataCache updated for file [kostka_oscad1.gcode]; est time: 1473.0, size: 667, filament usage: 1213
+2024-03-26 16:46:10,306 - INFO - Gadget HostLock cleared
+2024-03-26 16:46:10,307 - INFO - Gadget is now watching!
+2024-03-26 16:46:10,314 - INFO - New print started; PrintId: WzQ4I1pId5P92TBYh5Kl0Hx9LUnsIslUNHoUJP19F1QoXpCDAeeQr2YX17ma file:kostka_oscad1.gcode size:667 filament:1213
+2024-03-26 16:46:12,156 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-26 16:46:40,598 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 16:47:10,932 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 16:47:41,259 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 16:48:11,587 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 16:48:41,927 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-26 16:48:58,061 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-26 16:49:16,739 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-03-26 16:52:50,443 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 16:55:09,806 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 16:57:21,284 - INFO - First layer timer is done. Stopping.
+2024-03-26 16:57:21,284 - INFO - RepeatTimer thread exit
+2024-03-26 16:57:22,136 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-03-26 16:57:29,370 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-26 16:59:41,317 - INFO - NotificationsHandler successfully sent 'progress'

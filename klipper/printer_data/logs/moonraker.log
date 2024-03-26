@@ -286,3 +286,22 @@ CPU Temperature: None
 2024-03-26 11:34:50,161 [websockets.py:_handle_identify()] - Websocket 135512759450256 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-03-26 11:59:21,202 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-03-26 12:39:21,208 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-03-26 16:44:27,974 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 0.000 0.000 10.000 [0.000]
+2024-03-26 16:46:09,935 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-03-26 16:46:09,936 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDSQEa1A3Wog1kX8n
+2024-03-26 16:46:10,025 [application.py:post()] - Processing Uploaded File: kostka_oscad1.gcode
+2024-03-26 16:46:10,177 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-26 16:46:10,205 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "kostka_oscad1.gcode") successfully finished
+2024-03-26 16:46:10,220 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 284.41ms
+2024-03-26 16:46:10,263 [job_state.py:_status_update()] - Job Started: kostka_oscad1.gcode
+2024-03-26 16:47:06,923 [websockets.py:on_close()] - Websocket Closed: ID: 135512732882672 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.31
+2024-03-26 16:47:06,924 [websockets.py:on_close()] - Websocket Closed: ID: 135512759416816 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.37
+2024-03-26 16:47:08,061 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.211
+2024-03-26 16:47:08,062 [application.py:log_request()] - 101 GET /websocket (192.168.1.211) [_TRUSTED_USER_] 1.11ms
+2024-03-26 16:47:08,062 [websockets.py:open()] - Websocket Opened: ID: 135512733213472, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
+2024-03-26 16:47:08,141 [websockets.py:_handle_identify()] - Websocket 135512733213472 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-26 16:47:08,808 [application.py:log_request()] - 101 GET /websocket (192.168.1.211) [_TRUSTED_USER_] 0.85ms
+2024-03-26 16:47:08,808 [websockets.py:open()] - Websocket Opened: ID: 135512733212656, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
+2024-03-26 16:47:08,891 [websockets.py:_handle_identify()] - Websocket 135512733212656 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
