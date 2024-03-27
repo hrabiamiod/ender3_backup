@@ -338,3 +338,192 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySfauryzMkLWfp0
 2024-03-27 18:26:58,426 [websockets.py:on_close()] - Websocket Closed: ID: 135512732879312 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
 2024-03-27 18:27:05,634 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512760609536
 2024-03-27 18:27:10,633 [websockets.py:on_close()] - Websocket Closed: ID: 135512760609536 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-27 18:44:34,878 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-03-27 18:44:34,882 [websockets.py:on_close()] - Websocket Closed: ID: 135512759414320 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.13
+2024-03-27 18:44:34,883 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1711561445.712158, Usage: 0.96%, Memory: 41484 kB
+System Time: 1711561446.712728, Usage: 0.61%, Memory: 41484 kB
+System Time: 1711561447.713738, Usage: 0.55%, Memory: 41484 kB
+System Time: 1711561448.714608, Usage: 0.56%, Memory: 41484 kB
+System Time: 1711561449.715675, Usage: 0.68%, Memory: 41484 kB
+System Time: 1711561450.716757, Usage: 0.57%, Memory: 41484 kB
+System Time: 1711561451.718091, Usage: 0.58%, Memory: 41484 kB
+System Time: 1711561452.718937, Usage: 0.63%, Memory: 41484 kB
+System Time: 1711561453.720814, Usage: 0.72%, Memory: 41484 kB
+System Time: 1711561454.722294, Usage: 0.49%, Memory: 41484 kB
+System Time: 1711561455.722686, Usage: 1.57%, Memory: 41484 kB
+System Time: 1711561456.723332, Usage: 0.58%, Memory: 41484 kB
+System Time: 1711561457.723797, Usage: 0.97%, Memory: 41484 kB
+System Time: 1711561458.724670, Usage: 0.52%, Memory: 41484 kB
+System Time: 1711561459.725528, Usage: 0.62%, Memory: 41484 kB
+System Time: 1711561460.727479, Usage: 0.52%, Memory: 41484 kB
+System Time: 1711561461.728799, Usage: 0.6%, Memory: 41484 kB
+System Time: 1711561462.728973, Usage: 0.55%, Memory: 41484 kB
+System Time: 1711561463.729760, Usage: 0.71%, Memory: 41484 kB
+System Time: 1711561464.730329, Usage: 0.48%, Memory: 41484 kB
+System Time: 1711561465.730890, Usage: 0.6%, Memory: 41484 kB
+System Time: 1711561466.731490, Usage: 0.6%, Memory: 41484 kB
+System Time: 1711561467.732616, Usage: 1.63%, Memory: 41484 kB
+System Time: 1711561468.733992, Usage: 0.61%, Memory: 41484 kB
+System Time: 1711561469.735993, Usage: 3.53%, Memory: 41484 kB
+System Time: 1711561470.737262, Usage: 0.88%, Memory: 41484 kB
+System Time: 1711561471.738476, Usage: 0.52%, Memory: 41484 kB
+System Time: 1711561472.739574, Usage: 0.57%, Memory: 41484 kB
+System Time: 1711561473.740031, Usage: 0.79%, Memory: 41484 kB
+System Time: 1711561474.741273, Usage: 0.61%, Memory: 41484 kB
+CPU Temperature: None
+2024-03-27 18:44:36,888 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-03-27 18:44:36,889 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.45ms
+2024-03-27 18:44:36,889 [websockets.py:open()] - Websocket Opened: ID: 135512760611600, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-03-27 18:44:36,891 [websockets.py:_handle_identify()] - Websocket 135512760611600 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+-------------------- Log Start | Wed Mar 27 17:47:20 2024 --------------------
+platform: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+data_path: /home/turbo/printer_data
+is_default_data_path: False
+config_file: /home/turbo/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: 6f44945189dc46f7a55f40779c59d449
+unix_socket_path: /home/turbo/printer_data/comms/moonraker.sock
+software_version: v0.8.0-324-ga3e4dac
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/turbo/printer_data/logs/moonraker.log
+python_version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+launch_args: /home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/moonraker.py -d /home/turbo/printer_data
+msgspec_enabled: False
+uvloop_enabled: False
+2024-03-27 18:47:20,711 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2946 B
+2024-03-27 18:47:20,711 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/turbo/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+channel = dev
+refresh_interval = 168
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager moonraker-telegram-bot]
+type = git_repo
+path = ~/moonraker-telegram-bot
+origin = https://github.com/nlef/moonraker-telegram-bot.git
+env = ~/moonraker-telegram-bot-env/bin/python
+requirements = scripts/requirements.txt
+install_script = scripts/install.sh
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/install.sh
+
+[update_manager moonraker-obico]
+type = git_repo
+path = ~/moonraker-obico
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
+env = /home/turbo/moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	moonraker-obico
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/turbo/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/turbo/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
+
+[timelapse]
+output_path = ~/timelapse
+frame_path = ~/timelapse/movies
+
+#################################################################
+All Configuration Files:
+/home/turbo/printer_data/config/moonraker.conf
+/home/turbo/printer_data/config/moonraker-obico-update.cfg
+/home/turbo/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2024-03-27 18:47:21,018 [server.py:load_component()] - Component (secrets) loaded
+2024-03-27 18:47:21,056 [server.py:load_component()] - Component (template) loaded
+2024-03-27 18:47:21,071 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-03-27 18:47:22,818 [server.py:load_component()] - Component (application) loaded
+2024-03-27 18:47:22,884 [server.py:load_component()] - Component (websockets) loaded
+2024-03-27 18:47:23,119 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-03-27 18:47:23,144 [server.py:add_log_rollover_item()] - 
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 22
+2024-03-27 18:47:23,229 [server.py:load_component()] - Component (database) loaded
+2024-03-27 18:47:23,293 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-03-27 18:47:23,563 [server.py:load_component()] - Component (file_manager) loaded
+2024-03-27 18:47:23,671 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+.*\.lan
+.*\.local
+.*://localhost
+.*://localhost:.*
+.*://my\.mainsail\.xyz
+.*://app\.fluidd\.xyz
+2024-03-27 18:47:23,672 [server.py:load_component()] - Component (authorization) loaded
+2024-03-27 18:47:23,675 [server.py:load_component()] - Component (klippy_apis) loaded

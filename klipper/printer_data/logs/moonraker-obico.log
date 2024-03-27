@@ -18772,3 +18772,34 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-03-27 18:21:38,934      INFO  obico.app - print event: PrintStarted (1711560098)
 2024-03-27 18:27:40,760   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e61a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 2024-03-27 18:29:40,810   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e6140>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:31:40,856   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e4bb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:33:40,902   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e4550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:35:40,961   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e4ee0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:37:41,012   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e5780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:39:41,060   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e4eb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:41:41,107   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e5210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:42:51,696   WARNING  obico.ws - WS Closed - None - None
+2024-03-27 18:43:09,661   WARNING  obico.ws - WS Closed - None - None
+2024-03-27 18:43:41,173   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7478133e4bb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:44:34,880      INFO  obico.app - detected state change: Printing -> Offline
+2024-03-27 18:45:09,838   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-03-27 18:45:09,840     ERROR  obico.utils - Attempt 1 - backing off 0.288314 seconds: Not connected to websocket server after 120s
+2024-03-27 18:45:10,130   WARNING  obico.ws - WS Closed - None - None
+2024-03-27 18:47:22,765      INFO  obico.app - Fetching linked printer...
+2024-03-27 18:47:23,428      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-03-27 18:47:23,440   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-27 18:47:23,440   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-27 18:47:23,507      INFO  backoff - Backing off ensure_api_key(...) for 0.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x787163d07520>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-27 18:47:24,236   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-27 18:47:24,239      INFO  backoff - Backing off ensure_api_key(...) for 0.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x787163dcc040>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-27 18:47:24,441   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-27 18:47:24,896   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-27 18:47:24,904      INFO  backoff - Backing off ensure_api_key(...) for 0.3s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x787163dcc820>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-27 18:47:25,201   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-27 18:47:25,203      INFO  backoff - Backing off ensure_api_key(...) for 2.2s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x787163dccfd0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-03-27 18:47:25,442   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-27 18:47:26,444   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-27 18:47:27,434   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-03-27 18:47:27,445   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-03-27 18:47:27,450      INFO  obico.moonraker_conn - connection is open
+2024-03-27 18:47:27,458      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.4s (False)
