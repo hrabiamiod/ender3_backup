@@ -999,3 +999,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyWQSfEkAUnM8ve
 2024-03-27 22:36:42,577 [websockets.py:on_close()] - Websocket Closed: ID: 129734937086848 Close Code: None, Close Reason: None, Pong Time Elapsed: 16.94
 2024-03-27 23:23:42,662 [websockets.py:on_close()] - Websocket Closed: ID: 129734936998672 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.66
 2024-03-27 23:23:42,662 [websockets.py:on_close()] - Websocket Closed: ID: 129734936993536 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.10
+2024-03-27 23:30:40,002 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.67ms
+2024-03-27 23:30:40,002 [websockets.py:open()] - Websocket Opened: ID: 129734937439360, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-27 23:30:40,018 [websockets.py:_handle_identify()] - Websocket 129734937439360 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-27 23:31:01,477 [websockets.py:on_close()] - Websocket Closed: ID: 129734937439360 Close Code: None, Close Reason: None, Pong Time Elapsed: 11.42
+2024-03-27 23:47:11,914 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.61ms
+2024-03-27 23:47:11,914 [websockets.py:open()] - Websocket Opened: ID: 129734927675264, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-27 23:47:11,962 [websockets.py:_handle_identify()] - Websocket 129734927675264 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-27 23:48:12,104 [websockets.py:on_close()] - Websocket Closed: ID: 129734927675264 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.18
