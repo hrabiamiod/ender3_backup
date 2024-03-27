@@ -308,3 +308,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybBQOAoTdFUSwgK
 2024-03-27 14:27:59,814 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KOKOS_1h21m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
 2024-03-27 14:27:59,824 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 17571.96ms
 2024-03-27 14:28:00,013 [job_state.py:_status_update()] - Job Started: KOKOS_1h21m_0.20mm_215C_PLA_ENDER3.gcode
+2024-03-27 14:43:00,676 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-03-27 14:43:00,677 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.90ms
+2024-03-27 14:43:00,677 [websockets.py:open()] - Websocket Opened: ID: 135512733219856, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-27 14:43:00,715 [websockets.py:_handle_identify()] - Websocket 135512733219856 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-27 14:43:42,556 [websockets.py:on_close()] - Websocket Closed: ID: 135512733219856 Close Code: None, Close Reason: None, Pong Time Elapsed: 21.78
