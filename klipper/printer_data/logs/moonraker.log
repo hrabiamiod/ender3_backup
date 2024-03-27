@@ -281,3 +281,19 @@ CPU Temperature: None
 2024-03-27 12:27:57,730 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-03-27 12:27:57,990 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-03-27 12:27:58,488 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-03-27 12:34:46,495 [websockets.py:on_close()] - Websocket Closed: ID: 135512760642016 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.81
+2024-03-27 12:34:46,504 [websockets.py:on_close()] - Websocket Closed: ID: 135512760632992 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.84
+2024-03-27 12:34:53,042 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.86ms
+2024-03-27 12:34:53,042 [websockets.py:open()] - Websocket Opened: ID: 135512759576000, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-27 12:34:53,086 [websockets.py:_handle_identify()] - Websocket 135512759576000 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-27 12:34:53,424 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.83ms
+2024-03-27 12:34:53,424 [websockets.py:open()] - Websocket Opened: ID: 135512732879312, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-03-27 12:34:53,490 [websockets.py:_handle_identify()] - Websocket 135512732879312 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-03-27 12:43:34,025 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4NJEfES8EszotQFJ
+2024-03-27 12:43:37,182 [application.py:post()] - Processing Uploaded File: KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode
+2024-03-27 12:43:37,317 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-03-27 12:43:37,352 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-03-27 12:43:37,363 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 3338.18ms
+2024-03-27 12:43:37,574 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode

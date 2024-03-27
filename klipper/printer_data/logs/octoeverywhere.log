@@ -44498,3 +44498,19 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 12:27:57,765 - INFO - Moonraker client setting up default notification hooks
 2024-03-27 12:27:58,234 - INFO - Printer state at socket connect is: standby
 2024-03-27 12:27:58,236 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-03-27 12:43:37,579 - INFO - FileMetadataCache updated for file [KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode]; est time: 2261.0, size: 1524, filament usage: 1578
+2024-03-27 12:43:37,584 - INFO - Gadget HostLock cleared
+2024-03-27 12:43:37,585 - INFO - Gadget is now watching!
+2024-03-27 12:43:37,586 - INFO - New print started; PrintId: pnsuNNTEQtWHThR6swJSlXBnQMmDhsHvRoOH8Fb1SEQCWs5KC1084oPXNtLB file:KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode size:1524 filament:1578
+2024-03-27 12:43:41,243 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-27 12:44:07,904 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 12:44:38,227 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 12:45:08,555 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 12:45:41,793 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-27 12:45:43,179 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-03-27 12:50:43,398 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-27 12:54:18,679 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-27 12:57:01,640 - INFO - First layer timer is done. Stopping.
+2024-03-27 12:57:01,642 - INFO - RepeatTimer thread exit
+2024-03-27 12:57:02,787 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-03-27 12:57:48,248 - INFO - NotificationsHandler successfully sent 'progress'
