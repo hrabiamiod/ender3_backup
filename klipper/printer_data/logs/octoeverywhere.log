@@ -44874,3 +44874,6 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 18:52:21,351 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-03-27 18:52:42,538 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
 2024-03-27 18:52:53,390 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-03-27 19:01:49,271 - INFO - First layer timer is done. Stopping.
+2024-03-27 19:01:49,271 - INFO - RepeatTimer thread exit
+2024-03-27 19:01:50,763 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
