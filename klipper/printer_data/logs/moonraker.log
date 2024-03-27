@@ -261,3 +261,4 @@ CPU Temperature: None
 2024-03-27 03:31:55,630 [websockets.py:open()] - Websocket Opened: ID: 135512760609536, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
 2024-03-27 03:31:55,634 [websockets.py:_handle_identify()] - Websocket 135512760609536 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-03-27 03:31:56,547 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-27 04:34:21,389 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.211
