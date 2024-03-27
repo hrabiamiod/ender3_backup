@@ -44856,3 +44856,21 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 18:47:25,871 - ERROR - [Errno 111] Connection refused - goodbye
 2024-03-27 18:47:25,872 - INFO - Moonraker websocket connection closed.
 2024-03-27 18:47:25,872 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-03-27 18:47:27,874 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-03-27 18:47:27,878 - INFO - Websocket connected
+2024-03-27 18:47:27,879 - INFO - Moonraker client websocket opened.
+2024-03-27 18:47:27,880 - INFO - Moonraker client waiting for klippy ready...
+2024-03-27 18:47:27,880 - INFO - Authenticating with moonraker...
+2024-03-27 18:47:29,826 - INFO - Moonraker client waiting for klippy ready...
+2024-03-27 18:47:29,829 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-03-27 18:47:29,830 - INFO - Moonraker client setting up default notification hooks
+2024-03-27 18:47:30,193 - INFO - Printer state at socket connect is: standby
+2024-03-27 18:47:30,194 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-03-27 18:51:20,712 - INFO - FileMetadataCache updated for file [KOKOS_4h11m_0.12mm_210C_PLA_ENDER3.gcode]; est time: 15060.0, size: 13374, filament usage: 7345
+2024-03-27 18:51:20,715 - INFO - Gadget is now watching!
+2024-03-27 18:51:20,716 - INFO - New print started; PrintId: 4NIxBIegZSNPbUQP1QUUMkSs4HucIAFq7jMo6Nkg7WIlj469tcuXhGQw7SyC file:KOKOS_4h11m_0.12mm_210C_PLA_ENDER3.gcode size:13374 filament:7345
+2024-03-27 18:51:22,160 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-27 18:51:51,025 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:52:21,351 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:52:42,538 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-03-27 18:52:53,390 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
