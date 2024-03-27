@@ -44564,3 +44564,79 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 16:10:17,321 - INFO - NotificationsHandler successfully sent 'done'
 2024-03-27 16:24:14,098 - INFO - Updating server latencies...
 2024-03-27 16:24:24,632 - INFO - Ping Pong Stats: Default:[fra,34.247493743896484], Lowest:[fra,34.247493743896484] Use Low Latency Enabled: True
+2024-03-27 18:21:38,319 - INFO - FileMetadataCache updated for file [KOKOS_3h55m_0.12mm_210C_PLA_ENDER3.gcode]; est time: 14122.0, size: 15781, filament usage: 6403
+2024-03-27 18:21:38,322 - INFO - Gadget HostLock cleared
+2024-03-27 18:21:38,322 - INFO - Gadget is now watching!
+2024-03-27 18:21:38,323 - INFO - New print started; PrintId: xCij34s37NBdWdJZbjkKNFr99ffDTGgS7Hit11eieYOSy8rutMkZNvgg0Lwo file:KOKOS_3h55m_0.12mm_210C_PLA_ENDER3.gcode size:15781 filament:6403
+2024-03-27 18:21:39,957 - INFO - NotificationsHandler successfully sent 'started'
+2024-03-27 18:22:08,654 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:22:38,981 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:23:09,312 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:23:39,640 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:24:09,955 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:24:40,281 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:25:10,603 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:25:40,928 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-03-27 18:26:13,771 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-03-27 18:26:30,586 - WARNING - Failed to send notification due to a connection error. HTTPSConnectionPool(host='printer-events-v1-oeapi.octoeverywhere.com', port=443): Max retries exceeded with url: /api/printernotifications/printerevent (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x766c3c728190>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2024-03-27 18:26:30,587 - WARNING - NotificationsHandler failed to send event firstlayerdone. Code:0. Waiting and then trying again.
+2024-03-27 18:26:38,524 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-03-27 18:26:38,525 - ERROR - ping/pong timed out - goodbye
+2024-03-27 18:26:38,525 - INFO - Service websocket closed.
+2024-03-27 18:26:38,525 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[15]
+2024-03-27 18:26:38,525 - INFO - Closing all open web stream sockets (0)
+2024-03-27 18:26:38,526 - INFO - Sleeping for 5 seconds before trying again.
+2024-03-27 18:26:43,528 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-27 18:26:43,529 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[16] wsId:130207242695824
+2024-03-27 18:26:43,531 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:26:43,531 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:26:43,531 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:26:43,531 - INFO - Service websocket closed.
+2024-03-27 18:26:43,532 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[16]
+2024-03-27 18:26:43,532 - INFO - Closing all open web stream sockets (0)
+2024-03-27 18:26:43,532 - INFO - Sleeping for 20 seconds before trying again.
+2024-03-27 18:26:50,607 - WARNING - Failed to send notification due to a connection error. HTTPSConnectionPool(host='printer-events-v1-oeapi.octoeverywhere.com', port=443): Max retries exceeded with url: /api/printernotifications/printerevent (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x766c3c634be0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:26:50,608 - WARNING - NotificationsHandler failed to send event firstlayerdone. Code:0. Waiting and then trying again.
+2024-03-27 18:27:03,552 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[17] wsId:130207242694192
+2024-03-27 18:27:03,554 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:27:03,554 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:27:03,555 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:27:03,555 - INFO - Service websocket closed.
+2024-03-27 18:27:03,555 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[17]
+2024-03-27 18:27:03,555 - INFO - Closing all open web stream sockets (0)
+2024-03-27 18:27:03,556 - INFO - Sleeping for 43 seconds before trying again.
+2024-03-27 18:27:09,689 - INFO - Failed to send gadget inspection due to a connection error. HTTPSConnectionPool(host='gadget-fra.octoeverywhere.com', port=443): Max retries exceeded with url: /api/gadget/inspect (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x766c3c6a2d70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:27:09,689 - INFO - Gadget HostLock cleared
+2024-03-27 18:27:10,631 - WARNING - Failed to send notification due to a connection error. HTTPSConnectionPool(host='printer-events-v1-oeapi.octoeverywhere.com', port=443): Max retries exceeded with url: /api/printernotifications/printerevent (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x766c3c6a3f40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-27 18:27:10,632 - WARNING - NotificationsHandler failed to send event firstlayerdone. Code:0. Waiting and then trying again.
+2024-03-27 18:27:46,596 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[18] wsId:130207241689488
+2024-03-27 18:27:46,598 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:27:46,598 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:27:46,598 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:27:46,599 - INFO - Service websocket closed.
+2024-03-27 18:27:46,599 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[18]
+2024-03-27 18:27:46,599 - INFO - Closing all open web stream sockets (0)
+2024-03-27 18:27:46,599 - INFO - Sleeping for 93 seconds before trying again.
+2024-03-27 18:29:19,693 - INFO - RepeatTimer thread exit
+2024-03-27 18:29:19,694 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-27 18:29:19,696 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:130207303494208
+2024-03-27 18:29:19,697 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:29:19,697 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:29:19,698 - INFO - Service websocket closed.
+2024-03-27 18:29:19,698 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:29:19,698 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-03-27 18:29:19,698 - INFO - Sleeping for 8 seconds before trying again.
+2024-03-27 18:29:27,704 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2] wsId:130207242130080
+2024-03-27 18:29:27,707 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:29:27,707 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:29:27,707 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:29:27,707 - INFO - Service websocket closed.
+2024-03-27 18:29:27,708 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[2]
+2024-03-27 18:29:27,708 - INFO - Sleeping for 22 seconds before trying again.
+2024-03-27 18:29:49,728 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:130207241687136
+2024-03-27 18:29:49,730 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 18:29:49,730 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 18:29:49,730 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 18:29:49,730 - INFO - Service websocket closed.
+2024-03-27 18:29:49,731 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-03-27 18:29:49,731 - INFO - Sleeping for 54 seconds before trying again.
