@@ -315,3 +315,9 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybBQOAoTdFUSwgK
 2024-03-27 14:43:42,556 [websockets.py:on_close()] - Websocket Closed: ID: 135512733219856 Close Code: None, Close Reason: None, Pong Time Elapsed: 21.78
 2024-03-27 15:29:21,502 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-03-27 15:44:21,505 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
+2024-03-27 16:54:53,609 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-03-27 16:54:53,610 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 1.91ms
+2024-03-27 16:54:53,610 [websockets.py:open()] - Websocket Opened: ID: 135512733208048, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-27 16:54:53,648 [websockets.py:_handle_identify()] - Websocket 135512733208048 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-27 16:55:23,687 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512733208048
+2024-03-27 16:55:28,614 [websockets.py:on_close()] - Websocket Closed: ID: 135512733208048 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.01
