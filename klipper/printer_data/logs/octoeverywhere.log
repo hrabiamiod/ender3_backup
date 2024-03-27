@@ -44879,3 +44879,23 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 19:01:50,763 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
 2024-03-27 19:51:21,910 - INFO - NotificationsHandler successfully sent 'timerprogress'
 2024-03-27 19:55:39,777 - INFO - NotificationsHandler successfully sent 'progress'
+2024-03-27 20:00:47,581 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-27 20:00:47,581 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-27 20:00:47,582 - INFO - Service websocket closed.
+2024-03-27 20:00:47,583 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-03-27 20:00:47,584 - INFO - Closing all open web stream sockets (0)
+2024-03-27 20:00:47,584 - INFO - Sleeping for 11 seconds before trying again.
+2024-03-27 20:00:58,595 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-27 20:00:58,595 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:137401642022944
+2024-03-27 20:00:58,690 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 20:00:58,691 - ERROR - [Errno 111] Connection refused - goodbye
+2024-03-27 20:00:58,691 - ERROR - OctoEverywhere Ws error: [Errno 111] Connection refused
+2024-03-27 20:00:58,691 - INFO - Service websocket closed.
+2024-03-27 20:00:58,692 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-03-27 20:00:58,692 - INFO - Closing all open web stream sockets (0)
+2024-03-27 20:00:58,692 - INFO - Sleeping for 31 seconds before trying again.
+2024-03-27 20:01:29,721 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:137401642234784
+2024-03-27 20:01:30,543 - INFO - Websocket connected
+2024-03-27 20:01:30,544 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2024-03-27 20:01:35,135 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2024-03-27 20:01:35,135 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
