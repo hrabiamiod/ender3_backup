@@ -44313,3 +44313,37 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-27 03:15:17,940 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-03-27 03:20:18,426 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-03-27 03:25:18,922 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:30:19,417 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:31:09,625 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-03-27 03:31:09,626 - ERROR - Connection to remote host was lost. - goodbye
+2024-03-27 03:31:09,626 - INFO - Service websocket closed.
+2024-03-27 03:31:09,628 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[10]
+2024-03-27 03:31:09,628 - INFO - Closing all open web stream sockets (0)
+2024-03-27 03:31:09,628 - INFO - Sleeping for 11 seconds before trying again.
+2024-03-27 03:31:20,636 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-03-27 03:31:20,636 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[11] wsId:130207242253072
+2024-03-27 03:31:20,642 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 03:31:20,642 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 03:31:20,642 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 03:31:20,642 - INFO - Service websocket closed.
+2024-03-27 03:31:20,643 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[11]
+2024-03-27 03:31:20,643 - INFO - Closing all open web stream sockets (0)
+2024-03-27 03:31:20,643 - INFO - Sleeping for 30 seconds before trying again.
+2024-03-27 03:31:50,672 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[12] wsId:130207242251824
+2024-03-27 03:31:50,675 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-03-27 03:31:50,675 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-03-27 03:31:50,675 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-03-27 03:31:50,675 - INFO - Service websocket closed.
+2024-03-27 03:31:50,675 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[12]
+2024-03-27 03:31:50,676 - INFO - Closing all open web stream sockets (0)
+2024-03-27 03:31:50,676 - INFO - Sleeping for 66 seconds before trying again.
+2024-03-27 03:32:56,740 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[13] wsId:130207242256096
+2024-03-27 03:32:56,965 - INFO - Websocket connected
+2024-03-27 03:32:56,966 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[13]. Starting handshake...
+2024-03-27 03:32:57,036 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[13], successfully connected to OctoEverywhere!
+2024-03-27 03:32:57,036 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-03-27 03:35:19,802 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:40:20,180 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:45:20,580 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:50:20,969 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-27 03:55:21,373 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...

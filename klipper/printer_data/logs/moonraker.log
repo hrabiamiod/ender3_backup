@@ -251,3 +251,13 @@ CPU Temperature: None
 2024-03-27 00:25:01,554 [websockets.py:open()] - Websocket Opened: ID: 135512732250320, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-03-27 00:25:01,559 [websockets.py:_handle_identify()] - Websocket 135512732250320 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-03-27 01:29:21,355 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-27 03:30:46,494 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-27 03:31:27,477 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512759366416
+2024-03-27 03:31:27,517 [websockets.py:write_to_socket()] - Websocket closed while writing: 135512759353648
+2024-03-27 03:31:31,905 [websockets.py:on_close()] - Websocket Closed: ID: 135512759353648 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-03-27 03:31:32,387 [websockets.py:on_close()] - Websocket Closed: ID: 135512759366416 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-03-27 03:31:55,628 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.211
+2024-03-27 03:31:55,630 [application.py:log_request()] - 101 GET /websocket (192.168.1.211) [_TRUSTED_USER_] 2.92ms
+2024-03-27 03:31:55,630 [websockets.py:open()] - Websocket Opened: ID: 135512760609536, Proxied: True, User Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0, Host Name: 192.168.1.211
+2024-03-27 03:31:55,634 [websockets.py:_handle_identify()] - Websocket 135512760609536 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-03-27 03:31:56,547 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
