@@ -266,3 +266,4 @@ CPU Temperature: None
 2024-03-28 09:58:50,658 [websockets.py:open()] - Websocket Opened: ID: 129734937445520, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
 2024-03-28 09:58:50,666 [websockets.py:_handle_identify()] - Websocket 129734937445520 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
 2024-03-28 09:59:04,618 [websockets.py:on_close()] - Websocket Closed: ID: 129734937445520 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.95
+2024-03-28 11:02:26,492 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
