@@ -252,3 +252,5 @@ CPU Temperature: None
 2024-03-28 00:38:50,821 [websockets.py:_handle_identify()] - Websocket 129734937072672 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
 2024-03-28 00:39:20,874 [websockets.py:write_to_socket()] - Websocket closed while writing: 129734937072672
 2024-03-28 00:39:25,808 [websockets.py:on_close()] - Websocket Closed: ID: 129734937072672 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-03-28 01:32:26,393 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-03-28 01:42:26,394 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
