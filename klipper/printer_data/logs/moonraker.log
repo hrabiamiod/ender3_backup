@@ -247,3 +247,8 @@ CPU Temperature: None
 2024-03-28 00:29:01,126 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.84ms
 2024-03-28 00:29:01,127 [websockets.py:open()] - Websocket Opened: ID: 129734927251776, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-03-28 00:29:01,129 [websockets.py:_handle_identify()] - Websocket 129734927251776 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-03-28 00:38:50,806 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.61ms
+2024-03-28 00:38:50,806 [websockets.py:open()] - Websocket Opened: ID: 129734937072672, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-28 00:38:50,821 [websockets.py:_handle_identify()] - Websocket 129734937072672 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-28 00:39:20,874 [websockets.py:write_to_socket()] - Websocket closed while writing: 129734937072672
+2024-03-28 00:39:25,808 [websockets.py:on_close()] - Websocket Closed: ID: 129734937072672 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
