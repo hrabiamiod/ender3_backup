@@ -256,3 +256,13 @@ CPU Temperature: None
 2024-03-28 01:42:26,394 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
 2024-03-28 03:30:57,102 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-03-28 03:32:17,169 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-03-28 09:53:33,312 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-03-28 09:53:33,312 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.83ms
+2024-03-28 09:53:33,312 [websockets.py:open()] - Websocket Opened: ID: 129734937820608, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-28 09:53:33,323 [websockets.py:_handle_identify()] - Websocket 129734937820608 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-28 09:54:24,306 [websockets.py:write_to_socket()] - Websocket closed while writing: 129734937820608
+2024-03-28 09:54:28,313 [websockets.py:on_close()] - Websocket Closed: ID: 129734937820608 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2024-03-28 09:58:50,658 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.60ms
+2024-03-28 09:58:50,658 [websockets.py:open()] - Websocket Opened: ID: 129734937445520, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-03-28 09:58:50,666 [websockets.py:_handle_identify()] - Websocket 129734937445520 Client Identified - Name: Mobileraker-ios, Version: 2.6.13-417, Type: mobile
+2024-03-28 09:59:04,618 [websockets.py:on_close()] - Websocket Closed: ID: 129734937445520 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.95
