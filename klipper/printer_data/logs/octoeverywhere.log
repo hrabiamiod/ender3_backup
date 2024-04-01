@@ -45169,3 +45169,27 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-01 23:42:14,435 - INFO - Moonraker client setting up default notification hooks
 2024-04-01 23:42:14,736 - INFO - Printer state at socket connect is: standby
 2024-04-01 23:42:14,737 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-01 23:42:19,176 - INFO - Ping Pong Stats: Default:[fra,34.14175510406494], Lowest:[fra,34.14175510406494] Use Low Latency Enabled: True
+2024-04-01 23:50:52,281 - ERROR - Sentry Error: NotificationsHandler failed to get the print info for the current print.
+2024-04-01 23:50:52,291 - INFO - Gadget is now watching!
+2024-04-01 23:50:52,296 - INFO - FileMetadataCache updated for file [tick_twister_v2_34m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2064.0, size: 1011, filament usage: 665
+2024-04-01 23:50:52,299 - INFO - Gadget has stopped watching!
+2024-04-01 23:50:52,299 - INFO - RepeatTimer thread exit
+2024-04-01 23:50:52,299 - INFO - RepeatTimer thread exit
+2024-04-01 23:50:52,300 - INFO - RepeatTimer thread exit
+2024-04-01 23:50:52,301 - INFO - Gadget is now watching!
+2024-04-01 23:50:52,302 - INFO - New print started; PrintId: 2Tss7iJq8qLwC4Ls037V3hb8g6DN8wRs9P8V1rGU7LxTkyjOY5O78tYMBdwn file:tick_twister_v2_34m_0.20mm_205C_PLA_ENDER3.gcode size:1011 filament:665
+2024-04-01 23:50:53,709 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-01 23:50:53,776 - INFO - NotificationsHandler successfully sent 'resume'
+2024-04-01 23:51:22,625 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-01 23:51:52,958 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-01 23:52:23,273 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-01 23:52:53,582 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-01 23:53:23,906 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-01 23:53:55,936 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-01 23:53:56,399 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-04-01 23:55:22,969 - INFO - First layer timer is done. Stopping.
+2024-04-01 23:55:22,970 - INFO - RepeatTimer thread exit
+2024-04-01 23:55:24,030 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-01 23:56:08,956 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-01 23:59:30,270 - INFO - NotificationsHandler successfully sent 'progress'
