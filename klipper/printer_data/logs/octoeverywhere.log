@@ -45127,3 +45127,45 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-03-28 11:19:53,696 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-03-28 11:24:54,113 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
 2024-03-28 11:29:54,521 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-28 11:34:54,932 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-03-28 11:39:55,334 - INFO - Moonraker client got klippy state 'shutdown', waiting for ready...
+2024-04-01 23:42:06,887 - INFO - ################################################
+2024-04-01 23:42:06,901 - INFO - ##### OctoEverywhere For Klipper Starting ######
+2024-04-01 23:42:06,901 - INFO - ################################################
+2024-04-01 23:42:06,911 - INFO - Plugin Version: 3.2.3
+2024-04-01 23:42:07,489 - INFO - Our existing update config file include was found in the moonraker config.
+2024-04-01 23:42:07,490 - INFO - Existing update config file found with the correct file contents.
+2024-04-01 23:42:07,600 - INFO - mDns Cache file loaded. Cached Entries Found: 0
+2024-04-01 23:42:07,601 - INFO - Setting up relay with frontend port 80
+2024-04-01 23:42:07,605 - INFO - OctoPingPong stats loaded from file.
+2024-04-01 23:42:07,629 - INFO - Updating server latencies...
+2024-04-01 23:42:07,702 - INFO - MoonrakerApiRouter using bound to moonraker at 0.0.0.0:7125
+2024-04-01 23:42:07,723 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-01 23:42:07,724 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:130771388279216
+2024-04-01 23:42:08,890 - INFO - Websocket connected
+2024-04-01 23:42:08,913 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-04-01 23:42:09,823 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-04-01 23:42:09,839 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-01 23:42:09,847 - INFO - Starting Moonraker connection client.
+2024-04-01 23:42:09,864 - INFO - Moonraker client starting websocket connection thread.
+2024-04-01 23:42:09,905 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-01 23:42:09,965 - ERROR - [Errno 111] Connection refused - goodbye
+2024-04-01 23:42:09,965 - INFO - Moonraker websocket connection closed.
+2024-04-01 23:42:09,965 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-01 23:42:11,968 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-01 23:42:11,970 - ERROR - [Errno 111] Connection refused - goodbye
+2024-04-01 23:42:11,970 - INFO - Moonraker websocket connection closed.
+2024-04-01 23:42:11,970 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-01 23:42:12,656 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-04-01 23:42:12,656 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2024-04-01 23:42:12,657 - INFO - Moonraker webcam helper failed to query for webcams from API, no websocket is connected.
+2024-04-01 23:42:13,972 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-01 23:42:13,978 - INFO - Websocket connected
+2024-04-01 23:42:13,995 - INFO - Moonraker client websocket opened.
+2024-04-01 23:42:13,995 - INFO - Moonraker client waiting for klippy ready...
+2024-04-01 23:42:13,995 - INFO - Authenticating with moonraker...
+2024-04-01 23:42:14,432 - INFO - Moonraker client waiting for klippy ready...
+2024-04-01 23:42:14,435 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-01 23:42:14,435 - INFO - Moonraker client setting up default notification hooks
+2024-04-01 23:42:14,736 - INFO - Printer state at socket connect is: standby
+2024-04-01 23:42:14,737 - INFO - Restore client sync state: There's no print and none of the timers are running.
