@@ -45756,3 +45756,74 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 17:44:37,241 - INFO - Moonraker client setting up default notification hooks
 2024-04-03 17:44:37,618 - INFO - Printer state at socket connect is: standby
 2024-04-03 17:44:37,618 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 18:02:25,334 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 18:02:25,334 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 18:02:25,336 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 18:02:25,336 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-03 18:02:25,337 - INFO - Moonraker websocket connection closed.
+2024-04-03 18:02:25,337 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 18:02:27,340 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 18:02:27,343 - INFO - Websocket connected
+2024-04-03 18:02:27,344 - INFO - Moonraker client websocket opened.
+2024-04-03 18:02:27,344 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:02:27,344 - INFO - Authenticating with moonraker...
+2024-04-03 18:02:27,352 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:02:27,353 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 18:02:29,356 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 18:02:29,357 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 18:02:29,968 - INFO - Printer state at socket connect is: standby
+2024-04-03 18:02:29,968 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 18:11:16,503 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 18:11:16,503 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 18:11:16,504 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 18:11:16,504 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-03 18:11:16,505 - INFO - Moonraker websocket connection closed.
+2024-04-03 18:11:16,505 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 18:11:18,508 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 18:11:18,511 - INFO - Websocket connected
+2024-04-03 18:11:18,511 - INFO - Moonraker client websocket opened.
+2024-04-03 18:11:18,512 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:11:18,512 - INFO - Authenticating with moonraker...
+2024-04-03 18:11:18,520 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:11:18,521 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 18:11:20,524 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 18:11:20,525 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 18:11:21,447 - INFO - Printer state at socket connect is: standby
+2024-04-03 18:11:21,447 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 18:16:18,305 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 18:16:18,306 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 18:16:18,306 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 18:16:18,307 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-03 18:16:18,307 - INFO - Moonraker websocket connection closed.
+2024-04-03 18:16:18,307 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 18:16:20,310 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 18:16:20,313 - INFO - Websocket connected
+2024-04-03 18:16:20,314 - INFO - Moonraker client websocket opened.
+2024-04-03 18:16:20,314 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:16:20,314 - INFO - Authenticating with moonraker...
+2024-04-03 18:16:20,322 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:16:20,322 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 18:16:22,326 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 18:16:22,326 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 18:16:22,946 - INFO - Printer state at socket connect is: standby
+2024-04-03 18:16:22,946 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 18:21:28,176 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-04-03 18:21:28,176 - ERROR - Connection to remote host was lost. - goodbye
+2024-04-03 18:21:28,177 - INFO - Service websocket closed.
+2024-04-03 18:21:28,178 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]
+2024-04-03 18:21:28,179 - INFO - Closing all open web stream sockets (0)
+2024-04-03 18:21:28,179 - INFO - Sleeping for 5 seconds before trying again.
+2024-04-03 18:21:33,181 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-03 18:21:33,181 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2] wsId:126596435764672
+2024-04-03 18:21:33,240 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-04-03 18:21:33,241 - ERROR - [Errno 111] Connection refused - goodbye
+2024-04-03 18:21:33,241 - ERROR - OctoEverywhere Ws error: [Errno 111] Connection refused
+2024-04-03 18:21:33,241 - INFO - Service websocket closed.
+2024-04-03 18:21:33,242 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[2]
+2024-04-03 18:21:33,242 - INFO - Closing all open web stream sockets (0)
+2024-04-03 18:21:33,242 - INFO - Sleeping for 14 seconds before trying again.
+2024-04-03 18:21:47,254 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3] wsId:126595845565568
+2024-04-03 18:21:47,983 - INFO - Websocket connected
+2024-04-03 18:21:47,984 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]. Starting handshake...
+2024-04-03 18:21:58,882 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
+2024-04-03 18:21:58,883 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
