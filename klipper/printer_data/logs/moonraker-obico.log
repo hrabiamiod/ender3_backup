@@ -19374,3 +19374,14 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-03 15:41:06,667      INFO  obico.app - detected state change: Printing -> Operational
 2024-04-03 15:41:06,667      INFO  obico.app - print event: PrintDone (1712149361)
 2024-04-03 16:00:21,426      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-03 16:44:54,959      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-03 16:48:16,286      INFO  backoff - Backing off capture_jpeg(...) for 0.7s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-04-03 16:48:17,036      INFO  backoff - Backing off capture_jpeg(...) for 0.5s (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-04-03 16:48:17,520     ERROR  backoff - Giving up capture_jpeg(...) after 3 tries (AttributeError: 'ServerConn' object has no attribute 'snapshot_url')
+2024-04-03 16:48:17,520   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
+2024-04-03 16:53:21,355      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-03 16:53:25,325      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-03 16:54:27,980      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-03 16:56:25,584      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-03 16:58:26,382      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-03 16:58:55,614      INFO  obico.app - detected state change: Offline -> Operational

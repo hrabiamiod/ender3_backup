@@ -703,3 +703,137 @@ CPU Temperature: None
 2024-04-03 16:00:23,438 [websockets.py:open()] - Websocket Opened: ID: 140159026931472, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-04-03 16:00:23,440 [websockets.py:_handle_identify()] - Websocket 140159026931472 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-04-03 16:04:02,042 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-03 16:44:25,598 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 16:44:25,600 [websockets.py:on_close()] - Websocket Closed: ID: 140159026931472 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.16
+2024-04-03 16:44:26,854 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 16:44:26,900 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['systemd-journald.socket', 'network-online.target', '-.mount', 'basic.target', 'system.slice', 'sysinit.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-04-03 16:44:27,605 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.73ms
+2024-04-03 16:44:27,605 [websockets.py:open()] - Websocket Opened: ID: 140159025969712, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 16:44:27,608 [websockets.py:_handle_identify()] - Websocket 140159025969712 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 16:44:29,369 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 16:44:29,370 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 16:44:29,620 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 16:44:29,879 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 16:44:30,375 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 16:48:16,286 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home before probe
+2024-04-03 16:48:35,599 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to verify sensor state
+2024-04-03 16:49:52,144 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to verify sensor state
+2024-04-03 16:50:01,297 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-03 16:53:20,282 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycQdKhKBRwUCCQmCS
+2024-04-03 16:53:20,292 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 16:53:20,295 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 13.22ms
+2024-04-03 16:53:21,353 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 16:53:21,357 [websockets.py:on_close()] - Websocket Closed: ID: 140159025969712 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.75
+2024-04-03 16:53:22,610 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 16:53:23,360 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-04-03 16:53:23,360 [websockets.py:open()] - Websocket Opened: ID: 140159026570160, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 16:53:23,363 [websockets.py:_handle_identify()] - Websocket 140159026570160 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 16:53:25,072 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 16:53:25,073 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 16:53:25,323 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 16:53:25,579 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 16:53:26,328 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 16:54:27,978 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-04-03 16:54:27,981 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1712156038.942304, Usage: 1.19%, Memory: 49112 kB
+System Time: 1712156039.942654, Usage: 0.57%, Memory: 49112 kB
+System Time: 1712156040.943470, Usage: 0.6%, Memory: 49112 kB
+System Time: 1712156041.943926, Usage: 0.59%, Memory: 49112 kB
+System Time: 1712156042.944408, Usage: 0.85%, Memory: 49112 kB
+System Time: 1712156043.944519, Usage: 0.66%, Memory: 49112 kB
+System Time: 1712156044.945444, Usage: 0.62%, Memory: 49112 kB
+System Time: 1712156045.946664, Usage: 0.6%, Memory: 49112 kB
+System Time: 1712156046.947155, Usage: 0.61%, Memory: 49112 kB
+System Time: 1712156047.947288, Usage: 0.66%, Memory: 49112 kB
+System Time: 1712156048.949559, Usage: 1.84%, Memory: 49112 kB
+System Time: 1712156049.949594, Usage: 1.0%, Memory: 49112 kB
+System Time: 1712156050.949924, Usage: 0.59%, Memory: 49112 kB
+System Time: 1712156051.952261, Usage: 0.57%, Memory: 49112 kB
+System Time: 1712156052.952438, Usage: 0.91%, Memory: 49112 kB
+System Time: 1712156053.953227, Usage: 0.67%, Memory: 49112 kB
+System Time: 1712156054.954276, Usage: 0.59%, Memory: 49112 kB
+System Time: 1712156055.954566, Usage: 0.61%, Memory: 49112 kB
+System Time: 1712156056.955454, Usage: 0.59%, Memory: 49112 kB
+System Time: 1712156057.955689, Usage: 0.64%, Memory: 49112 kB
+System Time: 1712156058.956061, Usage: 0.65%, Memory: 49112 kB
+System Time: 1712156059.956616, Usage: 0.5%, Memory: 49112 kB
+System Time: 1712156060.957057, Usage: 4.36%, Memory: 49112 kB
+System Time: 1712156061.958215, Usage: 1.06%, Memory: 49112 kB
+System Time: 1712156062.959021, Usage: 0.85%, Memory: 49112 kB
+System Time: 1712156063.959811, Usage: 0.65%, Memory: 49112 kB
+System Time: 1712156064.961987, Usage: 0.89%, Memory: 49112 kB
+System Time: 1712156065.963815, Usage: 0.69%, Memory: 49112 kB
+System Time: 1712156066.965755, Usage: 0.6%, Memory: 49112 kB
+System Time: 1712156067.966746, Usage: 0.76%, Memory: 49112 kB
+CPU Temperature: None
+2024-04-03 16:54:27,982 [websockets.py:on_close()] - Websocket Closed: ID: 140159026570160 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.62
+2024-04-03 16:54:29,987 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.64ms
+2024-04-03 16:54:29,988 [websockets.py:open()] - Websocket Opened: ID: 140159015631552, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 16:54:29,990 [websockets.py:_handle_identify()] - Websocket 140159015631552 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 16:54:40,081 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-04-03 16:55:07,760 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUx7m3gPoLPO5xo8U
+2024-04-03 16:55:07,765 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 16:55:07,767 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 7.45ms
+2024-04-03 16:55:40,082 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-04-03 16:55:40,929 [websockets.py:on_close()] - Websocket Closed: ID: 140159026380464 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.15
+2024-04-03 16:55:40,930 [websockets.py:on_close()] - Websocket Closed: ID: 140159026370912 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.80
+2024-04-03 16:55:41,085 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-04-03 16:55:41,085 [websockets.py:open()] - Websocket Opened: ID: 140159026569344, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 16:55:41,093 [websockets.py:_handle_identify()] - Websocket 140159026569344 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-03 16:55:41,413 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-03 16:55:41,413 [websockets.py:open()] - Websocket Opened: ID: 140159015624400, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 16:55:41,514 [websockets.py:_handle_identify()] - Websocket 140159015624400 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-03 16:55:50,038 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPmoDBVEKUjf6dEOv
+2024-04-03 16:55:50,043 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 16:55:50,045 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 7.98ms
+2024-04-03 16:56:07,791 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-04-03 16:56:18,881 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 16:56:18,883 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2024-04-03 16:56:18,883 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2024-04-03 16:56:18,883 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2024-04-03 16:56:18,885 [websockets.py:on_close()] - Websocket Closed: ID: 140159015631552 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.90
+2024-04-03 16:56:19,386 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 16:56:20,891 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.68ms
+2024-04-03 16:56:20,891 [websockets.py:open()] - Websocket Opened: ID: 140159015626944, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 16:56:20,893 [websockets.py:_handle_identify()] - Websocket 140159015626944 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 16:56:21,820 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 16:56:21,821 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 16:56:22,072 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 16:56:22,328 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 16:56:22,827 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 16:56:40,498 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to verify sensor state
+2024-04-03 16:58:25,319 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2to5zLLKrP8deZDq
+2024-04-03 16:58:25,325 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 16:58:25,327 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 8.64ms
+2024-04-03 16:58:26,381 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 16:58:26,384 [websockets.py:on_close()] - Websocket Closed: ID: 140159015626944 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.49
+2024-04-03 16:58:27,637 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 16:58:28,390 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-03 16:58:28,391 [websockets.py:open()] - Websocket Opened: ID: 140159026375424, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 16:58:28,393 [websockets.py:_handle_identify()] - Websocket 140159026375424 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 16:58:30,038 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 16:58:30,039 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 16:58:30,289 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 16:58:30,545 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 16:58:31,295 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 16:58:44,769 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: BLTouch failed to deploy
+2024-04-03 16:59:02,056 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
