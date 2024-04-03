@@ -1213,3 +1213,139 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzLAogShaLpcOAm
 2024-04-03 22:41:58,373 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-03 22:41:59,123 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-04-03 22:42:03,885 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-03 23:37:36,269 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryA9mPAW60FLAm4jeS
+2024-04-03 23:37:36,273 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:37:36,275 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.70ms
+2024-04-03 23:37:37,329 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:37:37,332 [websockets.py:on_close()] - Websocket Closed: ID: 140159026401904 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.09
+2024-04-03 23:37:38,586 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:37:38,863 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:37:38,864 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:37:38,865 [klippy_connection.py:_check_ready()] - 
+Unable to open temperature file '/sys/class/thermal/thermal_zone0/temp'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-04-03 23:37:39,344 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 4.58ms
+2024-04-03 23:37:39,344 [websockets.py:open()] - Websocket Opened: ID: 140159026403584, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:37:39,345 [websockets.py:_handle_identify()] - Websocket 140159026403584 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:38:11,411 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPFnPPRNvqBUKoOej
+2024-04-03 23:38:11,415 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:38:11,418 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.78ms
+2024-04-03 23:38:11,756 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:38:11,758 [websockets.py:on_close()] - Websocket Closed: ID: 140159026403584 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.41
+2024-04-03 23:38:13,012 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:38:13,293 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:38:13,294 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:38:13,294 [klippy_connection.py:_check_ready()] - 
+Unable to open temperature file '/sys/class/thermal/thermal_zone0/temp'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-04-03 23:38:13,768 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 4.00ms
+2024-04-03 23:38:13,768 [websockets.py:open()] - Websocket Opened: ID: 140159026403536, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:38:13,769 [websockets.py:_handle_identify()] - Websocket 140159026403536 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:38:22,709 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:38:22,711 [websockets.py:on_close()] - Websocket Closed: ID: 140159026403536 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.95
+2024-04-03 23:38:23,965 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:38:24,273 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:38:24,273 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:38:24,274 [klippy_connection.py:_check_ready()] - 
+Unable to open temperature file '/sys/class/thermal/thermal_zone0/temp'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-04-03 23:38:24,717 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.75ms
+2024-04-03 23:38:24,717 [websockets.py:open()] - Websocket Opened: ID: 140159026358080, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:38:24,720 [websockets.py:_handle_identify()] - Websocket 140159026358080 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:39:41,741 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary33g7bqBJjtdpDcuj
+2024-04-03 23:39:41,746 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:39:41,748 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 7.70ms
+2024-04-03 23:39:42,085 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:39:42,087 [websockets.py:on_close()] - Websocket Closed: ID: 140159026358080 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.37
+2024-04-03 23:39:43,340 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:39:43,619 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:39:43,619 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:39:43,620 [klippy_connection.py:_check_ready()] - 
+Unable to open temperature file '/sys/class/thermal/thermal_zone0/temp'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-04-03 23:39:44,093 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.69ms
+2024-04-03 23:39:44,093 [websockets.py:open()] - Websocket Opened: ID: 140159015630112, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:39:44,095 [websockets.py:_handle_identify()] - Websocket 140159015630112 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:51:18,159 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4SDepAM75IjXXNwa
+2024-04-03 23:51:18,163 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:51:18,165 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.95ms
+2024-04-03 23:51:18,510 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:51:18,513 [websockets.py:on_close()] - Websocket Closed: ID: 140159015630112 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.42
+2024-04-03 23:51:19,767 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:51:19,792 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['-.mount', 'sysinit.target', 'system.slice']
+**After=['basic.target', 'systemd-journald.socket', 'sysinit.target', 'system.slice', '-.mount', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-04-03 23:51:20,519 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-03 23:51:20,519 [websockets.py:open()] - Websocket Opened: ID: 140159026862624, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:51:20,521 [websockets.py:_handle_identify()] - Websocket 140159026862624 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:51:21,126 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:51:21,126 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:51:21,377 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 23:51:21,632 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 23:51:22,383 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-03 23:55:03,247 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6GQMdNXgAcm5Smmo
+2024-04-03 23:55:03,251 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:55:03,253 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.13ms
+2024-04-03 23:55:04,310 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:55:04,313 [websockets.py:on_close()] - Websocket Closed: ID: 140159026862624 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 3.79
+2024-04-03 23:55:05,568 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:55:05,844 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:55:05,845 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:55:05,846 [klippy_connection.py:_check_ready()] - 
+pin PC7 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2024-04-03 23:55:06,320 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-03 23:55:06,320 [websockets.py:open()] - Websocket Opened: ID: 140159026369808, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:55:06,322 [websockets.py:_handle_identify()] - Websocket 140159026369808 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:55:56,742 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCBvusrUaNYcKUzQg
+2024-04-03 23:55:56,759 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 23:55:56,761 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 19.91ms
+2024-04-03 23:55:57,099 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 23:55:57,102 [websockets.py:on_close()] - Websocket Closed: ID: 140159026369808 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.78
+2024-04-03 23:55:58,356 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 23:55:59,107 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-03 23:55:59,108 [websockets.py:open()] - Websocket Opened: ID: 140159026695232, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 23:55:59,110 [websockets.py:_handle_identify()] - Websocket 140159026695232 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 23:55:59,711 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 23:55:59,711 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 23:55:59,962 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 23:56:00,217 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 23:56:00,968 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
