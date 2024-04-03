@@ -45927,3 +45927,73 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 22:26:50,996 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-04-03 22:27:17,169 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
 2024-04-03 22:27:23,169 - INFO - Gadget HostLock set to: gadget-nyc.octoeverywhere.com
+2024-04-03 22:31:56,652 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 22:35:33,798 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 22:35:58,844 - INFO - Gadget has stopped watching!
+2024-04-03 22:35:58,844 - INFO - RepeatTimer thread exit
+2024-04-03 22:35:58,845 - INFO - RepeatTimer thread exit
+2024-04-03 22:35:58,845 - INFO - RepeatTimer thread exit
+2024-04-03 22:36:00,295 - INFO - NotificationsHandler successfully sent 'paused'
+2024-04-03 22:37:02,138 - INFO - NotificationsHandler successfully sent 'failed'
+2024-04-03 22:39:22,085 - INFO - Gadget HostLock cleared
+2024-04-03 22:39:22,086 - INFO - Gadget is now watching!
+2024-04-03 22:39:22,089 - INFO - FileMetadataCache updated for file [KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2255.0, size: 1551, filament usage: 1515
+2024-04-03 22:39:22,089 - INFO - Print Manager recovered a print info from disk matching cookie: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-03 22:39:22,090 - INFO - Gadget has stopped watching!
+2024-04-03 22:39:22,090 - INFO - RepeatTimer thread exit
+2024-04-03 22:39:22,091 - INFO - RepeatTimer thread exit
+2024-04-03 22:39:22,091 - INFO - RepeatTimer thread exit
+2024-04-03 22:39:22,093 - INFO - Gadget is now watching!
+2024-04-03 22:39:22,093 - INFO - New print started; PrintId: JWwX0GlrMKq1JeOVCkJzqh7lD2jh2o9wJsnkTJFte8d2Y019FTCvHv6dibaj file:KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode size:1551 filament:1515
+2024-04-03 22:39:23,254 - INFO - NotificationsHandler successfully sent 'resume'
+2024-04-03 22:39:23,351 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 22:39:52,407 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:40:22,728 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:40:53,049 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:41:23,374 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:41:39,177 - INFO - First layer timer is done. Stopping.
+2024-04-03 22:41:39,177 - INFO - RepeatTimer thread exit
+2024-04-03 22:41:53,469 - WARNING - Gadget timer is running but the print state is not printing, so the timer is topping.
+2024-04-03 22:41:53,470 - INFO - Gadget has stopped watching!
+2024-04-03 22:41:53,470 - INFO - RepeatTimer thread exit
+2024-04-03 22:41:55,234 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 22:41:55,234 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 22:41:55,236 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 22:41:55,236 - INFO - Moonraker websocket connection closed.
+2024-04-03 22:41:55,236 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 22:41:57,240 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 22:41:57,243 - INFO - Websocket connected
+2024-04-03 22:41:57,243 - INFO - Moonraker client websocket opened.
+2024-04-03 22:41:57,243 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 22:41:57,244 - INFO - Authenticating with moonraker...
+2024-04-03 22:41:57,251 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 22:41:57,252 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 22:41:59,254 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 22:41:59,254 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 22:41:59,872 - INFO - Printer state at socket connect is: standby
+2024-04-03 22:41:59,872 - INFO - Restore client sync state: There's no print running but the ping timers are running. Stopping them now.
+2024-04-03 22:41:59,873 - INFO - RepeatTimer thread exit
+2024-04-03 22:42:04,137 - INFO - Gadget is now watching!
+2024-04-03 22:42:04,141 - INFO - FileMetadataCache updated for file [KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2255.0, size: 1551, filament usage: 1515
+2024-04-03 22:42:04,141 - INFO - Print Manager recovered a print info from disk matching cookie: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-03 22:42:04,141 - INFO - Gadget has stopped watching!
+2024-04-03 22:42:04,142 - INFO - RepeatTimer thread exit
+2024-04-03 22:42:04,142 - INFO - RepeatTimer thread exit
+2024-04-03 22:42:04,143 - INFO - RepeatTimer thread exit
+2024-04-03 22:42:04,143 - INFO - Gadget is now watching!
+2024-04-03 22:42:04,144 - INFO - New print started; PrintId: JWwX0GlrMKq1JeOVCkJzqh7lD2jh2o9wJsnkTJFte8d2Y019FTCvHv6dibaj file:KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode size:1551 filament:1515
+2024-04-03 22:42:05,288 - INFO - NotificationsHandler successfully sent 'resume'
+2024-04-03 22:42:05,448 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 22:42:34,455 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:43:04,786 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:43:35,113 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:44:05,446 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 22:44:27,915 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-03 22:44:36,861 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-04-03 22:49:05,799 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 22:52:45,844 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 22:55:41,748 - INFO - First layer timer is done. Stopping.
+2024-04-03 22:55:41,749 - INFO - RepeatTimer thread exit
+2024-04-03 22:55:42,616 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-03 22:56:21,919 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 22:59:35,953 - INFO - NotificationsHandler successfully sent 'progress'

@@ -1198,3 +1198,18 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzLAogShaLpcOAm
 2024-04-03 22:23:48,580 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-03 22:23:48,593 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 511.19ms
 2024-04-03 22:23:48,782 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-03 22:38:19,821 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 117.500 267.500 10.000 [2328.377]
+2024-04-03 22:39:21,833 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-03 22:41:55,233 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 22:41:55,235 [websockets.py:on_close()] - Websocket Closed: ID: 140159026871024 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.43
+2024-04-03 22:41:56,487 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 22:41:57,242 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-03 22:41:57,243 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.71ms
+2024-04-03 22:41:57,243 [websockets.py:open()] - Websocket Opened: ID: 140159026401904, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 22:41:57,244 [websockets.py:_handle_identify()] - Websocket 140159026401904 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 22:41:57,867 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 22:41:57,868 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 22:41:58,118 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 22:41:58,373 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 22:41:59,123 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 22:42:03,885 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_205C_PLA_ENDER3.gcode
