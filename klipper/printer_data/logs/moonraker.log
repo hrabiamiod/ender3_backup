@@ -1133,3 +1133,26 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryp710Z5U11Z2hHI
 2024-04-03 18:16:21,189 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-04-03 18:16:21,450 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-03 18:16:22,195 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 18:30:41,725 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGGXajWY6VkcvBBzY
+2024-04-03 18:30:41,730 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-03 18:30:41,733 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 8.31ms
+2024-04-03 18:30:42,792 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 18:30:42,795 [websockets.py:on_close()] - Websocket Closed: ID: 140159015630592 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.48
+2024-04-03 18:30:44,049 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 18:30:44,800 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-03 18:30:44,801 [websockets.py:open()] - Websocket Opened: ID: 140159026871024, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 18:30:44,803 [websockets.py:_handle_identify()] - Websocket 140159026871024 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 18:30:45,483 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 18:30:45,484 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 18:30:45,734 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 18:30:45,989 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 18:30:46,739 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 18:34:43,279 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryY9OIkyuBGT8MR2YY
+2024-04-03 18:34:43,533 [application.py:post()] - Processing Uploaded File: KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-03 18:34:43,629 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-03 18:34:43,660 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-04-03 18:34:43,670 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 391.30ms
+2024-04-03 18:34:43,729 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode

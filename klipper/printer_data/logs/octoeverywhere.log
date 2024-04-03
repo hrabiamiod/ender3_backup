@@ -45827,3 +45827,40 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 18:21:47,984 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]. Starting handshake...
 2024-04-03 18:21:58,882 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[3], successfully connected to OctoEverywhere!
 2024-04-03 18:21:58,883 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-03 18:30:42,794 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 18:30:42,794 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 18:30:42,795 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 18:30:42,795 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-03 18:30:42,796 - INFO - Moonraker websocket connection closed.
+2024-04-03 18:30:42,796 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 18:30:44,798 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 18:30:44,801 - INFO - Websocket connected
+2024-04-03 18:30:44,802 - INFO - Moonraker client websocket opened.
+2024-04-03 18:30:44,802 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:30:44,802 - INFO - Authenticating with moonraker...
+2024-04-03 18:30:44,810 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 18:30:44,811 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 18:30:46,814 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 18:30:46,814 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 18:30:47,489 - INFO - Printer state at socket connect is: standby
+2024-04-03 18:30:47,490 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 18:34:43,732 - INFO - FileMetadataCache updated for file [KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode]; est time: 2257.0, size: 1523, filament usage: 1578
+2024-04-03 18:34:43,734 - INFO - Gadget HostLock cleared
+2024-04-03 18:34:43,735 - INFO - Gadget is now watching!
+2024-04-03 18:34:43,735 - INFO - New print started; PrintId: EMOBbUZ1wtHjC3KAgSi5YXOHRxe0CmX2ZRgjtBPCmztMzHvAZPIJypob8o2w file:KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode size:1523 filament:1578
+2024-04-03 18:34:45,129 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 18:35:14,061 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 18:35:44,387 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 18:36:14,710 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 18:36:45,038 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 18:37:15,362 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 18:37:30,150 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-03 18:37:46,863 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-03 18:42:29,116 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 18:46:08,603 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 18:48:47,643 - INFO - First layer timer is done. Stopping.
+2024-04-03 18:48:47,644 - INFO - RepeatTimer thread exit
+2024-04-03 18:48:48,508 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-03 18:49:38,391 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 18:52:51,418 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 18:56:02,146 - INFO - NotificationsHandler successfully sent 'progress'
