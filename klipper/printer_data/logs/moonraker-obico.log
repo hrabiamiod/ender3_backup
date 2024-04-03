@@ -19371,3 +19371,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-03 15:02:33,584     ERROR  obico.app - unexpected state "standby", please report.
 2024-04-03 15:02:41,859      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-03 15:02:42,172      INFO  obico.app - print event: PrintStarted (1712149361)
+2024-04-03 15:41:06,667      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-03 15:41:06,667      INFO  obico.app - print event: PrintDone (1712149361)

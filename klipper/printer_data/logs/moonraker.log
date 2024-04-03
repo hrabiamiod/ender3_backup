@@ -657,3 +657,9 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPmdIR7R7fO5B1Z
 2024-04-03 14:59:15,022 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 236.64ms
 2024-04-03 14:59:15,068 [job_state.py:_status_update()] - Job Started: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode
 2024-04-03 15:02:41,605 [job_state.py:_status_update()] - Job Started: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode
+2024-04-03 15:57:53,876 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-04-03 15:57:53,876 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.84ms
+2024-04-03 15:57:53,876 [websockets.py:open()] - Websocket Opened: ID: 140159026693120, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-03 15:57:53,890 [websockets.py:_handle_identify()] - Websocket 140159026693120 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-03 15:58:53,929 [websockets.py:write_to_socket()] - Websocket closed while writing: 140159026693120
+2024-04-03 15:58:58,419 [websockets.py:on_close()] - Websocket Closed: ID: 140159026693120 Close Code: None, Close Reason: None, Pong Time Elapsed: 43.55
