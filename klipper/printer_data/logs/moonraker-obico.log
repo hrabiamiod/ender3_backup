@@ -19361,3 +19361,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-03 13:11:19,492      INFO  backoff - Backing off wait_for_klippy_ready(...) for 35.0s (False)
 2024-04-03 13:11:54,702      INFO  obico.moonraker_conn - Klippy ready
 2024-04-03 13:11:54,954      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-03 13:39:04,084      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-03 13:39:04,409      INFO  obico.app - print event: PrintStarted (1712144343)

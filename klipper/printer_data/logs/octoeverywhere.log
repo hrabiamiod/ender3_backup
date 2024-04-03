@@ -45315,3 +45315,26 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 13:11:46,050 - INFO - Moonraker client setting up default notification hooks
 2024-04-03 13:11:46,432 - INFO - Printer state at socket connect is: standby
 2024-04-03 13:11:46,433 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-03 13:39:03,835 - INFO - FileMetadataCache updated for file [CE3E3V2_biqu_microprobe_v2_mount_ender_3_pro.gcode]; est time: 1583.0, size: 506, filament usage: 396
+2024-04-03 13:39:03,838 - INFO - Gadget is now watching!
+2024-04-03 13:39:03,839 - INFO - New print started; PrintId: Zup6S8MXrb15jgnKtCzZ28aXjEDad0HYk0xEDzT6LxhZjPInRSXUYVezaJ9u file:CE3E3V2_biqu_microprobe_v2_mount_ender_3_pro.gcode size:506 filament:396
+2024-04-03 13:39:05,360 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 13:39:34,164 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:40:04,481 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:40:34,804 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:41:05,132 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:41:35,469 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:42:05,799 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 13:42:26,254 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-03 13:42:38,000 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-03 13:44:10,862 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:44:20,880 - INFO - First layer timer is done. Stopping.
+2024-04-03 13:44:20,880 - INFO - RepeatTimer thread exit
+2024-04-03 13:44:21,862 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-03 13:45:35,256 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:46:50,566 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:48:08,432 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:49:20,702 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:50:32,766 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:52:21,292 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 13:57:36,625 - INFO - NotificationsHandler successfully sent 'progress'
