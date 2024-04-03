@@ -45997,3 +45997,27 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 22:55:42,616 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
 2024-04-03 22:56:21,919 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-03 22:59:35,953 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:02:55,281 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:07:30,015 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:12:31,602 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:16:45,260 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:21:47,850 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-04-03 23:21:47,850 - ERROR - ping/pong timed out - goodbye
+2024-04-03 23:21:47,851 - INFO - Service websocket closed.
+2024-04-03 23:21:47,852 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[3]
+2024-04-03 23:21:47,852 - INFO - Closing all open web stream sockets (0)
+2024-04-03 23:21:47,852 - INFO - Sleeping for 8 seconds before trying again.
+2024-04-03 23:21:55,860 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-03 23:21:55,861 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4] wsId:126595845566192
+2024-04-03 23:21:56,063 - INFO - Websocket connected
+2024-04-03 23:21:56,064 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[4]. Starting handshake...
+2024-04-03 23:21:56,287 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[4], successfully connected to OctoEverywhere!
+2024-04-03 23:21:56,287 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-03 23:22:09,223 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 23:26:41,547 - INFO - Starting FinalSnap
+2024-04-03 23:27:39,705 - INFO - Gadget has stopped watching!
+2024-04-03 23:27:39,705 - INFO - RepeatTimer thread exit
+2024-04-03 23:27:39,706 - INFO - RepeatTimer thread exit
+2024-04-03 23:27:40,206 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-04-03 23:27:40,207 - INFO - RepeatTimer thread exit
+2024-04-03 23:27:40,937 - INFO - NotificationsHandler successfully sent 'done'
