@@ -1159,3 +1159,16 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryY9OIkyuBGT8MR2
 2024-04-03 19:09:02,080 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
 2024-04-03 19:34:02,086 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-04-03 19:39:02,087 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-03 20:31:23,717 [websockets.py:write_to_socket()] - Websocket closed while writing: 140159014461376
+2024-04-03 20:31:23,860 [websockets.py:on_close()] - Websocket Closed: ID: 140159014461376 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.09
+2024-04-03 20:31:24,511 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-03 20:31:24,512 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.93ms
+2024-04-03 20:31:24,512 [websockets.py:open()] - Websocket Opened: ID: 140159014610176, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 20:31:24,595 [websockets.py:_handle_identify()] - Websocket 140159014610176 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-03 20:36:25,029 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-03 20:36:35,039 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-03 20:36:42,041 [websockets.py:write_to_socket()] - Websocket closed while writing: 140159026569344
+2024-04-03 20:36:46,087 [websockets.py:on_close()] - Websocket Closed: ID: 140159026569344 Close Code: None, Close Reason: None, Pong Time Elapsed: 39.65
+2024-04-03 20:36:59,387 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-03 20:36:59,387 [websockets.py:open()] - Websocket Opened: ID: 140159026867952, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 20:36:59,479 [websockets.py:_handle_identify()] - Websocket 140159026867952 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
