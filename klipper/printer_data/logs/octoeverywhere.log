@@ -45875,3 +45875,22 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 19:20:46,200 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
 2024-04-03 19:20:46,200 - INFO - RepeatTimer thread exit
 2024-04-03 19:20:48,392 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-03 21:16:08,860 - INFO - FileMetadataCache updated for file [KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode]; est time: 2382.0, size: 1547, filament usage: 463
+2024-04-03 21:16:08,865 - INFO - Gadget HostLock cleared
+2024-04-03 21:16:08,865 - INFO - Gadget is now watching!
+2024-04-03 21:16:08,866 - INFO - New print started; PrintId: AyHPcEPpYd2hk0qqKBnnuJETAugxMRhSRu3qJ5giu1A6bpjPeQURjD7HR0hR file:KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode size:1547 filament:463
+2024-04-03 21:16:10,142 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 21:16:39,185 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:17:09,506 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:17:39,835 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:18:10,177 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:18:40,506 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:19:10,831 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:19:41,143 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-03 21:20:13,494 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-03 21:20:21,826 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-03 21:22:12,529 - INFO - First layer timer is done. Stopping.
+2024-04-03 21:22:12,529 - INFO - RepeatTimer thread exit
+2024-04-03 21:22:13,412 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-03 21:25:02,850 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-03 21:29:08,319 - INFO - NotificationsHandler successfully sent 'progress'

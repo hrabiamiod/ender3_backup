@@ -1172,3 +1172,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryY9OIkyuBGT8MR2
 2024-04-03 20:36:59,387 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
 2024-04-03 20:36:59,387 [websockets.py:open()] - Websocket Opened: ID: 140159026867952, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-04-03 20:36:59,479 [websockets.py:_handle_identify()] - Websocket 140159026867952 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-03 21:16:08,236 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDDs56kzmxUzYCtiq
+2024-04-03 21:16:08,490 [application.py:post()] - Processing Uploaded File: KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode
+2024-04-03 21:16:08,587 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-03 21:16:08,619 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-04-03 21:16:08,628 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 392.69ms
+2024-04-03 21:16:08,857 [job_state.py:_status_update()] - Job Started: KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode
