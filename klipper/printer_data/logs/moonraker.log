@@ -558,3 +558,12 @@ Properties:
 2024-04-03 09:14:02,568 [websockets.py:_handle_identify()] - Websocket 140159025977744 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-04-03 09:14:02,649 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.64ms
 2024-04-03 09:14:02,649 [websockets.py:open()] - Websocket Opened: ID: 140159025973568, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-03 09:15:29,962 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 09:15:29,963 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 09:15:29,964 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
