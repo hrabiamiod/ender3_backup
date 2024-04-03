@@ -1157,3 +1157,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryY9OIkyuBGT8MR2
 2024-04-03 18:34:43,670 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 391.30ms
 2024-04-03 18:34:43,729 [job_state.py:_status_update()] - Job Started: KOKOS_38m_0.20mm_215C_PLA_ENDER3.gcode
 2024-04-03 19:09:02,080 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
+2024-04-03 19:34:02,086 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-03 19:39:02,087 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
