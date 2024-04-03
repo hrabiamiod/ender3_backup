@@ -577,3 +577,4 @@ Error configuring printer
 2024-04-03 11:22:24,527 [websockets.py:_handle_identify()] - Websocket 140159025961072 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-04-03 11:23:25,959 [websockets.py:on_close()] - Websocket Closed: ID: 140159025961072 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.42
 2024-04-03 11:23:25,964 [websockets.py:on_close()] - Websocket Closed: ID: 140159026701856 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.14
+2024-04-03 12:24:02,011 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
