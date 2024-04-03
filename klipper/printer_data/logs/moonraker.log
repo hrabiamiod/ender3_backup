@@ -646,3 +646,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytaX2be4pHDkrwi
 2024-04-03 13:51:05,686 [websockets.py:on_close()] - Websocket Closed: ID: 140159026355920 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.97
 2024-04-03 13:51:05,688 [websockets.py:on_close()] - Websocket Closed: ID: 140159026357984 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.13
 2024-04-03 14:14:02,027 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-03 14:49:02,032 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-03 14:59:14,786 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-03 14:59:14,786 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPmdIR7R7fO5B1Zrs
+2024-04-03 14:59:14,880 [application.py:post()] - Processing Uploaded File: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode
+2024-04-03 14:59:14,978 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-03 14:59:15,010 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode") successfully finished
+2024-04-03 14:59:15,022 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 236.64ms
+2024-04-03 14:59:15,068 [job_state.py:_status_update()] - Job Started: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode

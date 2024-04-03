@@ -45346,3 +45346,15 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 14:05:14,131 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
 2024-04-03 14:05:14,131 - INFO - RepeatTimer thread exit
 2024-04-03 14:05:17,616 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-03 14:59:15,321 - INFO - Gadget HostLock cleared
+2024-04-03 14:59:15,321 - INFO - Gadget is now watching!
+2024-04-03 14:59:15,325 - INFO - FileMetadataCache updated for file [biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode]; est time: 2037.0, size: 810, filament usage: 442
+2024-04-03 14:59:15,328 - INFO - Gadget has stopped watching!
+2024-04-03 14:59:15,328 - INFO - RepeatTimer thread exit
+2024-04-03 14:59:15,329 - INFO - RepeatTimer thread exit
+2024-04-03 14:59:15,329 - INFO - RepeatTimer thread exit
+2024-04-03 14:59:15,330 - INFO - Gadget is now watching!
+2024-04-03 14:59:15,330 - INFO - New print started; PrintId: n3QqIc6X7RXeG2RHHNhtdPEUa9frjgFSlGyVyKbOBXg67uP8nFZhHT3Y3ikK file:biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode size:810 filament:442
+2024-04-03 14:59:16,715 - INFO - NotificationsHandler successfully sent 'resume'
+2024-04-03 14:59:16,825 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-03 14:59:45,644 - INFO - Waiting to predict with Gadget because the printer is warming up.
