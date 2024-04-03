@@ -656,3 +656,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPmdIR7R7fO5B1Z
 2024-04-03 14:59:15,010 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode") successfully finished
 2024-04-03 14:59:15,022 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 236.64ms
 2024-04-03 14:59:15,068 [job_state.py:_status_update()] - Job Started: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode
+2024-04-03 15:02:41,605 [job_state.py:_status_update()] - Job Started: biqu_microprobe_v2_mount_ender_3_pro_34m_0.08mm_210C_PLA_ENDER3.gcode
