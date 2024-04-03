@@ -45288,3 +45288,30 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-03 12:49:21,499 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-03 12:54:21,906 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-03 12:59:22,321 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-03 13:04:22,729 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-03 13:09:23,110 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-03 13:11:42,031 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-03 13:11:42,032 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 13:11:42,033 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 13:11:42,033 - INFO - Moonraker websocket connection closed.
+2024-04-03 13:11:42,033 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-03 13:11:43,289 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2024-04-03 13:11:43,289 - INFO - Moonraker client failed to send JsonRPC request server.info
+2024-04-03 13:11:43,293 - ERROR - Moonraker client exception in klippy waiting logic.; NoSentryReportException Exception: No Sentry Exception - Message: `Moonraker client failed to send klippy ready query message, there was no websocket.`; Traceback (most recent call last):
+  File "/home/turbo/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 595, in _AfterOpenReadyWaiter
+    raise NoSentryReportException("Moonraker client failed to send klippy ready query message, there was no websocket.")
+octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message: `Moonraker client failed to send klippy ready query message, there was no websocket.`
+
+2024-04-03 13:11:43,293 - INFO - Moonraker client websocket shutdown called.
+2024-04-03 13:11:43,293 - INFO - Moonraker client websocket shutdown complete.
+2024-04-03 13:11:44,037 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-03 13:11:44,040 - INFO - Websocket connected
+2024-04-03 13:11:44,040 - INFO - Moonraker client websocket opened.
+2024-04-03 13:11:44,040 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 13:11:44,041 - INFO - Authenticating with moonraker...
+2024-04-03 13:11:44,047 - INFO - Moonraker client waiting for klippy ready...
+2024-04-03 13:11:44,048 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-03 13:11:46,050 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-03 13:11:46,050 - INFO - Moonraker client setting up default notification hooks
+2024-04-03 13:11:46,432 - INFO - Printer state at socket connect is: standby
+2024-04-03 13:11:46,433 - INFO - Restore client sync state: There's no print and none of the timers are running.

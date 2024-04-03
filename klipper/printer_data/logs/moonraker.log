@@ -578,3 +578,38 @@ Error configuring printer
 2024-04-03 11:23:25,959 [websockets.py:on_close()] - Websocket Closed: ID: 140159025961072 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.42
 2024-04-03 11:23:25,964 [websockets.py:on_close()] - Websocket Closed: ID: 140159026701856 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.14
 2024-04-03 12:24:02,011 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-03 13:11:37,775 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-03 13:11:37,776 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.92ms
+2024-04-03 13:11:37,776 [websockets.py:open()] - Websocket Opened: ID: 140159026380464, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 13:11:37,794 [websockets.py:_handle_identify()] - Websocket 140159026380464 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-03 13:11:38,125 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
+2024-04-03 13:11:38,125 [websockets.py:open()] - Websocket Opened: ID: 140159026370912, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-03 13:11:38,195 [websockets.py:_handle_identify()] - Websocket 140159026370912 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-03 13:11:42,031 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-03 13:11:42,033 [websockets.py:on_close()] - Websocket Closed: ID: 140159025977744 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.47
+2024-04-03 13:11:43,286 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-03 13:11:43,348 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['system.slice', 'systemd-journald.socket', 'sysinit.target', 'basic.target', '-.mount', 'network-online.target']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-04-03 13:11:44,039 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-03 13:11:44,040 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.43ms
+2024-04-03 13:11:44,040 [websockets.py:open()] - Websocket Opened: ID: 140159025961360, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-03 13:11:44,041 [websockets.py:_handle_identify()] - Websocket 140159025961360 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-03 13:11:45,672 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-03 13:11:45,672 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-03 13:11:45,923 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-03 13:11:46,180 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-03 13:11:46,928 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-04-03 13:11:58,996 [application.py:log_request()] - 404 GET /api/v1/system (192.168.1.12) [_TRUSTED_USER_] 4.15ms
