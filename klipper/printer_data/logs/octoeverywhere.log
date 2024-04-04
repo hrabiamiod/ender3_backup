@@ -46333,3 +46333,81 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-04 14:27:49,339 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
 2024-04-04 14:28:33,389 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-04 14:29:30,326 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:31:35,116 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:34:39,147 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:36:24,064 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:36:51,105 - INFO - First layer timer is done. Stopping.
+2024-04-04 14:36:51,105 - INFO - RepeatTimer thread exit
+2024-04-04 14:36:52,228 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-04 14:37:10,399 - INFO - Gadget has stopped watching!
+2024-04-04 14:37:10,400 - INFO - RepeatTimer thread exit
+2024-04-04 14:37:10,400 - INFO - RepeatTimer thread exit
+2024-04-04 14:37:12,242 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-04 14:37:52,858 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-04 14:37:52,858 - INFO - Moonraker client websocket shutdown called.
+2024-04-04 14:37:52,859 - INFO - Moonraker client websocket shutdown complete.
+2024-04-04 14:37:52,859 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-04 14:37:52,859 - INFO - Moonraker websocket connection closed.
+2024-04-04 14:37:52,859 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-04 14:37:54,861 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-04 14:37:54,865 - INFO - Websocket connected
+2024-04-04 14:37:54,865 - INFO - Moonraker client websocket opened.
+2024-04-04 14:37:54,865 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:37:54,866 - INFO - Authenticating with moonraker...
+2024-04-04 14:37:54,872 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:37:54,874 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-04 14:37:56,878 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-04 14:37:56,878 - INFO - Moonraker client setting up default notification hooks
+2024-04-04 14:37:57,282 - INFO - Printer state at socket connect is: standby
+2024-04-04 14:37:57,282 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-04 14:41:32,479 - INFO - Moonraker client received notify_klippy_shutdown notification, so we will restart our client connection.
+2024-04-04 14:41:32,479 - INFO - Moonraker client websocket shutdown called.
+2024-04-04 14:41:32,480 - INFO - Moonraker client websocket shutdown complete.
+2024-04-04 14:41:32,481 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-04 14:41:32,481 - INFO - Moonraker websocket connection closed.
+2024-04-04 14:41:32,481 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-04 14:41:34,485 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-04 14:41:34,489 - INFO - Websocket connected
+2024-04-04 14:41:34,490 - INFO - Moonraker client websocket opened.
+2024-04-04 14:41:34,490 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:41:34,490 - INFO - Authenticating with moonraker...
+2024-04-04 14:41:34,499 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:41:34,500 - INFO - Moonraker client got klippy state 'disconnected', waiting for ready...
+2024-04-04 14:41:38,508 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-04 14:41:38,508 - INFO - Moonraker client setting up default notification hooks
+2024-04-04 14:41:38,787 - INFO - Printer state at socket connect is: standby
+2024-04-04 14:41:38,787 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-04 14:42:39,764 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-04 14:42:39,764 - INFO - Moonraker client websocket shutdown called.
+2024-04-04 14:42:39,765 - INFO - Moonraker client websocket shutdown complete.
+2024-04-04 14:42:39,766 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-04 14:42:39,766 - INFO - Moonraker websocket connection closed.
+2024-04-04 14:42:39,766 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-04 14:42:41,769 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-04 14:42:41,773 - INFO - Websocket connected
+2024-04-04 14:42:41,773 - INFO - Moonraker client websocket opened.
+2024-04-04 14:42:41,774 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:42:41,774 - INFO - Authenticating with moonraker...
+2024-04-04 14:42:41,781 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 14:42:41,782 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-04 14:42:43,786 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-04 14:42:43,786 - INFO - Moonraker client setting up default notification hooks
+2024-04-04 14:42:44,175 - INFO - Printer state at socket connect is: standby
+2024-04-04 14:42:44,176 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-04 14:43:41,602 - INFO - FileMetadataCache updated for file [xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode]; est time: 1658.0, size: 309, filament usage: 1417
+2024-04-04 14:43:41,604 - INFO - Gadget HostLock cleared
+2024-04-04 14:43:41,604 - INFO - Gadget is now watching!
+2024-04-04 14:43:41,604 - INFO - New print started; PrintId: S1nnHaUVZXtUV7idBzsKmyF3deBHh58nDXmwCimIe4mhoQzvtSSCX3jvfcVc file:xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode size:309 filament:1417
+2024-04-04 14:43:43,034 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-04 14:44:11,923 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 14:44:42,247 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 14:45:12,568 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 14:45:44,453 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-04 14:45:49,948 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-04 14:48:23,052 - INFO - First layer timer is done. Stopping.
+2024-04-04 14:48:23,053 - INFO - RepeatTimer thread exit
+2024-04-04 14:48:24,066 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-04 14:50:20,445 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:53:26,748 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:56:32,994 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 14:59:58,337 - INFO - NotificationsHandler successfully sent 'progress'
