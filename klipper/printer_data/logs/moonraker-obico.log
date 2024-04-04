@@ -19534,3 +19534,7 @@ KeyError: 'result'
 2024-04-04 22:05:14,900     ERROR  obico.app - unexpected state "standby", please report.
 2024-04-04 22:11:05,535      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-04 22:11:05,883      INFO  obico.app - print event: PrintStarted (1712261465)
+2024-04-04 22:46:27,432      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-04 22:46:27,432      INFO  obico.app - print event: PrintDone (1712261465)
+2024-04-04 22:59:34,485      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-04 22:59:34,862      INFO  obico.app - print event: PrintStarted (1712264374)
