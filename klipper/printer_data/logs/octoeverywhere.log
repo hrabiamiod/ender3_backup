@@ -46537,3 +46537,33 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-04 21:30:25,072 - INFO - RepeatTimer thread exit
 2024-04-04 21:30:25,073 - INFO - RepeatTimer thread exit
 2024-04-04 21:30:26,491 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-04 22:00:32,940 - INFO - FileMetadataCache updated for file [ARNOLD_096_31m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 1831.0, size: 997, filament usage: 1380
+2024-04-04 22:00:32,944 - INFO - Gadget HostLock cleared
+2024-04-04 22:00:32,945 - INFO - Gadget is now watching!
+2024-04-04 22:00:32,946 - INFO - New print started; PrintId: HslvOcGPH2o859ivqDmU31u3sErqJhUhsM6c56v4HS0J9WbbNnK6XsMlrnlA file:ARNOLD_096_31m_0.20mm_205C_PLA_ENDER3.gcode size:997 filament:1380
+2024-04-04 22:00:34,349 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-04 22:01:03,261 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 22:01:35,688 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com
+2024-04-04 22:01:44,784 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-04 22:05:14,649 - INFO - Gadget has stopped watching!
+2024-04-04 22:05:14,649 - INFO - RepeatTimer thread exit
+2024-04-04 22:05:14,649 - INFO - RepeatTimer thread exit
+2024-04-04 22:05:14,651 - INFO - RepeatTimer thread exit
+2024-04-04 22:05:17,008 - INFO - NotificationsHandler successfully sent 'failed'
+2024-04-04 22:11:05,285 - INFO - FileMetadataCache updated for file [ARNOLD_096_31m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 1831.0, size: 997, filament usage: 1380
+2024-04-04 22:11:05,286 - INFO - Print Manager recovered a print info from disk matching cookie: ARNOLD_096_31m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-04 22:11:05,286 - INFO - Gadget HostLock cleared
+2024-04-04 22:11:05,286 - INFO - Gadget is now watching!
+2024-04-04 22:11:05,288 - INFO - New print started; PrintId: HslvOcGPH2o859ivqDmU31u3sErqJhUhsM6c56v4HS0J9WbbNnK6XsMlrnlA file:ARNOLD_096_31m_0.20mm_205C_PLA_ENDER3.gcode size:997 filament:1380
+2024-04-04 22:11:06,710 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-04 22:11:35,599 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 22:12:07,261 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-04 22:12:20,003 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-04 22:16:50,588 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 22:19:46,170 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 22:21:29,900 - INFO - First layer timer is done. Stopping.
+2024-04-04 22:21:29,900 - INFO - RepeatTimer thread exit
+2024-04-04 22:21:30,867 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-04 22:22:43,769 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 22:25:00,570 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-04 22:27:57,278 - INFO - NotificationsHandler successfully sent 'progress'
