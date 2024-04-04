@@ -785,3 +785,94 @@ Diverged: False
 2024-04-04 13:22:34,812 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico status --porcelain -b) successfully finished
 2024-04-04 13:22:34,816 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico branch --list --no-color) successfully finished
 2024-04-04 13:22:34,821 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico remote get-url origin) successfully finished
+2024-04-04 13:22:37,228 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico fetch origin --prune --progress) successfully finished
+2024-04-04 13:22:37,233 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-04-04 13:22:37,237 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse HEAD) successfully finished
+2024-04-04 13:22:37,244 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-04-04 13:22:37,247 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-parse origin/master) successfully finished
+2024-04-04 13:22:37,252 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-04-04 13:22:37,257 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-obico rev-list HEAD..b6edcde54e7eaf21d41b11d3ed3d9db32a1ff835 --count) successfully finished
+2024-04-04 13:22:37,257 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+Owner: TheSpaghettiDetective
+Repository Name: moonraker-obico
+Path: /home/turbo/moonraker-obico
+Remote: origin
+Branch: master
+Remote URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Recovery URL: https://github.com/TheSpaghettiDetective/moonraker-obico.git
+Current Commit SHA: b6edcde54e7eaf21d41b11d3ed3d9db32a1ff835
+Upstream Commit SHA: b6edcde54e7eaf21d41b11d3ed3d9db32a1ff835
+Current Version: v1.5.7-0-gb6edcde5
+Upstream Version: v1.5.7-0-gb6edcde5
+Rollback Commit: f9327841627bade6efb237ee21898344ba8fe336
+Rollback Branch: master
+Rollback Version: v1.5.3-3-gf9327841
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-04-04 13:22:37,257 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Channel: dev
+2024-04-04 13:22:37,257 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Validity check for git repo passed
+2024-04-04 13:22:37,400 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere status --porcelain -b) successfully finished
+2024-04-04 13:22:37,404 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere branch --list --no-color) successfully finished
+2024-04-04 13:22:37,410 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere remote get-url origin) successfully finished
+2024-04-04 13:22:38,295 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere fetch origin --prune --progress) successfully finished
+2024-04-04 13:22:38,299 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-04-04 13:22:38,302 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere rev-parse HEAD) successfully finished
+2024-04-04 13:22:38,310 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-04-04 13:22:38,342 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/octoeverywhere for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-04-04 13:22:38,342 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+Owner: QuinnDamerell
+Repository Name: OctoPrint-OctoEverywhere
+Path: /home/turbo/octoeverywhere
+Remote: origin
+Branch: master
+Remote URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Recovery URL: https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+Current Commit SHA: ea2f5197d44e3744e7d09c2ae69993101e6b83de
+Upstream Commit SHA: ea2f5197d44e3744e7d09c2ae69993101e6b83de
+Current Version: 3.2.1-6-gea2f5197
+Upstream Version: 3.2.1-6-gea2f5197
+Rollback Commit: 531a894c90ae7f5dbe60e19efe17175fa6e63019
+Rollback Branch: master
+Rollback Version: 2.10.0-0-g531a894c
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-04-04 13:22:38,342 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Channel: beta
+2024-04-04 13:22:38,342 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Validity check for git repo passed
+2024-04-04 13:22:38,358 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse status --porcelain -b) successfully finished
+2024-04-04 13:22:38,363 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse branch --list --no-color) successfully finished
+2024-04-04 13:22:38,369 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse remote get-url origin) successfully finished
+2024-04-04 13:22:38,892 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse fetch origin --prune --progress) successfully finished
+2024-04-04 13:22:38,895 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse merge-base --is-ancestor HEAD origin/main) successfully finished
+2024-04-04 13:22:38,898 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse HEAD) successfully finished
+2024-04-04 13:22:38,908 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-04-04 13:22:38,911 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-parse origin/main) successfully finished
+2024-04-04 13:22:38,916 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse describe origin/main --always --tags --long --abbrev=8) successfully finished
+2024-04-04 13:22:38,919 [shell_command.py:_check_proc_success()] - Command (git -C /home/turbo/moonraker-timelapse rev-list HEAD..c7fff11e542b95e0e15b8bb1443cea8159ac0274 --count) successfully finished
+2024-04-04 13:22:38,919 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/turbo/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-143-gc7fff11e
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: 57bec0dec80e5058eda13cd3586bc2bda0632900
+Rollback Branch: main
+Rollback Version: v0.0.1-142-g57bec0de
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+2024-04-04 13:22:38,919 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
+2024-04-04 13:22:38,919 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
