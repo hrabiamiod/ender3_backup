@@ -902,3 +902,51 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHAcmACGgBQgAzG
 2024-04-04 13:57:49,225 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
 2024-04-04 13:57:49,235 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 227.46ms
 2024-04-04 13:57:49,368 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-04 14:09:48,869 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-04 14:13:16,888 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-04 14:13:16,891 [websockets.py:on_close()] - Websocket Closed: ID: 132296967956816 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.21
+2024-04-04 14:13:18,144 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-04 14:13:18,897 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-04 14:13:18,897 [websockets.py:open()] - Websocket Opened: ID: 132296941911392, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-04 14:13:18,900 [websockets.py:_handle_identify()] - Websocket 132296941911392 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-04 14:13:19,540 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-04 14:13:19,541 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-04 14:13:19,791 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-04 14:13:20,046 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-04 14:13:20,546 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-04 14:15:39,969 [job_state.py:_status_update()] - Job Started: xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-04 14:18:19,534 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryI1Abu00WEX3JQuPH
+2024-04-04 14:18:19,538 [application.py:post()] - Processing Uploaded File: printer.cfg
+2024-04-04 14:18:19,540 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 6.59ms
+2024-04-04 14:18:20,599 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-04 14:18:20,601 [websockets.py:on_close()] - Websocket Closed: ID: 132296941911392 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 1.70
+2024-04-04 14:18:21,251 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-04-04 14:18:21,855 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-04 14:18:22,608 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-04-04 14:18:22,608 [websockets.py:open()] - Websocket Opened: ID: 132296968131040, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-04 14:18:22,611 [websockets.py:_handle_identify()] - Websocket 132296968131040 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-04 14:18:23,237 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-04 14:18:23,238 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-04 14:18:23,488 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-04 14:18:23,742 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-04 14:18:24,242 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-04 14:23:30,518 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-04 14:23:30,521 [websockets.py:on_close()] - Websocket Closed: ID: 132296968131040 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.91
+2024-04-04 14:23:31,775 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-04 14:23:32,529 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-04-04 14:23:32,529 [websockets.py:open()] - Websocket Opened: ID: 132296941980160, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-04 14:23:32,533 [websockets.py:_handle_identify()] - Websocket 132296941980160 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-04 14:23:33,279 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-04 14:23:33,280 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-04 14:23:33,530 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-04 14:23:33,785 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-04 14:23:34,282 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-04 14:25:04,239 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryb6A8FKN02lqjpYZ8
+2024-04-04 14:25:04,274 [application.py:post()] - Processing Uploaded File: Shape-Box_9m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-04 14:25:04,391 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-04 14:25:04,408 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Shape-Box_9m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
+2024-04-04 14:25:04,418 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 179.33ms
+2024-04-04 14:25:04,569 [job_state.py:_status_update()] - Job Started: Shape-Box_9m_0.20mm_215C_PLA_ENDER3.gcode

@@ -19477,3 +19477,30 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-04 13:57:47,112      INFO  obico.app - detected state change: Offline -> Operational
 2024-04-04 13:57:49,621      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-04 13:57:49,957      INFO  obico.app - print event: PrintStarted (1712231869)
+2024-04-04 14:07:39,723      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-04 14:07:39,724     ERROR  obico.app - unexpected state "standby", please report.
+2024-04-04 14:09:49,122      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-04 14:09:49,428      INFO  obico.app - print event: PrintStarted (1712232588)
+2024-04-04 14:13:11,376      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-04 14:13:11,376     ERROR  obico.app - unexpected state "standby", please report.
+2024-04-04 14:13:16,889      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-04 14:13:42,099      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-04 14:15:40,222      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-04 14:15:40,563      INFO  obico.app - print event: PrintStarted (1712232939)
+2024-04-04 14:17:50,573      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-04 14:17:50,573     ERROR  obico.app - unexpected state "standby", please report.
+2024-04-04 14:18:20,600      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-04 14:18:21,252     ERROR  obico.utils - 
+Traceback (most recent call last):
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 205, in event_loop
+    self._process_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 217, in _process_event
+    self._on_moonrakerconn_event(event)
+  File "/home/turbo/moonraker-obico/moonraker_obico/app.py", line 257, in _on_moonrakerconn_event
+    self._received_klippy_update(event.data['result'])
+KeyError: 'result'
+2024-04-04 14:18:51,328      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-04 14:23:30,520      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-04 14:23:51,589      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-04 14:25:04,821      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-04 14:25:05,283      INFO  obico.app - print event: PrintStarted (1712233504)
