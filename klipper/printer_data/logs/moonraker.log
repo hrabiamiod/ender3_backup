@@ -1050,3 +1050,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAIV1uJ3FOLjD8t
 2024-04-04 18:03:30,110 [job_state.py:_status_update()] - Job Started: ARNOLD_31m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-04 18:12:18,200 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-04-04 20:53:15,884 [job_state.py:_status_update()] - Job Started: ARNOLD_31m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-04 21:54:31,451 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
