@@ -46196,3 +46196,28 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-04 13:22:20,820 - INFO - Printer state at socket connect is: standby
 2024-04-04 13:22:20,820 - INFO - Restore client sync state: There's no print and none of the timers are running.
 2024-04-04 13:22:25,637 - INFO - Ping Pong Stats: Default:[fra,34.098172187805176], Lowest:[fra,34.098172187805176] Use Low Latency Enabled: True
+2024-04-04 13:57:32,673 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-04 13:57:32,673 - INFO - Moonraker client websocket shutdown called.
+2024-04-04 13:57:32,674 - INFO - Moonraker client websocket shutdown complete.
+2024-04-04 13:57:32,674 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-04 13:57:32,675 - INFO - Moonraker websocket connection closed.
+2024-04-04 13:57:32,675 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-04 13:57:34,677 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-04 13:57:34,681 - INFO - Websocket connected
+2024-04-04 13:57:34,683 - INFO - Moonraker client websocket opened.
+2024-04-04 13:57:34,683 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 13:57:34,684 - INFO - Authenticating with moonraker...
+2024-04-04 13:57:34,692 - INFO - Moonraker client waiting for klippy ready...
+2024-04-04 13:57:34,693 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-04 13:57:36,696 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-04 13:57:36,697 - INFO - Moonraker client setting up default notification hooks
+2024-04-04 13:57:37,076 - INFO - Printer state at socket connect is: standby
+2024-04-04 13:57:37,076 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-04 13:57:49,373 - INFO - FileMetadataCache updated for file [xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode]; est time: 1658.0, size: 309, filament usage: 1417
+2024-04-04 13:57:49,375 - INFO - Gadget is now watching!
+2024-04-04 13:57:49,376 - INFO - New print started; PrintId: wzn48rffoDGtB11gXBxfLR0WZurxpUzf9EoOnGY824xczjR9MjCK1ItMLOy6 file:xyzCalibration_cube_28m_0.20mm_215C_PLA_ENDER3.gcode size:309 filament:1417
+2024-04-04 13:57:50,700 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-04 13:58:19,698 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 13:58:50,031 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 13:59:20,354 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-04 13:59:50,680 - INFO - Waiting to predict with Gadget because the printer is warming up.
