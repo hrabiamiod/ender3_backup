@@ -782,3 +782,43 @@ Properties:
 2024-04-05 18:57:28,801 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.74ms
 2024-04-05 18:57:28,801 [websockets.py:open()] - Websocket Opened: ID: 124398970547568, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-04-05 18:57:29,062 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-05 20:02:25,204 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-05 20:21:54,785 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-04-05 20:21:54,788 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1712341285.514175, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341286.514434, Usage: 0.5%, Memory: 47004 kB
+System Time: 1712341287.515550, Usage: 0.53%, Memory: 47004 kB
+System Time: 1712341288.516582, Usage: 0.43%, Memory: 47004 kB
+System Time: 1712341289.517088, Usage: 1.52%, Memory: 47004 kB
+System Time: 1712341290.517815, Usage: 0.98%, Memory: 47004 kB
+System Time: 1712341291.518383, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341292.518827, Usage: 0.42%, Memory: 47004 kB
+System Time: 1712341293.519431, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341294.519817, Usage: 0.42%, Memory: 47004 kB
+System Time: 1712341295.520637, Usage: 0.44%, Memory: 47004 kB
+System Time: 1712341296.520898, Usage: 0.5%, Memory: 47004 kB
+System Time: 1712341297.521238, Usage: 0.42%, Memory: 47004 kB
+System Time: 1712341298.521475, Usage: 0.43%, Memory: 47004 kB
+System Time: 1712341299.522006, Usage: 0.48%, Memory: 47004 kB
+System Time: 1712341300.522774, Usage: 1.67%, Memory: 47004 kB
+System Time: 1712341301.523734, Usage: 0.43%, Memory: 47004 kB
+System Time: 1712341302.523767, Usage: 0.83%, Memory: 47004 kB
+System Time: 1712341303.525201, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341304.525774, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341305.526356, Usage: 0.41%, Memory: 47004 kB
+System Time: 1712341306.526783, Usage: 0.49%, Memory: 47004 kB
+System Time: 1712341307.527201, Usage: 0.42%, Memory: 47004 kB
+System Time: 1712341308.527811, Usage: 0.42%, Memory: 47004 kB
+System Time: 1712341309.527901, Usage: 0.52%, Memory: 47004 kB
+System Time: 1712341310.529285, Usage: 0.7%, Memory: 47004 kB
+System Time: 1712341311.530275, Usage: 0.26%, Memory: 47004 kB
+System Time: 1712341312.531372, Usage: 1.31%, Memory: 47004 kB
+System Time: 1712341313.531806, Usage: 0.65%, Memory: 47004 kB
+System Time: 1712341314.533507, Usage: 0.27%, Memory: 47004 kB
+CPU Temperature: None
+2024-04-05 20:21:54,789 [websockets.py:on_close()] - Websocket Closed: ID: 124398970546656 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.44
+2024-04-05 20:21:56,796 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-05 20:21:56,797 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.31ms
+2024-04-05 20:21:56,797 [websockets.py:open()] - Websocket Opened: ID: 124398970546896, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-05 20:21:56,799 [websockets.py:_handle_identify()] - Websocket 124398970546896 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
