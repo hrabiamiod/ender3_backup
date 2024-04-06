@@ -709,3 +709,5 @@ Error configuring printer
 2024-04-06 12:12:30,254 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-06 12:12:30,753 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
 2024-04-06 12:15:34,005 [job_state.py:_status_update()] - Job Started: KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode
+2024-04-06 13:13:43,912 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-06 13:18:43,913 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
