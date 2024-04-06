@@ -210,3 +210,228 @@ Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-132-ge37b007f
 2024-04-06 04:31:03,737 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
 2024-04-06 04:32:23,791 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+-------------------- Log Start | Sat Apr  6 05:38:38 2024 --------------------
+platform: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+data_path: /home/turbo/printer_data
+is_default_data_path: False
+config_file: /home/turbo/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: 6f44945189dc46f7a55f40779c59d449
+unix_socket_path: /home/turbo/printer_data/comms/moonraker.sock
+software_version: v0.8.0-324-ga3e4dac
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/turbo/printer_data/logs/moonraker.log
+python_version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+launch_args: /home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/moonraker.py -d /home/turbo/printer_data
+msgspec_enabled: False
+uvloop_enabled: False
+2024-04-06 07:38:38,022 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2946 B
+2024-04-06 07:38:38,023 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/turbo/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+channel = dev
+refresh_interval = 168
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager moonraker-telegram-bot]
+type = git_repo
+path = ~/moonraker-telegram-bot
+origin = https://github.com/nlef/moonraker-telegram-bot.git
+env = ~/moonraker-telegram-bot-env/bin/python
+requirements = scripts/requirements.txt
+install_script = scripts/install.sh
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/install.sh
+
+[update_manager moonraker-obico]
+type = git_repo
+path = ~/moonraker-obico
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
+env = /home/turbo/moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	moonraker-obico
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/turbo/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/turbo/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
+
+[timelapse]
+output_path = ~/timelapse
+frame_path = ~/timelapse/movies
+
+#################################################################
+All Configuration Files:
+/home/turbo/printer_data/config/moonraker.conf
+/home/turbo/printer_data/config/moonraker-obico-update.cfg
+/home/turbo/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2024-04-06 07:38:38,246 [server.py:load_component()] - Component (secrets) loaded
+2024-04-06 07:38:38,253 [server.py:load_component()] - Component (template) loaded
+2024-04-06 07:38:38,270 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-04-06 07:38:39,744 [server.py:load_component()] - Component (application) loaded
+2024-04-06 07:38:39,868 [server.py:load_component()] - Component (websockets) loaded
+2024-04-06 07:38:40,209 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-04-06 07:38:40,278 [server.py:add_log_rollover_item()] - 
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 23
+2024-04-06 07:38:40,538 [server.py:load_component()] - Component (database) loaded
+2024-04-06 07:38:40,608 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-04-06 07:38:40,680 [server.py:load_component()] - Component (file_manager) loaded
+2024-04-06 07:38:40,746 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+.*\.lan
+.*\.local
+.*://localhost
+.*://localhost:.*
+.*://my\.mainsail\.xyz
+.*://app\.fluidd\.xyz
+2024-04-06 07:38:40,747 [server.py:load_component()] - Component (authorization) loaded
+2024-04-06 07:38:40,753 [server.py:load_component()] - Component (klippy_apis) loaded
+2024-04-06 07:38:41,629 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 10, 12, 'final', 0)
+  version_string: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+
+***cpu_info***
+  cpu_count: 2
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 5891880
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Ubuntu 22.04.4 LTS
+  id: ubuntu
+  version: 22.04
+  version_parts: {'major': '22', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: jammy
+  release_info: {}
+  kernel_version: 6.5.0-26-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+2024-04-06 07:38:41,631 [server.py:load_component()] - Component (shell_command) loaded
+2024-04-06 07:38:41,631 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2024-04-06 07:38:41,657 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2024-04-06 07:38:41,657 [server.py:load_component()] - Component (machine) loaded
+2024-04-06 07:38:41,689 [server.py:load_component()] - Component (data_store) loaded
+2024-04-06 07:38:41,694 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2024-04-06 07:38:41,695 [server.py:load_component()] - Component (proc_stats) loaded
+2024-04-06 07:38:41,701 [server.py:load_component()] - Component (job_state) loaded
+2024-04-06 07:38:41,717 [server.py:load_component()] - Component (job_queue) loaded
+2024-04-06 07:38:41,737 [server.py:load_component()] - Component (http_client) loaded
+2024-04-06 07:38:41,747 [server.py:load_component()] - Component (announcements) loaded
+2024-04-06 07:38:41,810 [server.py:load_component()] - Component (webcam) loaded
+2024-04-06 07:38:41,822 [server.py:load_component()] - Component (extensions) loaded
+2024-04-06 07:38:42,078 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
+2024-04-06 07:38:42,106 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
+2024-04-06 07:38:42,120 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-06 07:38:42,120 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
+2024-04-06 07:38:42,190 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-06 07:38:42,191 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
+2024-04-06 07:38:42,192 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-06 07:38:42,192 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
+2024-04-06 07:38:42,260 [server.py:load_component()] - Component (update_manager) loaded
+2024-04-06 07:38:42,398 [server.py:load_component()] - Component (timelapse) loaded
+2024-04-06 07:38:42,463 [server.py:load_component()] - Component (history) loaded
+2024-04-06 07:38:42,518 [server.py:load_component()] - Component (octoprint_compat) loaded
+2024-04-06 07:38:42,520 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2024-04-06 07:38:42,674 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
