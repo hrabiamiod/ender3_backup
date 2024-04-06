@@ -689,3 +689,23 @@ Error configuring printer
 2024-04-06 07:40:19,960 [websockets.py:open()] - Websocket Opened: ID: 140209577621584, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-04-06 07:40:19,963 [websockets.py:_handle_identify()] - Websocket 140209577621584 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-04-06 08:43:43,851 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-06 12:12:16,810 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-06 12:12:16,811 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.87ms
+2024-04-06 12:12:16,811 [websockets.py:open()] - Websocket Opened: ID: 140209578236640, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-06 12:12:16,832 [websockets.py:_handle_identify()] - Websocket 140209578236640 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-06 12:12:17,233 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-04-06 12:12:17,234 [websockets.py:open()] - Websocket Opened: ID: 140209578236880, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-06 12:12:17,297 [websockets.py:_handle_identify()] - Websocket 140209578236880 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-06 12:12:27,107 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-06 12:12:27,109 [websockets.py:on_close()] - Websocket Closed: ID: 140209577621584 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.15
+2024-04-06 12:12:28,365 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-06 12:12:29,115 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-06 12:12:29,116 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.83ms
+2024-04-06 12:12:29,116 [websockets.py:open()] - Websocket Opened: ID: 140209559181664, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-06 12:12:29,118 [websockets.py:_handle_identify()] - Websocket 140209559181664 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-06 12:12:29,748 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-06 12:12:29,749 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-06 12:12:29,999 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-06 12:12:30,254 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-06 12:12:30,753 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-06 12:15:34,005 [job_state.py:_status_update()] - Job Started: KOKOS_40m_0.12mm_215C_PLA_ENDER3.gcode
