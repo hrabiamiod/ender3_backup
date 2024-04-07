@@ -561,3 +561,6 @@ Properties:
 2024-04-07 22:49:44,549 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-04-07 22:49:44,804 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-07 22:49:45,302 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-07 22:50:14,965 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.61ms
+2024-04-07 22:50:14,966 [websockets.py:open()] - Websocket Opened: ID: 136042620334432, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-07 22:50:15,133 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
