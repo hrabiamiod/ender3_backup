@@ -564,3 +564,19 @@ Properties:
 2024-04-09 17:28:39,138 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.54ms
 2024-04-09 17:28:39,138 [websockets.py:open()] - Websocket Opened: ID: 136036687211984, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-04-09 17:28:39,285 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-09 17:38:15,684 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-09 17:38:15,684 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.96ms
+2024-04-09 17:38:15,685 [websockets.py:open()] - Websocket Opened: ID: 136036686969008, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-09 17:38:15,721 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
+2024-04-09 17:38:15,721 [websockets.py:open()] - Websocket Opened: ID: 136036687165712, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-09 17:38:16,345 [websockets.py:_handle_identify()] - Websocket 136036686969008 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-09 17:38:16,348 [websockets.py:_handle_identify()] - Websocket 136036687165712 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-09 17:50:20,053 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLabXXGorEJAAOGfJ
+2024-04-09 17:50:20,442 [application.py:post()] - Processing Uploaded File: bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-09 17:50:20,575 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-09 17:50:20,612 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-09 17:50:20,636 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 583.18ms
+2024-04-09 17:50:20,637 [job_state.py:_status_update()] - Job Started: bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-09 17:54:26,074 [job_state.py:_status_update()] - Job Started: bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode
