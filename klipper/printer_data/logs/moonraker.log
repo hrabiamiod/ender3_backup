@@ -580,3 +580,10 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLabXXGorEJAAOG
 2024-04-09 17:50:20,636 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 583.18ms
 2024-04-09 17:50:20,637 [job_state.py:_status_update()] - Job Started: bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-09 17:54:26,074 [job_state.py:_status_update()] - Job Started: bella-jaworowa_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-09 18:33:37,183 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-09 18:53:29,261 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-04-09 18:53:29,262 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.92ms
+2024-04-09 18:53:29,262 [websockets.py:open()] - Websocket Opened: ID: 136036660723040, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-09 18:53:29,273 [websockets.py:_handle_identify()] - Websocket 136036660723040 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-09 18:53:37,187 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-09 18:53:41,767 [websockets.py:on_close()] - Websocket Closed: ID: 136036660723040 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.27
