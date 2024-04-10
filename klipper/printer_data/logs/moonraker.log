@@ -574,3 +574,12 @@ Properties:
 2024-04-10 12:38:01,655 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-04-10 12:48:01,659 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-04-10 12:50:28,494 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-04-10 13:36:30,142 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-10 13:36:30,142 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBZSI2Gi7OI3r9CIl
+2024-04-10 13:36:30,488 [application.py:post()] - Processing Uploaded File: AURA_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-10 13:36:30,617 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-10 13:36:30,650 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "AURA_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-10 13:36:30,663 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 521.60ms
+2024-04-10 13:36:30,797 [job_state.py:_status_update()] - Job Started: AURA_37m_0.20mm_205C_PLA_ENDER3.gcode
