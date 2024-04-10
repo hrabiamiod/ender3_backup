@@ -612,3 +612,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTp29YERTBN3W6S
 2024-04-10 16:57:05,780 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "fiona_33m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-10 16:57:05,789 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 784.81ms
 2024-04-10 16:57:05,920 [job_state.py:_status_update()] - Job Started: fiona_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-10 17:47:48,679 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypOofLFd39ach5ZXH
+2024-04-10 17:47:49,189 [application.py:post()] - Processing Uploaded File: nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-10 17:47:49,294 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-10 17:47:49,325 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-10 17:47:49,335 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 657.08ms
+2024-04-10 17:47:49,437 [job_state.py:_status_update()] - Job Started: nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
