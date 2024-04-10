@@ -20353,3 +20353,19 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-10 11:33:08,497      INFO  obico.moonraker_conn - connection is open
 2024-04-10 11:33:08,528   WARNING  obico.app - Connections not ready. Trying again in 1s...
 2024-04-10 11:33:08,633      INFO  obico.moonraker_conn - Klippy ready
+2024-04-10 11:33:09,547   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 614}, sender='moonrakerconn')
+2024-04-10 11:33:09,548      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-10 11:33:09,551      INFO  obico.janus - Starting webcam streamer
+2024-04-10 11:33:09,554      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-04-10 11:33:09,830   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-04-10 11:33:10,648      INFO  backoff - Backing off wait_for_janus(...) for 0.6s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:12,236      INFO  backoff - Backing off wait_for_janus(...) for 1.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:14,460      INFO  backoff - Backing off wait_for_janus(...) for 3.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:18,436      INFO  backoff - Backing off wait_for_janus(...) for 1.8s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:21,218      INFO  backoff - Backing off wait_for_janus(...) for 14.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:36,778      INFO  backoff - Backing off wait_for_janus(...) for 15.1s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:52,863      INFO  backoff - Backing off wait_for_janus(...) for 2.1s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:33:55,978      INFO  backoff - Backing off wait_for_janus(...) for 12.4s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:34:09,595      INFO  backoff - Backing off wait_for_janus(...) for 99.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-10 11:35:49,651     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)

@@ -561,3 +561,13 @@ Properties:
 2024-04-10 11:33:04,232 [websockets.py:open()] - Websocket Opened: ID: 131732593497840, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-04-10 11:33:04,236 [websockets.py:_handle_identify()] - Websocket 131732593497840 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-04-10 11:33:04,619 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-10 11:33:08,496 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.03ms
+2024-04-10 11:33:08,497 [websockets.py:open()] - Websocket Opened: ID: 131732593503792, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-10 11:33:08,641 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-10 11:33:09,884 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-10 11:33:09,885 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.04ms
+2024-04-10 11:33:09,885 [websockets.py:open()] - Websocket Opened: ID: 131732593497888, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-10 11:33:09,904 [websockets.py:_handle_identify()] - Websocket 131732593497888 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-10 11:43:30,550 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
+2024-04-10 11:43:30,550 [websockets.py:open()] - Websocket Opened: ID: 131732593241744, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-10 11:43:30,562 [websockets.py:_handle_identify()] - Websocket 131732593241744 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
