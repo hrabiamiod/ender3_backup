@@ -595,3 +595,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywil8ArAjT7ZFOE
 2024-04-10 14:38:37,952 [job_state.py:_status_update()] - Job Started: GAJA_37m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-10 15:29:18,911 [job_state.py:_status_update()] - Job Started: GAJA_37m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-10 15:43:01,684 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-10 16:27:05,869 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-10 16:27:05,869 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQRBX9lRkFGnvavpX
+2024-04-10 16:27:06,032 [application.py:post()] - Processing Uploaded File: KULKA2_19m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-10 16:27:06,131 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-10 16:27:06,161 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "KULKA2_19m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-10 16:27:06,172 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 303.05ms
+2024-04-10 16:27:06,344 [job_state.py:_status_update()] - Job Started: KULKA2_19m_0.20mm_205C_PLA_ENDER3.gcode
