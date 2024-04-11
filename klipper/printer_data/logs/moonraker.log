@@ -1508,3 +1508,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryL8H8jkE5MUwUJ4
 2024-04-11 11:32:16,655 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 445.09ms
 2024-04-11 11:32:16,851 [job_state.py:_status_update()] - Job Started: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-11 12:21:51,999 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-11 12:36:52,002 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-11 12:59:47,039 [job_state.py:_status_update()] - Job Started: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
