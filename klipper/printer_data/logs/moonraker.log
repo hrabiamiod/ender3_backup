@@ -1499,3 +1499,11 @@ Properties:
 2024-04-11 11:20:52,545 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-04-11 11:20:52,800 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-11 11:20:53,299 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-11 11:32:16,210 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryL8H8jkE5MUwUJ4xw
+2024-04-11 11:32:16,419 [application.py:post()] - Processing Uploaded File: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-11 11:32:16,602 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-11 11:32:16,644 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-11 11:32:16,655 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 445.09ms
+2024-04-11 11:32:16,851 [job_state.py:_status_update()] - Job Started: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
