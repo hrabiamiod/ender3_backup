@@ -1520,3 +1520,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5jytTCZJGvsKYe
 2024-04-11 14:33:15,520 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 469.70ms
 2024-04-11 14:33:15,539 [job_state.py:_status_update()] - Job Started: nelly_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-11 15:23:23,251 [job_state.py:_status_update()] - Job Started: Shape-Box_9m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-11 15:39:46,391 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXPH3uTtk9rVFbkUm
+2024-04-11 15:39:46,906 [application.py:post()] - Processing Uploaded File: beza_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-11 15:39:47,003 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-11 15:39:47,032 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "beza_insta_33m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-11 15:39:47,041 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 650.83ms
+2024-04-11 15:39:47,291 [job_state.py:_status_update()] - Job Started: beza_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
