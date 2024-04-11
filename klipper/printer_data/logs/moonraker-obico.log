@@ -20441,3 +20441,14 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-11 10:58:55,466      INFO  backoff - Backing off wait_for_janus(...) for 12.1s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-04-11 10:59:08,574      INFO  backoff - Backing off wait_for_janus(...) for 4.6s (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-04-11 10:59:14,206      INFO  backoff - Backing off wait_for_janus(...) for 89.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-11 11:00:44,598      INFO  backoff - Backing off wait_for_janus(...) for 100.2s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-11 11:02:25,903     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-11 11:06:40,957      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-11 11:06:51,076   WARNING  obico.ws - WS Closed - 1001 - Server Shutdown
+2024-04-11 11:06:51,078   WARNING  obico.ws - WS Closed - None - None
+2024-04-11 11:08:51,286   WARNING  obico.moonraker_conn - Not connected to websocket server after 120s
+2024-04-11 11:08:51,289      INFO  obico.moonraker_conn - connection is open
+2024-04-11 11:08:51,387      INFO  obico.moonraker_conn - Klippy ready
+2024-04-11 11:08:51,608      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-11 11:20:42,602      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-11 11:21:22,122      INFO  obico.app - detected state change: Offline -> Operational
