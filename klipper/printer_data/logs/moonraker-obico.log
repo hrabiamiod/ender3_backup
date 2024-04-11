@@ -20478,3 +20478,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-11 18:59:53,313      INFO  obico.app - print event: PrintDone (1712851981)
 2024-04-11 19:24:45,432      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-11 19:24:45,786      INFO  obico.app - print event: PrintStarted (1712856285)
+2024-04-11 20:10:54,631      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-11 20:10:54,631      INFO  obico.app - print event: PrintDone (1712856285)
