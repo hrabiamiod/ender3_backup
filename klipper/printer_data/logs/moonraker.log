@@ -802,3 +802,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCxMtmkftOL2Spg
 2024-04-12 15:08:54,454 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 709.97ms
 2024-04-12 15:08:54,554 [job_state.py:_status_update()] - Job Started: ryobi_case_top_3h41m_0.28mm_205C_PLA_ENDER3.gcode
 2024-04-12 15:11:49,132 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-12 15:47:15,758 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylcqBI1fSBRAm67fc
+2024-04-12 15:47:16,432 [application.py:post()] - Processing Uploaded File: ryobi_case_top_4h50m_0.28mm_205C_PLA_ENDER3.gcode
+2024-04-12 15:47:16,531 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-12 15:47:16,564 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ryobi_case_top_4h50m_0.28mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-12 15:47:16,574 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 816.08ms
+2024-04-12 15:47:16,614 [job_state.py:_status_update()] - Job Started: ryobi_case_top_4h50m_0.28mm_205C_PLA_ENDER3.gcode
