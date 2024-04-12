@@ -819,3 +819,10 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylcqBI1fSBRAm67
 2024-04-12 18:51:49,174 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
 2024-04-12 20:06:47,878 [websockets.py:on_close()] - Websocket Closed: ID: 126520280132352 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.30
 2024-04-12 20:06:47,879 [websockets.py:on_close()] - Websocket Closed: ID: 126520280130432 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.34
+2024-04-12 22:19:25,473 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-12 22:19:25,474 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.95ms
+2024-04-12 22:19:25,474 [websockets.py:open()] - Websocket Opened: ID: 126520280125488, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-12 22:19:25,523 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-12 22:19:25,523 [websockets.py:open()] - Websocket Opened: ID: 126520280130816, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-12 22:19:29,519 [websockets.py:_handle_identify()] - Websocket 126520280125488 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-12 22:19:30,998 [websockets.py:_handle_identify()] - Websocket 126520280130816 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
