@@ -840,3 +840,8 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXFHB8H6WPiZN6u
 2024-04-12 22:59:43,307 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ryobi_contact_holder_38m_0.28mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-12 22:59:43,317 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 175.66ms
 2024-04-12 22:59:43,441 [job_state.py:_status_update()] - Job Started: ryobi_contact_holder_38m_0.28mm_205C_PLA_ENDER3.gcode
+2024-04-12 23:08:11,188 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.65ms
+2024-04-12 23:08:11,188 [websockets.py:open()] - Websocket Opened: ID: 126520290894576, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-12 23:08:11,196 [websockets.py:_handle_identify()] - Websocket 126520290894576 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-12 23:09:01,215 [websockets.py:write_to_socket()] - Websocket closed while writing: 126520290894576
+2024-04-12 23:09:06,190 [websockets.py:on_close()] - Websocket Closed: ID: 126520290894576 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
