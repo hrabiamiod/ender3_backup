@@ -260,3 +260,8 @@ Properties:
 2024-04-13 03:38:18,793 [websockets.py:open()] - Websocket Opened: ID: 126520279119280, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
 2024-04-13 03:38:18,806 [websockets.py:_handle_identify()] - Websocket 126520279119280 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
 2024-04-13 03:42:12,766 [websockets.py:on_close()] - Websocket Closed: ID: 126520279119280 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.94
+2024-04-13 04:01:25,583 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.63ms
+2024-04-13 04:01:25,583 [websockets.py:open()] - Websocket Opened: ID: 126520290248688, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-13 04:01:25,591 [websockets.py:_handle_identify()] - Websocket 126520290248688 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-13 04:01:55,704 [websockets.py:write_to_socket()] - Websocket closed while writing: 126520290248688
+2024-04-13 04:02:00,585 [websockets.py:on_close()] - Websocket Closed: ID: 126520290248688 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
