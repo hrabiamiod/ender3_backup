@@ -250,3 +250,9 @@ Properties:
 2024-04-13 01:31:29,760 [job_state.py:_status_update()] - Job Started: ryobi_case_bottom_5h43m_0.32mm_205C_PLA_ENDER3.gcode
 2024-04-13 02:11:49,253 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-04-13 02:31:49,258 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-13 03:20:20,134 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-04-13 03:20:20,135 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.87ms
+2024-04-13 03:20:20,135 [websockets.py:open()] - Websocket Opened: ID: 126520290192656, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-13 03:20:20,143 [websockets.py:_handle_identify()] - Websocket 126520290192656 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-13 03:24:10,358 [websockets.py:write_to_socket()] - Websocket closed while writing: 126520290192656
+2024-04-13 03:24:15,137 [websockets.py:on_close()] - Websocket Closed: ID: 126520290192656 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.95
