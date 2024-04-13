@@ -220,3 +220,31 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryx8oSrAtPk6vzwQ
 2024-04-13 01:08:51,404 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 995.34ms
 2024-04-13 01:08:51,622 [job_state.py:_status_update()] - Job Started: ryobi_case_bottom_5h43m_0.32mm_205C_PLA_ENDER3.gcode
 2024-04-13 01:29:21,613 [job_state.py:_status_update()] - Job Started: ryobi_case_bottom_5h43m_0.32mm_205C_PLA_ENDER3.gcode
+2024-04-13 01:31:19,326 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-13 01:31:19,328 [websockets.py:on_close()] - Websocket Closed: ID: 126520290439856 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 8.32
+2024-04-13 01:31:20,581 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-13 01:31:20,606 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['system.slice', 'sysinit.target', '-.mount']
+**After=['network-online.target', 'sysinit.target', '-.mount', 'basic.target', 'systemd-journald.socket', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-04-13 01:31:21,335 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-13 01:31:21,335 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.80ms
+2024-04-13 01:31:21,336 [websockets.py:open()] - Websocket Opened: ID: 126520290248304, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-13 01:31:21,338 [websockets.py:_handle_identify()] - Websocket 126520290248304 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-13 01:31:21,984 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-13 01:31:21,985 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-13 01:31:22,235 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-13 01:31:22,490 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-13 01:31:22,989 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-13 01:31:29,760 [job_state.py:_status_update()] - Job Started: ryobi_case_bottom_5h43m_0.32mm_205C_PLA_ENDER3.gcode
