@@ -248,3 +248,4 @@ Properties:
 2024-04-13 01:31:22,490 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-13 01:31:22,989 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
 2024-04-13 01:31:29,760 [job_state.py:_status_update()] - Job Started: ryobi_case_bottom_5h43m_0.32mm_205C_PLA_ENDER3.gcode
+2024-04-13 02:11:49,253 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
