@@ -304,3 +304,10 @@ Properties:
 2024-04-13 11:18:42,044 [websockets.py:write_to_socket()] - Websocket closed while writing: 126520290334400
 2024-04-13 11:18:46,893 [websockets.py:on_close()] - Websocket Closed: ID: 126520290334400 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.75
 2024-04-13 12:21:49,364 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
+2024-04-13 16:42:23,220 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-13 16:42:23,221 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.98ms
+2024-04-13 16:42:23,221 [websockets.py:open()] - Websocket Opened: ID: 126520281053552, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-13 16:42:23,400 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.70ms
+2024-04-13 16:42:23,400 [websockets.py:open()] - Websocket Opened: ID: 126520281044288, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-13 16:42:23,585 [websockets.py:_handle_identify()] - Websocket 126520281053552 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-13 16:42:23,607 [websockets.py:_handle_identify()] - Websocket 126520281044288 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
