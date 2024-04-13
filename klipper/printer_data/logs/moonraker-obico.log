@@ -20551,3 +20551,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-13 01:31:30,013      INFO  obico.app - detected state change: Offline -> Printing
 2024-04-13 04:31:39,281   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x78fc2c5e43a0>, 'Connection to app.obico.io timed out. (connect timeout=60)'))
 2024-04-13 04:32:40,198   WARNING  obico.ws - WS Closed - None - None
+2024-04-13 07:32:56,450      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-13 07:32:56,450      INFO  obico.app - print event: PrintDone (1712964689)
