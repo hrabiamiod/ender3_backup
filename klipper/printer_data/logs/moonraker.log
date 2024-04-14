@@ -569,3 +569,19 @@ Properties:
 2024-04-14 18:06:14,154 [websockets.py:_handle_identify()] - Websocket 131563557583216 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-04-14 18:06:14,314 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
 2024-04-14 18:06:19,714 [websockets.py:on_close()] - Websocket Closed: ID: 131563557583216 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.57
+2024-04-14 18:18:33,652 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-14 18:18:33,652 [websockets.py:open()] - Websocket Opened: ID: 131563530526032, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-14 18:18:33,672 [websockets.py:_handle_identify()] - Websocket 131563530526032 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-14 18:18:34,045 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-14 18:18:34,045 [websockets.py:open()] - Websocket Opened: ID: 131563530530448, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-14 18:18:34,123 [websockets.py:_handle_identify()] - Websocket 131563530530448 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-14 18:18:44,282 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on y after full movement
+2024-04-14 18:23:30,423 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzs00I0hbAdftQjBF
+2024-04-14 18:23:30,669 [application.py:post()] - Processing Uploaded File: BRUNO_OLX_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-14 18:23:30,799 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-14 18:23:30,836 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "BRUNO_OLX_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-14 18:23:30,847 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 423.71ms
+2024-04-14 18:23:30,934 [job_state.py:_status_update()] - Job Started: BRUNO_OLX_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-14 18:29:11,804 [job_state.py:_status_update()] - Job Started: BRUNO_OLX_38m_0.20mm_205C_PLA_ENDER3.gcode
