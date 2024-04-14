@@ -679,3 +679,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiFKHyu3SA2XBpw
 2024-04-14 19:28:46,046 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 416.89ms
 2024-04-14 19:28:46,123 [job_state.py:_status_update()] - Job Started: beza_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-14 19:35:57,912 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-14 20:30:57,922 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-14 20:35:33,297 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-14 20:35:33,297 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1WgClUlttHoAQ4o9
+2024-04-14 20:35:33,692 [application.py:post()] - Processing Uploaded File: nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-14 20:35:33,788 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-14 20:35:33,819 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-14 20:35:33,829 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 533.17ms
+2024-04-14 20:35:34,018 [job_state.py:_status_update()] - Job Started: nastka_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
