@@ -20644,3 +20644,14 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-14 20:08:21,793      INFO  obico.app - print event: PrintDone (1713115726)
 2024-04-14 20:35:34,271      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-14 20:35:34,622      INFO  obico.app - print event: PrintStarted (1713119734)
+2024-04-14 21:12:30,426   WARNING  obico.ws - WS Closed - None - None
+2024-04-14 21:12:58,824   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Read timed out. (read timeout=60)
+2024-04-14 21:13:43,744   WARNING  obico.ws - WS Closed - None - None
+2024-04-14 21:14:37,106   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-04-14 21:14:37,106     ERROR  obico.utils - Attempt 1 - backing off 0.186264 seconds: Not connected to websocket server after 120s
+2024-04-14 21:22:05,207      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-14 21:22:05,208      INFO  obico.app - print event: PrintDone (1713119734)
+2024-04-14 21:27:52,621      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-14 21:28:05,789      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-14 21:29:47,365      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-14 21:29:47,688      INFO  obico.app - print event: PrintStarted (1713122987)
