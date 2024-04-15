@@ -564,3 +564,10 @@ Properties:
 2024-04-15 09:30:45,778 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.65ms
 2024-04-15 09:30:45,778 [websockets.py:open()] - Websocket Opened: ID: 129286502604544, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-04-15 09:30:45,901 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-15 09:51:46,944 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-15 09:51:46,945 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.76ms
+2024-04-15 09:51:46,945 [websockets.py:open()] - Websocket Opened: ID: 129286503141760, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-15 09:51:47,251 [websockets.py:_handle_identify()] - Websocket 129286503141760 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-15 09:56:10,849 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-15 09:56:10,849 [websockets.py:open()] - Websocket Opened: ID: 129286502610256, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-15 09:56:10,855 [websockets.py:_handle_identify()] - Websocket 129286502610256 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
