@@ -1093,3 +1093,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRikr0Qtl8khT8C
 2024-04-15 21:11:58,898 [klippy_connection.py:wait()] - Request 'pause_resume/cancel' pending: 60.00 seconds
 2024-04-15 21:13:15,851 [job_state.py:_status_update()] - Job Started: kenzo_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-15 22:57:23,475 [job_state.py:_status_update()] - Job Started: kenzo_STRAZ_insta_35m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-15 23:56:04,552 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-15 23:56:04,552 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVEcuJk85bf2tVXka
+2024-04-15 23:56:06,088 [application.py:post()] - Processing Uploaded File: kenzo_insta_straz_dual_36m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-15 23:56:06,187 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-15 23:56:06,218 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "kenzo_insta_straz_dual_36m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-15 23:56:06,228 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1676.58ms
+2024-04-15 23:56:06,477 [job_state.py:_status_update()] - Job Started: kenzo_insta_straz_dual_36m_0.20mm_205C_PLA_ENDER3.gcode
