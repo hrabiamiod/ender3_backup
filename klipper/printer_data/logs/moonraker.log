@@ -579,3 +579,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryldydOXBRA3dyRX
 2024-04-15 10:01:55,891 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "kenzo_insta_33m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-15 10:01:55,901 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 431.51ms
 2024-04-15 10:01:55,998 [job_state.py:_status_update()] - Job Started: kenzo_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-15 10:35:40,143 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-15 10:45:14,179 [job_state.py:_status_update()] - Job Started: niko_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
