@@ -20657,3 +20657,38 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-14 21:29:47,688      INFO  obico.app - print event: PrintStarted (1713122987)
 2024-04-14 22:09:05,467      INFO  obico.app - detected state change: Printing -> Operational
 2024-04-14 22:09:05,468      INFO  obico.app - print event: PrintDone (1713122987)
+2024-04-15 09:30:35,631      INFO  obico.app - Fetching linked printer...
+2024-04-15 09:30:36,064      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-04-15 09:30:36,067   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:36,067   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:36,234      INFO  backoff - Backing off ensure_api_key(...) for 0.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766a44c0f550>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-15 09:30:36,985   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:36,988      INFO  backoff - Backing off ensure_api_key(...) for 1.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766a44cd40a0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-15 09:30:37,068   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:38,069   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:38,694   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:38,696      INFO  backoff - Backing off ensure_api_key(...) for 0.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766a44cd48b0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-15 09:30:39,070   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:39,401   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:39,403      INFO  backoff - Backing off ensure_api_key(...) for 0.6s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766a44cd5090>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-15 09:30:40,015   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:40,017      INFO  backoff - Backing off ensure_api_key(...) for 5.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766a44cd5840>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-15 09:30:40,074   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:41,076   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:42,077   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:43,078   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:44,080   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:45,081   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-15 09:30:45,771   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-15 09:30:45,779      INFO  obico.moonraker_conn - connection is open
+2024-04-15 09:30:45,893      INFO  obico.moonraker_conn - Klippy ready
+2024-04-15 09:30:46,104   WARNING  obico.app - error response from moonraker, Event(name='message', data={'jsonrpc': '2.0', 'error': {'code': 400, 'message': 'Invalid argument'}, 'id': 55193}, sender='moonrakerconn')
+2024-04-15 09:30:46,104      INFO  obico.janus - Starting webcam streamer
+2024-04-15 09:30:46,113      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-04-15 09:30:46,417      INFO  obico.app - detected state change: Offline -> Operational
+2024-04-15 09:30:46,672   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-04-15 09:30:47,418      INFO  backoff - Backing off wait_for_janus(...) for 1.0s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-15 09:30:49,415      INFO  backoff - Backing off wait_for_janus(...) for 1.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-15 09:30:51,683      INFO  backoff - Backing off wait_for_janus(...) for 1.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-15 09:30:53,996      INFO  backoff - Backing off wait_for_janus(...) for 4.3s (ConnectionRefusedError: [Errno 111] Connection refused)
