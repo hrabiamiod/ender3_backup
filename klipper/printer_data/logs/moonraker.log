@@ -581,3 +581,238 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryldydOXBRA3dyRX
 2024-04-15 10:01:55,998 [job_state.py:_status_update()] - Job Started: kenzo_insta_33m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-15 10:35:40,143 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-04-15 10:45:14,179 [job_state.py:_status_update()] - Job Started: niko_insta_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-15 11:45:40,157 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-15 11:54:29,400 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-15 11:54:29,400 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybaV9sqVtXFUpqtYt
+2024-04-15 11:54:29,735 [application.py:post()] - Processing Uploaded File: fiona_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-15 11:54:29,832 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-15 11:54:29,861 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "fiona_33m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-15 11:54:29,871 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 470.55ms
+2024-04-15 11:54:30,032 [job_state.py:_status_update()] - Job Started: fiona_33m_0.20mm_205C_PLA_ENDER3.gcode
+-------------------- Log Start | Mon Apr 15 10:03:23 2024 --------------------
+platform: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
+data_path: /home/turbo/printer_data
+is_default_data_path: False
+config_file: /home/turbo/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: False
+instance_uuid: 6f44945189dc46f7a55f40779c59d449
+unix_socket_path: /home/turbo/printer_data/comms/moonraker.sock
+software_version: v0.8.0-325-g99b97af
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/turbo/printer_data/logs/moonraker.log
+python_version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+launch_args: /home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/moonraker.py -d /home/turbo/printer_data
+msgspec_enabled: False
+uvloop_enabled: False
+2024-04-15 12:03:23,072 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2946 B
+2024-04-15 12:03:23,072 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+klippy_uds_address = /home/turbo/printer_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+channel = dev
+refresh_interval = 168
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager moonraker-telegram-bot]
+type = git_repo
+path = ~/moonraker-telegram-bot
+origin = https://github.com/nlef/moonraker-telegram-bot.git
+env = ~/moonraker-telegram-bot-env/bin/python
+requirements = scripts/requirements.txt
+install_script = scripts/install.sh
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/install.sh
+
+[update_manager moonraker-obico]
+type = git_repo
+path = ~/moonraker-obico
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
+env = /home/turbo/moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	moonraker-obico
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/turbo/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/turbo/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
+[update_manager timelapse]
+type = git_repo
+primary_branch = main
+path = ~/moonraker-timelapse
+origin = https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services = klipper moonraker
+
+[timelapse]
+output_path = ~/timelapse
+frame_path = ~/timelapse/movies
+
+#################################################################
+All Configuration Files:
+/home/turbo/printer_data/config/moonraker.conf
+/home/turbo/printer_data/config/moonraker-obico-update.cfg
+/home/turbo/printer_data/config/octoeverywhere-system.cfg
+#################################################################
+2024-04-15 12:03:23,348 [server.py:load_component()] - Component (secrets) loaded
+2024-04-15 12:03:23,353 [server.py:load_component()] - Component (template) loaded
+2024-04-15 12:03:23,357 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-04-15 12:03:24,628 [server.py:load_component()] - Component (application) loaded
+2024-04-15 12:03:24,699 [server.py:load_component()] - Component (websockets) loaded
+2024-04-15 12:03:24,974 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-04-15 12:03:25,006 [server.py:add_log_rollover_item()] - 
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 26
+2024-04-15 12:03:25,071 [server.py:load_component()] - Component (database) loaded
+2024-04-15 12:03:25,144 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-04-15 12:03:25,252 [server.py:load_component()] - Component (file_manager) loaded
+2024-04-15 12:03:25,367 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+.*\.lan
+.*\.local
+.*://localhost
+.*://localhost:.*
+.*://my\.mainsail\.xyz
+.*://app\.fluidd\.xyz
+2024-04-15 12:03:25,378 [server.py:load_component()] - Component (authorization) loaded
+2024-04-15 12:03:25,396 [server.py:load_component()] - Component (klippy_apis) loaded
+2024-04-15 12:03:26,807 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 10, 12, 'final', 0)
+  version_string: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+
+***cpu_info***
+  cpu_count: 2
+  bits: 64bit
+  processor: x86_64
+  cpu_desc: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+  serial_number: 
+  hardware_desc: 
+  model: 
+  total_memory: 5891860
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Ubuntu 22.04.4 LTS
+  id: ubuntu
+  version: 22.04
+  version_parts: {'major': '22', 'minor': '04', 'build_number': ''}
+  like: debian
+  codename: jammy
+  release_info: {}
+  kernel_version: 6.5.0-27-generic
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+2024-04-15 12:03:26,827 [server.py:load_component()] - Component (shell_command) loaded
+2024-04-15 12:03:26,827 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2024-04-15 12:03:26,864 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2024-04-15 12:03:26,864 [server.py:load_component()] - Component (machine) loaded
+2024-04-15 12:03:26,903 [server.py:load_component()] - Component (data_store) loaded
+2024-04-15 12:03:26,911 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2024-04-15 12:03:26,911 [server.py:load_component()] - Component (proc_stats) loaded
+2024-04-15 12:03:26,941 [server.py:load_component()] - Component (job_state) loaded
+2024-04-15 12:03:26,949 [server.py:load_component()] - Component (job_queue) loaded
+2024-04-15 12:03:26,996 [server.py:load_component()] - Component (http_client) loaded
+2024-04-15 12:03:27,007 [server.py:load_component()] - Component (announcements) loaded
+2024-04-15 12:03:27,043 [server.py:load_component()] - Component (webcam) loaded
+2024-04-15 12:03:27,065 [server.py:load_component()] - Component (extensions) loaded
+2024-04-15 12:03:27,088 [server.py:load_component()] - Component (octoprint_compat) loaded
+2024-04-15 12:03:27,110 [server.py:load_component()] - Component (history) loaded
+2024-04-15 12:03:27,153 [server.py:load_component()] - Component (timelapse) loaded
+2024-04-15 12:03:27,500 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
+2024-04-15 12:03:27,506 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
+2024-04-15 12:03:27,508 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-15 12:03:27,526 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
+2024-04-15 12:03:27,573 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-15 12:03:27,573 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
+2024-04-15 12:03:27,574 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-15 12:03:27,574 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
+2024-04-15 12:03:27,639 [server.py:load_component()] - Component (update_manager) loaded
+2024-04-15 12:03:27,669 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2024-04-15 12:03:27,749 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
