@@ -20780,3 +20780,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-15 17:08:42,909   WARNING  obico.server_conn - Failed to capture jpeg - 'ServerConn' object has no attribute 'snapshot_url'
 2024-04-15 17:10:11,438      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-15 17:10:11,814      INFO  obico.app - print event: PrintStarted (1713193811)
+2024-04-15 17:55:20,349      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-15 17:55:20,349      INFO  obico.app - print event: PrintDone (1713193811)
