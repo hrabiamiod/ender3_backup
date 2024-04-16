@@ -796,3 +796,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk263TN7LBx7uAx
 2024-04-16 16:03:41,526 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
 2024-04-16 16:04:52,807 [job_state.py:_status_update()] - Job Started: nelly_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-16 17:05:17,920 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-16 20:03:02,823 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-16 20:03:02,823 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYTi90ZUN5nfHjBGY
+2024-04-16 20:03:03,036 [application.py:post()] - Processing Uploaded File: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-16 20:03:03,134 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-16 20:03:03,162 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-16 20:03:03,172 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 349.46ms
+2024-04-16 20:03:03,336 [job_state.py:_status_update()] - Job Started: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
