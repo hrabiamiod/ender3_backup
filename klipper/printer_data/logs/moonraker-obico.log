@@ -20857,3 +20857,5 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-16 11:01:57,127     ERROR  backoff - Giving up wait_for_janus(...) after 10 tries (ConnectionRefusedError: [Errno 111] Connection refused)
 2024-04-16 12:22:41,853      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-16 12:22:42,183      INFO  obico.app - print event: PrintStarted (1713262961)
+2024-04-16 15:38:28,227      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-16 15:38:28,227      INFO  obico.app - print event: PrintDone (1713262961)
