@@ -776,3 +776,10 @@ Properties:
 2024-04-16 11:00:20,709 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-16 11:00:21,205 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
 2024-04-16 11:00:22,256 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-16 11:47:39,616 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-16 11:47:39,616 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.48ms
+2024-04-16 11:47:39,617 [websockets.py:open()] - Websocket Opened: ID: 132953009929472, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-16 11:47:39,631 [websockets.py:_handle_identify()] - Websocket 132953009929472 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-16 11:47:39,893 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
+2024-04-16 11:47:39,893 [websockets.py:open()] - Websocket Opened: ID: 132953011205024, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-16 11:47:40,033 [websockets.py:_handle_identify()] - Websocket 132953011205024 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
