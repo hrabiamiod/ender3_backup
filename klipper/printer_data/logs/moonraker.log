@@ -930,3 +930,13 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYafaxoac3eEmfm
 2024-04-17 22:36:07,091 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236654886624
 2024-04-17 22:36:11,660 [websockets.py:on_close()] - Websocket Closed: ID: 129236654886624 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
 2024-04-17 22:36:11,702 [websockets.py:on_close()] - Websocket Closed: ID: 129236654884992 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-17 23:15:48,023 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.97ms
+2024-04-17 23:15:48,023 [websockets.py:open()] - Websocket Opened: ID: 129236643818864, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 23:15:48,054 [websockets.py:_handle_identify()] - Websocket 129236643818864 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-17 23:16:48,101 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236643818864
+2024-04-17 23:16:53,024 [websockets.py:on_close()] - Websocket Closed: ID: 129236643818864 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-17 23:25:52,178 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-04-17 23:25:52,178 [websockets.py:open()] - Websocket Opened: ID: 129236653825456, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 23:25:52,219 [websockets.py:_handle_identify()] - Websocket 129236653825456 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 23:29:03,125 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236653825456
+2024-04-17 23:29:07,181 [websockets.py:on_close()] - Websocket Closed: ID: 129236653825456 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
