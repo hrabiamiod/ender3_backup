@@ -816,3 +816,13 @@ Properties:
 2024-04-17 13:42:42,602 [websockets.py:open()] - Websocket Opened: ID: 129236653976752, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15, Host Name: 192.168.1.211
 2024-04-17 13:42:42,603 [websockets.py:_handle_identify()] - Websocket 129236653980592 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-04-17 13:42:43,010 [websockets.py:_handle_identify()] - Websocket 129236653976752 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 14:05:26,792 [websockets.py:on_close()] - Websocket Closed: ID: 129236653976752 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.14
+2024-04-17 14:05:26,793 [websockets.py:on_close()] - Websocket Closed: ID: 129236653980592 Close Code: None, Close Reason: None, Pong Time Elapsed: 4.98
+2024-04-17 14:05:57,160 [application.py:prepare()] - Upload Request Received from 192.168.1.16
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYafaxoac3eEmfmBU
+2024-04-17 14:05:57,230 [application.py:post()] - Processing Uploaded File: JACK_37m_0,20mm_205C_PLA_ENDER3.gcode
+2024-04-17 14:05:57,360 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-17 14:05:57,393 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "JACK_37m_0,20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-17 14:05:57,403 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.16) [_TRUSTED_USER_] 242.80ms
+2024-04-17 14:05:57,523 [job_state.py:_status_update()] - Job Started: JACK_37m_0,20mm_205C_PLA_ENDER3.gcode
