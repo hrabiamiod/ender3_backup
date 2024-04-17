@@ -1,4 +1,4 @@
--------------------- Log Start | Mon Apr 15 22:46:41 2024 --------------------
+-------------------- Log Start | Tue Apr 16 22:12:49 2024 --------------------
 platform: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
 data_path: /home/turbo/printer_data
 is_default_data_path: False
@@ -135,7 +135,7 @@ System Info:
   serial_number: 
   hardware_desc: 
   model: 
-  total_memory: 5891860
+  total_memory: 5891872
   memory_units: kB
 
 ***sd_info***
@@ -175,8 +175,8 @@ unit_name: moonraker.service
 is_default: True
 manager: systemd
 Properties:
-**Requires=['sysinit.target', 'system.slice', 'network-online.target', '-.mount']
-**After=['systemd-journald.socket', 'sysinit.target', 'system.slice', 'basic.target', 'network-online.target', '-.mount']
+**Requires=['network-online.target', 'sysinit.target', 'system.slice', '-.mount']
+**After=['-.mount', 'basic.target', 'network-online.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice']
 **SupplementaryGroups=['moonraker-admin']
 **EnvironmentFiles=/home/turbo/printer_data/systemd/moonraker.env
 **ExecStart=/home/turbo/moonraker-env/bin/python $MOONRAKER_ARGS
@@ -191,7 +191,7 @@ is_default: True
 manager: systemd
 Properties:
 **Requires=['-.mount', 'sysinit.target', 'system.slice']
-**After=['-.mount', 'sysinit.target', 'systemd-journald.socket', 'network-online.target', 'basic.target', 'system.slice']
+**After=['sysinit.target', 'systemd-journald.socket', 'basic.target', '-.mount', 'network-online.target', 'system.slice']
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
 **ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
@@ -199,7 +199,6 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=turbo
-The following jobs were detected as interrupted: ['0002D1']
 Git Repo moonraker: Warnings detected:
   Repo has untracked source files: ['moonraker/components/timelapse.py']
 Git Repo klipper: No warnings detected
@@ -209,16 +208,13 @@ Git Repo moonraker-obico: No warnings detected
 Git Repo octoeverywhere: No warnings detected
 Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-155-g4cfa266e
-2024-04-16 00:46:41,082 [job_state.py:_status_update()] - Job Started: kenzo_insta_straz_dual_36m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 00:58:28,848 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
-2024-04-16 02:12:06,063 [websockets.py:write_to_socket()] - Websocket closed while writing: 126373218941776
-2024-04-16 02:12:06,064 [websockets.py:on_close()] - Websocket Closed: ID: 126373218941776 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.07
-2024-04-16 02:12:06,065 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2024-04-16 02:12:06,154 [websockets.py:on_close()] - Websocket Closed: ID: 126373218934336 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.77
-2024-04-16 02:12:06,213 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
-2024-04-16 02:12:06,317 [websockets.py:on_close()] - Websocket Closed: ID: 126373200718880 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 8.38
-2024-04-16 02:12:06,317 [websockets.py:on_close()] - Websocket Closed: ID: 126373218934432 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 2.01
-2024-04-16 02:12:06,320 [database.py:close()] - Database statistics:
+2024-04-17 00:12:49,112 [websockets.py:on_close()] - Websocket Closed: ID: 132953010151888 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.10
+2024-04-17 00:12:49,112 [websockets.py:on_close()] - Websocket Closed: ID: 132953010145840 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.21
+2024-04-17 00:12:49,123 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-17 00:12:49,450 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
+2024-04-17 00:12:49,553 [websockets.py:on_close()] - Websocket Closed: ID: 132953011205024 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 9.66
+2024-04-17 00:12:49,554 [websockets.py:on_close()] - Websocket Closed: ID: 132953009929472 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 9.93
+2024-04-17 00:12:49,558 [database.py:close()] - Database statistics:
 
 announcements:
 psize: 4096
@@ -240,14 +236,14 @@ depth: 2
 branch_pages: 1
 leaf_pages: 83
 overflow_pages: 0
-entries: 343
+entries: 345
 history:
 psize: 4096
 depth: 2
 branch_pages: 1
-leaf_pages: 212
+leaf_pages: 213
 overflow_pages: 0
-entries: 735
+entries: 739
 mainsail:
 psize: 4096
 depth: 2
@@ -304,8 +300,8 @@ branch_pages: 0
 leaf_pages: 1
 overflow_pages: 0
 entries: 1
-2024-04-16 02:12:06,331 [server.py:main()] - Server Shutdown
--------------------- Log Start | Tue Apr 16 09:00:08 2024 --------------------
+2024-04-17 00:12:49,564 [server.py:main()] - Server Shutdown
+-------------------- Log Start | Wed Apr 17 09:37:48 2024 --------------------
 platform: Linux-6.5.0-27-generic-x86_64-with-glibc2.35
 data_path: /home/turbo/printer_data
 is_default_data_path: False
@@ -329,8 +325,8 @@ python_version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
 launch_args: /home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/moonraker.py -d /home/turbo/printer_data
 msgspec_enabled: False
 uvloop_enabled: False
-2024-04-16 11:00:08,261 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2946 B
-2024-04-16 11:00:08,261 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:48,123 [confighelper.py:read_file()] - Configuration File '/home/turbo/printer_data/config/moonraker.conf' parsed, total size: 2946 B
+2024-04-17 11:37:48,123 [server.py:add_log_rollover_item()] - 
 #################### Moonraker Configuration ####################
 
 [server]
@@ -425,19 +421,19 @@ All Configuration Files:
 /home/turbo/printer_data/config/moonraker-obico-update.cfg
 /home/turbo/printer_data/config/octoeverywhere-system.cfg
 #################################################################
-2024-04-16 11:00:09,016 [server.py:load_component()] - Component (secrets) loaded
-2024-04-16 11:00:09,026 [server.py:load_component()] - Component (template) loaded
-2024-04-16 11:00:09,036 [server.py:load_component()] - Component (klippy_connection) loaded
-2024-04-16 11:00:12,159 [server.py:load_component()] - Component (application) loaded
-2024-04-16 11:00:12,506 [server.py:load_component()] - Component (websockets) loaded
-2024-04-16 11:00:12,942 [server.py:load_component()] - Component (dbus_manager) loaded
-2024-04-16 11:00:12,983 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:48,402 [server.py:load_component()] - Component (secrets) loaded
+2024-04-17 11:37:48,409 [server.py:load_component()] - Component (template) loaded
+2024-04-17 11:37:48,431 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-04-17 11:37:49,673 [server.py:load_component()] - Component (application) loaded
+2024-04-17 11:37:49,714 [server.py:load_component()] - Component (websockets) loaded
+2024-04-17 11:37:49,918 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-04-17 11:37:49,949 [server.py:add_log_rollover_item()] - 
 Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
 Unsafe Shutdown Count: 26
-2024-04-16 11:00:13,444 [server.py:load_component()] - Component (database) loaded
-2024-04-16 11:00:13,528 [file_manager.py:__init__()] - Using File System Observer: inotify
-2024-04-16 11:00:13,613 [server.py:load_component()] - Component (file_manager) loaded
-2024-04-16 11:00:14,327 [authorization.py:__init__()] - Authorization Configuration Loaded
+2024-04-17 11:37:50,003 [server.py:load_component()] - Component (database) loaded
+2024-04-17 11:37:50,052 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-04-17 11:37:50,146 [server.py:load_component()] - Component (file_manager) loaded
+2024-04-17 11:37:50,215 [authorization.py:__init__()] - Authorization Configuration Loaded
 Trusted Clients:
 10.0.0.0/8
 127.0.0.0/8
@@ -453,9 +449,9 @@ CORS Domains:
 .*://localhost:.*
 .*://my\.mainsail\.xyz
 .*://app\.fluidd\.xyz
-2024-04-16 11:00:14,331 [server.py:load_component()] - Component (authorization) loaded
-2024-04-16 11:00:14,387 [server.py:load_component()] - Component (klippy_apis) loaded
-2024-04-16 11:00:16,093 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:50,217 [server.py:load_component()] - Component (authorization) loaded
+2024-04-17 11:37:50,234 [server.py:load_component()] - Component (klippy_apis) loaded
+2024-04-17 11:37:51,273 [server.py:add_log_rollover_item()] - 
 System Info:
 
 ***python***
@@ -470,7 +466,7 @@ System Info:
   serial_number: 
   hardware_desc: 
   model: 
-  total_memory: 5891872
+  total_memory: 5891864
   memory_units: kB
 
 ***sd_info***
@@ -503,47 +499,47 @@ System Info:
   sonar
   crowsnest
   octoeverywhere
-2024-04-16 11:00:16,095 [server.py:load_component()] - Component (shell_command) loaded
-2024-04-16 11:00:16,095 [machine.py:__init__()] - Using System Provider: systemd_dbus
-2024-04-16 11:00:16,098 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
-2024-04-16 11:00:16,098 [server.py:load_component()] - Component (machine) loaded
-2024-04-16 11:00:16,292 [server.py:load_component()] - Component (data_store) loaded
-2024-04-16 11:00:16,295 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
-2024-04-16 11:00:16,296 [server.py:load_component()] - Component (proc_stats) loaded
-2024-04-16 11:00:16,498 [server.py:load_component()] - Component (job_state) loaded
-2024-04-16 11:00:16,504 [server.py:load_component()] - Component (job_queue) loaded
-2024-04-16 11:00:16,561 [server.py:load_component()] - Component (http_client) loaded
-2024-04-16 11:00:16,616 [server.py:load_component()] - Component (announcements) loaded
-2024-04-16 11:00:16,624 [server.py:load_component()] - Component (webcam) loaded
-2024-04-16 11:00:16,628 [server.py:load_component()] - Component (extensions) loaded
-2024-04-16 11:00:16,633 [server.py:load_component()] - Component (octoprint_compat) loaded
-2024-04-16 11:00:16,636 [server.py:load_component()] - Component (history) loaded
-2024-04-16 11:00:16,842 [server.py:load_component()] - Component (timelapse) loaded
-2024-04-16 11:00:17,373 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
-2024-04-16 11:00:17,380 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
-2024-04-16 11:00:17,385 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-04-16 11:00:17,388 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
-2024-04-16 11:00:17,406 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-04-16 11:00:17,406 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
-2024-04-16 11:00:17,407 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
-2024-04-16 11:00:17,408 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
-2024-04-16 11:00:17,491 [server.py:load_component()] - Component (update_manager) loaded
-2024-04-16 11:00:17,492 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
-2024-04-16 11:00:17,498 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
-2024-04-16 11:00:17,847 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
-2024-04-16 11:00:17,847 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
-2024-04-16 11:00:17,847 [machine.py:validation_init()] - Installation version in database up to date
-2024-04-16 11:00:18,092 [machine.py:check_virt_status()] - No Virtualization Detected
-2024-04-16 11:00:18,184 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
-2024-04-16 11:00:18,185 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
-2024-04-16 11:00:18,212 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:51,285 [server.py:load_component()] - Component (shell_command) loaded
+2024-04-17 11:37:51,285 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2024-04-17 11:37:51,334 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2024-04-17 11:37:51,334 [server.py:load_component()] - Component (machine) loaded
+2024-04-17 11:37:51,354 [server.py:load_component()] - Component (data_store) loaded
+2024-04-17 11:37:51,362 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2024-04-17 11:37:51,362 [server.py:load_component()] - Component (proc_stats) loaded
+2024-04-17 11:37:51,377 [server.py:load_component()] - Component (job_state) loaded
+2024-04-17 11:37:51,410 [server.py:load_component()] - Component (job_queue) loaded
+2024-04-17 11:37:51,436 [server.py:load_component()] - Component (http_client) loaded
+2024-04-17 11:37:51,453 [server.py:load_component()] - Component (announcements) loaded
+2024-04-17 11:37:51,470 [server.py:load_component()] - Component (webcam) loaded
+2024-04-17 11:37:51,497 [server.py:load_component()] - Component (extensions) loaded
+2024-04-17 11:37:51,536 [server.py:load_component()] - Component (history) loaded
+2024-04-17 11:37:51,568 [server.py:load_component()] - Component (octoprint_compat) loaded
+2024-04-17 11:37:51,594 [server.py:load_component()] - Component (timelapse) loaded
+2024-04-17 11:37:51,793 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/turbo/moonraker-env
+2024-04-17 11:37:51,810 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/turbo/klippy-env
+2024-04-17 11:37:51,819 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-17 11:37:51,820 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Detected virtualenv: /home/turbo/moonraker-telegram-bot-env
+2024-04-17 11:37:51,838 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-17 11:37:51,841 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Detected virtualenv: /home/turbo/moonraker-obico-env
+2024-04-17 11:37:51,846 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Option 'env' is deprecated, use 'virtualenv' instead.
+2024-04-17 11:37:51,853 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Detected virtualenv: /home/turbo/octoeverywhere-env
+2024-04-17 11:37:51,867 [server.py:load_component()] - Component (update_manager) loaded
+2024-04-17 11:37:51,872 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2024-04-17 11:37:52,914 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
+2024-04-17 11:37:54,907 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2024-04-17 11:37:54,907 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2024-04-17 11:37:54,936 [machine.py:validation_init()] - Installation version in database up to date
+2024-04-17 11:37:55,618 [machine.py:check_virt_status()] - No Virtualization Detected
+2024-04-17 11:37:55,685 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-17 11:37:55,691 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-04-17 11:37:55,798 [server.py:add_log_rollover_item()] - 
 Systemd unit moonraker.service:
 unit_name: moonraker.service
 is_default: True
 manager: systemd
 Properties:
-**Requires=['network-online.target', 'sysinit.target', 'system.slice', '-.mount']
-**After=['-.mount', 'basic.target', 'network-online.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice']
+**Requires=['sysinit.target', '-.mount', 'system.slice', 'network-online.target']
+**After=['basic.target', 'sysinit.target', 'system.slice', '-.mount', 'network-online.target', 'systemd-journald.socket']
 **SupplementaryGroups=['moonraker-admin']
 **EnvironmentFiles=/home/turbo/printer_data/systemd/moonraker.env
 **ExecStart=/home/turbo/moonraker-env/bin/python $MOONRAKER_ARGS
@@ -551,19 +547,19 @@ Properties:
 **FragmentPath=/etc/systemd/system/moonraker.service
 **Description=API Server for Klipper SV1
 **User=turbo
-2024-04-16 11:00:18,212 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
-2024-04-16 11:00:18,212 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
-2024-04-16 11:00:18,213 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
-2024-04-16 11:00:18,213 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
-2024-04-16 11:00:18,213 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
-2024-04-16 11:00:18,214 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:55,798 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
+2024-04-17 11:37:55,798 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
+2024-04-17 11:37:55,801 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
+2024-04-17 11:37:55,802 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-04-17 11:37:55,802 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
+2024-04-17 11:37:55,807 [server.py:add_log_rollover_item()] - 
 Systemd unit klipper.service:
 unit_name: klipper.service
 is_default: True
 manager: systemd
 Properties:
 **Requires=['-.mount', 'sysinit.target', 'system.slice']
-**After=['-.mount', 'sysinit.target', 'systemd-journald.socket', 'network-online.target', 'basic.target', 'system.slice']
+**After=['sysinit.target', 'systemd-journald.socket', 'basic.target', '-.mount', 'network-online.target', 'system.slice']
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
 **ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
@@ -571,13 +567,13 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=turbo
-2024-04-16 11:00:18,214 [server.py:_initialize_component()] - Performing Component Post Init: [history]
-2024-04-16 11:00:18,214 [server.py:_initialize_component()] - Performing Component Post Init: [timelapse]
-2024-04-16 11:00:18,215 [timelapse.py:parseWebcamConfig()] - snapshoturl: http://localhost/webcam/?action=snapshot, Flip V/H: False/False, rotation: 0
-2024-04-16 11:00:18,215 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
-2024-04-16 11:00:19,579 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
-2024-04-16 11:00:19,580 [base_deploy.py:log_info()] - Git Repo moonraker: Stored pip version: 23.0
-2024-04-16 11:00:19,581 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+2024-04-17 11:37:55,807 [server.py:_initialize_component()] - Performing Component Post Init: [history]
+2024-04-17 11:37:55,809 [server.py:_initialize_component()] - Performing Component Post Init: [timelapse]
+2024-04-17 11:37:55,809 [timelapse.py:parseWebcamConfig()] - snapshoturl: http://localhost/webcam/?action=snapshot, Flip V/H: False/False, rotation: 0
+2024-04-17 11:37:55,809 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
+2024-04-17 11:37:55,843 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
+2024-04-17 11:37:55,844 [base_deploy.py:log_info()] - Git Repo moonraker: Stored pip version: 23.0
+2024-04-17 11:37:55,844 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
 Owner: Arksine
 Repository Name: moonraker
 Path: /home/turbo/moonraker
@@ -599,7 +595,7 @@ Commits Behind Count: 0
 Diverged: False
 Repo Warnings:
   Repo has untracked source files: ['moonraker/components/timelapse.py']
-2024-04-16 11:00:19,581 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+2024-04-17 11:37:55,853 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
 Owner: Klipper3d
 Repository Name: klipper
 Path: /home/turbo/klipper
@@ -619,7 +615,7 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
-2024-04-16 11:00:19,586 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+2024-04-17 11:37:55,863 [base_deploy.py:log_info()] - Web Client mainsail: Detected
 Repo: mainsail-crew/mainsail
 Channel: stable
 Path: /home/turbo/mainsail
@@ -633,7 +629,7 @@ Download Size: 2081565
 Content Type: application/zip
 Rollback Version: v2.8.0
 Rollback Repo: mainsail-crew/mainsail
-2024-04-16 11:00:19,588 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
+2024-04-17 11:37:55,870 [git_deploy.py:log_repo_info()] - Git Repo moonraker-telegram-bot Detected:
 Owner: nlef
 Repository Name: moonraker-telegram-bot
 Path: /home/turbo/moonraker-telegram-bot
@@ -653,7 +649,7 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
-2024-04-16 11:00:19,590 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+2024-04-17 11:37:55,879 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
 Owner: mainsail-crew
 Repository Name: crowsnest
 Path: /home/turbo/crowsnest
@@ -673,8 +669,8 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
-2024-04-16 11:00:19,591 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Stored pip version: 22.0.2
-2024-04-16 11:00:19,594 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
+2024-04-17 11:37:55,882 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Stored pip version: 22.0.2
+2024-04-17 11:37:55,890 [git_deploy.py:log_repo_info()] - Git Repo moonraker-obico Detected:
 Owner: TheSpaghettiDetective
 Repository Name: moonraker-obico
 Path: /home/turbo/moonraker-obico
@@ -694,8 +690,8 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 42
 Diverged: False
-2024-04-16 11:00:19,594 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Stored pip version: 23.0
-2024-04-16 11:00:19,599 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
+2024-04-17 11:37:55,892 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Stored pip version: 23.0
+2024-04-17 11:37:55,897 [git_deploy.py:log_repo_info()] - Git Repo octoeverywhere Detected:
 Owner: QuinnDamerell
 Repository Name: OctoPrint-OctoEverywhere
 Path: /home/turbo/octoeverywhere
@@ -715,7 +711,7 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
-2024-04-16 11:00:19,603 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+2024-04-17 11:37:55,905 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
 Owner: mainsail-crew
 Repository Name: moonraker-timelapse
 Path: /home/turbo/moonraker-timelapse
@@ -735,30 +731,27 @@ Is Detached: False
 Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 2 Days, 8 Minutes, 17 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 2 Days, 6 Minutes, 31 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 2 Days, 6 Minutes, 21 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Web Client mainsail: Next refresh in: 3 Days, 3 Hours, 6 Minutes, 31 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Next refresh in: 3 Days, 3 Hours, 6 Minutes, 34 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 2 Days, 6 Minutes, 14 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 3 Days, 3 Hours, 6 Minutes, 37 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 3 Days, 3 Hours, 6 Minutes, 38 Seconds
-2024-04-16 11:00:19,603 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 3 Days, 3 Hours, 6 Minutes, 39 Seconds
-2024-04-16 11:00:19,608 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
-2024-04-16 11:00:19,611 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
-2024-04-16 11:00:19,611 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
-2024-04-16 11:00:19,862 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2024-04-16 11:00:19,889 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
-2024-04-16 11:00:19,901 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 3.49ms
-2024-04-16 11:00:19,901 [websockets.py:open()] - Websocket Opened: ID: 132953010145840, Proxied: False, User Agent: , Host Name: 127.0.0.1
-2024-04-16 11:00:19,914 [server.py:add_log_rollover_item()] - 
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 23 Hours, 30 Minutes, 41 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 23 Hours, 28 Minutes, 55 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 23 Hours, 28 Minutes, 45 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Web Client mainsail: Next refresh in: 2 Days, 2 Hours, 28 Minutes, 55 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo moonraker-telegram-bot: Next refresh in: 2 Days, 2 Hours, 28 Minutes, 58 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 23 Hours, 28 Minutes, 37 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo moonraker-obico: Next refresh in: 2 Days, 2 Hours, 29 Minutes, 1 Second
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo octoeverywhere: Next refresh in: 2 Days, 2 Hours, 29 Minutes, 2 Seconds
+2024-04-17 11:37:55,905 [base_deploy.py:log_info()] - Git Repo timelapse: Next refresh in: 2 Days, 2 Hours, 29 Minutes, 2 Seconds
+2024-04-17 11:37:55,924 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/turbo/printer_data/comms/moonraker.sock'
+2024-04-17 11:37:55,924 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: DELL
+2024-04-17 11:37:55,925 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-04-17 11:37:56,176 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-17 11:37:56,228 [server.py:add_log_rollover_item()] - 
 Systemd unit klipper.service:
 unit_name: klipper.service
 is_default: True
 manager: systemd
 Properties:
 **Requires=['-.mount', 'sysinit.target', 'system.slice']
-**After=['sysinit.target', 'systemd-journald.socket', 'basic.target', '-.mount', 'network-online.target', 'system.slice']
+**After=['systemd-journald.socket', 'sysinit.target', '-.mount', 'basic.target', 'system.slice', 'network-online.target']
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
 **ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
@@ -766,51 +759,16 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=turbo
-2024-04-16 11:00:20,014 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
-2024-04-16 11:00:20,014 [websockets.py:open()] - Websocket Opened: ID: 132953010151888, Proxied: False, User Agent: , Host Name: 0.0.0.0
-2024-04-16 11:00:20,021 [websockets.py:_handle_identify()] - Websocket 132953010151888 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
-2024-04-16 11:00:20,177 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-155-g4cfa266e
-2024-04-16 11:00:20,203 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2024-04-16 11:00:20,204 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2024-04-16 11:00:20,453 [job_state.py:_handle_started()] - Job state initialized: standby
-2024-04-16 11:00:20,709 [klippy_connection.py:_check_ready()] - Klippy ready
-2024-04-16 11:00:21,205 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
-2024-04-16 11:00:22,256 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
-2024-04-16 11:47:39,616 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
-2024-04-16 11:47:39,616 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.48ms
-2024-04-16 11:47:39,617 [websockets.py:open()] - Websocket Opened: ID: 132953009929472, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
-2024-04-16 11:47:39,631 [websockets.py:_handle_identify()] - Websocket 132953009929472 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
-2024-04-16 11:47:39,893 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.73ms
-2024-04-16 11:47:39,893 [websockets.py:open()] - Websocket Opened: ID: 132953011205024, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
-2024-04-16 11:47:40,033 [websockets.py:_handle_identify()] - Websocket 132953011205024 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
-2024-04-16 12:05:17,866 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
-2024-04-16 12:22:39,882 [application.py:prepare()] - Upload Request Received from 192.168.1.12
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk263TN7LBx7uAxHQ
-2024-04-16 12:22:41,221 [application.py:post()] - Processing Uploaded File: Merged_3h7m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 12:22:41,353 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
-
-2024-04-16 12:22:41,386 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "Merged_3h7m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
-2024-04-16 12:22:41,397 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 1515.99ms
-2024-04-16 12:22:41,597 [job_state.py:_status_update()] - Job Started: Merged_3h7m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 13:25:17,880 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
-2024-04-16 16:03:41,526 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
-2024-04-16 16:04:52,807 [job_state.py:_status_update()] - Job Started: nelly_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 17:05:17,920 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
-2024-04-16 20:03:02,823 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
-2024-04-16 20:03:02,823 [application.py:prepare()] - Upload Request Received from 192.168.1.12
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYTi90ZUN5nfHjBGY
-2024-04-16 20:03:03,036 [application.py:post()] - Processing Uploaded File: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 20:03:03,134 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
-
-2024-04-16 20:03:03,162 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
-2024-04-16 20:03:03,172 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 349.46ms
-2024-04-16 20:03:03,336 [job_state.py:_status_update()] - Job Started: luna_insta_32m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 20:49:42,910 [application.py:prepare()] - Upload Request Received from 192.168.1.12
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylRYcRSjFMU4irlhm
-2024-04-16 20:49:43,158 [application.py:post()] - Processing Uploaded File: arika_38m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 20:49:43,261 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
-
-2024-04-16 20:49:43,296 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "arika_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
-2024-04-16 20:49:43,307 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 396.87ms
-2024-04-16 20:49:43,326 [job_state.py:_status_update()] - Job Started: arika_38m_0.20mm_205C_PLA_ENDER3.gcode
-2024-04-16 21:50:17,967 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-17 11:37:56,480 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-155-g4cfa266e
+2024-04-17 11:37:56,500 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-17 11:37:56,501 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-17 11:37:56,738 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-17 11:37:56,747 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-17 11:37:56,754 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 4.77ms
+2024-04-17 11:37:56,755 [websockets.py:open()] - Websocket Opened: ID: 129236653664976, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-17 11:37:56,823 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.74ms
+2024-04-17 11:37:56,823 [websockets.py:open()] - Websocket Opened: ID: 129236653666560, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-17 11:37:56,834 [websockets.py:_handle_identify()] - Websocket 129236653666560 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-17 11:37:57,000 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-17 11:37:57,002 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-17 11:37:57,490 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
