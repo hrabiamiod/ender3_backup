@@ -879,3 +879,16 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYafaxoac3eEmfm
 2024-04-17 18:10:05,718 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236653832560
 2024-04-17 18:10:09,402 [websockets.py:on_close()] - Websocket Closed: ID: 129236654521552 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.96
 2024-04-17 18:10:10,019 [websockets.py:on_close()] - Websocket Closed: ID: 129236653832560 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-17 19:03:00,391 [websockets.py:on_close()] - Websocket Closed: ID: 129236643793840 Close Code: None, Close Reason: None, Pong Time Elapsed: 5.53
+2024-04-17 19:07:54,990 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.16
+2024-04-17 19:19:22,393 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.16
+2024-04-17 19:19:22,393 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.86ms
+2024-04-17 19:19:22,393 [websockets.py:open()] - Websocket Opened: ID: 129236643835440, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 19:19:22,729 [websockets.py:_handle_identify()] - Websocket 129236643835440 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-17 19:20:18,800 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.71ms
+2024-04-17 19:20:18,800 [websockets.py:open()] - Websocket Opened: ID: 129236644441552, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 19:20:18,997 [websockets.py:_handle_identify()] - Websocket 129236644441552 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 19:22:42,545 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236643835440
+2024-04-17 19:22:47,395 [websockets.py:on_close()] - Websocket Closed: ID: 129236643835440 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-17 19:22:49,076 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644441552
+2024-04-17 19:22:53,803 [websockets.py:on_close()] - Websocket Closed: ID: 129236644441552 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
