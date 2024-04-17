@@ -772,3 +772,14 @@ Properties:
 2024-04-17 11:37:57,000 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
 2024-04-17 11:37:57,002 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-17 11:37:57,490 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-17 11:38:04,827 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.83
+2024-04-17 11:38:04,827 [application.py:log_request()] - 101 GET /websocket (192.168.1.83) [_TRUSTED_USER_] 0.80ms
+2024-04-17 11:38:04,828 [websockets.py:open()] - Websocket Opened: ID: 129236643793840, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-17 11:38:04,841 [websockets.py:_handle_identify()] - Websocket 129236643793840 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 11:43:57,480 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.16
+2024-04-17 11:43:57,481 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 1.19ms
+2024-04-17 11:43:57,481 [websockets.py:open()] - Websocket Opened: ID: 129236653971712, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15, Host Name: 192.168.1.211
+2024-04-17 11:43:58,154 [websockets.py:_handle_identify()] - Websocket 129236653971712 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-17 11:43:58,166 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-04-17 11:43:58,167 [websockets.py:open()] - Websocket Opened: ID: 129236653978768, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15, Host Name: 192.168.1.211
+2024-04-17 11:43:58,707 [websockets.py:_handle_identify()] - Websocket 129236653978768 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
