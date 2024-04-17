@@ -783,3 +783,17 @@ Properties:
 2024-04-17 11:43:58,166 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
 2024-04-17 11:43:58,167 [websockets.py:open()] - Websocket Opened: ID: 129236653978768, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15, Host Name: 192.168.1.211
 2024-04-17 11:43:58,707 [websockets.py:_handle_identify()] - Websocket 129236653978768 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 12:33:26,303 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.72ms
+2024-04-17 12:33:26,303 [websockets.py:open()] - Websocket Opened: ID: 129236643799168, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 12:33:26,326 [websockets.py:_handle_identify()] - Websocket 129236643799168 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 12:33:27,161 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.67ms
+2024-04-17 12:33:27,161 [websockets.py:open()] - Websocket Opened: ID: 129236643802768, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 12:33:27,259 [websockets.py:_handle_identify()] - Websocket 129236643802768 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-17 12:33:29,606 [websockets.py:on_close()] - Websocket Closed: ID: 129236653971712 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.91
+2024-04-17 12:33:29,612 [websockets.py:on_close()] - Websocket Closed: ID: 129236653978768 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.44
+2024-04-17 12:42:54,916 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-17 12:42:54,916 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.83
+2024-04-17 12:52:01,898 [job_state.py:_status_update()] - Job Started: arika_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-17 12:55:26,411 [job_state.py:_status_update()] - Job Started: arika_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-17 12:58:46,451 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236643799168
+2024-04-17 12:58:49,089 [websockets.py:on_close()] - Websocket Closed: ID: 129236643799168 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.00
