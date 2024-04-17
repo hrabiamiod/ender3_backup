@@ -892,3 +892,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYafaxoac3eEmfm
 2024-04-17 19:22:47,395 [websockets.py:on_close()] - Websocket Closed: ID: 129236643835440 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
 2024-04-17 19:22:49,076 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644441552
 2024-04-17 19:22:53,803 [websockets.py:on_close()] - Websocket Closed: ID: 129236644441552 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-17 20:22:39,900 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.79ms
+2024-04-17 20:22:39,900 [websockets.py:open()] - Websocket Opened: ID: 129236643834912, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 20:22:39,919 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.62ms
+2024-04-17 20:22:39,919 [websockets.py:open()] - Websocket Opened: ID: 129236643830832, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-17 20:22:40,150 [websockets.py:_handle_identify()] - Websocket 129236643834912 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-17 20:22:40,340 [websockets.py:_handle_identify()] - Websocket 129236643830832 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-17 20:23:11,602 [websockets.py:on_close()] - Websocket Closed: ID: 129236643830832 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.68
+2024-04-17 20:23:11,603 [websockets.py:on_close()] - Websocket Closed: ID: 129236643834912 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.70
