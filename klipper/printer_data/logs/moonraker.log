@@ -325,3 +325,4 @@ CPU Temperature: None
 2024-04-18 07:24:05,040 [websockets.py:_handle_identify()] - Websocket 129236653827616 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-04-18 07:24:35,523 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236653827616
 2024-04-18 07:24:40,016 [websockets.py:on_close()] - Websocket Closed: ID: 129236653827616 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-04-18 08:27:55,120 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.16
