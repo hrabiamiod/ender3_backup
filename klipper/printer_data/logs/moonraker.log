@@ -332,3 +332,13 @@ CPU Temperature: None
 2024-04-18 09:26:10,184 [websockets.py:_handle_identify()] - Websocket 129236655073568 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
 2024-04-18 09:26:40,504 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236655073568
 2024-04-18 09:26:45,028 [websockets.py:on_close()] - Websocket Closed: ID: 129236655073568 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-04-18 09:34:51,801 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.68ms
+2024-04-18 09:34:51,802 [websockets.py:open()] - Websocket Opened: ID: 129236653811424, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-18 09:34:51,890 [websockets.py:_handle_identify()] - Websocket 129236653811424 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-18 09:35:15,898 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.71ms
+2024-04-18 09:35:15,899 [websockets.py:open()] - Websocket Opened: ID: 129236654886000, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-18 09:35:16,833 [websockets.py:_handle_identify()] - Websocket 129236654886000 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-18 09:37:12,125 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236653811424
+2024-04-18 09:37:16,128 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236654886000
+2024-04-18 09:37:16,804 [websockets.py:on_close()] - Websocket Closed: ID: 129236653811424 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
+2024-04-18 09:37:20,901 [websockets.py:on_close()] - Websocket Closed: ID: 129236654886000 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.98
