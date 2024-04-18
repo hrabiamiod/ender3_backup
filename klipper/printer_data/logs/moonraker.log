@@ -498,3 +498,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysApYLtHcEWOWHz
 2024-04-18 14:14:51,297 [websockets.py:_handle_identify()] - Websocket 129236653655136 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-04-18 14:15:21,475 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236653655136
 2024-04-18 14:15:26,287 [websockets.py:on_close()] - Websocket Closed: ID: 129236653655136 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-04-18 14:52:55,184 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
