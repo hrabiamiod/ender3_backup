@@ -346,3 +346,4 @@ CPU Temperature: None
 2024-04-18 10:27:18,720 [websockets.py:open()] - Websocket Opened: ID: 129236644543216, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
 2024-04-18 10:27:49,042 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644543216
 2024-04-18 10:27:53,723 [websockets.py:on_close()] - Websocket Closed: ID: 129236644543216 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-04-18 11:27:55,150 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.16
