@@ -435,3 +435,45 @@ CPU Temperature: None
 2024-04-18 12:57:45,568 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644441408
 2024-04-18 12:57:49,571 [websockets.py:on_close()] - Websocket Closed: ID: 129236644584352 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
 2024-04-18 12:57:49,593 [websockets.py:on_close()] - Websocket Closed: ID: 129236644441408 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
+2024-04-18 13:03:54,651 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-18 13:03:54,652 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.94ms
+2024-04-18 13:03:54,652 [websockets.py:open()] - Websocket Opened: ID: 129236644535056, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-18 13:03:54,656 [websockets.py:_handle_identify()] - Websocket 129236644535056 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-18 13:03:55,053 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.67ms
+2024-04-18 13:03:55,053 [websockets.py:open()] - Websocket Opened: ID: 129236644533616, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-18 13:03:55,123 [websockets.py:_handle_identify()] - Websocket 129236644533616 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-18 13:04:20,615 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-18 13:04:20,620 [websockets.py:on_close()] - Websocket Closed: ID: 129236644586704 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.96
+2024-04-18 13:04:21,874 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-18 13:04:21,929 [server.py:add_log_rollover_item()] - 
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+manager: systemd
+Properties:
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['systemd-journald.socket', '-.mount', 'network-online.target', 'sysinit.target', 'basic.target', 'system.slice']
+**SupplementaryGroups=[]
+**EnvironmentFiles=/home/turbo/printer_data/systemd/klipper.env
+**ExecStart=/home/turbo/klippy-env/bin/python $KLIPPER_ARGS
+**WorkingDirectory=/home/turbo/klipper
+**FragmentPath=/etc/systemd/system/klipper.service
+**Description=Klipper 3D Printer Firmware SV1
+**User=turbo
+2024-04-18 13:04:22,625 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-18 13:04:22,627 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.88ms
+2024-04-18 13:04:22,627 [websockets.py:open()] - Websocket Opened: ID: 129236655070880, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-18 13:04:22,629 [websockets.py:_handle_identify()] - Websocket 129236655070880 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-18 13:04:23,258 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-18 13:04:23,259 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-18 13:04:23,509 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-18 13:04:23,764 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-18 13:04:24,265 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-18 13:13:26,600 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysApYLtHcEWOWHz6P
+2024-04-18 13:13:26,642 [application.py:post()] - Processing Uploaded File: ultimo_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-18 13:13:26,737 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-18 13:13:26,769 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "ultimo_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-18 13:13:26,779 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 179.76ms
+2024-04-18 13:13:26,909 [job_state.py:_status_update()] - Job Started: ultimo_37m_0.20mm_205C_PLA_ENDER3.gcode
