@@ -296,3 +296,8 @@ CPU Temperature: None
 2024-04-18 02:01:35,479 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644578352
 2024-04-18 02:01:40,084 [websockets.py:on_close()] - Websocket Closed: ID: 129236644578352 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
 2024-04-18 02:22:55,057 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-18 02:42:52,526 [application.py:log_request()] - 101 GET /websocket (192.168.1.16) [_TRUSTED_USER_] 0.72ms
+2024-04-18 02:42:52,526 [websockets.py:open()] - Websocket Opened: ID: 129236644535872, Proxied: True, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36, Host Name: 192.168.1.211
+2024-04-18 02:42:52,697 [websockets.py:_handle_identify()] - Websocket 129236644535872 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-18 02:43:22,559 [websockets.py:write_to_socket()] - Websocket closed while writing: 129236644535872
+2024-04-18 02:43:27,529 [websockets.py:on_close()] - Websocket Closed: ID: 129236644535872 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
