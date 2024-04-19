@@ -810,3 +810,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHG5MFuTpEnnIzU
 2024-04-19 23:16:37,302 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "TYCIA_16m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-19 23:16:37,311 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 191.08ms
 2024-04-19 23:16:37,529 [job_state.py:_status_update()] - Job Started: TYCIA_16m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-19 23:37:59,537 [job_state.py:_status_update()] - Job Started: TYCIA_16m_0.20mm_205C_PLA_ENDER3.gcode
