@@ -210,3 +210,20 @@ Git Repo timelapse: No warnings detected
 Klipper Version: v0.12.0-155-g4cfa266e
 2024-04-20 00:01:36,242 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
 2024-04-20 00:21:36,246 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-20 00:36:26,428 [job_state.py:_status_update()] - Job Started: TYCIA_16m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-20 00:56:03,562 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-20 00:56:35,116 [websockets.py:write_to_socket()] - Websocket closed while writing: 123615681748592
+2024-04-20 00:56:35,586 [websockets.py:write_to_socket()] - Websocket closed while writing: 123615681745520
+2024-04-20 00:56:38,271 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2024-04-20 00:56:40,116 [websockets.py:on_close()] - Websocket Closed: ID: 123615681748592 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-20 00:56:40,281 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2024-04-20 00:56:40,582 [websockets.py:on_close()] - Websocket Closed: ID: 123615681745520 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-20 00:56:42,292 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2024-04-20 00:58:13,681 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-20 00:58:15,830 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-20 00:58:15,831 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.51ms
+2024-04-20 00:58:15,831 [websockets.py:open()] - Websocket Opened: ID: 123615681751328, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-20 00:58:15,845 [websockets.py:_handle_identify()] - Websocket 123615681751328 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-20 00:58:20,104 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.79ms
+2024-04-20 00:58:20,104 [websockets.py:open()] - Websocket Opened: ID: 123615672265904, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-20 00:58:20,116 [websockets.py:_handle_identify()] - Websocket 123615672265904 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web

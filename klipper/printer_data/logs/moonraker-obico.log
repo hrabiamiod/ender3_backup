@@ -20998,3 +20998,9 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-19 23:38:00,083      INFO  obico.app - print event: PrintStarted (1713562679)
 2024-04-19 23:59:50,856      INFO  obico.app - detected state change: Printing -> Operational
 2024-04-19 23:59:50,857      INFO  obico.app - print event: PrintDone (1713562679)
+2024-04-20 00:36:26,681      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-20 00:36:26,995      INFO  obico.app - print event: PrintStarted (1713566186)
+2024-04-20 00:56:33,388   WARNING  obico.webcam_capture - Failed to capture jpeg - HTTPSConnectionPool(host='app.obico.io', port=443): Max retries exceeded with url: /api/v1/octo/pic/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x72acdc4a11e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-04-20 00:58:20,151   WARNING  obico.ws - WS Closed - None - None
+2024-04-20 00:59:39,703      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-20 00:59:39,703      INFO  obico.app - print event: PrintDone (1713566186)
