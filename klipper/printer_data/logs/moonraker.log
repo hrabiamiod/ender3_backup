@@ -589,3 +589,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9mByStnlKTo9C6
 2024-04-21 22:33:05,551 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 296.70ms
 2024-04-21 22:33:05,659 [job_state.py:_status_update()] - Job Started: DIEGO_37m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-21 23:26:32,648 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.69
+2024-04-21 23:31:37,922 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-04-21 23:31:37,922 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.81ms
+2024-04-21 23:31:37,923 [websockets.py:open()] - Websocket Opened: ID: 132471577975808, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-21 23:31:37,937 [websockets.py:_handle_identify()] - Websocket 132471577975808 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-21 23:32:23,978 [websockets.py:on_close()] - Websocket Closed: ID: 132471577975808 Close Code: None, Close Reason: None, Pong Time Elapsed: 36.05
+2024-04-21 23:36:32,649 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-21 23:52:10,715 [job_state.py:_status_update()] - Job Started: DIEGO_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-21 23:53:18,951 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
