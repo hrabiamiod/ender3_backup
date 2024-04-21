@@ -554,3 +554,15 @@ Properties:
 2024-04-21 21:11:32,523 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-04-21 21:11:32,800 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-21 21:11:33,275 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-21 21:11:33,640 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2024-04-21 21:11:35,653 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2024-04-21 21:11:37,667 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
+2024-04-21 21:28:38,455 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-21 21:28:38,460 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 1.53ms
+2024-04-21 21:28:38,460 [websockets.py:open()] - Websocket Opened: ID: 132471578131136, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-21 21:28:38,702 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 400, Message: Invalid argument
+2024-04-21 21:28:42,513 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-21 21:28:42,513 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.211
+2024-04-21 21:29:41,244 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.67ms
+2024-04-21 21:29:41,244 [websockets.py:open()] - Websocket Opened: ID: 132471577899936, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-21 21:29:41,247 [websockets.py:_handle_identify()] - Websocket 132471577899936 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
