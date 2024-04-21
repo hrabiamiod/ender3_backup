@@ -574,3 +574,8 @@ Properties:
 2024-04-21 21:42:55,745 [websockets.py:open()] - Websocket Opened: ID: 132471577686464, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-04-21 21:42:55,911 [websockets.py:_handle_identify()] - Websocket 132471577686464 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-04-21 21:54:05,976 [job_state.py:_status_update()] - Job Started: TYCIA_16m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-21 22:23:56,085 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.69
+2024-04-21 22:23:56,085 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.82ms
+2024-04-21 22:23:56,085 [websockets.py:open()] - Websocket Opened: ID: 132471577984832, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
+2024-04-21 22:23:56,090 [websockets.py:_handle_identify()] - Websocket 132471577984832 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-21 22:24:22,419 [websockets.py:on_close()] - Websocket Closed: ID: 132471577984832 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.31
