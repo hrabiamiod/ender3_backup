@@ -579,3 +579,12 @@ Properties:
 2024-04-21 22:23:56,085 [websockets.py:open()] - Websocket Opened: ID: 132471577984832, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
 2024-04-21 22:23:56,090 [websockets.py:_handle_identify()] - Websocket 132471577984832 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
 2024-04-21 22:24:22,419 [websockets.py:on_close()] - Websocket Closed: ID: 132471577984832 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.31
+2024-04-21 22:31:32,639 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-21 22:33:05,255 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary9mByStnlKTo9C6OO
+2024-04-21 22:33:05,335 [application.py:post()] - Processing Uploaded File: DIEGO_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-21 22:33:05,497 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-21 22:33:05,540 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "DIEGO_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-21 22:33:05,551 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 296.70ms
+2024-04-21 22:33:05,659 [job_state.py:_status_update()] - Job Started: DIEGO_37m_0.20mm_205C_PLA_ENDER3.gcode
