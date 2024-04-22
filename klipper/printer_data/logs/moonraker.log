@@ -540,3 +540,5 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeAAiSo8QfN3T62
 2024-04-22 17:33:37,001 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MARKO_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-22 17:33:37,012 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 197.02ms
 2024-04-22 17:33:37,130 [job_state.py:_status_update()] - Job Started: MARKO_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-22 18:36:32,829 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-22 18:39:13,254 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode
