@@ -436,3 +436,83 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6LdskSeZqhMJbY
 2024-04-22 14:15:12,036 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode") successfully finished
 2024-04-22 14:15:12,046 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 167.45ms
 2024-04-22 14:15:12,198 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-22 15:00:29,327 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-22 15:00:37,594 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-04-22 15:00:37,599 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1713790808.514413, Usage: 0.72%, Memory: 51000 kB
+System Time: 1713790809.515492, Usage: 0.49%, Memory: 51000 kB
+System Time: 1713790810.516294, Usage: 0.56%, Memory: 51000 kB
+System Time: 1713790811.516916, Usage: 0.68%, Memory: 51000 kB
+System Time: 1713790812.517642, Usage: 0.54%, Memory: 51000 kB
+System Time: 1713790813.518709, Usage: 0.62%, Memory: 51000 kB
+System Time: 1713790814.520946, Usage: 0.54%, Memory: 51000 kB
+System Time: 1713790815.523124, Usage: 1.64%, Memory: 51000 kB
+System Time: 1713790816.526179, Usage: 0.99%, Memory: 51000 kB
+System Time: 1713790817.525660, Usage: 0.71%, Memory: 51000 kB
+System Time: 1713790818.526518, Usage: 0.63%, Memory: 51000 kB
+System Time: 1713790819.526915, Usage: 0.56%, Memory: 51000 kB
+System Time: 1713790820.530532, Usage: 0.56%, Memory: 51000 kB
+System Time: 1713790821.528361, Usage: 0.74%, Memory: 51000 kB
+System Time: 1713790822.529641, Usage: 0.55%, Memory: 51000 kB
+System Time: 1713790823.530466, Usage: 0.73%, Memory: 51000 kB
+System Time: 1713790824.531588, Usage: 0.59%, Memory: 51000 kB
+System Time: 1713790825.532590, Usage: 0.56%, Memory: 51000 kB
+System Time: 1713790826.533634, Usage: 1.63%, Memory: 51000 kB
+System Time: 1713790827.534493, Usage: 0.74%, Memory: 51000 kB
+System Time: 1713790828.534750, Usage: 1.09%, Memory: 51000 kB
+System Time: 1713790829.535404, Usage: 1.26%, Memory: 51000 kB
+System Time: 1713790830.536330, Usage: 1.25%, Memory: 51000 kB
+System Time: 1713790831.537496, Usage: 0.86%, Memory: 51000 kB
+System Time: 1713790832.538081, Usage: 0.82%, Memory: 51000 kB
+System Time: 1713790833.538879, Usage: 0.74%, Memory: 51000 kB
+System Time: 1713790834.539429, Usage: 0.8%, Memory: 51000 kB
+System Time: 1713790835.540197, Usage: 0.68%, Memory: 51000 kB
+System Time: 1713790836.540890, Usage: 0.8%, Memory: 51000 kB
+System Time: 1713790837.541874, Usage: 0.82%, Memory: 51000 kB
+CPU Temperature: None
+2024-04-22 15:00:37,601 [websockets.py:on_close()] - Websocket Closed: ID: 132471577941888 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 4.62
+2024-04-22 15:00:38,273 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.print.cancel, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-04-22 15:00:39,236 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-22 15:00:39,608 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 2.99ms
+2024-04-22 15:00:39,609 [websockets.py:open()] - Websocket Opened: ID: 132471559872592, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-22 15:00:39,610 [websockets.py:_handle_identify()] - Websocket 132471559872592 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-22 15:00:40,344 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-04-22 15:00:40,346 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-04-22 15:00:40,492 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-22 15:00:41,866 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-22 15:00:41,867 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-22 15:00:42,117 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-22 15:00:42,373 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-22 15:00:42,871 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-22 15:16:32,798 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-22 15:22:30,503 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-22 15:22:30,505 [websockets.py:on_close()] - Websocket Closed: ID: 132471559872592 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 0.90
+2024-04-22 15:22:31,758 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-22 15:22:32,514 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.66ms
+2024-04-22 15:22:32,514 [websockets.py:open()] - Websocket Opened: ID: 132471560032304, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-22 15:22:32,518 [websockets.py:_handle_identify()] - Websocket 132471560032304 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-22 15:22:33,215 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-22 15:22:33,216 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-22 15:22:33,466 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-22 15:22:33,720 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-22 15:22:34,220 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-22 15:22:39,233 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode
+2024-04-22 15:23:47,408 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-22 15:23:52,444 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-22 15:23:52,450 [websockets.py:on_close()] - Websocket Closed: ID: 132471560032304 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.93
+2024-04-22 15:23:53,699 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-22 15:23:54,455 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.96ms
+2024-04-22 15:23:54,455 [websockets.py:open()] - Websocket Opened: ID: 132471559971088, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-22 15:23:54,457 [websockets.py:_handle_identify()] - Websocket 132471559971088 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-22 15:23:55,156 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-22 15:23:55,158 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-22 15:23:55,408 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-22 15:23:55,663 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-22 15:23:56,163 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-22 15:26:08,530 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_215C_PLA_ENDER3.gcode
