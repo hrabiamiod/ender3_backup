@@ -400,3 +400,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJaW9ISRB9YQ7nn
 2024-04-22 12:13:53,777 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 181.33ms
 2024-04-22 12:13:54,011 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_40m_0.20mm_210C_PLA_ENDER3.gcode
 2024-04-22 12:16:32,768 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-22 13:16:32,778 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
