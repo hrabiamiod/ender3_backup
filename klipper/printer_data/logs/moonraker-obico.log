@@ -21750,3 +21750,15 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-22 06:59:07,219   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-04-22 06:59:37,290   WARNING  obico.server_conn - Server message queue is full, msg dropped
 2024-04-22 06:59:47,502   WARNING  obico.ws - WS Closed - None - None
+2024-04-22 07:00:37,205   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:01:07,295   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:01:37,382   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:01:47,667   WARNING  obico.server_conn - Not connected to websocket server after 120s
+2024-04-22 07:01:47,667     ERROR  obico.utils - Attempt 47 - backing off 220.153714 seconds: Not connected to websocket server after 120s
+2024-04-22 07:02:07,470   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:02:37,309   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:03:07,398   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:03:37,490   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:04:07,577   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:04:37,414   WARNING  obico.server_conn - Server message queue is full, msg dropped
+2024-04-22 07:05:07,500   WARNING  obico.server_conn - Server message queue is full, msg dropped
