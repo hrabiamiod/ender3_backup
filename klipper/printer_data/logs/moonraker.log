@@ -391,3 +391,12 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiv0ax7n5vPYTPL
 2024-04-22 11:23:12,753 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "VEYRON_PRZEWORSK_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-22 11:23:12,763 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 177.09ms
 2024-04-22 11:23:12,934 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-22 12:13:53,596 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJaW9ISRB9YQ7nnEg
+2024-04-22 12:13:53,637 [application.py:post()] - Processing Uploaded File: VEYRON_PRZEWORSK_40m_0.20mm_210C_PLA_ENDER3.gcode
+2024-04-22 12:13:53,733 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-22 12:13:53,767 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "VEYRON_PRZEWORSK_40m_0.20mm_210C_PLA_ENDER3.gcode") successfully finished
+2024-04-22 12:13:53,777 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 181.33ms
+2024-04-22 12:13:54,011 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK_40m_0.20mm_210C_PLA_ENDER3.gcode
+2024-04-22 12:16:32,768 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
