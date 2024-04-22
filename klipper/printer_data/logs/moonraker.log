@@ -551,3 +551,11 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryNkYVnwvFf5QYF3
 2024-04-22 19:26:58,016 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "VEYRON_PRZEWORSK2_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-22 19:26:58,027 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 177.56ms
 2024-04-22 19:26:58,255 [job_state.py:_status_update()] - Job Started: VEYRON_PRZEWORSK2_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-22 20:27:58,826 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoKlcJ6VMsvFbBRNr
+2024-04-22 20:27:58,862 [application.py:post()] - Processing Uploaded File: frajda2_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-22 20:27:58,955 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-22 20:27:58,985 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "frajda2_33m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-22 20:27:58,995 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 168.94ms
+2024-04-22 20:27:59,108 [job_state.py:_status_update()] - Job Started: frajda2_33m_0.20mm_205C_PLA_ENDER3.gcode
