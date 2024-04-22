@@ -252,3 +252,6 @@ CPU Temperature: None
 2024-04-23 00:56:26,390 [websockets.py:on_close()] - Websocket Closed: ID: 132471559938368 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.00
 2024-04-23 00:56:31,394 [websockets.py:write_to_socket()] - Websocket closed while writing: 132471560042144
 2024-04-23 00:56:36,034 [websockets.py:on_close()] - Websocket Closed: ID: 132471560042144 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-23 01:11:35,223 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
+2024-04-23 01:11:37,234 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
+2024-04-23 01:11:39,244 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
