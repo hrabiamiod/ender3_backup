@@ -230,3 +230,46 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywnNO3gknJfZWmi
 2024-04-22 00:56:35,832 [websockets.py:write_to_socket()] - Websocket closed while writing: 132471577686464
 2024-04-22 00:56:40,350 [websockets.py:on_close()] - Websocket Closed: ID: 132471577911856 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
 2024-04-22 00:56:40,747 [websockets.py:on_close()] - Websocket Closed: ID: 132471577686464 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-04-22 01:34:07,980 [websockets.py:on_close()] - Websocket Closed: ID: 132471559923856 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.95
+2024-04-22 01:34:07,980 [websockets.py:on_close()] - Websocket Closed: ID: 132471559944944 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 3.03
+2024-04-22 01:48:46,244 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-04-22 01:48:46,245 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1713743296.268726, Usage: 0.41%, Memory: 48840 kB
+System Time: 1713743297.269626, Usage: 0.42%, Memory: 48840 kB
+System Time: 1713743298.270478, Usage: 0.43%, Memory: 48840 kB
+System Time: 1713743299.271614, Usage: 0.5%, Memory: 48840 kB
+System Time: 1713743300.272722, Usage: 0.71%, Memory: 48840 kB
+System Time: 1713743301.274439, Usage: 0.49%, Memory: 48840 kB
+System Time: 1713743302.274707, Usage: 0.4%, Memory: 48840 kB
+System Time: 1713743303.275092, Usage: 1.51%, Memory: 48840 kB
+System Time: 1713743304.275431, Usage: 0.82%, Memory: 48840 kB
+System Time: 1713743305.276439, Usage: 0.43%, Memory: 48840 kB
+System Time: 1713743306.277382, Usage: 0.41%, Memory: 48840 kB
+System Time: 1713743307.277602, Usage: 0.43%, Memory: 48840 kB
+System Time: 1713743308.279065, Usage: 0.4%, Memory: 48840 kB
+System Time: 1713743309.279963, Usage: 0.5%, Memory: 48840 kB
+System Time: 1713743310.280918, Usage: 0.6%, Memory: 48840 kB
+System Time: 1713743311.281343, Usage: 0.48%, Memory: 48840 kB
+System Time: 1713743312.281637, Usage: 0.4%, Memory: 48840 kB
+System Time: 1713743313.282701, Usage: 0.42%, Memory: 48840 kB
+System Time: 1713743314.283953, Usage: 1.45%, Memory: 48840 kB
+System Time: 1713743315.285633, Usage: 0.44%, Memory: 48840 kB
+System Time: 1713743316.287397, Usage: 0.79%, Memory: 48840 kB
+System Time: 1713743317.288230, Usage: 0.43%, Memory: 48840 kB
+System Time: 1713743318.289072, Usage: 0.4%, Memory: 48840 kB
+System Time: 1713743319.289910, Usage: 0.49%, Memory: 48840 kB
+System Time: 1713743320.290926, Usage: 0.58%, Memory: 48840 kB
+System Time: 1713743321.292154, Usage: 0.55%, Memory: 48840 kB
+System Time: 1713743322.293152, Usage: 0.66%, Memory: 48844 kB
+System Time: 1713743323.293451, Usage: 0.43%, Memory: 48844 kB
+System Time: 1713743324.293734, Usage: 0.41%, Memory: 48844 kB
+System Time: 1713743325.293993, Usage: 0.42%, Memory: 48844 kB
+CPU Temperature: None
+2024-04-22 01:48:46,249 [websockets.py:on_close()] - Websocket Closed: ID: 132471577899936 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 5.00
+2024-04-22 01:48:48,254 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-22 01:48:48,255 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.27ms
+2024-04-22 01:48:48,256 [websockets.py:open()] - Websocket Opened: ID: 132471559942976, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-22 01:48:48,258 [websockets.py:_handle_identify()] - Websocket 132471559942976 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-22 01:48:49,300 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-22 01:56:32,671 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
