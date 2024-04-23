@@ -422,3 +422,28 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-23 23:47:18,054 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-23 23:51:49,029 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-23 23:56:57,885 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:00:40,215 - INFO - Starting FinalSnap
+2024-04-24 00:03:03,386 - INFO - Gadget has stopped watching!
+2024-04-24 00:03:03,387 - INFO - RepeatTimer thread exit
+2024-04-24 00:03:03,388 - INFO - RepeatTimer thread exit
+2024-04-24 00:03:03,888 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-04-24 00:03:03,888 - INFO - RepeatTimer thread exit
+2024-04-24 00:03:04,763 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-24 00:10:36,356 - INFO - FileMetadataCache updated for file [DIUNA_DUAL_37m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2123.0, size: 1384, filament usage: 1605
+2024-04-24 00:10:36,358 - INFO - Gadget HostLock cleared
+2024-04-24 00:10:36,359 - INFO - Gadget is now watching!
+2024-04-24 00:10:36,359 - INFO - New print started; PrintId: JrNP9YvEKbVdWjG5Bprl7S7uWX86y2BKDEPivSSc6yNHhtKIzrGPccGHl88F file:DIUNA_DUAL_37m_0.20mm_205C_PLA_ENDER3.gcode size:1384 filament:1605
+2024-04-24 00:10:37,628 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-24 00:11:06,680 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-24 00:11:37,010 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-24 00:12:07,334 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-24 00:12:34,956 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-24 00:12:38,865 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-04-24 00:16:59,695 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:20:13,944 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:22:46,945 - INFO - First layer timer is done. Stopping.
+2024-04-24 00:22:46,946 - INFO - RepeatTimer thread exit
+2024-04-24 00:22:47,816 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-24 00:23:16,598 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:25:59,529 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:28:28,408 - INFO - NotificationsHandler successfully sent 'progress'
