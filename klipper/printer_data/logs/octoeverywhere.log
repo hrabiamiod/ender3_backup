@@ -350,3 +350,38 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-23 21:55:54,423 - INFO - Moonraker client setting up default notification hooks
 2024-04-23 21:55:54,766 - INFO - Printer state at socket connect is: standby
 2024-04-23 21:55:54,766 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-23 22:12:16,566 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2024-04-23 22:12:16,566 - INFO - Moonraker client websocket shutdown called.
+2024-04-23 22:12:16,567 - INFO - Moonraker client websocket shutdown complete.
+2024-04-23 22:12:16,567 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2024-04-23 22:12:16,568 - INFO - Moonraker websocket connection closed.
+2024-04-23 22:12:16,568 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2024-04-23 22:12:18,572 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2024-04-23 22:12:18,574 - INFO - Websocket connected
+2024-04-23 22:12:18,575 - INFO - Moonraker client websocket opened.
+2024-04-23 22:12:18,575 - INFO - Moonraker client waiting for klippy ready...
+2024-04-23 22:12:18,575 - INFO - Authenticating with moonraker...
+2024-04-23 22:12:18,582 - INFO - Moonraker client waiting for klippy ready...
+2024-04-23 22:12:18,583 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2024-04-23 22:12:20,586 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2024-04-23 22:12:20,586 - INFO - Moonraker client setting up default notification hooks
+2024-04-23 22:12:20,939 - INFO - Printer state at socket connect is: standby
+2024-04-23 22:12:20,939 - INFO - Restore client sync state: There's no print and none of the timers are running.
+2024-04-23 22:12:27,461 - INFO - FileMetadataCache updated for file [diuna_37m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2203.0, size: 1388, filament usage: 1553
+2024-04-23 22:12:27,462 - INFO - Gadget HostLock cleared
+2024-04-23 22:12:27,463 - INFO - Gadget is now watching!
+2024-04-23 22:12:27,463 - INFO - New print started; PrintId: dbuMsziA0sFygEwNsG1AOyxSAdp8mcQIVwnkv7qtkVdnMlfc1sKGrhzqVCyT file:diuna_37m_0.20mm_205C_PLA_ENDER3.gcode size:1388 filament:1553
+2024-04-23 22:12:28,658 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-23 22:12:57,782 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 22:13:28,109 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 22:13:58,433 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 22:14:28,756 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 22:14:42,400 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-23 22:15:00,432 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-23 22:19:38,606 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 22:22:57,595 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 22:26:07,789 - INFO - First layer timer is done. Stopping.
+2024-04-23 22:26:07,790 - INFO - RepeatTimer thread exit
+2024-04-23 22:26:08,724 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-23 22:26:23,169 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 22:29:11,073 - INFO - NotificationsHandler successfully sent 'progress'
