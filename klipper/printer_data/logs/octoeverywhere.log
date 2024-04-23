@@ -50,3 +50,27 @@
 2024-04-23 11:47:20,964 - INFO - RepeatTimer thread exit
 2024-04-23 11:47:20,965 - INFO - RepeatTimer thread exit
 2024-04-23 11:47:21,885 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-23 12:00:39,912 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-04-23 12:00:39,912 - ERROR - ping/pong timed out - goodbye
+2024-04-23 12:00:39,913 - INFO - Service websocket closed.
+2024-04-23 12:00:39,914 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[5]
+2024-04-23 12:00:39,914 - INFO - Closing all open web stream sockets (0)
+2024-04-23 12:00:39,914 - INFO - Sleeping for 4 seconds before trying again.
+2024-04-23 12:00:43,918 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-23 12:00:43,919 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6] wsId:130672714400336
+2024-04-23 12:00:44,095 - INFO - Websocket connected
+2024-04-23 12:00:44,096 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6]. Starting handshake...
+2024-04-23 12:00:44,155 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[6], successfully connected to OctoEverywhere!
+2024-04-23 12:00:44,155 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-23 12:25:26,637 - INFO - FileMetadataCache updated for file [frajda4_33m_0.20mm_210C_PLA_ENDER3.gcode]; est time: 1999.0, size: 1179, filament usage: 1503
+2024-04-23 12:25:26,639 - INFO - Gadget HostLock cleared
+2024-04-23 12:25:26,639 - INFO - Gadget is now watching!
+2024-04-23 12:25:26,639 - INFO - New print started; PrintId: sVP8i2hvLkGaAdeHmFSHOOWpBGh3jLTVpLqCSMXO31zGCw3C6J8k1IJrhBUm file:frajda4_33m_0.20mm_210C_PLA_ENDER3.gcode size:1179 filament:1503
+2024-04-23 12:25:27,819 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-23 12:25:56,951 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 12:26:27,270 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 12:26:57,605 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 12:27:27,940 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 12:27:58,270 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 12:28:26,787 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-23 12:28:30,004 - INFO - Gadget HostLock set to: gadget-fra.octoeverywhere.com

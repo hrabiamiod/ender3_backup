@@ -22643,3 +22643,5 @@ KeyError: 'result'
 2024-04-23 11:04:00,073      INFO  obico.app - print event: PrintStarted (1713863039)
 2024-04-23 11:47:21,215      INFO  obico.app - detected state change: Printing -> Operational
 2024-04-23 11:47:21,216      INFO  obico.app - print event: PrintDone (1713863039)
+2024-04-23 12:25:26,886      INFO  obico.app - detected state change: Operational -> Printing
+2024-04-23 12:25:27,258      INFO  obico.app - print event: PrintStarted (1713867926)
