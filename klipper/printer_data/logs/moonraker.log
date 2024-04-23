@@ -434,3 +434,4 @@ CPU Temperature: None
 2024-04-23 19:47:08,314 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.27ms
 2024-04-23 19:47:08,314 [websockets.py:open()] - Websocket Opened: ID: 132471560269648, Proxied: False, User Agent: , Host Name: 0.0.0.0
 2024-04-23 19:47:08,316 [websockets.py:_handle_identify()] - Websocket 132471560269648 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-23 20:01:33,074 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
