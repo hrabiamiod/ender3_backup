@@ -22666,3 +22666,6 @@ KeyError: 'result'
 2024-04-23 19:01:25,964      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-23 19:01:26,262      INFO  obico.app - print event: PrintStarted (1713891685)
 2024-04-23 19:26:30,687   WARNING  obico.ws - WS Closed - None - None
+2024-04-23 19:44:03,385      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-23 19:44:03,386      INFO  obico.app - print event: PrintDone (1713891685)
+2024-04-23 19:47:06,302      INFO  obico.app - detected state change: Operational -> Offline
