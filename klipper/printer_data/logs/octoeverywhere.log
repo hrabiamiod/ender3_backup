@@ -397,3 +397,17 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-23 22:56:47,164 - INFO - RepeatTimer thread exit
 2024-04-23 22:56:47,636 - INFO - RepeatTimer thread exit
 2024-04-23 22:56:48,079 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-23 23:11:28,683 - INFO - Updating server latencies...
+2024-04-23 23:11:37,713 - INFO - Ping Pong Stats: Default:[fra,31.4194917678833], Lowest:[fra,31.4194917678833] Use Low Latency Enabled: True
+2024-04-23 23:20:48,387 - INFO - FileMetadataCache updated for file [diuna_35m_0.20mm_205C_PLA_ENDER3.gcode]; est time: 2078.0, size: 1385, filament usage: 1546
+2024-04-23 23:20:48,390 - INFO - Gadget HostLock cleared
+2024-04-23 23:20:48,391 - INFO - Gadget is now watching!
+2024-04-23 23:20:48,394 - INFO - New print started; PrintId: kd3Ml9O8oqnZ1uVQ5KRh3i3asFCck73SqccMa8J5e3oIyTmYuOt0gtz6GsyR file:diuna_35m_0.20mm_205C_PLA_ENDER3.gcode size:1385 filament:1546
+2024-04-23 23:20:49,676 - INFO - NotificationsHandler successfully sent 'started'
+2024-04-23 23:21:18,699 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 23:21:49,023 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 23:22:19,356 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 23:22:49,683 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 23:23:21,280 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-04-23 23:23:26,308 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-23 23:27:52,279 - INFO - NotificationsHandler successfully sent 'progress'
