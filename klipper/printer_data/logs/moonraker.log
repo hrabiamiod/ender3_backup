@@ -436,3 +436,15 @@ CPU Temperature: None
 2024-04-23 19:47:08,316 [websockets.py:_handle_identify()] - Websocket 132471560269648 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
 2024-04-23 20:01:33,074 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
 2024-04-23 20:51:33,082 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 127.0.0.1
+2024-04-23 21:55:50,401 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-23 21:55:50,403 [websockets.py:on_close()] - Websocket Closed: ID: 132471560269648 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 2.09
+2024-04-23 21:55:51,657 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-23 21:55:52,409 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-23 21:55:52,410 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.32ms
+2024-04-23 21:55:52,410 [websockets.py:open()] - Websocket Opened: ID: 132471559939808, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-23 21:55:52,412 [websockets.py:_handle_identify()] - Websocket 132471559939808 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-23 21:55:53,009 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-23 21:55:53,010 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-23 21:55:53,260 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-23 21:55:53,515 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-23 21:55:54,016 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
