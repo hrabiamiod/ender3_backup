@@ -326,3 +326,4 @@ CPU Temperature: None
 2024-04-23 08:04:51,642 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-23 08:04:52,142 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
 2024-04-23 08:09:50,186 [job_state.py:_status_update()] - Job Started: frajda2_33m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-23 08:56:32,961 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
