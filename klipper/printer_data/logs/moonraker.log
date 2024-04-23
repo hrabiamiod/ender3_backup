@@ -313,3 +313,16 @@ CPU Temperature: None
 2024-04-23 07:53:41,904 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-04-23 07:53:42,159 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-04-23 07:53:42,659 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-23 08:04:48,517 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-23 08:04:48,519 [websockets.py:on_close()] - Websocket Closed: ID: 132471560315824 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 7.47
+2024-04-23 08:04:49,128 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2024-04-23 08:04:49,773 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-23 08:04:50,525 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 0.65ms
+2024-04-23 08:04:50,525 [websockets.py:open()] - Websocket Opened: ID: 132471559864864, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-23 08:04:50,528 [websockets.py:_handle_identify()] - Websocket 132471559864864 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-23 08:04:51,136 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-23 08:04:51,136 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-23 08:04:51,387 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-23 08:04:51,642 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-23 08:04:52,142 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
+2024-04-23 08:09:50,186 [job_state.py:_status_update()] - Job Started: frajda2_33m_0.20mm_205C_PLA_ENDER3.gcode
