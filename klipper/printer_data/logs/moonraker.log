@@ -375,3 +375,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVDqdK5KtB0H9xd
 2024-04-23 15:58:29,303 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "wronka_37m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
 2024-04-23 15:58:29,313 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 228.54ms
 2024-04-23 15:58:29,415 [job_state.py:_status_update()] - Job Started: wronka_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-23 16:58:11,457 [job_state.py:_status_update()] - Job Started: wronka_37m_0.20mm_205C_PLA_ENDER3.gcode
