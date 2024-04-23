@@ -349,3 +349,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCAxXVCANNBp0fQ
 2024-04-23 12:25:26,588 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 172.42ms
 2024-04-23 12:25:26,634 [job_state.py:_status_update()] - Job Started: frajda4_33m_0.20mm_210C_PLA_ENDER3.gcode
 2024-04-23 13:26:33,005 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
+2024-04-23 14:33:06,046 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-23 14:33:06,046 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryREMTCyFrma02rAUL
+2024-04-23 14:33:06,104 [application.py:post()] - Processing Uploaded File: MROWKA_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-23 14:33:06,198 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-23 14:33:06,228 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MROWKA_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-23 14:33:06,230 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 184.02ms
+2024-04-23 14:33:17,467 [application.py:prepare()] - Upload Request Received from 192.168.1.12
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWXnPcJpApOHegwbK
+2024-04-23 14:33:17,522 [application.py:post()] - Processing Uploaded File: MROWKA_38m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-23 14:33:17,616 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is disabled
+
+2024-04-23 14:33:17,647 [shell_command.py:_check_proc_success()] - Command (/home/turbo/moonraker-env/bin/python /home/turbo/moonraker/moonraker/components/file_manager/metadata.py -p /home/turbo/printer_data/gcodes -f "MROWKA_38m_0.20mm_205C_PLA_ENDER3.gcode") successfully finished
+2024-04-23 14:33:17,658 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 191.23ms
+2024-04-23 14:33:17,713 [job_state.py:_status_update()] - Job Started: MROWKA_38m_0.20mm_205C_PLA_ENDER3.gcode
