@@ -166,3 +166,31 @@
 2024-04-23 16:58:41,763 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-04-23 16:59:12,082 - INFO - Waiting to predict with Gadget because the printer is warming up.
 2024-04-23 16:59:42,407 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 17:00:12,731 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 17:00:43,040 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 17:00:44,097 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-04-23 17:00:44,097 - ERROR - ping/pong timed out - goodbye
+2024-04-23 17:00:44,098 - INFO - Service websocket closed.
+2024-04-23 17:00:44,098 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6]
+2024-04-23 17:00:44,099 - INFO - Closing all open web stream sockets (0)
+2024-04-23 17:00:44,099 - INFO - Sleeping for 9 seconds before trying again.
+2024-04-23 17:00:53,106 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-23 17:00:53,107 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7] wsId:130672774340736
+2024-04-23 17:00:53,295 - INFO - Websocket connected
+2024-04-23 17:00:53,296 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[7]. Starting handshake...
+2024-04-23 17:00:53,358 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[7], successfully connected to OctoEverywhere!
+2024-04-23 17:00:53,359 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-23 17:01:13,373 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 17:01:43,708 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2024-04-23 17:02:02,530 - INFO - NotificationsHandler successfully sent 'firstlayerdone'
+2024-04-23 17:02:15,404 - INFO - Gadget HostLock set to: gadget-lon.octoeverywhere.com
+2024-04-23 17:07:00,543 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:10:26,123 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:13:18,200 - INFO - First layer timer is done. Stopping.
+2024-04-23 17:13:18,201 - INFO - RepeatTimer thread exit
+2024-04-23 17:13:18,943 - INFO - NotificationsHandler successfully sent 'thirdlayerdone'
+2024-04-23 17:13:49,987 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:16:51,715 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:19:36,890 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:24:05,123 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-23 17:28:15,747 - INFO - NotificationsHandler successfully sent 'progress'

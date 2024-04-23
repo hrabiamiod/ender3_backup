@@ -376,3 +376,4 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVDqdK5KtB0H9xd
 2024-04-23 15:58:29,313 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.12) [_TRUSTED_USER_] 228.54ms
 2024-04-23 15:58:29,415 [job_state.py:_status_update()] - Job Started: wronka_37m_0.20mm_205C_PLA_ENDER3.gcode
 2024-04-23 16:58:11,457 [job_state.py:_status_update()] - Job Started: wronka_37m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-23 17:01:33,046 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.12
