@@ -290,3 +290,26 @@ CPU Temperature: None
 2024-04-23 06:41:37,244 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
 2024-04-23 06:41:39,255 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'octoeverywhere': [Errno -3] Temporary failure in name resolution
 2024-04-23 07:00:29,804 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.211
+2024-04-23 07:51:11,426 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-23 07:51:11,427 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 1.00ms
+2024-04-23 07:51:11,427 [websockets.py:open()] - Websocket Opened: ID: 132471578123504, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-23 07:51:12,456 [websockets.py:_handle_identify()] - Websocket 132471578123504 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-23 07:51:42,683 [websockets.py:on_close()] - Websocket Closed: ID: 132471578123504 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.25
+2024-04-23 07:53:34,568 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.68ms
+2024-04-23 07:53:34,568 [websockets.py:open()] - Websocket Opened: ID: 132471578128352, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-23 07:53:34,572 [websockets.py:_handle_identify()] - Websocket 132471578128352 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-23 07:53:34,889 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.65ms
+2024-04-23 07:53:34,889 [websockets.py:open()] - Websocket Opened: ID: 132471560028512, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-23 07:53:35,040 [websockets.py:_handle_identify()] - Websocket 132471560028512 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-23 07:53:39,041 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-04-23 07:53:39,044 [websockets.py:on_close()] - Websocket Closed: ID: 132471558669552 Close Code: 1000, Close Reason: None, Pong Time Elapsed: 9.61
+2024-04-23 07:53:40,298 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-04-23 07:53:41,049 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 127.0.0.1
+2024-04-23 07:53:41,050 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_TRUSTED_USER_] 1.88ms
+2024-04-23 07:53:41,050 [websockets.py:open()] - Websocket Opened: ID: 132471560315824, Proxied: False, User Agent: , Host Name: 0.0.0.0
+2024-04-23 07:53:41,051 [websockets.py:_handle_identify()] - Websocket 132471560315824 Client Identified - Name: OctoEverywhere, Version: 3.2.3, Type: agent
+2024-04-23 07:53:41,653 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-23 07:53:41,654 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-23 07:53:41,904 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-04-23 07:53:42,159 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-04-23 07:53:42,659 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'extruder']
