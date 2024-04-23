@@ -22675,3 +22675,5 @@ KeyError: 'result'
 2024-04-23 21:56:11,567      INFO  obico.app - detected state change: Offline -> Operational
 2024-04-23 22:12:16,566      INFO  obico.app - detected state change: Operational -> Offline
 2024-04-23 22:12:27,710      INFO  obico.app - detected state change: Offline -> Printing
+2024-04-23 22:56:46,913      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-23 22:56:46,913      INFO  obico.app - print event: PrintDone (1713903147)
