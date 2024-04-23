@@ -266,3 +266,10 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBiC7vPrabkn1vq
 2024-04-24 00:58:11,862 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.58ms
 2024-04-24 00:58:11,862 [websockets.py:open()] - Websocket Opened: ID: 132471577979408, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
 2024-04-24 00:58:12,026 [websockets.py:_handle_identify()] - Websocket 132471577979408 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-24 01:00:28,614 [job_state.py:_status_update()] - Job Started: diuna_35m_0.20mm_205C_PLA_ENDER3.gcode
+2024-04-24 01:12:47,408 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.71ms
+2024-04-24 01:12:47,408 [websockets.py:open()] - Websocket Opened: ID: 132471559939616, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-24 01:12:47,421 [websockets.py:_handle_identify()] - Websocket 132471559939616 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-24 01:12:47,724 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.71ms
+2024-04-24 01:12:47,724 [websockets.py:open()] - Websocket Opened: ID: 132471577913440, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-24 01:12:47,893 [websockets.py:_handle_identify()] - Websocket 132471577913440 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
