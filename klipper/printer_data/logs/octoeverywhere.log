@@ -447,3 +447,36 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-24 00:23:16,598 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-24 00:25:59,529 - INFO - NotificationsHandler successfully sent 'progress'
 2024-04-24 00:28:28,408 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:32:52,357 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:37:15,818 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:40:02,636 - INFO - Gadget has stopped watching!
+2024-04-24 00:40:02,636 - INFO - RepeatTimer thread exit
+2024-04-24 00:40:02,637 - INFO - RepeatTimer thread exit
+2024-04-24 00:40:04,743 - INFO - NotificationsHandler successfully sent 'paused'
+2024-04-24 00:41:38,650 - INFO - Gadget HostLock cleared
+2024-04-24 00:41:38,650 - INFO - Gadget is now watching!
+2024-04-24 00:41:39,499 - INFO - NotificationsHandler successfully sent 'resume'
+2024-04-24 00:41:40,651 - INFO - First layer timer is done. Stopping.
+2024-04-24 00:41:40,651 - INFO - RepeatTimer thread exit
+2024-04-24 00:42:10,220 - INFO - Gadget HostLock set to: gadget-ams.octoeverywhere.com
+2024-04-24 00:43:36,521 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:48:40,841 - INFO - NotificationsHandler successfully sent 'progress'
+2024-04-24 00:52:45,591 - INFO - Starting FinalSnap
+2024-04-24 00:54:47,178 - INFO - Gadget has stopped watching!
+2024-04-24 00:54:47,178 - INFO - RepeatTimer thread exit
+2024-04-24 00:54:47,179 - INFO - RepeatTimer thread exit
+2024-04-24 00:54:47,680 - INFO - Stopping final snap and using snapshot from ~9.0 sec ago, index slot 9 / 40
+2024-04-24 00:54:47,680 - INFO - RepeatTimer thread exit
+2024-04-24 00:54:48,742 - INFO - NotificationsHandler successfully sent 'done'
+2024-04-24 00:57:00,039 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-04-24 00:57:00,039 - ERROR - Connection to remote host was lost. - goodbye
+2024-04-24 00:57:00,040 - INFO - Service websocket closed.
+2024-04-24 00:57:00,041 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[9]
+2024-04-24 00:57:00,042 - INFO - Closing all open web stream sockets (0)
+2024-04-24 00:57:00,042 - INFO - Sleeping for 5 seconds before trying again.
+2024-04-24 00:57:05,043 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-24 00:57:05,044 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[10] wsId:130672705262288
+2024-04-24 00:57:10,231 - INFO - Websocket connected
+2024-04-24 00:57:10,231 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[10]. Starting handshake...
+2024-04-24 00:57:10,294 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[10], successfully connected to OctoEverywhere!
+2024-04-24 00:57:10,295 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
