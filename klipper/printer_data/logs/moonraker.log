@@ -558,3 +558,21 @@ Properties:
 2024-04-25 12:04:10,977 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.73ms
 2024-04-25 12:04:10,977 [websockets.py:open()] - Websocket Opened: ID: 132979087040400, Proxied: False, User Agent: , Host Name: 127.0.0.1
 2024-04-25 12:04:11,125 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-155-g4cfa266e
+2024-04-25 12:05:39,487 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-25 12:05:39,488 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-25 12:05:39,488 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-04-25 12:07:40,132 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.12
+2024-04-25 12:07:40,132 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.88ms
+2024-04-25 12:07:40,132 [websockets.py:open()] - Websocket Opened: ID: 132979086642096, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-25 12:07:40,147 [websockets.py:_handle_identify()] - Websocket 132979086642096 Client Identified - Name: OctoEverywhere-BrowserAgent, Version: 1.0.0, Type: web
+2024-04-25 12:07:40,562 [application.py:log_request()] - 101 GET /websocket (192.168.1.12) [_TRUSTED_USER_] 0.69ms
+2024-04-25 12:07:40,562 [websockets.py:open()] - Websocket Opened: ID: 132979086652272, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36, Host Name: ender.pl
+2024-04-25 12:07:40,627 [websockets.py:_handle_identify()] - Websocket 132979086652272 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-04-25 12:08:12,468 [websockets.py:on_close()] - Websocket Closed: ID: 132979086652272 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.90
+2024-04-25 12:08:12,468 [websockets.py:on_close()] - Websocket Closed: ID: 132979086642096 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.33
