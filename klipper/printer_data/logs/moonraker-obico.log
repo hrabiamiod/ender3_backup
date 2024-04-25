@@ -22692,3 +22692,35 @@ KeyError: 'result'
 2024-04-24 00:57:09,301   WARNING  obico.ws - WS Closed - None - None
 2024-04-24 01:00:28,866      INFO  obico.app - detected state change: Operational -> Printing
 2024-04-24 01:00:29,160      INFO  obico.app - print event: PrintStarted (1713913228)
+2024-04-24 01:39:33,947      INFO  obico.app - detected state change: Printing -> Operational
+2024-04-24 01:39:33,948      INFO  obico.app - print event: PrintDone (1713913228)
+2024-04-24 01:44:34,708      INFO  obico.app - detected state change: Operational -> Offline
+2024-04-25 12:04:04,610      INFO  obico.app - Fetching linked printer...
+2024-04-25 12:04:05,426      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-04-25 12:04:05,432   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:05,432   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-25 12:04:05,503      INFO  backoff - Backing off ensure_api_key(...) for 0.7s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x738758e5b550>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-25 12:04:06,185   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-25 12:04:06,188      INFO  backoff - Backing off ensure_api_key(...) for 1.3s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x738758f20070>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-25 12:04:06,433   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:07,434   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:07,517   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-25 12:04:07,520      INFO  backoff - Backing off ensure_api_key(...) for 3.4s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x738758f20880>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-25 12:04:08,435   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:09,436   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:10,437   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-25 12:04:10,970   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-25 12:04:10,979      INFO  obico.moonraker_conn - connection is open
+2024-04-25 12:04:10,992      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.8s (False)
+2024-04-25 12:04:11,463      INFO  obico.janus - Starting webcam streamer
+2024-04-25 12:04:11,473      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-04-25 12:04:11,791   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-04-25 12:04:11,828      INFO  backoff - Backing off wait_for_klippy_ready(...) for 1.7s (False)
+2024-04-25 12:04:12,474      INFO  backoff - Backing off wait_for_janus(...) for 0.4s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-25 12:04:13,578      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.4s (False)
+2024-04-25 12:04:13,925      INFO  backoff - Backing off wait_for_janus(...) for 1.3s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-25 12:04:13,987      INFO  backoff - Backing off wait_for_klippy_ready(...) for 2.0s (False)
+2024-04-25 12:04:15,981      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.4s (False)
+2024-04-25 12:04:16,218      INFO  backoff - Backing off wait_for_janus(...) for 3.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-25 12:04:16,365      INFO  backoff - Backing off wait_for_klippy_ready(...) for 23.2s (False)
