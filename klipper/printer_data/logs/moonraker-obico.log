@@ -23802,3 +23802,46 @@ b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb 
 2024-04-25 20:59:28,955      INFO  backoff - Backing off wait_for_klippy_ready(...) for 10.1s (False)
 2024-04-25 20:59:39,060      INFO  backoff - Backing off wait_for_klippy_ready(...) for 14.2s (False)
 2024-04-25 20:59:53,291      INFO  backoff - Backing off wait_for_klippy_ready(...) for 59.8s (False)
+2024-04-25 21:00:53,191      INFO  backoff - Backing off wait_for_klippy_ready(...) for 17.7s (False)
+2024-04-25 21:01:10,919      INFO  backoff - Backing off wait_for_klippy_ready(...) for 29.4s (False)
+2024-04-25 21:01:40,381      INFO  backoff - Backing off wait_for_klippy_ready(...) for 21.3s (False)
+2024-04-25 21:02:01,746      INFO  backoff - Backing off wait_for_klippy_ready(...) for 2.2s (False)
+2024-04-25 21:02:03,907      INFO  backoff - Backing off wait_for_klippy_ready(...) for 12.3s (False)
+2024-04-25 21:02:16,187      INFO  backoff - Backing off wait_for_klippy_ready(...) for 54.9s (False)
+2024-04-25 21:03:11,163      INFO  backoff - Backing off wait_for_klippy_ready(...) for 49.3s (False)
+2024-04-25 21:04:00,487      INFO  backoff - Backing off wait_for_klippy_ready(...) for 51.5s (False)
+2024-04-25 21:04:51,991      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.2s (False)
+2024-04-25 21:04:52,198      INFO  backoff - Backing off wait_for_klippy_ready(...) for 32.5s (False)
+2024-04-25 21:05:24,683      INFO  backoff - Backing off wait_for_klippy_ready(...) for 1.6s (False)
+2024-04-25 21:05:26,309      INFO  backoff - Backing off wait_for_klippy_ready(...) for 28.4s (False)
+2024-04-25 21:05:54,711      INFO  backoff - Backing off wait_for_klippy_ready(...) for 42.3s (False)
+2024-04-25 21:06:37,048      INFO  backoff - Backing off wait_for_klippy_ready(...) for 36.5s (False)
+2024-04-25 21:07:13,579      INFO  backoff - Backing off wait_for_klippy_ready(...) for 3.0s (False)
+2024-04-25 21:07:16,623      INFO  backoff - Backing off wait_for_klippy_ready(...) for 16.6s (False)
+2024-04-28 00:53:06,307      INFO  obico.app - Fetching linked printer...
+2024-04-28 00:53:06,932      INFO  obico.app - Linked printer: {'is_pro': False, 'id': 142421, 'name': 'ENDER 3', 'retract_on_pause': 6.5}
+2024-04-28 00:53:06,935   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-28 00:53:06,937   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-28 00:53:07,015      INFO  backoff - Backing off ensure_api_key(...) for 0.2s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x781cdc797520>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-28 00:53:07,264   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-28 00:53:07,267      INFO  backoff - Backing off ensure_api_key(...) for 0.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x781cdc85c070>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-28 00:53:07,943   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-28 00:53:08,185   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-28 00:53:08,187      INFO  backoff - Backing off ensure_api_key(...) for 1.9s (requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=7125): Max retries exceeded with url: /access/api_key (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x781cdc85c850>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2024-04-28 00:53:08,945   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-28 00:53:09,946   WARNING  obico.app - Connections not ready. Trying again in 1s...
+2024-04-28 00:53:10,095   WARNING  obico.moonraker_conn - api key is unset, trying to fetch one
+2024-04-28 00:53:10,112      INFO  obico.moonraker_conn - connection is open
+2024-04-28 00:53:10,487      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.6s (False)
+2024-04-28 00:53:11,031      INFO  obico.janus - Starting webcam streamer
+2024-04-28 00:53:11,041      INFO  obico.webcam_stream - Not on a Raspberry Pi. Switching to MJPEG streaming
+2024-04-28 00:53:11,118      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.7s (False)
+2024-04-28 00:53:11,494   WARNING  obico.janus - Janus setup failed. Skipping Janus connection. Error: 
+b"dpkg-query: package 'janus' is not installed\nUse dpkg --contents (= dpkg-deb --contents) to list archive files contents.\n"
+2024-04-28 00:53:11,833      INFO  backoff - Backing off wait_for_klippy_ready(...) for 0.9s (False)
+2024-04-28 00:53:12,045      INFO  backoff - Backing off wait_for_janus(...) for 0.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-28 00:53:12,726      INFO  backoff - Backing off wait_for_klippy_ready(...) for 2.2s (False)
+2024-04-28 00:53:13,510      INFO  backoff - Backing off wait_for_janus(...) for 0.7s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-28 00:53:14,911      INFO  backoff - Backing off wait_for_klippy_ready(...) for 8.0s (False)
+2024-04-28 00:53:15,169      INFO  backoff - Backing off wait_for_janus(...) for 2.5s (ConnectionRefusedError: [Errno 111] Connection refused)
+2024-04-28 00:53:18,656      INFO  backoff - Backing off wait_for_janus(...) for 4.6s (ConnectionRefusedError: [Errno 111] Connection refused)
