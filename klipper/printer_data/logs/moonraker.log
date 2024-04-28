@@ -1232,3 +1232,12 @@ Properties:
 2024-04-28 10:36:42,150 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-155-g4cfa266e
 2024-04-28 10:36:43,608 [application.py:log_request()] - 101 GET /websocket (127.0.0.1) [_API_KEY_USER_] 0.70ms
 2024-04-28 10:36:43,608 [websockets.py:open()] - Websocket Opened: ID: 134379974621360, Proxied: False, User Agent: , Host Name: 127.0.0.1
+2024-04-28 10:38:09,207 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-04-28 10:38:09,209 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-04-28 10:38:09,210 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
