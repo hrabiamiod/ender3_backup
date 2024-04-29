@@ -216,3 +216,5 @@ Klipper Version: v0.12.0-155-g4cfa266e
 2024-04-29 22:29:17,964 [application.py:log_request()] - 101 GET /websocket (192.168.1.69) [_TRUSTED_USER_] 0.82ms
 2024-04-29 22:29:17,964 [websockets.py:open()] - Websocket Opened: ID: 134379973726976, Proxied: True, User Agent: Dart/3.3 (dart:io), Host Name: 192.168.1.211
 2024-04-29 22:29:17,969 [websockets.py:_handle_identify()] - Websocket 134379973726976 Client Identified - Name: Mobileraker-ios, Version: 2.6.14-424, Type: mobile
+2024-04-29 22:30:08,538 [websockets.py:write_to_socket()] - Websocket closed while writing: 134379973726976
+2024-04-29 22:30:12,966 [websockets.py:on_close()] - Websocket Closed: ID: 134379973726976 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
