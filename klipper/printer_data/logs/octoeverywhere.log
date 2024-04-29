@@ -1167,3 +1167,37 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-29 04:18:10,239 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-29 04:23:10,661 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-29 04:28:11,065 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:31:14,901 - ERROR - OctoEverywhere Ws error: Connection to remote host was lost.
+2024-04-29 04:31:14,901 - ERROR - Connection to remote host was lost. - goodbye
+2024-04-29 04:31:14,902 - INFO - Service websocket closed.
+2024-04-29 04:31:14,904 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[5]
+2024-04-29 04:31:14,904 - INFO - Closing all open web stream sockets (0)
+2024-04-29 04:31:14,904 - INFO - Sleeping for 7 seconds before trying again.
+2024-04-29 04:31:21,906 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-29 04:31:21,906 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6] wsId:129204697443312
+2024-04-29 04:31:37,313 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-04-29 04:31:37,314 - ERROR - [Errno -3] Temporary failure in name resolution - goodbye
+2024-04-29 04:31:37,314 - ERROR - OctoEverywhere Ws error: [Errno -3] Temporary failure in name resolution
+2024-04-29 04:31:37,315 - INFO - Service websocket closed.
+2024-04-29 04:31:37,315 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[6]
+2024-04-29 04:31:37,315 - INFO - Closing all open web stream sockets (0)
+2024-04-29 04:31:37,316 - INFO - Sleeping for 22 seconds before trying again.
+2024-04-29 04:31:59,336 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[7] wsId:129204697203616
+2024-04-29 04:32:12,249 - INFO - Blocking lowest latency endpoint, since we failed while the WS connect was happening.
+2024-04-29 04:32:12,249 - ERROR - [Errno 101] Network is unreachable - goodbye
+2024-04-29 04:32:12,249 - ERROR - OctoEverywhere Ws error: [Errno 101] Network is unreachable
+2024-04-29 04:32:12,249 - INFO - Service websocket closed.
+2024-04-29 04:32:12,250 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[7]
+2024-04-29 04:32:12,250 - INFO - Closing all open web stream sockets (0)
+2024-04-29 04:32:12,250 - INFO - Sleeping for 52 seconds before trying again.
+2024-04-29 04:33:04,300 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8] wsId:129204697216720
+2024-04-29 04:33:04,543 - INFO - Websocket connected
+2024-04-29 04:33:04,544 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[8]. Starting handshake...
+2024-04-29 04:33:04,602 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[8], successfully connected to OctoEverywhere!
+2024-04-29 04:33:04,602 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-29 04:33:11,499 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:38:11,891 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:43:12,305 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:48:12,737 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:53:13,156 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-29 04:58:13,589 - INFO - Moonraker client got klippy state 'error', waiting for ready...
