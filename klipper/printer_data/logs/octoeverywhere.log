@@ -1632,3 +1632,38 @@ octoeverywhere.exceptions.NoSentryReportException: No Sentry Exception - Message
 2024-04-30 09:15:35,332 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-30 09:20:35,753 - INFO - Moonraker client got klippy state 'error', waiting for ready...
 2024-04-30 09:25:36,171 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:30:36,576 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:32:29,409 - ERROR - OctoEverywhere Ws error: ping/pong timed out
+2024-04-30 09:32:29,409 - ERROR - ping/pong timed out - goodbye
+2024-04-30 09:32:29,410 - INFO - Service websocket closed.
+2024-04-30 09:32:29,410 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[16]
+2024-04-30 09:32:29,410 - INFO - Closing all open web stream sockets (0)
+2024-04-30 09:32:29,410 - INFO - Sleeping for 6 seconds before trying again.
+2024-04-30 09:32:35,416 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-30 09:32:35,417 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[17] wsId:129204697213072
+2024-04-30 09:32:35,593 - INFO - Websocket connected
+2024-04-30 09:32:35,594 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[17]. Starting handshake...
+2024-04-30 09:32:35,654 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[17], successfully connected to OctoEverywhere!
+2024-04-30 09:32:35,654 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-30 09:35:36,983 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:38:38,532 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[17] IS past it's RunFor time 1 day, 23:01:59.790212 and IS past it's time since last user activity 0:06:02.878162
+2024-04-30 09:38:38,532 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[17] RunFor is complete and will be disconnected.
+2024-04-30 09:38:38,532 - INFO - Closing all open web stream sockets (0)
+2024-04-30 09:38:38,533 - INFO - OctoServerCon websocket close start. IsPrimary?:True; wsId:129204697213072
+2024-04-30 09:38:38,561 - INFO - OctoServerCon disconnect complete.
+2024-04-30 09:38:38,561 - INFO - Service websocket closed.
+2024-04-30 09:38:38,563 - INFO - Disconnected from OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[17]
+2024-04-30 09:38:38,563 - INFO - Closing all open web stream sockets (0)
+2024-04-30 09:38:38,563 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[17] IS past it's RunFor time 1 day, 23:01:59.821825 and IS past it's time since last user activity 0:06:02.909762
+2024-04-30 09:38:38,564 - INFO - Server con wss://fra.octoeverywhere.com/octoclientws[17] RunFor is complete, disconnected, and exiting the main thread.
+2024-04-30 09:38:38,564 - INFO - RepeatTimer thread exit
+2024-04-30 09:38:38,564 - INFO - Attempting to use lowest latency server: wss://fra.octoeverywhere.com/octoclientws
+2024-04-30 09:38:38,565 - INFO - Attempting to talk to OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1] wsId:129204697442592
+2024-04-30 09:38:38,792 - INFO - Websocket connected
+2024-04-30 09:38:38,793 - INFO - Connected To OctoEverywhere, server con wss://fra.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2024-04-30 09:38:38,850 - INFO - Handshake complete, server con wss://fra.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2024-04-30 09:38:38,850 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2024-04-30 09:40:37,361 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:45:37,781 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:50:38,195 - INFO - Moonraker client got klippy state 'error', waiting for ready...
+2024-04-30 09:55:38,622 - INFO - Moonraker client got klippy state 'error', waiting for ready...
